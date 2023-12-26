@@ -10,7 +10,7 @@ import Ar from './translate/ar.json';
 import { createI18n } from 'vue-i18n';
 
 const i18n = createI18n({
-    locale: 'ar',
+    locale: 'en',
     fallbackLocale: 'en',
     messages: {
       en: En,
