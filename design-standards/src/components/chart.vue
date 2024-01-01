@@ -1,5 +1,5 @@
 <template>
-  <div class="h-96 text-red-300 font-extrabold">
+  <div class=" text-red-300 font-extrabold">
     <Bar
       id="my-chart-id"
       :options="chartOptions"
@@ -7,30 +7,61 @@
     />
   </div>
 </template>
-
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 import { Bar } from 'vue-chartjs';
 import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js';
 
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
 
-const months = ['January', 'February', 'March'];
-const dataValues = [40, 20, 12];
-
-// Data and Options
 const chartData = ref({
-  labels: months, // Corrected the labels here
+  labels: ['Epidemics', 'Climate Change', 'Advanced Technology', 'Advanced Education'],
   datasets: [
-    { 
-      data: dataValues,
-      backgroundColor: ['#00FF00', 'blue', '#f87979']
+    {
+      data: [localStorage.getItem('Ext-columnSum-0'), localStorage.getItem('Ext-columnSum-1'), localStorage.getItem('Ext-columnSum-2'), localStorage.getItem('Ext-columnSum-3')],
+      backgroundColor: ['#c00000', '#ffc000', '#548135', '#0070c0']
     }
   ],
 });
 
 const chartOptions = ref({
   responsive: true,
+});
+
+// Function to update chartData from localStorage
+const updateChartDataFromLocalStorage = () => {
+  chartData.value = {
+    ...chartData.value, // spread the existing values
+    datasets: [{
+      ...chartData.value.datasets[0], // spread the existing dataset properties
+      data: [
+        parseFloat(localStorage.getItem('Ext-columnSum-0') || '0'),
+        parseFloat(localStorage.getItem('Ext-columnSum-1') || '0'),
+        parseFloat(localStorage.getItem('Ext-columnSum-2') || '0'),
+        parseFloat(localStorage.getItem('Ext-columnSum-3') || '0')
+      ]
+    }]
+  };
+};
+
+
+// Update chartData when component is mounted
+onMounted(() => {
+  updateChartDataFromLocalStorage();
+});
+
+// Listen for changes to localStorage and update chartData accordingly
+window.addEventListener('storage', (event) => {
+  if (event.storageArea === localStorage) {
+    updateChartDataFromLocalStorage();
+  }
+});
+setInterval(() => {
+  updateChartDataFromLocalStorage();
+}, 1000); 
+// Clean up the event listener when component is unmounted
+onUnmounted(() => {
+  window.removeEventListener('storage', updateChartDataFromLocalStorage);
 });
 
 </script>

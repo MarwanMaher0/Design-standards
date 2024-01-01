@@ -1,3 +1,527 @@
+
 {
-    "cart":"سله"
-}
+     "Design, Environmental Criteria, and Precautionary Measures for Different Educational Spaces ": "المعايير التصميمية والبيئية والإجراءات الاحترازية للفراغات التعليمية المختلفة ",
+     "Icons ":  "الرمز  ",
+     "Resilient Design Criteria and Requirements ":  "متطلبات ومعايير التصميم المرن للفراغات التعليمية ",
+     "Weight of Design Criteria ":  "الوزن النسبي للمعايير التصميمية ",
+  
+     "Epidemics ":  "الأوبئة ",
+     "Climate Change ":  "التغير المناخي ",
+     "Advanced Technology ":  "التطور التكنولوجي ",
+     "Advanced Education ":  "التعليم المتطور ",
+  
+     "External Spaces (Layout) ":  "الموقع العام  ",
+     "Design Criteria for Layout ":  "المعايير التصميمية  للموقع العام  ",
+     "Site Slection (Safety and Security Requirements)":  "اختيار الموقع العام (اشتراطات الامن والأمان) ",
+     "Fire Protection ":  "الحماية من الحرائق  ",
+     ":Keep away Fire Resources, such as ":  "بعيد عن مصادر الحرق مثل: ",
+     "Gas Stations ":  "محطات الوقود  ",
+     "Forests ":  "غابات  ",
+     "Burning kilns ":  "قمائن الحرق  ",
+     "Protection from Environmental Pollution (Sound-Visual) ":  "الحماية من التلوث البيئي (السمعي - البصري) ",
+     "Cement Factories ":  "مصانع الاسمنت  ",
+     "Petroleum Products Factories ":  "مصانع منتجات بترولية  ",
+     "Quarries ":  "محاجر  ",
+     "Cemeteries ":  "مقابر  ",
+     "Access to the site ":  "سهولة الوصول الآمن إلى الموقع  ",
+     ":keep away obstacles or barriers, such as ":  "بعيد عن العوائق أو الموانع مثل:  ",
+     "Railway lines ":  "خطوط السكك الحديدية  ",
+     "High voltage power lines ":  "خطوط الكهرباء عالية الضغط  ",
+     "Rivers and Drains ":  "الأنهار والمصارف  ",
+     "Roads ":  "الطرق  ",
+     "keep away from High Roads ":  "البعد عن الطرق ذات الكثافة المرورية العالية  ",
+     "Entrances ":  "المداخل  ",
+     "Student Entrances  From Side Roads (6m) ":  "مداخل الطلاب من الطرق الفرعة عرضها 6م ",
+     "The Entrance is Perpendicular to The External Roads ":  "المدخل تكون عمودية على الطرق الخارجية   ",
+
+     "Requirements for Designing Outdoor Educational Spaces: ":  "متطلبات تصميم الفراغات التعليمية الخارجية  ",
+     "Floor ":  "الارضيات ",
+     "Industrial Materials ":  "مواد صناعية ",
+     "Stamped fair faced concrete ":  "خرسانة جاهزة ",
+    
+    
+ 
+     "Artificial Grass ":  "أعشاب صناعية ",
+    
+    
+    
+    
+ 
+     "Tilings ":  "التبليطات ",
+    
+    
+ 
+     "Natural Materials ":  " مواد طبيعية ",
+     "Sand ":  " الرمل ",
+
+    
+ 
+     "Marble ":  "الرخام  ",
+  
+    
+ 
+     "Stones ":  " الأحجار ",
+
+    
+ 
+     "Ceiling ":  "التغطيات ",
+     "Totally Shaded ":  "أماكن مظللة تماما ",
+    
+    
+    
+    
+ 
+     "Semi-shaded ":  "أماكن نصف مظللة  ",
+  
+    
+    
+    
+    
+ 
+     "Totally EExposed to The Sun ":  "أماكن مكشوفة تماما ",
+  
+    
+    
+    
+ 
+     "Barrier ":  "محددات الفراغ الخارجي ",
+     "Buildings & Hard Fences ":  "محدد بالمباني ",
+    
+    
+ 
+     "Trees & Soft Fences ":  "محدد بالأشجار والشجيرات ",
+
+    
+ 
+     "The form ":  "نمط الفراغ  ",
+     "Geometric Form ":  "الأنماط الهندسية ",
+     "Select one Form ":  "يتم اختيار نمط واحد  ",
+  
+    
+    
+    
+    
+ 
+     "Organic Form ":  "الأنماط العضوية ",
+    
+ 
+     "Furniture ":  "الفرش ",
+     "Play Areas - Playgrounds ":  "مناطق لعب أطفال- ملاعب  ",
+  
+    
+    
+    
+    
+ 
+     "Gathering Places for Students ":  "مناطق تجمع الطلاب ",
+
+    
+ 
+     "Sitting Areas ":  "أماكن جلوس لتناول الطعام ",
+
+    
+  
+     "Building Form ":  "الأنماط التصميمية للمباني ",
+     "Linear Type ":  "النمط الشريطي Linear Type ",
+     "Choose one Type ":  "يتم اختيار نمط واحد ",
+  
+    
+    
+    
+    
+ 
+     "Finger Type ":  "النمط الاصبعي Finger Type ",
+    
+ 
+     "Single court Type ":  "النمط ذو الفناء الواحد Single court Type ",
+    
+ 
+     "Multi- court type ":  "النمط ذو الفناء المتعدد  ",
+    
+ 
+     "Other Types ":  "أشكال أخرى ",
+     "L-Type ":  "شكل حرف L ",
+    
+ 
+     "U- Type ":  "شكل حرف U ",
+    
+  
+     "student area in outdoor space ":  "نصيب الطالب من الموقع العام ",
+     "From (4)m2 to (7) m2 ":  "من 4 إلى 7 م2 (حسب الفئة العمرية)  ",
+  
+    
+    
+  
+     "Precautionary measures for outdoor spaces (Layout) ":  "الإجراءات الاحترازية للفراغات التعليمية الخارجية (الموقع العام) ",
+     "Using lightweight Structures to Create Outdoor Educational Spaces  ":  "استخدام الهياكل خفيفة الوزن لأنشاء فراغات تعليمية في الافنية الخارجية: ",
+  
+    
+    
+ 
+     "Organizing Entry to The School with Social Distancing ":  "تنظيم الدخول للمدرسة ومراعاة التباعد في الأفنية الخارجية ",
+  
+    
+    
+ 
+     "No. of Realized Points for Resilient Design Criteria in layout":  "عدد النقاط المحققة لمعايير التصميم المرن في الموقع العام  ",
+    
+ 
+     "Total No. of Realized Points for Resilient Design Criteria in layout":  "اجمالي عدد النقاط المحققة لمعايير التصميم المرن في الموقع العام ",
+ 
+     "Percentages of Realized Points for Resilient Design Criteria in layout ":  "النسب المئوية لمعايير التصميم المرن المحققة في الموقع العام  ",
+    
+ 
+ 
+     "Total Percentages of Realized Points for Resilient Design Criteria in layout  ":  "اجمالي النسبة المئوية لمعايير التصميم المرن المحققة في الموقع العام  ",
+    
+ 
+     "Required Points for Resilient Design Criteria in layout  ":  "عدد النقاط المرجعية المطلوب تحقيقها لمعايير التصميم المرن في الموقع العام ",
+
+ 
+     "Total Required Points for Resilient Design Criteria in layout ":  "اجماليي عدد النقاط المرجعية المطلوب تحقيقها لمعايير التصميم المرن في الموقع العام ",
+  
+     "Internal Educational Spaces (Classroom) ":  "الفصل الدراسي  ",
+     "Internal Educational Spaces (Classroom): ":  "المعايير التصميمية  للفصل الدراسي  ",
+     "Design Criteria for Classroom ":  "المحددات التصميمية  للفصل الدراسي ",
+     "Rectangle ":  "مستطيل ",
+     "Choose one form ":  "يتم اختيار نمط واحد ",
+  
+    
+ 
+     "Square ":  "مربع ",
+    
+ 
+     "Pentagon ":  "خماسي ",
+    
+ 
+     "Hexagon ":  "سداسي ",
+    
+ 
+     "using modular ":  "استخدام المديول  ",
+  
+    
+ 
+     "Scale ":  "المقياس  ",
+     "Human Scale ":  "المقياس الإنساني  ",
+ 
+    
+ 
+     "Proportion ":  "النسبة ",
+     "Golden Ratio ":  "النسبة الذهبية  ",
+     "Choose one ":  "يتم اختيار نسبة واحدة ",
+
+     "Design Criteria for Classroom: ":  "المعايير والمتطلبات الاسترشادية للفصل الدراسي  ",
+     "Class Density ":  "كثافة الفصل (عدد الطلاب) ",
+     "MIN ":  "الحد الأدنى  ",
+     "24Student ":  "24 طالب ",
+
+    
+ 
+     "MAX ":  "الحد الأقصى  ",
+     "30-36Student ":  "30-36 طالب ",
+
+    
+ 
+     "Classroom Area (m2) ":  "مساحة الفصل م2 ",
+
+ 
+     "Student’s Area inside classroom (m2) ":  "مساحة الطالب داخل الفصل م2 ",
+
+ 
+     "Precautionary measures for direct contact in classroom (social distancing between students) ":  "الإجراءات الاحترازية داخل الفراغات التعليمية (التباعد الاجتماعي بين الطلاب) ",
+     "For Furniture ":  "للفرش ",
+     "Distance between the seats (1.5m - 2.00m) ":  "المسافة بين المقاعد (1.5م - 2,00 م)  ",
+
+    
+ 
+     "Flexible Furniture ":  "مرونة الفرش  ",
+  
+    
+ 
+     "Use barriers between students ":  "وضع جواجز بين الطلاب ",
+
+    
+ 
+     "For Spaces ":  "للفراغ ",
+     "Outdoor learning ":  "نقل الدروس للفراغات الخارجية ",
+
+    
+ 
+     "Separate Spaces ":  "الفصل بين الفراغات ذات المساحات الكبيرة ",
+ 
+    
+ 
+     "Use banners ":  "استخدام اللافتات للتوعية ",
+  
+    
+ 
+     "For Schedule ":  "للتوقيات الدراسية ",
+     "varying times for classes ":  "تفاوت الأوقات الدراسية ",
+  
+    
+  
+     "Classroom Facilities and Infrastructure ":  "تجهيزات الفصل والبنية التحتية ",
+     "board ":  "السبورة  ",
+     "whiteboard ":  "سبورة عادية ",
+     "with dimensions 1.00*1.80 m ":  "ابعاد السبورة 1.80م * 1.00 م ",
+     "smart board ":  "سبورة ذكية ",
+     "Average height of students (1.30 m - 1.80) ":  "متوسط ارتفاعات الطلاب الدائمة حسب الفئة (من 1.30م إلى 1.80م) ",
+
+    
+ 
+     "Height of student seats (28-42cm) ":  "ارتفاع مقاعد الطلاب (من 28سم إلى 43سم)  ",
+    
+ 
+     "Height of student table (50-70cm) ":  "ارتفاع مكاتب الطلاب (من 50سم إلى 70سم)  ",
+    
+ 
+     "width of student table (55-65 cm) ":  "عرض مكاتب الطلاب (من 55 سم إلى 60 سم) ",
+    
+ 
+     "Educational technologies ":  "التقنيات التعليمية ",
+     "Audio-Tutorial Aids: ":  "التقنيات السمعية Audio-Tutorial Aids: ",
+     "By Using Audio Tapes ":  "استخدام الأشرطة السمعية - معمامل اللغات  ",
+    
+ 
+     " Visual-Tutorial Aids: ":  "التقنيات البصرية Visual-Tutorial Aids: ",
+     "  By Using Projector ":  "استخدام أجهزة العرض الضوئي Projector ",
+ 
+     " By Using Projector (LCD) Monitors: ":  "استخدام شاشات (LCD) ",
+ 
+     "Audio- Visual Tutorial Aids: ":  "التقنيات السمعية والبصرية Audio- Visual Tutorial Aids: ",
+     "By Using Video Tapes ":  "استخدام شرائط الفيديو - الأفلام التعليمية السنيمائية  ",
+ 
+     "Active participation of students ":  "التقنيات المعتمدة على تفاعل الطلاب ومشاركته الإنجابية: ",
+     "By Using Laptop or Tablet ":  "استخدام أجهزة الحاسب الآلي - التابلت ",
+    
+  
+     "Precautionary measures to develop the infrastructure of classroom ":  "الإجراءات الاحترازية لتطويرالبنية التحتية للفراغات التعليمية  ",
+     "Virtual reality technologies ":  "تقنيات الواقع الافتراضي  ",
+     "CAVE Technology ":  "تقنية الواقع الافتراضي CAVE: ",
+ 
+     "VR Glasses ":  "نظارات الواقع الافتراضي VR ",
+     "تقنية PLEX ":  "تقنية PLEX ",
+     "Augmented Virtuality  ":  "برامج أنظمة الواقع الافتراضي الحاكم (Augmented Virtuality): ",
+     "Interactive architecture technologies ":  "تقنيات العمارة التفاعلية  ",
+     " Holographic Visual Walls ":  "الحوائط الهولوجرافية المرئية (Holographic Visual Walls): ",
+     "Column16 ":  "P ",
+     "Column17 ":  "P ",
+   
+   
+     "Teaching Methods ":  "الأساليب التعليمية  ",
+     "Traditional Learning (Face to Face) ":  " التعليم التقليدي (وجهاً لوجه)  ",
+    
+ 
+     "hybrid Learning ":  " التعليم الهجين  ",
+
+    
+ 
+     "Distance Learning ":  " التعليم عن بعد  ",
+     "Classroom Environmental Criteria ":  "المعايير البيئية للفصل الدراسي ",
+     "Orientation ":  "التوجيه ",
+     "North direction ":  "الأفضل لاتجاه الشمال ",
+    
+ 
+     "lighting ":  "الإضاءة ",
+     "Natural ":  "طبيعية ",
+    
+ 
+     "Artificial ":  "صناعية ",
+    
+ 
+     "Ventilation ":  "التهوية ",
+   
+    
+ 
+     "Opening Area (not less than 20% of the classroom area) ":  "مساحة الفتحات (لا تقل عن 20% من مسطح الفصل الدراسي) ",
+     "Opening Height (1.80m from classroom floor) ":  "ارتفاع الفتحات (1.80 م من مستوى أرضية الفصل الدراسي) ",
+    
+  
+     "Precautionary measures for Indoor Air Quality(IAQ) of classroom ":  "الإجراءات الاحترازية لجودة البيئة الداخلية للفصل الدراسي ",
+     "lighting (Natural) ":  "الإضاءة  ",
+     "By using UVIG technology ":  "صناعية (باستخدام الاشعة فوق البنفسجية تقنية UVIG) ",
+ 
+     "From (One Side) ":  "من اتجاه واحد  ",
+    
+ 
+     "From (Two Sides ":  "من اتجاهين  ",
+    
+ 
+     "Artificial (Chosse one) ":  "صناعية  (اختيار تقنية واحدة) ",
+     "(HEPA) air purifier ":  "منقي الهواء HEPA ",
+ 
+     "(Air PHX) air purifier ":  "تفنية البلازما غير الحرارية (Air PHX) ",
+    
+ 
+     "temperature ":  "درجة الحرارة  ",
+     "Range (17 to 27)Celsius degree  ":  "تتراوح بين (27-17 درجة مئوية) ",
+    
+ 
+     "Humidity ":  "نسبة الرطوبة  ",
+     "Range (40 to 60%) ":  "نسبة الرطوبة تتراوح بين (40-60%) ",
+    
+ 
+     "indoor plants ":  "استخدام النباتات الداخلية  ",
+     "Snake plant ":  "Snake plant ",
+     "Aloe vera ":  "Aloe vera ",
+ 
+     "Cactus ":  "Cactus ",
+    
+  
+     "Finishing and Surface Materials ":  "مواد التشطيب الداخلية  ",
+     "Ceilings ":  "الاسقف ",
+     "Interior (Paints) ":  "الداخلية (دهانات) ",
+     "floor ":  "الارضيات ",
+     "Ceramic (non-slip) ":  "سيراميك (غير قابل للانزلاق) ",
+ 
+     "Cement Mosaic Tiles ":  "بلاط موزايكو ",
+    
+ 
+     "Wood ":  "خشب ",
+  
+    
+ 
+     "Fabric ":  "قماش ",
+  
+ 
+     "Walls ":  "الحوائط ",
+     "Paints (Light Color) ":  "دهانات (بألوان فاتحة) ",
+ 
+    
+ 
+     "Doors and Windows ":  "الابواب والنوافذ  ",
+     "Glass ":  "الزجاج  ",
+   
+    
+ 
+     "Aluminum ":  "الألومنيوم  ",
+    
+ 
+
+    
+ 
+     "Colors ":  "الألوان  ",
+     "White ":  "اللون الأبيض  ",
+   
+    
+ 
+     "Red ":  "اللون الأحمر ",
+     " ":  "يتم اختيار لون واحد آخر (ان وجد) ",
+    
+ 
+     "Blue ":  "اللون الأزرق ",
+    
+ 
+     "Purple ":  "اللون البنفسجي ",
+    
+ 
+     "Orange ":  "اللون البرتقالي ",
+    
+ 
+     "Yellow ":  "اللون الأصفر ",
+    
+ 
+     "Green ":  "اللون الأخضر ",
+    
+  
+     ":precautionary measures for indirect contact in classroom :Materials and various surfaces that protect against viruses ":  "المواد التي توفر حماية ضد الفيروسات على الأسطح المختلفة مثل:  ",
+
+
+    
+ 
+     "corkboard ":  "الفيلين  ",
+
+    
+ 
+     "Wall ":  "الحوائط  ",
+     "Antimicrobial paints ":  "الدهانات المضادة للميكروبات والفيروسات ",
+ 
+    
+ 
+     "surfaces and Survival period (hours-day) ":  "الاسطح المختلفة  ",
+     "Copper ":  "النحاس ",
+     " H(8-4) ":  "   قدرة الفيروس على البقاء (8-4) ساعات  ",
+    
+ 
+     "H(6-12) ":  "قدرة الفيروس على البقاء (6-12) ساعات  ",
+    
+ 
+     "Papers ":  "الورق  ",
+     "H(3) ":  "قدرة الفيروس على البقاء (3) ساعات  ",
+    
+ 
+  
+     "D(1-2) ":  "قدرة الفيروس على البقاء (1-2) يوم  ",
+ 
+  
+     "D(1-5) ":  "قدرة الفيروس على البقاء (1-5) يوم  ",
+ 
+    
+ 
+     "Soil ":  "التربة  ",
+     "D(4-5) ":  "قدرة الفيروس على البقاء (4-5) يوم  ",
+ 
+    
+ 
+     "ceramic ":  "السيراميك  ",
+     "D(1-4) ":  "قدرة الفيروس على البقاء أقل من (5) أيام ",
+
+     "Plastic ":  "البلاستيك  ",
+     "D(3-4) ":  "قدرة الفيروس على البقاء (3-4) يوم  ",
+ 
+ 
+     "D(2-28) ":  "قدرة الفيروس على البقاء (2-28) يوم  ",
+    
+ 
+     "Iron ":  "الحديد ",
+    
+ 
+     "vinyl ":  "الفينيل ",
+    
+ 
+     "No. of Realized Points for Resilient Design Criteria in Classroom ":  "عدد النقاط المحققة لمعاير التصميم المرن في الفصل الدراسي ",
+ 
+ 
+     "Total No. of Realized Points for Resilient Design Criteria in Classroom ":  "اجمالي عدد النقاط المحققة لمعاير التصميم المرن في الفصل الدراسي ",
+ 
+     "Percentages of Realized Points for Resilient Design Criteria in Classroom ":  "النسب المئوية لمعايير التصميم المرن المحققة في الفصل الدراسي ",
+
+ 
+     "Total Percentages of Realized Points for Resilient Design Criteria in Classroom ":  "اجمالي النسبة المئوية لمعايير التصميم المرن المحققة في الفصل الدراسي ",
+    
+ 
+     "Required Points for Resilient Design Criteria in Classroom ":  "عدد النقاط المرجعية المطلوب تحقيقها لمعايير التصميم المرن في الفصل الدراسي ",
+
+ 
+     "Total Required Points for Resilient Design Criteria in Classroom ":  "اجماليي عدد النقاط المرجعية المطلوب تحقيقها لمعايير التصميم المرن في الفصل الدراسي ",
+  
+     "stairs and Corridors: ":  "الفراغات الخدمية  ",
+     "Design criteria for Stairs and Corridors: ":  "المعايير التصميمية لعناصر الحركة (الرأسية - الأفقية):  ",
+     "Stairs ":  "عناصر الحركة الرأسية (السلم): ",
+     "Dimensions ":  "الابعاد  ",
+     "The width not less than 1.10 m ":  "عرض القلبة لا يقل عن 1.10م ",
+ 
+ 
+     "Windows Sill (1.20 - 1.50m) ":  "ارتفاع جلسة الشباك (من 1.20م إلى 1,50م) لتحقيق معايير الامن والأمان  ",
+
+    
+ 
+     ":Finishes ":  "التشطيبات  ",
+     "Walls are highly durable and easy-to-clean materials ":  "الحوائط مواد شديدة التحمل وسهلة التنظيف (دهانات سهلة التنظيف - مقاومة) ",
+   
+ 
+    
+ 
+     "Floor materials resistant to friction (use marble) ":  "الارضيات مواد مقاومة للاحتكاك (استخدام الرخام) ",
+    
+ 
+     ":Environmental Criteria ":  "المعايير البيئية  ",
+ 
+     "Corridors ":  "عناصر الحركة الافقية (ممر الحركة):  ",
+
+ 
+     "The width of the corridor (Two sides) from 2.40 m to 3.00 m. ":  "عرض ممر الحركة المحمل بالفصول من جهتين من 2,40م إلى 3,00 م.  "
+
+    
+ 
+   }
