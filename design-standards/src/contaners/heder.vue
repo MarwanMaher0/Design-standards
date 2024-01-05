@@ -1,13 +1,19 @@
 <template>
-<div class="">
-    <nav class="bg-gray-100 w-full   border-gray-200 dark:bg-gray-900">
-        <div class=" shadow-xl flex  flex-wrap items-center justify-between mx-auto pr p-4">
+<div class="md:max-w-768 md:flex md:flex-wrap">
+
+    <nav class="bg-gray-200 block w-full min-w-full overflow-x-hidden text-xxs md:table   border-gray-200 dark:bg-gray-900">
+        <div class=" shadow-xl flex  flex-wrap  items-baseline justify-between mx-auto pt-8 p-4">
             <div class="">
-                <!-- <button @click="toggleLanguage">Toggle Language</button> -->
+                <button class=" show-svg inline-flex relative items-center    w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" type="button" @click="openSideBar">
+                    <span class="sr-only ml-20">Open main menu</span>
+                    <svg class="w-5 h-5 text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
 
             </div>
-    
-            <div class="hidden w-ful pr-10  md:block pt-1 pb-4 md:w-auto" id="navbar-default">
+
+            <div class="hidden w-ful pr-10 mr-5 md:block pt-1 pb-4 md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-col  p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
                         <router-link :to="{ name: 'ConExternalv' }" class="block py-2 px-3  bg-blue-700 rounded md:bg-transparent  md:hover:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500">External</router-link>
@@ -29,14 +35,226 @@
             </div>
         </div>
     </nav>
+
+    <div v-if="SideBar" class="fixed d-print-none left-0 top-0 w-full h-full z-40 p-4 duration-700 ease-in-out bg-gray-300 dark:bg-gray-800 transform translate-x-0 transition-transform" :class="{ 'translate-x-full': !SideBar }">
+        <h5 class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">
+            للتحسين
+        </h5>
+        <button type="button" @click="closeSideBar" class="show-svg text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="sr-only">Close menu</span>
+        </button>
+        <div class="py-4 h-[850px] overflow-y-auto dark:bg-gray-700 bg-gray-200 rounded-lg m-4 croll-smooth">
+            <ul class="space-y-2 font-bold text-lg">
+                <li class="text-right">
+
+                </li>
+
+                <li class="pr-3 m-2 p-2 dark:bg-gray-200 bg-white rounded-lg">
+                    <div dir="rtl" class="text-right w-full">
+
+                        <ul class="">
+                            <li class=" text-sm">
+                                
+                            </li>
+                            <tabelHeder />
+                            <table>
+
+                                <tbody>
+                                    <tr v-for="(uncheckedRow, index) in getUncheckedRowsFromLocalStorageExt()" :key="index" class="mt-8 text-sm" v-html="uncheckedRow"></tr>
+
+                                </tbody>
+                            </table>
+
+                            <li class="mt-8 text-sm">
+                                <tabelHeder />
+                                <table>
+                                    <tbody>
+                                        <tr v-for="(uncheckedRow, index) in getUncheckedRowsFromLocalStorageInte()" :key="index" class="mt-8 text-sm" v-html="uncheckedRow"></tr>
+                                    </tbody>
+
+                                </table>
+
+                            </li>
+                            <li class="mt-8 text-sm">
+                                <tabelHeder />
+                                <table>
+
+                                    <tbody>
+                                        <tr v-for="(uncheckedRow, index) in getUncheckedRowsFromLocalStoragesta()" :key="index" class="mt-8 text-sm" v-html="uncheckedRow"></tr>
+                                    </tbody>
+
+                                </table>
+
+                            </li>
+                            <li class="mt-8 text-sm">
+                                <tabelHeder />
+                                <table>
+
+                                    <tbody>
+                                        <tr v-for="(uncheckedRow, index) in getUncheckedRowsFromLocalStoragesta()" :key="index" class="mt-8 text-sm" v-html="uncheckedRow"></tr>
+
+                                    </tbody>
+                                </table>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 </div>
 </template>
 
 <script setup>
+import tabelHeder from "../components/TabelHeder.vue";
+import External from "../contaners/External.vue";
+
+import {ref,computed,onMounted} from "vue";
+let rows = ref([]);
+let checkedRows = ref([]);
+let uncheckedRows = ref([]);
+let checkedCheckboxes = ref([]);
+let uncheckedCheckboxes = ref([]);
+let uncheckedRowsValues = getUncheckedRowsFromLocalStorageExt();
+onMounted(() => {
+
+});
+
+function getUncheckedRowsFromLocalStorageExt() {
+  const uncheckedRowsArray = [];
+
+  for (let key in localStorage) {
+    if (key.startsWith('rowWithCheckbox-') && key.includes('Ext-')) {
+      uncheckedRowsArray.push({
+        key: key,
+        value: localStorage.getItem(key)
+      });
+    }
+  }
+
+  uncheckedRowsArray.sort((a, b) => {
+    const idA = parseInt(a.key.split('-').pop().replace('Ext-row-', ''));
+    const idB = parseInt(b.key.split('-').pop().replace('Ext-row-', ''));
+    return idA - idB;
+  });
 
 
+  return uncheckedRowsArray.map(item => item.value);
+}
+
+// ////////////////////////////////////////////////////
+
+function getUncheckedRowsFromLocalStorageInte() {
+    const uncheckedRowsArray = []; // Use an array to maintain order
+
+    // Populate the array with rows that meet the criteria
+    for (let key in localStorage) {
+        if (key.startsWith('rowWithCheckbox-') && key.includes('Inte-')) {
+            uncheckedRowsArray.push({
+                key: key,
+                value: localStorage.getItem(key)
+            });
+        }
+    }
+
+    // Sort the array based on the numeric part of the IDs
+    uncheckedRowsArray.sort((a, b) => {
+        const idA = parseInt(a.key.split('-').pop().replace('Inte-row-', '')); // Extract the numeric part and convert to integer
+        const idB = parseInt(b.key.split('-').pop().replace('Inte-row-', '')); // Extract the numeric part and convert to integer
+        return idA - idB; // Compare the numeric parts
+    });
+
+    // Return only the values from the sorted array
+    return uncheckedRowsArray.map(item => item.value);
+}
+////////////////////////////////////////////////////////
+
+function getUncheckedRowsFromLocalStorageOth() {
+    const uncheckedRowsArray = []; // Use an array to maintain order
+
+    // Populate the array with rows that meet the criteria
+    for (let key in localStorage) {
+        if (key.startsWith('rowWithCheckbox-') && key.includes('Oth-')) {
+            uncheckedRowsArray.push({
+                key: key,
+                value: localStorage.getItem(key)
+            });
+        }
+    }
+
+    // Sort the array based on the numeric part of the IDs
+    uncheckedRowsArray.sort((a, b) => {
+        const idA = parseInt(a.key.split('-').pop().replace('Oth-row-', '')); // Othract the numeric part and convert to integer
+        const idB = parseInt(b.key.split('-').pop().replace('Oth-row-', '')); // Othract the numeric part and convert to integer
+        return idA - idB; // Compare the numeric parts
+    });
+
+    // Return only the values from the sorted array
+    return uncheckedRowsArray.map(item => item.value);
+}
+////////////////////////////////////////////////////////
+
+function getUncheckedRowsFromLocalStoragesta() {
+    const uncheckedRowsArray = []; // Use an array to maintain order
+
+    // Populate the array with rows that meet the criteria
+    for (let key in localStorage) {
+        if (key.startsWith('rowWithCheckbox-') && key.includes('sta-')) {
+            uncheckedRowsArray.push({
+                key: key,
+                value: localStorage.getItem(key)
+            });
+        }
+    }
+
+    // Sort the array based on the numeric part of the IDs
+    uncheckedRowsArray.sort((a, b) => {
+        const idA = parseInt(a.key.split('-').pop().replace('sta-row-', '')); // Extract the numeric part and convert to integer
+        const idB = parseInt(b.key.split('-').pop().replace('sta-row-', '')); // Extract the numeric part and convert to integer
+        return idA - idB; // Compare the numeric parts
+    });
+
+    // Return only the values from the sorted array
+    return uncheckedRowsArray.map(item => item.value);
+}
+
+
+let SideBar = ref(false);
+const openSideBar = () => {
+    // Access the computed value of uncheckedRowsFromLocalStoragesta
+    const uncheckedRowssta = getUncheckedRowsFromLocalStoragesta();
+    const uncheckedRowsInte = getUncheckedRowsFromLocalStorageInte();
+    const uncheckedRowsOth = getUncheckedRowsFromLocalStorageOth();
+    const uncheckedRowsExt = getUncheckedRowsFromLocalStorageExt();
+
+
+    SideBar.value = true;
+};
+
+const closeSideBar = () => {
+    SideBar.value = false;
+};
 </script>
 
 <style lang="scss" scoped>
+@media (max-width: 768px) {
+    table {
+        display: block;
+        min-width: 100vh;
+        overflow-x: hidden;
 
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+}
 </style>

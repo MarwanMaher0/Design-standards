@@ -1,5 +1,5 @@
 <template>
-    <div class="border-8 border-black">
+    <div class="CON border-8 border-black">
         <tabelHeder />
         <External />
 
@@ -16,6 +16,18 @@ import  External  from "../contaners/External.vue";
 
 </script>
 
-<style lang="scss" scoped>
+<style >
 
+@media (max-width: 768px) {
+    .CON {
+        display: block;
+      
+        overflow-x: hidden;
+
+    }    img{
+    width: 30px;
+    height: 30px;
+}
+
+}
 </style>

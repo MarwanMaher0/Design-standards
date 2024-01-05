@@ -2,983 +2,980 @@
 <div class="">
     <table>
 
-        <tr>
-            <td rowspan='33' colspan='1'><span class='mobile-head'></span>{{ $t('stairs and Corridors: ') }}</td>
+        <tr id="sta-row-1">
+            <td class="bg-[#2f5496] text-gray-100" rowspan='33' colspan='1'><span class='mobile-head'></span>{{ $t('stairs and Corridors: ') }}</td>
             <td rowspan='27' colspan='2'><span class='mobile-head'></span>{{ $t('Design criteria for Stairs and Corridors:  ') }}</td>
             <td rowspan='7' colspan='1'><span class='mobile-head'></span>{{ $t('Stairs ') }}</td>
             <td rowspan='2' colspan='1'><span class='mobile-head'></span>{{ $t('Dimensions: ') }}</td>
             <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('The width not less than 1.10 m ') }}</td>
 
-            <td><span class='mobile-head'></span>row1 column9</td>
-            <td><span class='mobile-head'></span>row1 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture114.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-1" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-1" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row1 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-1" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-1" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row1 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-1" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-1" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-1" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-1" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row1 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row1 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-2">
 
             <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('Windows Sill (1.20 - 1.50m) ') }}</td>
 
-            <td><span class='mobile-head'></span>row2 column9</td>
-            <td><span class='mobile-head'></span>row2 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture115.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-2" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-2" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-2" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-2" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row2 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-2" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-2" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-2" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-2" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row2 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row2 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row2 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>50%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-3">
 
             <td rowspan='2' colspan='1'><span class='mobile-head'></span>{{ $t(':Finishes ') }}</td>
             <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('Walls are highly durable and easy-to-clean materials ') }}</td>
 
-            <td><span class='mobile-head'></span>row3 column9</td>
-            <td><span class='mobile-head'></span>row3 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture116.jpg"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-3" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-3" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row3 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-3" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-3" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row3 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-3" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-3" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-3" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-3" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row3 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row3 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-4">
 
             <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('Floor materials resistant to friction (use marble) ') }}</td>
 
-            <td><span class='mobile-head'></span>row4 column9</td>
-            <td><span class='mobile-head'></span>row4 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture131.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-4" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-4" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-4" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-4" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+               
 
-            </label></td>
-            <td><span class='mobile-head'></span>row4 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-4" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-4" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-4" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-4" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row4 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row4 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row4 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>25%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-5">
 
             <td rowspan='3' colspan='1'><span class='mobile-head'></span>{{ $t(':Environmental Criteria ') }}</td>
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('Ventilation ') }}</td>
             <td><span class='mobile-head'></span>{{ $t('Natural ') }}</td>
-            <td><span class='mobile-head'></span>row5 column9</td>
-            <td><span class='mobile-head'></span>row5 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture153.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-5" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row5 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-5" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row5 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-5" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-5" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row5 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row5 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-6">
 
             <td rowspan='2' colspan='2'><span class='mobile-head'></span>{{ $t('lighting ') }}</td>
             <td><span class='mobile-head'></span>{{ $t('Natural ') }}</td>
-            <td><span class='mobile-head'></span>row6 column9</td>
-            <td><span class='mobile-head'></span>row6 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture151.jpg"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-6" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-6" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row6 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-6" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-6" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row6 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-6" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-6" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-6" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-6" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row6 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row6 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-7">
 
             <td><span class='mobile-head'></span>{{ $t('Artificial ') }}</td>
-            <td><span class='mobile-head'></span>row7 column9</td>
-            <td><span class='mobile-head'></span>row7 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture122.jpg"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-7" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-7" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-7" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-7" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                 
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-7" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-7" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row7 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row7 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row7 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row7 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-7" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-7" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>4</span>25%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-8">
 
-            <td rowspan='1' colspan='11'><span class='mobile-head'></span></td>
+            <td rowspan='1' colspan='11' class="h-4 bg-[#bfbfbf]"><span class='mobile-head'></span></td>
 
         </tr>
-        <tr>
+        <tr id="sta-row-9">
 
             <td rowspan='10' colspan='1'><span class='mobile-head'></span>{{ $t('Corridors ') }}</td>
             <td rowspan='3' colspan='1'><span class='mobile-head'></span>{{ $t(':Dimensions ') }}</td>
             <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('The width of the corridor (one side) from 1.80 m to 2.4 m. ') }}</td>
 
-            <td><span class='mobile-head'></span>row9 column9</td>
-            <td><span class='mobile-head'></span>row9 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture124.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-9" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-9" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row9 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-9" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-9" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row9 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-9" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-9" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-9" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-9" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row9 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row9 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-10">
 
-            <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('The width of the corridor (Two sides) from 2.40 m to 3.00 m. ') }}</td>
+            <td rowspan='2' colspan='3'><span class='mobile-head'></span>{{ $t('The width of the corridor (Two sides) from 2.40 m to 3.00 m. ') }}</td>
 
-            <td><span class='mobile-head'></span>row10 column9</td>
-            <td><span class='mobile-head'></span>row10 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture125.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-10" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-10" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row10 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-10" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-10" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row10 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-10" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-10" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                 
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-10" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-10" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row10 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row10 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-11">
 
-            <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('طول الممر لا يزيد عن 30م للوصول إلى السلم  ') }}</td>
-
-            <td><span class='mobile-head'></span>row11 column9</td>
-            <td><span class='mobile-head'></span>row11 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'></span>row11 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row11 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row11 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row11 column14</td>
+            
         </tr>
-        <tr>
+        <tr  id="sta-row-12">
 
             <td rowspan='3' colspan='1'><span class='mobile-head'></span>{{ $t(':Environmental Criteria ') }}</td>
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('Ventilation ') }}</td>
             <td><span class='mobile-head'></span>{{ $t('Natural ') }}</td>
-            <td><span class='mobile-head'></span>row12 column9</td>
-            <td><span class='mobile-head'></span>row12 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture126.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-12" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-12" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row12 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-12" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-12" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row12 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-12" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-12" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-0 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-12" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-12" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row12 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row12 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-13">
 
             <td rowspan='2' colspan='2'><span class='mobile-head'></span>{{ $t('lighting ') }}</td>
             <td><span class='mobile-head'></span>{{ $t('Natural ') }}</td>
-            <td><span class='mobile-head'></span>row13 column9</td>
-            <td><span class='mobile-head'></span>row13 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture127.jpg"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-13" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-13" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row13 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-13" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-13" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row13 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-13" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-13" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-13" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-13" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row13 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row13 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-14">
 
             <td><span class='mobile-head'></span>{{ $t('Artificial ') }}</td>
-            <td><span class='mobile-head'></span>row14 column9</td>
-            <td><span class='mobile-head'></span>row14 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture128.jpg   "  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-14" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-14" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-14" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-14" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                 
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-14" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-14" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row14 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row14 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row14 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row14 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-14" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-14" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>4</span>25%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-15">
 
             <td rowspan='4' colspan='1'><span class='mobile-head'></span>{{ $t(':Finishes ') }}</td>
             <td rowspan='3' colspan='2'><span class='mobile-head'></span>{{ $t('Floor ') }}</td>
             <td><span class='mobile-head'></span>{{ $t('Wood ') }}</td>
-            <td><span class='mobile-head'></span>row15 column9</td>
-            <td><span class='mobile-head'></span>row15 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture129.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-15" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-15" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row15 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-15" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-15" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-15" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-15" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-15" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-15" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row15 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row15 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row15 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>50%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-16">
 
             <td><span class='mobile-head'></span>{{ $t('fabric ') }}</td>
-            <td><span class='mobile-head'></span>row16 column9</td>
-            <td><span class='mobile-head'></span>row16 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture130.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-16" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-16" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row16 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-16" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-16" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-16" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-16" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-16" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-16" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row16 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row16 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row16 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>50%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-17">
 
             <td><span class='mobile-head'></span>{{ $t('Non-slip and friction-resistant materials (Marble) ') }}</td>
-            <td><span class='mobile-head'></span>row17 column9</td>
-            <td><span class='mobile-head'></span>row17 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture131.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-17" name="ahosting" value="" class="hidden per " required>
+                <label for="stairs-row-17" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-17" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-17" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-17" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-17" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row17 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-17" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-17" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row17 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row17 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row17 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>50%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-18">
 
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('Walls ') }}</td>
             <td><span class='mobile-head'></span>{{ $t('easy-to-clean paints ') }}</td>
-            <td><span class='mobile-head'></span>row18 column9</td>
-            <td><span class='mobile-head'></span>row18 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture132.jpg"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-18" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-18" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row18 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-18" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-18" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-18" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-18" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row18 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-18" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-18" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row18 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row18 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-19">
 
-            <td rowspan='1' colspan='11'><span class='mobile-head'></span></td>
+            <td rowspan='1' colspan='11' class="h-4 bg-[#bfbfbf]"><span class='mobile-head'></span></td>
 
         </tr>
-        <tr>
+        <tr id="sta-row-20">
 
             <td rowspan='8' colspan='1'><span class='mobile-head'></span>{{ $t(':Precautionary Measures for Stairs and Corridors ') }}</td>
             <td rowspan='3' colspan='1'><span class='mobile-head'></span>{{ $t(':Finishes ') }}</td>
             <td rowspan='2' colspan='1'><span class='mobile-head'></span>{{ $t('floor ') }}</td>
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('wood ') }}</td>
-            <td><span class='mobile-head'></span>row20 column9</td>
-            <td><span class='mobile-head'></span>row20 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture133.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-20" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-20" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row20 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-20" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-20" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-20" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-20" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+         
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row20 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row20 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row20 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-20" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-20" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                 
+                </label></td>
+            <td><span class='mobile-head'>4</span>25%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-21">
 
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('fabric ') }}</td>
-            <td><span class='mobile-head'></span>row21 column9</td>
-            <td><span class='mobile-head'></span>row21 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture134.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-21" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-21" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row21 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row21 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row21 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row21 column14</td>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-21" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-21" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-21" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-21" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-21" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-21" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>4</span>25%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-22">
 
             <td><span class='mobile-head'></span>{{ $t('Walls ') }}</td>
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('Antimicrobial paints ') }}</td>
-            <td><span class='mobile-head'></span>row22 column9</td>
-            <td><span class='mobile-head'></span>row22 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture135.jpg"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-22" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-22" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row22 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-22" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-22" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-22" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-22" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row22 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row22 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row22 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-22" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-22" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>4</span>25%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-23">
 
             <td rowspan='2' colspan='1'><span class='mobile-head'></span>{{ $t(':Environmental criteria ') }}</td>
             <td><span class='mobile-head'></span>{{ $t('Ventilation ') }}</td>
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('Natural ') }}</td>
-            <td><span class='mobile-head'></span>row23 column9</td>
-            <td><span class='mobile-head'></span>row23 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture136.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-23" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-23" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row23 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-23" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-23" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row23 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-23" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-23" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-23" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-23" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row23 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row23 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-24">
 
             <td><span class='mobile-head'></span>{{ $t('lighting ') }}</td>
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('Natural ') }}</td>
-            <td><span class='mobile-head'></span>row24 column9</td>
-            <td><span class='mobile-head'></span>row24 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture137.jpg"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-24" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-24" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row24 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-24" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-24" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row24 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-24" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-24" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+             
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-24" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-24" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>3</span>row24 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row24 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>4</span>75%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-25">
 
             <td rowspan='3' colspan='1'><span class='mobile-head'></span>{{ $t(':technological techniques to Prevention viruses  in stairs and corridors    ') }}</td>
             <td><span class='mobile-head'></span>{{ $t(':Elevators without touching ') }}</td>
             <td rowspan='1' colspan='2'><span class='mobile-head'></span>{{ $t('Technique (Toe-To-Go) ') }}</td>
-            <td><span class='mobile-head'></span>row25 column9</td>
-            <td><span class='mobile-head'></span>row25 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture138.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-25" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-25" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row25 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-25" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-25" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-25" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-25" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row25 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row25 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row25 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-25" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-25" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    
+                </label></td>
+            <td><span class='mobile-head'>4</span>50%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-26">
 
             <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('smart doors and windows without touching ') }}</td>
 
-            <td><span class='mobile-head'></span>row26 column9</td>
-            <td><span class='mobile-head'></span>row26 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture139.png"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-26" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-26" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row26 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-26" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-26" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                   
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-26" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-26" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row26 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row26 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row26 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-26" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-26" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    
+                </label></td>
+            <td><span class='mobile-head'>4</span>50%</td>
         </tr>
-        <tr>
+        <tr id="sta-row-27">
 
             <td rowspan='1' colspan='3'><span class='mobile-head'></span>{{ $t('Touchless devices ') }}</td>
 
-            <td><span class='mobile-head'></span>row27 column9</td>
-            <td><span class='mobile-head'></span>row27 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> <img src="../assets/Picture140.jpg"  class="mx-auto" alt=""></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-27" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-27" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row27 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+                </label></td>
+            <td><span class='mobile-head'></span> <input type="checkbox" id="stairs-row-27" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-27" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                 
+                </label></td>
+            <td><span class='mobile-head'>2</span> <input disabled type="checkbox" id="stairs-row-27" name="ahosting" value="1" class="hidden peer " required>
+                <label for="stairs-row-27" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                        <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 
-            </label></td>
-            <td><span class='mobile-head'>2</span>row27 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row27 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row27 column14</td>
+                </label></td>
+            <td><span class='mobile-head'>3</span> <input type="checkbox" id="stairs-row-27" name="ahosting" value="" class="hidden  " required>
+                <label for="stairs-row-27" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                  
+                </label></td>
+            <td><span class='mobile-head'>4</span>50%</td>
         </tr>
-        <tr>
+        <tr class="bg-[#8eaadb] " id="sta-row-28">
             <td rowspan='1' colspan='7'><span class='mobile-head'></span>{{ $t('No. of Realized Points for Resilient Design Criteria in Stairs and Corridors  ') }}</td>
 
-            <td><span class='mobile-head'></span>row28 column9</td>
-            <td><span class='mobile-head'></span>row28 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> </td>
+            <td>{{ columnSums[0] }} </td>
+            <td>{{ columnSums[1] }} </td>
+            <td>{{ columnSums[2] }} </td>
+            <td>{{ columnSums[3] }} </td>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row28 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row28 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row28 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row28 column14</td>
+            <td><span class='mobile-head'>4</span></td>
         </tr>
-        <tr>
+        <tr id="sta-row-29" class="bg-[#8eaadb] ">
             <td rowspan='1' colspan='7'><span class='mobile-head'></span>{{ $t('Total No. of Realized Points for Resilient Design Criteria in Stairs and Corridors ') }}</td>
 
-            <td><span class='mobile-head'></span>row29 column9</td>
-            <td><span class='mobile-head'></span>row29 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td></td>
+            <td rowspan="1" colspan="4">{{ totalSum }}</td>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row29 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row29 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row29 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row29 column14</td>
+            <td></td>
         </tr>
-        <tr>
+        <tr class="bg-[#8eaadb] " id="sta-row-30">
             <td rowspan='1' colspan='7'><span class='mobile-head'></span>{{ $t('Percentages of realized Points for Resilient Design Criteria in Stairs and Corridors ') }}</td>
 
-            <td><span class='mobile-head'></span>row30 column9</td>
-            <td><span class='mobile-head'></span>row30 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'></span>row30 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row30 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row30 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row30 column14</td>
+            <td><span class='mobile-head'></span> </td>
+            <td>{{ percentageFrom24.toFixed(2) }}% </td>
+            <td>{{ percentageFrom19.toFixed(2) }}% </td>
+            <td>{{ percentageFrom10.toFixed(2) }}% </td>
+            <td>{{ percentageFrom27.toFixed(2) }}% </td>
+            <td><span class='mobile-head'>4</span></td>
         </tr>
-        <tr>
+        <tr class="bg-[#8eaadb] " id="sta-row-31">
             <td rowspan='1' colspan='7'><span class='mobile-head'></span>{{ $t('Total Percentages of Realized Points for Resilient Design Criteria in Stairs and Corridors ') }}</td>
 
-            <td><span class='mobile-head'></span>row31 column9</td>
-            <td><span class='mobile-head'></span>row31 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> </td>
+            <td rowspan="1" colspan="4"> {{ percentageFrom80.toFixed(2) }}%</td>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row31 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row31 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row31 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row31 column14</td>
+            <td><span class='mobile-head'>4</span></td>
         </tr>
-        <tr>
+        <tr id="sta-row-32 " class="bg-[#b4c6e7] ">
             <td rowspan='1' colspan='7'><span class='mobile-head'></span>{{ $t('Required Points for Resilient Design Criteria in Stairs and Corridors ') }}</td>
 
-            <td><span class='mobile-head'></span>row32 column9</td>
-            <td><span class='mobile-head'></span>row32 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'></span>row32 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row32 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row32 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row32 column14</td>
+            <td><span class='mobile-head'></span> </td>
+            <td>19 </td>
+            <td>11 </td>
+            <td>7 </td>
+            <td>16 </td>
+            <td><span class='mobile-head'>4</span></td>
         </tr>
-        <tr>
+        <tr id="sta-row-33" class="bg-[#b4c6e7] ">
             <td rowspan='1' colspan='7'><span class='mobile-head'></span>{{ $t('Total Required Points for Resilient Design Criteria in Stairs and Corridors  ') }}</td>
 
-            <td><span class='mobile-head'></span>row33 column9</td>
-            <td><span class='mobile-head'></span>row33 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+            <td><span class='mobile-head'></span> </td>
+            <td rowspan="1" colspan="4">53</td>
 
-            </label></td>
-            <td><span class='mobile-head'></span>row33 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>2</span>row33 <input disabled type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>3</span>row33 <input type="checkbox" id="External-row-5" name="ahosting" value="1" class="hidden peer " required>
-            <label for="External-row-5" class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200  cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
-
-            </label></td>
-            <td><span class='mobile-head'>4</span>row33 column14</td>
+            <td><span class='mobile-head'>4</span></td>
         </tr>
     </table>
+</div>
+<div class="block">
+
+    <div class=" flex justify-center items-center text-center">
+
+        <chart class="w-[400px] my-10 text-center" />
+
+    </div>
 </div>
 </template>
 
 <script setup>
+import {
+    ref,
+    onMounted,
+    computed,
+    watch
+} from 'vue';
+import chart from "../charts/Sta-chart.vue"
+
+// Watch for changes in columnSums and emit them
+
+onMounted(() => {
+    rows.value = Array.from(document.querySelectorAll('tr[id^="sta-"]')); // Filter rows by ID
+    initializeCheckboxes();
+    updateColumnSums();
+    saveRowsWithCheckboxesToLocalStorage();
+});
+function saveRowsWithCheckboxesToLocalStorage() {
+    // Filter the rows to get rows with checkboxes
+    const rowsWithCheckboxes = rows.value.filter(row => {
+        // Assuming the checkbox is identified by its type attribute
+        return row.querySelector('input[type="checkbox"]') !== null;
+    });
+
+    // Map to get the outerHTML of each unchecked row with checkboxes
+    rowsWithCheckboxes.forEach(row => {
+        const checkbox = row.querySelector('input[type="checkbox"]');
+        
+        // Check if the checkbox is not checked
+        if (checkbox && !checkbox.checked) {
+            // Save the row's outerHTML to local storage with a unique key
+            localStorage.setItem(`rowWithCheckbox-${row.id}`, row.outerHTML);
+        }
+    });
+}
+
+let rows = ref([]);
+let checkedRows = ref([]);
+let uncheckedRows = ref([]);
+let checkedCheckboxes = ref([]);
+let uncheckedCheckboxes = ref([]);
+let getColumnSum0 = computed(() => calculateColumnSum(0));
+let getColumnSum1 = computed(() => calculateColumnSum(1));
+let getColumnSum2 = computed(() => calculateColumnSum(2));
+let getColumnSum3 = computed(() => calculateColumnSum(3));
+
+const initializeCheckboxes = () => {
+    rows.value.forEach((row, rowIndex) => {
+        const checkboxesInRow = Array.from(row.querySelectorAll('input[type="checkbox"]'));
+
+        checkboxesInRow.forEach((checkbox, checkboxIndex) => {
+            checkbox.checked = localStorage.getItem(`sta-row-${row.id}-checkbox-${checkboxIndex}`) === 'true';
+            checkbox.addEventListener('change', (event) => handleCheckboxChange(event, rowIndex));
+            toggleSvgDisplay(checkbox, rowIndex);
+
+            if (checkbox.checked) {
+                checkedCheckboxes.value.push(checkbox);
+            } else {
+                uncheckedCheckboxes.value.push(checkbox);
+            }
+        });
+    });
+
+    updateRowRefsBasedOnCheckboxState();
+};
+const toggleSvgDisplay = (checkbox, rowIndex) => {
+    console.log("toggleSvgDisplay called for checkbox:", checkbox);
+
+    const label = checkbox.nextElementSibling;
+    console.log("Next sibling label:", label);
+
+    if (checkbox.checked) {
+        console.log("Adding class 'show-svg'");
+        label.classList.add('show-svg');
+    } else {
+        console.log("Removing class 'show-svg'");
+        label.classList.remove('show-svg');
+    }
+};
+const updateRowRefsBasedOnCheckboxState = () => {
+    checkedRows.value = rows.value.filter((row, rowIndex) => {
+        const checkboxesInRow = Array.from(row.querySelectorAll('input[type="checkbox"]'));
+        return checkboxesInRow.some(checkbox => checkbox.checked);
+    });
+
+    uncheckedRows.value = rows.value.filter((row, rowIndex) => {
+        const checkboxesInRow = Array.from(row.querySelectorAll('input[type="checkbox"]'));
+        return !checkboxesInRow.some(checkbox => checkbox.checked);
+    });
+};
+
+const calculateColumnSum = (columnIndex) => {
+    let sum = 0;
+
+    for (let key in localStorage) {
+        if (key.startsWith(`sta-row-`) && key.endsWith(`-checkbox-value-${columnIndex}`)) {
+            const storedValue = localStorage.getItem(key);
+            if (storedValue) {
+                sum += parseFloat(storedValue);
+            }
+        }
+    }
+
+    return sum;
+};
+const handleCheckboxChange = (event, rowIndex) => {
+    const clickedCheckbox = event.target;
+    const row = clickedCheckbox.closest('tr');
+    
+    // Check if the row's ID starts with "sta-"
+    if (!row || !row.id.startsWith('sta-')) return;
+
+    const checkboxesInRow = Array.from(row.querySelectorAll('input[type="checkbox"]'));
+    checkboxesInRow.forEach((checkbox, checkboxIndex) => {
+        checkbox.checked = clickedCheckbox.checked;
+        const localStorageKey = `sta-row-${row.id}-checkbox-value-${checkboxIndex}`;
+
+        if (checkbox.checked) {
+            localStorage.setItem(localStorageKey, checkbox.value);
+            localStorage.removeItem(`rowWithCheckbox-${row.id}`);
+
+
+        } else {
+            localStorage.removeItem(localStorageKey);
+             localStorage.setItem(`rowWithCheckbox-${row.id}`, row.outerHTML);
+        }
+        localStorage.setItem(`sta-row-${row.id}-checkbox-${checkboxIndex}`, checkbox.checked);
+        toggleSvgDisplay(checkbox, rowIndex);
+    });
+
+    updateRowRefsBasedOnCheckboxState();
+    updateColumnSums();
+};
+
+
+
+
+let columnSums = ref({
+    0: 0,
+    1: 0,
+    2: 0,
+    3: 0
+});
+
+const percentageFrom80 = computed(() => {
+    return (totalSum.value / 53) * 100;
+});
+const percentageFrom24 = computed(() => {
+    return (columnSums.value[0] / 19) * 100;
+});
+const percentageFrom19 = computed(() => {
+    return (columnSums.value[1] / 11) * 100;
+});
+const percentageFrom10 = computed(() => {
+    return (columnSums.value[2] / 7) * 100;
+});
+const percentageFrom27 = computed(() => {
+    return (columnSums.value[3] / 16) * 100;
+});
+const totalSum = computed(() => {
+    return columnSums.value[0] + columnSums.value[1] + columnSums.value[2] + columnSums.value[3];
+});
+
+const updateColumnSums = () => {
+    for (let columnIndex = 0; columnIndex < 4; columnIndex++) {
+        let sum = 0;
+
+        for (let key in localStorage) {
+
+            // Adjusted condition to sum values only if columnIndex is less than 28
+            if (key.startsWith(`sta-row-`) && key.endsWith(`-checkbox-value-${columnIndex}`) && columnIndex < 28) {
+                const storedValue = localStorage.getItem(key);
+                if (storedValue) {
+                    sum += parseFloat(storedValue);
+                }
+            }
+        }
+
+        columnSums.value[columnIndex] = sum;
+
+        // Save the value to local storage
+        localStorage.setItem(`sta-columnSum-${columnIndex}`, sum.toString());
+    }
+};
+
+const checkedCheckbox = ref(null);
+
+// Get all the checkboxes
+const checkboxes = document.querySelectorAll('tr[id^="sta-"] input[type="checkbox"][name="ahosting"]');
+
+// Watch the checkedCheckbox ref for changes
+watch(checkedCheckbox, (newValue) => {
+    checkboxes.forEach((checkbox) => {
+        checkbox.disabled = checkbox !== newValue && newValue !== null;
+    });
+});
+
+// Add event listeners to each checkbox
+checkboxes.forEach((checkbox) => {
+    checkbox.addEventListener('change', function () {
+        if (this.checked) {
+            checkedCheckbox.value = this;
+        } else if (checkedCheckbox.value === this) {
+            checkedCheckbox.value = null;
+            checkboxes.forEach((otherCheckbox) => {
+                otherCheckbox.disabled = false;
+            });
+        }
+    });
+});
 </script>
 
+<style>
+svg {
+    display: none;
+    /* Hide SVG by default */
+}
+
+.show-svg svg {
+    display: block;
+    /* Display SVG when the checkbox is checked */
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+</style>
