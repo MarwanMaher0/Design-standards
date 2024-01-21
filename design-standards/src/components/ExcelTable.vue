@@ -15,7 +15,7 @@
   </div>
 </template>
 
-<script >
+<script>
 import * as XLSX from "xlsx";
 
 export default {
@@ -27,7 +27,8 @@ export default {
   },
   mounted() {
     // Load the specific file
-    const filePath = "/home/marwan/Desktop/matrex/Design-standards/design-standards/src/assets/version1.xlsx";
+    const filePath =
+      "/home/marwan/Desktop/matrex/Design-standards/design-standards/src/assets/version1.xlsx";
     this.readFile(filePath);
   },
   methods: {
@@ -48,10 +49,10 @@ export default {
         });
     },
     mounted() {
-  // Load the file from the local server
-  const filePath = "http://localhost:8080/version1.xlsx";
-  this.readFile(filePath);
-},
+      // Load the file from the local server
+      const filePath = "http://localhost:8080/version1.xlsx";
+      this.readFile(filePath);
+    },
   },
 };
 </script>

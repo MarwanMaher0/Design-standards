@@ -35,10 +35,10 @@ const updateChartDataFromLocalStorage = () => {
     datasets: [{
       ...chartData.value.datasets[0], // spread the existing dataset properties
       data: [
-        parseFloat(localStorage.getItem('Ext-columnSum-0') || '0'),
-        parseFloat(localStorage.getItem('Ext-columnSum-1') || '0'),
-        parseFloat(localStorage.getItem('Ext-columnSum-2') || '0'),
-        parseFloat(localStorage.getItem('Ext-columnSum-3') || '0')
+        parseFloat(localStorage.getItem('All-0') || '0'),
+        parseFloat(localStorage.getItem('All-1') || '0'),
+        parseFloat(localStorage.getItem('All-2') || '0'),
+        parseFloat(localStorage.getItem('All-3') || '0')
       ]
     }]
   };

@@ -1,74 +1,155 @@
 <template>
-<div>
-    <table>
+  <div>
+    <table class="min-x-[1000px] max-lg:w-[900px] overflow-x-auto">
+      <tr class="bg-[#d9e2f3]">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
+          {{
+            $t(
+              "No. of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
+            )
+          }}
+        </td>
 
-        <tr  class="bg-[#d9e2f3]">
-            <td class="bg-[#d9e2f3]" rowspan='1' colspan='8'><span class='mobile-head'></span>{{ $t('No. of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces)') }}</td>
+        <td></td>
+        <td>{{ columnSums[0] }}</td>
+        <td>{{ columnSums[1] }}</td>
+        <td>{{ columnSums[2] }}</td>
+        <td>{{ columnSums[3] }}</td>
+        <td></td>
+      </tr>
+      <tr class="bg-[#d9e2f3]">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
+          {{
+            $t(
+              "Total No. of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
+            )
+          }}
+        </td>
 
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span> </td>
-            <td><span class='mobile-head'>2</span> </td>
-            <td><span class='mobile-head'>3</span></td>
-            <td><span class='mobile-head'>4</span></td>
-        </tr>
-        <tr  class="bg-[#d9e2f3]">
-            <td class="bg-[#d9e2f3]" rowspan='1' colspan='8'><span class='mobile-head'></span>{{ $t('Total No. of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) ') }}</td>
+        <td></td>
+        <td rowspan="1" colspan="4">{{ percentageFrom80.toFixed(2) }}%</td>
+        <td></td>
+      </tr>
+      <tr class="bg-[#d9e2f3]">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
+          {{
+            $t(
+              "Percentages of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
+            )
+          }}
+        </td>
 
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span> </td>
-            <td><span class='mobile-head'>2</span> </td>
-            <td><span class='mobile-head'>3</span></td>
-            <td><span class='mobile-head'>4</span></td>
-        </tr>
-        <tr  class="bg-[#d9e2f3]">
-            <td class="bg-[#d9e2f3]" rowspan='1' colspan='8'><span class='mobile-head'></span>{{ $t('Percentages of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) ') }}</td>
+        <td></td>
+        <td>{{ percentageFrom24.toFixed(2) }}%</td>
+        <td>{{ percentageFrom19.toFixed(2) }}%</td>
+        <td>{{ percentageFrom10.toFixed(2) }}%</td>
+        <td>{{ percentageFrom27.toFixed(2) }}%</td>
+        <td></td>
+      </tr>
+      <tr class="bg-[#d9e2f3]">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
+          {{
+            $t(
+              "Total Percentages of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
+            )
+          }}
+        </td>
 
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span> </td>
-            <td><span class='mobile-head'>2</span> </td>
-            <td><span class='mobile-head'>3</span></td>
-            <td><span class='mobile-head'>4</span></td>
-        </tr>
-        <tr  class="bg-[#d9e2f3]">
-            <td class="bg-[#d9e2f3]" rowspan='1' colspan='8'><span class='mobile-head'></span>{{ $t('Total Percentages of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) ') }}</td>
+        <td></td>
+        <td rowspan="1" colspan="4">100%</td>
+        <td></td>
+      </tr>
+      <tr class="bg-[#d9e2f3]">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
+          {{
+            $t(
+              "Required Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
+            )
+          }}
+        </td>
 
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span> </td>
-            <td><span class='mobile-head'>2</span> </td>
-            <td><span class='mobile-head'>3</span></td>
-            <td><span class='mobile-head'>4</span></td>
-        </tr>
-        <tr  class="bg-[#d9e2f3]">
-            <td class="bg-[#d9e2f3]" rowspan='1' colspan='8'><span class='mobile-head'></span>{{ $t('Required Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces)') }}</td>
+        <td></td>
+        <td>115</td>
+        <td>86</td>
+        <td>47</td>
+        <td>128</td>
+        <td></td>
+      </tr>
+      <tr class="bg-[#d9e2f3]">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
+          {{
+            $t(
+              "Total Required Points for Resilient Design Criteria in(Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
+            )
+          }}
+        </td>
 
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span> </td>
-            <td><span class='mobile-head'>2</span> </td>
-            <td><span class='mobile-head'>3</span></td>
-            <td><span class='mobile-head'>4</span></td>
-        </tr>
-        <tr  class="bg-[#d9e2f3]">
-            <td class="bg-[#d9e2f3]" rowspan='1' colspan='8'><span class='mobile-head'></span>{{ $t('Total Required Points for Resilient Design Criteria in(Layout - Classroom - Stairs and Corridors - Residential Education Spaces)') }}</td>
+        <td></td>
+        <td rowspan="1" colspan="4">376</td>
 
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span></td>
-            <td><span class='mobile-head'></span> </td>
-            <td><span class='mobile-head'>2</span> </td>
-            <td><span class='mobile-head'>3</span></td>
-            <td><span class='mobile-head'>4</span></td>
-        </tr>
+        <td></td>
+      </tr>
     </table>
-</div>
+  </div>
+  <div class="block">
+    <div class="flex justify-center items-center text-center">
+      <chart class="w-[400px] my-10 text-center" />
+    </div>
+  </div>
 </template>
 
-<script>
-export default {
+<script setup>
+import { ref, onMounted, computed, watch ,onUpdated} from "vue";
+import chart from "../charts/All-chart.vue";
 
+
+let columnSums = ref({
+  0: 0,
+  1: 0,
+  2: 0,
+  3: 0,
+});
+
+const percentageFrom80 = computed(() => {
+  return (totalSum.value / 376) * 100;
+});
+const percentageFrom24 = computed(() => {
+  return (columnSums.value[0] / 115) * 100;
+});
+const percentageFrom19 = computed(() => {
+  return (columnSums.value[1] / 86) * 100;
+});
+const percentageFrom10 = computed(() => {
+  return (columnSums.value[2] / 47) * 100;
+});
+const percentageFrom27 = computed(() => {
+  return (columnSums.value[3] / 128) * 100;
+});
+const totalSum = computed(() => {
+  return (
+    columnSums.value[0] +
+    columnSums.value[1] +
+    columnSums.value[2] +
+    columnSums.value[3]
+  );
+});
+const updateColumnSums = () => {
+  for (let columnIndex = 0; columnIndex < 4; columnIndex++) {
+    let sum = 0;
+
+    for (let key in localStorage) {
+      // Check for keys that match the specified pattern
+      if (key.endsWith(`columnSum-${columnIndex}`)) {
+        const storedValue = localStorage.getItem(key);
+        if (storedValue) {
+          sum += parseFloat(storedValue);
+        }
+      }
+    }
+    columnSums.value[columnIndex] = sum;
+    localStorage.setItem(`All-${columnIndex}`, sum.toString());
+  }
 }
-</script>
+setInterval(updateColumnSums, 1000);
 
+</script>
