@@ -3664,7 +3664,55 @@ const updateColumnSums = () => {
     localStorage.setItem(`Ext-columnSum-${columnIndex}`, sum.toString());
   }
 };
+const checkedCheckbox = ref(null);
 
+// Get all the checkboxes
+const checkboxes = document.querySelectorAll(
+  'tr[id^="Ext-"] input[type="checkbox"][name="ahosting"]'
+);
+
+// Watch the checkedCheckbox ref for changes
+watch(checkedCheckbox, (newValue) => {
+  checkboxes.forEach((checkbox) => {
+    checkbox.disabled = checkbox !== newValue && newValue !== null;
+  });
+});
+
+// Add event listeners to each checkbox
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", function () {
+    if (this.checked) {
+      checkedCheckbox.value = this;
+    } else if (checkedCheckbox.value === this) {
+      checkedCheckbox.value = null;
+      checkboxes.forEach((otherCheckbox) => {
+        otherCheckbox.disabled = false;
+      });
+    }
+  });
+});
+watch(
+  columnSums,
+  (newColumnSums) => {
+    localStorage.setItem(
+      "Ext-columnSum-percentage-0",
+      percentageFrom24.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "Ext-columnSum-percentage-1",
+      percentageFrom19.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "Ext-columnSum-percentage-2",
+      percentageFrom10.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "Ext-columnSum-percentage-3",
+      percentageFrom27.value.toFixed(2)
+    );
+  },
+  { deep: true }
+);
 // Get all the checkboxes
 </script>
 

@@ -54,8 +54,18 @@ const chartOptions = ref({
       beginAtZero: true,
       ticks: {
         callback: function (value) {
-          return value + '%';
+          return value + "%";
         },
+      },
+    },
+  },
+  plugins: {
+    legend: {
+      display: false, // Set display to false to hide individual legend labels
+
+      color: "blue", // Set the legend item color to blue
+      labels: {
+        color: "blue", // Set the legend label color to blue
       },
     },
   },

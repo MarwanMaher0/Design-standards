@@ -2680,7 +2680,7 @@ const initializeCheckboxes = () => {
 const handleCheckboxChange = (event, rowIndex) => {
   const clickedCheckbox = event.target;
   const row = clickedCheckbox.closest("tr");
-  const groupOth = ["Oth-row-5", "Oth-row-6", "Oth-row-7", "Oth-row-8"];
+  const groupOth = ["Oth-row-1", "Oth-row-2"];
   if (!row || !row.id.startsWith("Oth-")) return;
   const checkboxesInRow = Array.from(
     row.querySelectorAll('input[type="checkbox"]')
@@ -2804,6 +2804,55 @@ const updateColumnSums = () => {
     localStorage.setItem(`Oth-columnSum-${columnIndex}`, sum.toString());
   }
 };
+const checkedCheckbox = ref(null);
+
+// Get all the checkboxes
+const checkboxes = document.querySelectorAll(
+  'tr[id^="Oth-"] input[type="checkbox"][name="ahosting"]'
+);
+
+// Watch the checkedCheckbox ref for changes
+watch(checkedCheckbox, (newValue) => {
+  checkboxes.forEach((checkbox) => {
+    checkbox.disabled = checkbox !== newValue && newValue !== null;
+  });
+});
+
+// Add event listeners to each checkbox
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", function () {
+    if (this.checked) {
+      checkedCheckbox.value = this;
+    } else if (checkedCheckbox.value === this) {
+      checkedCheckbox.value = null;
+      checkboxes.forEach((otherCheckbox) => {
+        otherCheckbox.disabled = false;
+      });
+    }
+  });
+});
+watch(
+  columnSums,
+  (newColumnSums) => {
+    localStorage.setItem(
+      "Oth-columnSum-percentage-0",
+      percentageFrom24.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "Oth-columnSum-percentage-1",
+      percentageFrom19.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "Oth-columnSum-percentage-2",
+      percentageFrom10.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "Oth-columnSum-percentage-3",
+      percentageFrom27.value.toFixed(2)
+    );
+  },
+  { deep: true }
+);
 </script>
 <style>
 svg {

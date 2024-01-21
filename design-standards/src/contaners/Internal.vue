@@ -106,7 +106,7 @@
             </svg>
           </label>
         </td>
-        <td>100%</td>
+        <td class="bg-[#c8c8c8]">100%</td>
       </tr>
       <tr id="Inte-row-2" class="bg-[#c8c8c8]">
         <td>{{ $t("Square ") }}</td>
@@ -292,7 +292,7 @@
         </td>
         <td>100%</td>
       </tr>
-      <tr id="Inte-row-4 " class="bg-[#c8c8c8]">
+      <tr id="Inte-row-4" class="bg-[#c8c8c8]">
         <td>{{ $t("Hexagon ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture39.png" class="mx-auto" alt="" />
@@ -7355,10 +7355,87 @@ const handleCheckboxChange = (event, rowIndex) => {
     row.querySelectorAll('input[type="checkbox"]')
   );
   const groupInte1 = ["Inte-row-1", "Inte-row-2", "Inte-row-3", "Inte-row-4"];
+  const groupInte2 = ["Inte-row-7", "Inte-row-8", "Inte-row-9"];
+  const groupInte3 = ["Inte-row-59", "Inte-row-60"];
+  const groupInte4 = ["Inte-row-77", "Inte-row-78", "Inte-row-79", "Inte-row-80", "Inte-row-81", "Inte-row-82"];
+
+
   groupInte1.forEach((groupId) => {
     if (groupId !== row.id) {
       const otherRow = document.getElementById(groupId);
       if (otherRow && groupInte1.includes(row.id)) {
+        const checkboxesInOtherRow = Array.from(
+          otherRow.querySelectorAll('input[type="checkbox"]')
+        );
+        checkboxesInOtherRow.forEach((otherCheckbox, checkboxIndex) => {
+          // Store the current state of the checkbox
+          const isCheckedBeforeChange = otherCheckbox.checked;
+          // Change the state of the checkbox
+          otherCheckbox.checked = false;
+          // Update local storage based on the original state of the checkbox
+          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          if (isCheckedBeforeChange) {
+            localStorage.removeItem(localStorageKey);
+            localStorage.removeItem(localStorageKey2);
+            toggleSvgDisplay(otherCheckbox, rowIndex);
+          }
+        });
+      }
+    }
+  });
+  groupInte2.forEach((groupId) => {
+    if (groupId !== row.id) {
+      const otherRow = document.getElementById(groupId);
+      if (otherRow && groupInte2.includes(row.id)) {
+        const checkboxesInOtherRow = Array.from(
+          otherRow.querySelectorAll('input[type="checkbox"]')
+        );
+        checkboxesInOtherRow.forEach((otherCheckbox, checkboxIndex) => {
+          // Store the current state of the checkbox
+          const isCheckedBeforeChange = otherCheckbox.checked;
+          // Change the state of the checkbox
+          otherCheckbox.checked = false;
+          // Update local storage based on the original state of the checkbox
+          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          if (isCheckedBeforeChange) {
+            localStorage.removeItem(localStorageKey);
+            localStorage.removeItem(localStorageKey2);
+            toggleSvgDisplay(otherCheckbox, rowIndex);
+          }
+        });
+      }
+    }
+  });
+  groupInte3.forEach((groupId) => {
+    if (groupId !== row.id) {
+      const otherRow = document.getElementById(groupId);
+      if (otherRow && groupInte3.includes(row.id)) {
+        const checkboxesInOtherRow = Array.from(
+          otherRow.querySelectorAll('input[type="checkbox"]')
+        );
+        checkboxesInOtherRow.forEach((otherCheckbox, checkboxIndex) => {
+          // Store the current state of the checkbox
+          const isCheckedBeforeChange = otherCheckbox.checked;
+          // Change the state of the checkbox
+          otherCheckbox.checked = false;
+          // Update local storage based on the original state of the checkbox
+          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          if (isCheckedBeforeChange) {
+            localStorage.removeItem(localStorageKey);
+            localStorage.removeItem(localStorageKey2);
+            toggleSvgDisplay(otherCheckbox, rowIndex);
+          }
+        });
+      }
+    }
+  });
+  groupInte4.forEach((groupId) => {
+    if (groupId !== row.id) {
+      const otherRow = document.getElementById(groupId);
+      if (otherRow && groupInte4.includes(row.id)) {
         const checkboxesInOtherRow = Array.from(
           otherRow.querySelectorAll('input[type="checkbox"]')
         );

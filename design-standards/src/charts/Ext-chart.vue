@@ -40,7 +40,7 @@ const chartData = ref({
         localStorage.getItem("Ext-columnSum-2"),
         localStorage.getItem("Ext-columnSum-3"),
       ],
-      label: 'External Spaces (Layout)',
+      label: "External Spaces (Layout)",
 
       backgroundColor: ["#c00000", "#ffc000", "#548135", "#0070c0"],
     },
@@ -56,6 +56,16 @@ const chartOptions = ref({
         callback: function (value) {
           return value + "%";
         },
+      },
+    },
+  },
+  plugins: {
+    legend: {
+      display: false, // Set display to false to hide individual legend labels
+
+      color: "blue", // Set the legend item color to blue
+      labels: {
+        color: "blue", // Set the legend label color to blue
       },
     },
   },

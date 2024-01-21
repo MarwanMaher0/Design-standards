@@ -99,9 +99,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed, watch ,onUpdated} from "vue";
+import { ref, onMounted, computed, watch, onUpdated } from "vue";
 import chart from "../charts/All-chart.vue";
-
 
 let columnSums = ref({
   0: 0,
@@ -149,7 +148,55 @@ const updateColumnSums = () => {
     columnSums.value[columnIndex] = sum;
     localStorage.setItem(`All-${columnIndex}`, sum.toString());
   }
-}
-setInterval(updateColumnSums, 1000);
+};
+const checkedCheckbox = ref(null);
 
+// Get all the checkboxes
+const checkboxes = document.querySelectorAll(
+  'tr[id^="All-"] input[type="checkbox"][name="ahosting"]'
+);
+
+// Watch the checkedCheckbox ref for changes
+watch(checkedCheckbox, (newValue) => {
+  checkboxes.forEach((checkbox) => {
+    checkbox.disabled = checkbox !== newValue && newValue !== null;
+  });
+});
+
+// Add event listeners to each checkbox
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", function () {
+    if (this.checked) {
+      checkedCheckbox.value = this;
+    } else if (checkedCheckbox.value === this) {
+      checkedCheckbox.value = null;
+      checkboxes.forEach((otherCheckbox) => {
+        otherCheckbox.disabled = false;
+      });
+    }
+  });
+});
+watch(
+  columnSums,
+  (newColumnSums) => {
+    localStorage.setItem(
+      "All-columnSum-percentage-0",
+      percentageFrom24.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "All-columnSum-percentage-1",
+      percentageFrom19.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "All-columnSum-percentage-2",
+      percentageFrom10.value.toFixed(2)
+    );
+    localStorage.setItem(
+      "All-columnSum-percentage-3",
+      percentageFrom27.value.toFixed(2)
+    );
+  },
+  { deep: true }
+);
+setInterval(updateColumnSums, 1000);
 </script>
