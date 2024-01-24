@@ -124,19 +124,25 @@
                 <li class="text-sm">
                   <tabelHeder />
                   <table class="overflow-x-auto">
-                    <tbody v-html="tableContentInte"></tbody>
+                    <tbody
+                      v-html="tableContentInte"
+                      class="float-start w-full"></tbody>
                   </table>
                 </li>
                 <li class="text-sm">
                   <tabelHeder />
                   <table class="overflow-x-auto">
-                    <tbody v-html="tableContentsta"></tbody>
+                    <tbody
+                      v-html="tableContentsta"
+                      class="float-start w-full"></tbody>
                   </table>
                 </li>
                 <li class="text-sm">
                   <tabelHeder />
-                  <table class="overflow-x-auto ">
-                    <tbody v-html="tableContentOth"></tbody>
+                  <table class="overflow-x-auto">
+                    <tbody
+                      v-html="tableContentOth"
+                      class="float-start w-full"></tbody>
                   </table>
                 </li>
               </ul>
@@ -294,13 +300,10 @@ const thePrint = async () => {
 </script>
 
 <style>
-
-
 .show-svg svg {
   display: block;
   /* Display SVG when the checkbox is checked */
 }
-
 
 @media print {
   .d-print-none {

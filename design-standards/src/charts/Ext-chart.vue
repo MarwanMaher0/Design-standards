@@ -40,7 +40,6 @@ const chartData = ref({
         localStorage.getItem("Ext-columnSum-2"),
         localStorage.getItem("Ext-columnSum-3"),
       ],
-      label: "External Spaces (Layout)",
 
       backgroundColor: ["#c00000", "#ffc000", "#548135", "#0070c0"],
     },
@@ -108,3 +107,9 @@ onUnmounted(() => {
   window.removeEventListener("storage", updateChartDataFromLocalStorage);
 });
 </script>
+<style>
+/* Set the height of the chart container to 100% */
+.chart-container {
+  height: 100%;
+}
+</style>

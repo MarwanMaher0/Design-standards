@@ -1,7 +1,6 @@
 <template>
   <div class="">
     <table class="min-x-[1000px] max-lg:w-[900px] overflow-x-auto">
-
       <tr>
         <td class="bg-[#2f5496] text-xl text-gray-100" rowspan="3" colspan="8">
           {{
@@ -10,28 +9,41 @@
             )
           }}
         </td>
-        <td class="bg-[#2f5496] text-gray-100" rowspan="3" colspan="1">
-          <span class="-rotate-90">{{ $t("Icons ") }}</span>
+        <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="3" colspan="1">
+          <div class="-rotate-90">{{ $t("Icons ") }}</div>
         </td>
-        <td class="bg-[#2f5496] text-gray-100" rowspan="1" colspan="4">
+        <td class="bg-[#2f5496] w-64 text-gray-100" rowspan="1" colspan="4">
           {{ $t("Resilient Design Criteria and Requirements ") }}
         </td>
-        <td class="bg-[#2f5496] text-gray-100" rowspan="3" colspan="1">
-         {{ $t("Weight of Design Criteria ") }}
+        <td class="bg-[#2f5496] w-24 text-gray-100" rowspan="3" colspan="1">
+          <div class="-rotate-90">
+            {{ $t("Weight of different Criteria ") }}
+          </div>
         </td>
       </tr>
       <tr>
-        <td class="bg-[#2f5496] text-gray-100" rowspan="2" colspan="1">
-          {{ $t("Epidemics ") }}
+        <td
+          class="bg-[#2f5496] w-16 h-32 text-gray-100"
+          rowspan="2"
+          colspan="1">
+          <div class="-rotate-90">
+            {{ $t("Epidemics ") }}
+          </div>
         </td>
-        <td class="bg-[#2f5496] text-gray-100" rowspan="2" colspan="1">
-          {{ $t("Climate Change ") }}
+        <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
+          <div class="-rotate-90">
+            {{ $t("Climate Change ") }}
+          </div>
         </td>
-        <td class="bg-[#2f5496] text-gray-100" rowspan="2" colspan="1">
-          {{ $t("Advanced Technology ") }}
+        <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
+          <div class="-rotate-90">
+            {{ $t("Advanced Technology ") }}
+          </div>
         </td>
-        <td class="bg-[#2f5496] text-gray-100" rowspan="2" colspan="1">
-          {{ $t("Advanced Education ") }}
+        <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
+          <div class="-rotate-90">
+            {{ $t("Advanced Education ") }}
+          </div>
         </td>
       </tr>
     </table>

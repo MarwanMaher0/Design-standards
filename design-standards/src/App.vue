@@ -6,7 +6,7 @@
         @click="toggleLanguage"
         id="theme-toggle"
         type="button"
-        class="text-gray-500 rounded-lg text-sm p-2.5">
+        class="text-gray-500 d-print-none rounded-lg text-sm p-2.5">
         <span id="Ar" class="hidden w-5 h-5 font-extrabold text-xl"> Ar </span>
         <span id="En" class="hidden w-5 h-5 font-extrabold text-xl"> En </span>
       </button>
@@ -98,9 +98,9 @@ td {
 }
 
 svg {
-  display: none; 
+  display: none;
   /* Hide SVG by default */
-} 
+}
 .show-svg svg {
   display: block; /* Display SVG when the checkbox is checked */
 }
@@ -142,6 +142,14 @@ th {
 @media (max-width: 500px) {
   table {
     font-size: 11px;
+  }
+}
+@media print {
+  .d-print-none {
+    display: none !important;
+  }
+  .d-print {
+    display: block !important;
   }
 }
 </style>

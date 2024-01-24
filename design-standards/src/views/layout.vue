@@ -1,8 +1,7 @@
 <template>
-  <div class="relative">
-    
-    <router-view class="mt-32" />
-    <heder  class="fixed top-0 left-0 w-full " />
+  <div class="">
+    <heder class="w-full" />
+    <router-view />
   </div>
 </template>
 

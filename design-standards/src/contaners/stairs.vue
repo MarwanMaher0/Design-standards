@@ -18,10 +18,12 @@
           {{ $t("The width not less than 1.10 m ") }}
         </td>
 
-        <td class="bg-white">
-          <center><img src="../assets/Picture114.png" alt="" /></center>
+        <td class="bg-white w-16">
+          <center>
+            <img loading="lazy" src="../assets/Picture114.png" alt="" />
+          </center>
         </td>
-        <td class="bg-white">
+        <td class="bg-white w-16">
           <input
             type="checkbox"
             id="stairs-row-1"
@@ -34,15 +36,15 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
             </svg>
           </label>
         </td>
-        <td class="bg-white">
+        <td class="bg-white w-16">
           <input
             type="checkbox"
             id="stairs-row-1"
@@ -55,15 +57,15 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
             </svg>
           </label>
         </td>
-        <td class="bg-white">
+        <td class="bg-white w-16">
           <input
             disabled
             type="checkbox"
@@ -77,7 +79,7 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
           </label>
         </td>
-        <td class="bg-white">
+        <td class="bg-white w-16">
           <input
             type="checkbox"
             id="stairs-row-1"
@@ -90,15 +92,15 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
             </svg>
           </label>
         </td>
-        <td><span class="mobile-head">4</span>75%</td>
+        <td class="w-24"><span class="mobile-head">4</span>75%</td>
       </tr>
       <tr id="sta-row-2">
         <td rowspan="1" colspan="3">
@@ -106,7 +108,9 @@
         </td>
 
         <td class="bg-white">
-          <center><img src="../assets/Picture115.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture115.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -134,8 +138,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -169,8 +173,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -188,7 +192,9 @@
         </td>
 
         <td class="bg-white">
-          <center><img src="../assets/Picture116.jpg" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture116.jpg" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -203,8 +209,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -224,8 +230,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -259,8 +265,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -275,7 +281,9 @@
         </td>
 
         <td class="bg-white">
-          <center><img src="../assets/Picture131.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture131.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -330,8 +338,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -349,7 +357,9 @@
         </td>
         <td>{{ $t("Natural ") }}</td>
         <td class="bg-white">
-          <center><img src="../assets/Picture153.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture153.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -364,8 +374,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -385,8 +395,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -420,8 +430,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -436,7 +446,9 @@
         </td>
         <td>{{ $t("Natural ") }}</td>
         <td class="bg-white">
-          <center><img src="../assets/Picture151.jpg" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture151.jpg" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -451,8 +463,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -472,8 +484,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -507,8 +519,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -520,7 +532,9 @@
       <tr id="sta-row-7">
         <td>{{ $t("Artificial ") }}</td>
         <td class="bg-white">
-          <center><img src="../assets/Picture122.jpg" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture122.jpg" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -562,8 +576,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -602,7 +616,9 @@
         </td>
 
         <td class="bg-white">
-          <center><img src="../assets/Picture124.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture124.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -617,8 +633,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -638,8 +654,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -673,8 +689,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -691,7 +707,9 @@
         </td>
 
         <td class="bg-white">
-          <center><img src="../assets/Picture125.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture125.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -706,8 +724,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -727,8 +745,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -762,8 +780,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -782,7 +800,9 @@
         </td>
         <td>{{ $t("Natural ") }}</td>
         <td class="bg-white">
-          <center><img src="../assets/Picture126.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture126.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -797,8 +817,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -818,8 +838,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -853,8 +873,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -869,7 +889,9 @@
         </td>
         <td>{{ $t("Natural ") }}</td>
         <td class="bg-white">
-          <center><img src="../assets/Picture127.jpg" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture127.jpg" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -884,8 +906,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -905,8 +927,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -940,8 +962,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -953,7 +975,9 @@
       <tr id="sta-row-14">
         <td>{{ $t("Artificial ") }}</td>
         <td class="bg-white">
-          <center><img src="../assets/Picture128.jpg   " alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture128.jpg   " alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -995,8 +1019,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1027,7 +1051,9 @@
         </td>
         <td>{{ $t("Wood") }}</td>
         <td class="bg-white">
-          <center><img src="../assets/Picture129.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture129.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1042,8 +1068,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1090,8 +1116,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1103,7 +1129,9 @@
       <tr id="sta-row-16">
         <td>{{ $t("fabric") }}</td>
         <td class="bg-white">
-          <center><img src="../assets/Picture130.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture130.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1118,8 +1146,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1166,8 +1194,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1181,7 +1209,9 @@
           {{ $t("Non-slip and friction-resistant materials (Marble) ") }}
         </td>
         <td class="bg-white">
-          <center><img src="../assets/Picture131.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture131.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1223,8 +1253,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1244,8 +1274,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1262,7 +1292,9 @@
           {{ $t("easy-to-clean paints ") }}
         </td>
         <td class="bg-white">
-          <center><img src="../assets/Picture132.jpg" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture132.jpg" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1277,8 +1309,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1312,8 +1344,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1333,8 +1365,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1361,7 +1393,7 @@
         </td>
         <td class="bg-white">
           <center class="bg-white">
-            <img src="../assets/Picture133.png" alt="" />
+            <img loading="lazy" src="../assets/Picture133.png" alt="" />
           </center>
         </td>
         <td class="bg-white">
@@ -1377,8 +1409,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1432,7 +1464,9 @@
           {{ $t("Fabric ") }}
         </td>
         <td class="bg-white">
-          <center><img src="../assets/Picture134.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture134.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1447,8 +1481,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1503,7 +1537,9 @@
           {{ $t("Antimicrobial paints ") }}
         </td>
         <td class="bg-white">
-          <center><img src="../assets/Picture135.jpg" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture135.jpg" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1518,8 +1554,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1577,7 +1613,9 @@
           {{ $t("Natural ") }}
         </td>
         <td class="bg-white">
-          <center><img src="../assets/Picture136.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture136.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1592,8 +1630,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1613,8 +1651,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1648,8 +1686,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1664,7 +1702,9 @@
           {{ $t("Natural ") }}
         </td>
         <td class="bg-white">
-          <center><img src="../assets/Picture137.jpg" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture137.jpg" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1679,8 +1719,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1700,8 +1740,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1735,8 +1775,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1760,7 +1800,9 @@
           {{ $t("Technique (Toe-To-Go) ") }}
         </td>
         <td class="bg-white">
-          <center><img src="../assets/Picture138.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture138.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1775,8 +1817,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1810,8 +1852,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1839,7 +1881,9 @@
         </td>
 
         <td class="bg-white">
-          <center><img src="../assets/Picture139.png" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture139.png" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1854,8 +1898,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1889,8 +1933,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1918,7 +1962,9 @@
         </td>
 
         <td class="bg-white">
-          <center><img src="../assets/Picture140.jpg" alt="" /></center>
+          <center>
+            <img loading="lazy" src="../assets/Picture140.jpg" alt="" />
+          </center>
         </td>
         <td class="bg-white">
           <input
@@ -1933,8 +1979,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1968,8 +2014,8 @@
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              width="16"
+              height="13"
+              width="13"
               viewBox="0 0 512 512">
               <path
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -2006,7 +2052,14 @@
         <td>{{ columnSums[2] }}</td>
         <td>{{ columnSums[3] }}</td>
 
-        <td><span class="mobile-head">4</span></td>
+        <td rowspan="6">
+          <button v-if="showEnhancestaOpen" @click="openEnhanceModal()">
+            Start Enhance
+          </button>
+          <button v-if="showEnhancestaBTN" @click="closeEnhanceModal()">
+            End Enhance
+          </button>
+        </td>
       </tr>
       <tr id="sta-row-29" class="bg-[#8eaadb]">
         <td rowspan="1" colspan="7">
@@ -2019,8 +2072,6 @@
 
         <td></td>
         <td rowspan="1" colspan="4">{{ totalSum }}</td>
-
-        <td></td>
       </tr>
       <tr class="bg-[#8eaadb]" id="sta-row-30">
         <td rowspan="1" colspan="7">
@@ -2036,7 +2087,6 @@
         <td>{{ percentageFrom19.toFixed(2) }}%</td>
         <td>{{ percentageFrom10.toFixed(2) }}%</td>
         <td>{{ percentageFrom27.toFixed(2) }}%</td>
-        <td><span class="mobile-head">4</span></td>
       </tr>
       <tr class="bg-[#8eaadb]" id="sta-row-31">
         <td rowspan="1" colspan="7">
@@ -2049,8 +2099,6 @@
 
         <td></td>
         <td rowspan="1" colspan="4">{{ percentageFrom80.toFixed(2) }}%</td>
-
-        <td><span class="mobile-head">4</span></td>
       </tr>
       <tr id="sta-row-32 " class="bg-[#b4c6e7]">
         <td rowspan="1" colspan="7">
@@ -2066,7 +2114,6 @@
         <td>11</td>
         <td>7</td>
         <td>16</td>
-        <td><span class="mobile-head">4</span></td>
       </tr>
       <tr id="sta-row-33" class="bg-[#b4c6e7]">
         <td rowspan="1" colspan="7">
@@ -2079,16 +2126,19 @@
 
         <td></td>
         <td rowspan="1" colspan="4">53</td>
-
-        <td><span class="mobile-head">4</span></td>
       </tr>
     </table>
   </div>
   <div class="block">
     <div class="flex justify-center items-center text-center">
-      <chart class="w-[400px] my-10 text-center" />
+      <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
     </div>
   </div>
+  <table
+    v-if="showEnhancesta"
+    class="min-x-[1000px] max-lg:w-[900px] d-print-none overflow-x-auto">
+    <tbody v-html="tableContentsta"></tbody>
+  </table>
 </template>
 
 <script setup>
@@ -2101,6 +2151,7 @@ onMounted(() => {
   rows.value = Array.from(document.querySelectorAll('tr[id^="sta-"]')); // Filter rows by ID
   initializeCheckboxes();
   updateColumnSums();
+  staticRows();
   saveRowsWithCheckboxesToLocalStorage();
 });
 function saveRowsWithCheckboxesToLocalStorage() {
@@ -2113,6 +2164,7 @@ function saveRowsWithCheckboxesToLocalStorage() {
   // Map to get the outerHTML of each unchecked row with checkboxes
   rowsWithCheckboxes.forEach((row) => {
     const checkbox = row.querySelector('input[type="checkbox"]');
+    localStorage.setItem(`allRows-${row.id}`, row.outerHTML);
 
     // Check if the checkbox is not checked
     if (checkbox && !checkbox.checked) {
@@ -2131,7 +2183,40 @@ let getColumnSum0 = computed(() => calculateColumnSum(0));
 let getColumnSum1 = computed(() => calculateColumnSum(1));
 let getColumnSum2 = computed(() => calculateColumnSum(2));
 let getColumnSum3 = computed(() => calculateColumnSum(3));
-
+const tableContentsta = ref("");
+let showEnhancesta = ref(false);
+let showEnhancestaBTN = ref(false);
+let showEnhancestaOpen = ref(true);
+const staticRows = () => {
+  localStorage.setItem(
+    `allRows-sta-row-8`,
+    ` <tr id="sta-row-8">
+        <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
+      </tr>`
+  );
+  localStorage.setItem(
+    `allRows-sta-row-11`,
+    `   <tr id="sta-row-11"></tr>
+`
+  );
+  localStorage.setItem(
+    `allRows-sta-row-19`,
+    `<tr id="sta-row-19">
+        <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
+      </tr>`
+  );
+};
+const openEnhanceModal = () => {
+  tableContentsta.value = getAllRowsFromLocalStoragesta();
+  showEnhancesta.value = true;
+  showEnhancestaBTN.value = true;
+  showEnhancestaOpen.value = false;
+};
+const closeEnhanceModal = () => {
+  showEnhancesta.value = false;
+  showEnhancestaBTN.value = false;
+  showEnhancestaOpen.value = true;
+};
 const initializeCheckboxes = () => {
   rows.value.forEach((row, rowIndex) => {
     const checkboxesInRow = Array.from(
@@ -2154,6 +2239,7 @@ const initializeCheckboxes = () => {
       }
     });
   });
+  saveRowsWithCheckboxesToLocalStorage();
 
   updateRowRefsBasedOnCheckboxState();
 };
@@ -2226,6 +2312,8 @@ const handleCheckboxChange = (event, rowIndex) => {
     );
     toggleSvgDisplay(checkbox, rowIndex);
   });
+  saveRowsWithCheckboxesToLocalStorage();
+  tableContentsta.value = getAllRowsFromLocalStoragesta();
 
   updateRowRefsBasedOnCheckboxState();
   updateColumnSums();
@@ -2336,14 +2424,37 @@ watch(
   },
   { deep: true }
 ); // deep option ensures that the watcher also tracks nested properties of columnSums
+const getAllRowsFromLocalStoragesta = () => {
+  const AllRowsArray = [];
+
+  for (let key in localStorage) {
+    if (key.startsWith("allRows-") && key.includes("sta-")) {
+      AllRowsArray.push({
+        key: key,
+        value: localStorage.getItem(key),
+      });
+    }
+  }
+
+  AllRowsArray.sort((a, b) => {
+    const idA = parseInt(
+      a.key.split("-").pop().replace("allRows-sta-row-", "")
+    );
+    const idB = parseInt(
+      b.key.split("-").pop().replace("allRows-sta-row-", "")
+    );
+    return idA - idB;
+  });
+
+  return AllRowsArray.map((item) => item.value).join("");
+};
 </script>
 
 <style>
 svg {
-  display: none; 
+  display: none;
   /* Hide SVG by default */
 }
-
 
 .show-svg svg {
   display: block;
@@ -2352,5 +2463,13 @@ svg {
 img {
   width: 30px;
   height: 30px;
+}
+@media print {
+  .d-print-none {
+    display: none !important;
+  }
+  .d-print {
+    display: block !important;
+  }
 }
 </style>
