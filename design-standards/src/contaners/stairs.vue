@@ -2053,6 +2053,7 @@
         <td>{{ columnSums[3] }}</td>
 
         <td rowspan="6">
+          
           <button v-if="showEnhancestaOpen" @click="openEnhanceModal()">
             Start Enhance
           </button>
