@@ -8,13 +8,13 @@ const routes = [
     component: () => import("../views/Home.vue"),
   },
   {
-    path: "/",
+    path: "/layout",
     name: "layout",
 
     component: () => import("../views/layout.vue"),
     children: [
       {
-        path: "ConExternalv",
+        path: "/",
         name: "ConExternalv",
         component: () => import("../views/ConExternalv.vue"),
       },

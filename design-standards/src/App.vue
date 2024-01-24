@@ -7,7 +7,7 @@
         id="theme-toggle"
         type="button"
         class="text-gray-500 d-print-none rounded-lg text-sm p-2.5">
-        <span id="Ar" class="hidden w-5 h-5 font-extrabold text-xl"> Ar </span>
+        <span id="Ar" class="w-5 h-5 font-extrabold text-xl"> Ar </span>
         <span id="En" class="hidden w-5 h-5 font-extrabold text-xl"> En </span>
       </button>
     </div>
@@ -55,6 +55,7 @@ export default {
       var themeToggleDarkIcon = document.getElementById("Ar");
       var themeToggleLightIcon = document.getElementById("En");
       window.location.reload();
+      localStorage.setItem("lang", "en");
 
       if (this.$i18n.locale === "ar") {
         themeToggleLightIcon.classList.remove("hidden");
