@@ -25,7 +25,8 @@
         <td
           class="bg-[#2f5496] w-16 h-32 text-gray-100"
           rowspan="2"
-          colspan="1">
+          colspan="1"
+        >
           <div class="-rotate-90">
             {{ $t("Epidemics ") }}
           </div>
@@ -62,12 +63,10 @@ table {
 }
 
 table th {
-  text-align: center;
   /* padding: 8px; */
   border: 1px solid #000000;
   /* color: #FFFFFF; */
   font-weight: bold;
-  text-align: center;
 }
 
 table td {
@@ -80,7 +79,6 @@ table tr {
   /* background-color: rgb(229 231 235 / var(--tw-bg-opacity)); */
 
   color: #000000;
-  text-align: center;
 }
 
 table .mobile-head {

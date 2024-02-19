@@ -6,7 +6,8 @@
         @click="toggleLanguage"
         id="theme-toggle"
         type="button"
-        class="text-gray-500 d-print-none rounded-lg text-sm p-2.5">
+        class="text-gray-500 d-print-none rounded-lg text-sm p-2.5"
+      >
         <span id="Ar" class="w-5 h-5 font-extrabold text-xl"> Ar </span>
         <span id="En" class="hidden w-5 h-5 font-extrabold text-xl"> En </span>
       </button>
@@ -152,5 +153,8 @@ th {
   .d-print {
     display: block !important;
   }
+}
+ul.a{
+  list-style-type: circle;
 }
 </style>

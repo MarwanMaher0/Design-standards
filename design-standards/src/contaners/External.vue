@@ -3977,13 +3977,7 @@ table {
   border-collapse: collapse;
 }
 
-td,
-th {
-  border: 1px solid #ccc;
-  /* padding: 3px; */
-  text-align: center;
-  align-content: center;
-}
+
 
 img {
   width: 30px;
