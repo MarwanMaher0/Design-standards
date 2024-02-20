@@ -27,7 +27,7 @@
         </td>
 
         <td></td>
-        <td rowspan="1" colspan="4">{{ percentageFrom80.toFixed(2) }}%</td>
+        <td rowspan="1" colspan="4">{{ totalSum }}</td>
         <td></td>
       </tr>
       <tr class="bg-[#d9e2f3]">
@@ -40,10 +40,10 @@
         </td>
 
         <td></td>
-        <td>{{ percentageFrom24.toFixed(2) }}%</td>
-        <td>{{ percentageFrom19.toFixed(2) }}%</td>
-        <td>{{ percentageFrom10.toFixed(2) }}%</td>
-        <td>{{ percentageFrom27.toFixed(2) }}%</td>
+        <td>{{ percentageFrom24.toFixed(0) }}%</td>
+        <td>{{ percentageFrom19.toFixed(0) }}%</td>
+        <td>{{ percentageFrom10.toFixed(0) }}%</td>
+        <td>{{ percentageFrom27.toFixed(0) }}%</td>
         <td></td>
       </tr>
       <tr class="bg-[#d9e2f3]">
@@ -56,7 +56,8 @@
         </td>
 
         <td></td>
-        <td rowspan="1" colspan="4">100%</td>
+        <td rowspan="1" colspan="4">{{ percentageFrom80.toFixed(0) }}%</td>
+
         <td></td>
       </tr>
       <tr class="bg-[#d9e2f3]">
@@ -69,10 +70,10 @@
         </td>
 
         <td></td>
-        <td>115</td>
-        <td>86</td>
-        <td>47</td>
-        <td>128</td>
+        <td>116</td>
+        <td>85</td>
+        <td>54</td>
+        <td>135</td>
         <td></td>
       </tr>
       <tr class="bg-[#d9e2f3]">
@@ -85,7 +86,7 @@
         </td>
 
         <td></td>
-        <td rowspan="1" colspan="4">376</td>
+        <td rowspan="1" colspan="4">390</td>
 
         <td></td>
       </tr>
@@ -110,19 +111,19 @@ let columnSums = ref({
 });
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 376) * 100;
+  return (totalSum.value / 390) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 115) * 100;
+  return (columnSums.value[0] / 116) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 86) * 100;
+  return (columnSums.value[1] / 85) * 100;
 });
 const percentageFrom10 = computed(() => {
-  return (columnSums.value[2] / 47) * 100;
+  return (columnSums.value[2] / 54) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 128) * 100;
+  return (columnSums.value[3] / 135) * 100;
 });
 const totalSum = computed(() => {
   return (
@@ -181,19 +182,19 @@ watch(
   (newColumnSums) => {
     localStorage.setItem(
       "All-columnSum-percentage-0",
-      percentageFrom24.value.toFixed(2)
+      percentageFrom24.toFixed(0).value
     );
     localStorage.setItem(
       "All-columnSum-percentage-1",
-      percentageFrom19.value.toFixed(2)
+      percentageFrom19.toFixed(0).value
     );
     localStorage.setItem(
       "All-columnSum-percentage-2",
-      percentageFrom10.value.toFixed(2)
+      percentageFrom10.toFixed(0).value
     );
     localStorage.setItem(
       "All-columnSum-percentage-3",
-      percentageFrom27.value.toFixed(2)
+      percentageFrom27.toFixed(0).value
     );
   },
   { deep: true }

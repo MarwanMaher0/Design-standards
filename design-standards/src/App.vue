@@ -154,7 +154,11 @@ th {
     display: block !important;
   }
 }
-ul.a{
+ul.a {
   list-style-type: circle;
+}
+img {
+  width: 30px;
+  height: 30px;
 }
 </style>

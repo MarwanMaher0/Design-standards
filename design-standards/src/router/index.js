@@ -1,12 +1,7 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
-  {
-    path: "/Home",
-    name: "HomeH",
 
-    component: () => import("../views/Home.vue"),
-  },
   {
     path: "/layout",
     name: "layout",
@@ -15,6 +10,12 @@ const routes = [
     children: [
       {
         path: "/",
+        name: "Home",
+
+        component: () => import("../views/Home.vue"),
+      },
+      {
+        path: "ConExternalv",
         name: "ConExternalv",
         component: () => import("../views/ConExternalv.vue"),
       },

@@ -23,11 +23,7 @@
         <td class="show-on-mobile">column6</td>
         <td>{{ $t("Gas Stations ") }}</td>
         <td class="w-16">
-          <img
-            loading="lazy"
-            src="../assets/2 (1).png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/2 (1).png" class="mx-auto" alt="" />
         </td>
         <td class="w-16 bg-red-300">
           <input
@@ -36,17 +32,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-1"
-            class="inline-flex text-center w-full items-center justify-center h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center w-full items-center justify-center h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -58,17 +58,21 @@
             value="1"
             class="hidden peer"
             required
-            ref="checkboxRef" />
+            ref="checkboxRef"
+          />
           <label
             for="External-row-1"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 show-svg">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 show-svg"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -80,10 +84,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-1"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="w-16 bg-white">
@@ -93,17 +99,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-1"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -112,11 +122,7 @@
       <tr id="Ext-row-2">
         <td>{{ $t("Forests ") }}</td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/2 (1).jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/2 (1).jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -125,17 +131,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-2"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -146,17 +156,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-2"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -168,10 +182,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-2"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -181,17 +197,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-2"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -200,11 +220,7 @@
       <tr id="Ext-row-3">
         <td>{{ $t("Burning kilns ") }}</td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture1.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture1.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -213,17 +229,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-3"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -234,17 +254,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-3"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -256,10 +280,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-3"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -269,17 +295,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-3"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -295,11 +325,7 @@
         <td class="show-on-mobile">column6</td>
         <td class="show-on-mobile">column6</td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/2 (2).jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/2 (2).jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -308,17 +334,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-4"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -329,17 +359,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-4"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -351,10 +385,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-4"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -364,17 +400,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-4"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -386,11 +426,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture3.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture3.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -399,17 +435,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-5"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -420,17 +460,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-5"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -442,10 +486,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-5"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -455,17 +501,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-5"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -477,11 +527,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture4.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture4.jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -490,17 +536,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-6"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -511,17 +561,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-6"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -533,10 +587,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-6"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -546,17 +602,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-6"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -568,11 +628,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture5.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture5.jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -581,17 +637,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-7"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -602,17 +662,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-7"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -624,10 +688,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-7"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -637,17 +703,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-7"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -663,31 +733,21 @@
 
         <td>{{ $t("Railway lines ") }}</td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture6.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture6.png" class="mx-auto" alt="" />
         </td>
-        <td class="bg-red-300">
+        <td class="">
           <input
             type="checkbox"
             id="External-row-8"
             name="ahosting"
-            value="1"
+            value=""
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-8"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="13"
-              width="13"
-              viewBox="0 0 512 512">
-              <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[# peer-checked:border-[# peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -697,10 +757,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-8"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -711,10 +773,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-8"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -724,32 +788,32 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-8"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
-        <td>50%</td>
+        <td>25%</td>
       </tr>
       <tr id="Ext-row-9">
         <td>
           {{ $t("High voltage power lines ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture7.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture7.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -758,10 +822,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-9"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -771,10 +837,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-9"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -785,10 +853,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-9"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -798,17 +868,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-9"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -817,11 +891,7 @@
       <tr id="Ext-row-10">
         <td>{{ $t("Rivers and Drains ") }}</td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture8.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture8.jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -830,17 +900,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-10"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -851,10 +925,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-10"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -865,10 +941,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-10"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -878,21 +956,25 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-10"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Ext-row-11">
         <td rowspan="1" colspan="2">
@@ -903,31 +985,21 @@
           {{ $t("keep away from High Roads ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture9.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture9.jpg" class="mx-auto" alt="" />
         </td>
-        <td class="bg-red-300">
+        <td class="bg-red-">
           <input
             type="checkbox"
             id="External-row-11"
             name="ahosting"
-            value="1"
-            class="hidden peer"
-            required />
+            value=""
+            class="hidden"
+            required
+          />
           <label
             for="External-row-11"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="13"
-              width="13"
-              viewBox="0 0 512 512">
-              <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -937,10 +1009,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-11"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -951,10 +1025,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-11"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -964,21 +1040,25 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-11"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Ext-row-12">
         <td rowspan="2" colspan="2">
@@ -986,14 +1066,10 @@
         </td>
         <td class="show-on-mobile">column6</td>
         <td>
-          {{ $t("Student Entrances  From Side Roads (6m) ") }}
+          {{ $t("Student Entrances From Side Roads (6m) ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture10.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture10.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -1002,10 +1078,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-12"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1015,10 +1093,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-12"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1029,10 +1109,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-12"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1042,17 +1124,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-12"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1063,11 +1149,7 @@
           {{ $t("The Entrance is Perpendicular to The External Roads ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture10.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture10.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -1076,10 +1158,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-13"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1089,10 +1173,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-13"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1103,10 +1189,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-13"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1116,17 +1204,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-13"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1149,11 +1241,7 @@
           {{ $t("Stamped fair faced concrete ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture11.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture11.jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -1162,10 +1250,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-15"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1175,10 +1265,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-15"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1189,17 +1281,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-15"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1210,10 +1306,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-15"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td>25%</td>
@@ -1223,11 +1321,7 @@
           {{ $t("Artificial Grass ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture12.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture12.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -1236,10 +1330,12 @@
             name="ahosting"
             value="0"
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-16"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1249,17 +1345,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-16"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1271,17 +1371,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-16"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1292,17 +1396,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-16"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1314,11 +1422,7 @@
         </td>
         <td class="show-on-mobile">column7</td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture13.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture13.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -1327,10 +1431,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-17"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1340,10 +1446,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-17"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1354,10 +1462,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-17"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1367,17 +1477,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-17"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1388,14 +1502,10 @@
           {{ $t("Natural Materials ") }}
         </td>
         <td rowspan="1" colspan="2">
-          {{ $t("Sand  ") }}
+          {{ $t("Sand ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture14.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture14.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -1404,17 +1514,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-18"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1425,17 +1539,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-18"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1447,10 +1565,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-18"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1460,17 +1580,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-18"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1482,11 +1606,7 @@
         </td>
         <td class="show-on-mobile">column7</td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture15.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture15.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -1495,17 +1615,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-19"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1516,10 +1640,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-19"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1530,10 +1656,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-19"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1543,10 +1671,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-19"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td>25%</td>
@@ -1556,11 +1686,7 @@
           {{ $t("Stones ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture16.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture16.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -1569,17 +1695,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-20"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1590,17 +1720,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-20"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1612,10 +1746,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-20"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1625,17 +1761,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-20"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1650,11 +1790,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture17.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture17.jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -1663,10 +1799,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-21"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1676,17 +1814,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-21"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1698,17 +1840,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-21"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1719,17 +1865,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-21"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1741,11 +1891,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture18.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture18.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -1754,17 +1900,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-22"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1775,17 +1925,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-22"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1797,17 +1951,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-22"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1818,17 +1976,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-22"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1836,15 +1998,11 @@
       </tr>
       <tr id="Ext-row-23">
         <td rowspan="1" colspan="3">
-          {{ $t("Totally EExposed to The Sun ") }}
+          {{ $t("Exposed to The Sun ") }}
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture19.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture19.jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -1853,17 +2011,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-23"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1874,10 +2036,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-23"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1888,17 +2052,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-23"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1909,17 +2077,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-23"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1934,11 +2106,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture20.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture20.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -1947,10 +2115,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-24"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1960,17 +2130,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-24"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -1982,10 +2156,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-24"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -1995,10 +2171,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-24"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td>100%</td>
@@ -2009,11 +2187,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture21.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture21.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2022,17 +2196,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-25"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2043,17 +2221,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-25"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2065,10 +2247,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-25"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -2078,17 +2262,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-25"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2105,11 +2293,7 @@
           {{ $t("Select one Form ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture22.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture22.jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2118,17 +2302,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group1-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-26"
-            class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2139,17 +2327,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group1-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-26"
-            class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2161,17 +2353,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group1-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-26"
-            class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2182,17 +2378,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group1-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-26"
-            class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2204,11 +2404,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture23.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture23.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2217,17 +2413,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group2-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-27"
-            class="inline-flex text-center items-center justify-center w-full group-checkbox h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full group-checkbox h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2238,17 +2438,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group2-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-27"
-            class="inline-flex text-center items-center justify-center w-full group-checkbox h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full group-checkbox h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2260,17 +2464,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group2-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-27"
-            class="inline-flex text-center items-center justify-center w-full group-checkbox h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full group-checkbox h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2281,17 +2489,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group2-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-27"
-            class="inline-flex text-center items-center justify-center w-full group-checkbox h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full group-checkbox h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2306,11 +2518,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture24.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture24.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2319,17 +2527,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-28"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2340,17 +2552,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-28"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2362,17 +2578,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-28"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2383,17 +2603,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-28"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2405,11 +2629,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture25.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture25.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2418,17 +2638,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-29"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2439,17 +2663,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-29"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2461,10 +2689,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-29"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -2474,17 +2704,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-29"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2496,11 +2730,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture26.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture26.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2509,17 +2739,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-30"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2530,17 +2764,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-30"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2552,10 +2790,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-30"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -2565,17 +2805,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-30"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2596,11 +2840,7 @@
           {{ $t("Choose one Type ") }}
         </td>
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture27.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture27.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2609,17 +2849,21 @@
             name="fav"
             value="1"
             class="hidden peer group3-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-32"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2630,17 +2874,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group3-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-32"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2652,17 +2900,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group3-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-32"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2673,17 +2925,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group3-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-32"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2695,11 +2951,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture28.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture28.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2708,17 +2960,21 @@
             name="fav"
             value="1"
             class="hidden peer group4-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-33"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2729,17 +2985,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group4-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-33"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2751,17 +3011,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group4-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-33"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2772,17 +3036,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group4-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-33"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2794,11 +3062,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture29.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture29.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2807,17 +3071,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group5-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-34"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2828,17 +3096,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group5-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-34"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2850,17 +3122,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group5-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-34"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2871,17 +3147,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group5-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-34"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2893,11 +3173,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture30.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture30.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -2906,17 +3182,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group6-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-35"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2927,17 +3207,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group6-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-35"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2949,17 +3233,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group6-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-35"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2970,17 +3258,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group6-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-35"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -2995,11 +3287,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture31.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture31.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -3008,17 +3296,21 @@
             name="fav"
             value="1"
             class="hidden peer group7-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-36"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3029,17 +3321,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group7-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-36"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3051,17 +3347,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group7-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-36"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3072,17 +3372,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group7-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-36"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3094,11 +3398,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture32.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture32.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -3107,17 +3407,21 @@
             name="fav"
             value="1"
             class="hidden peer group8-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-37"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3128,17 +3432,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group8-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-37"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3150,17 +3458,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group8-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-37"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3171,17 +3483,21 @@
             name="ahosting"
             value="1"
             class="hidden peer group8-checkbox"
-            required />
+            required
+          />
           <label
             for="External-row-37"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3199,11 +3515,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture33.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture33.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -3212,17 +3524,21 @@
             name="fav"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-39"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3233,10 +3549,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-39"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -3247,10 +3565,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-39"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -3260,17 +3580,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-39"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3286,17 +3610,13 @@
         <td rowspan="1" colspan="4">
           {{
             $t(
-              "Using lightweight Structures to Create Outdoor Educational Spaces  "
+              "Using lightweight Structures to Create Outdoor Educational Spaces "
             )
           }}
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture34.png"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture34.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-red-300">
           <input
@@ -3305,17 +3625,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-41"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3326,10 +3650,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-41"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -3340,17 +3666,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-41"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3361,10 +3691,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-40"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td>50%</td>
@@ -3375,11 +3707,7 @@
         </td>
 
         <td class="bg-white">
-          <img
-            loading="lazy"
-            src="../assets/Picture35.jpg"
-            class="mx-auto"
-            alt="" />
+          <img src="../assets/Picture35.jpg" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -3389,17 +3717,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-42"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3410,10 +3742,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-42"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td class="bg-white">
@@ -3424,17 +3758,21 @@
             name="ahosting"
             value="1"
             class="hidden peer"
-            required />
+            required
+          />
           <label
             for="External-row-42"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="13"
               width="13"
-              viewBox="0 0 512 512">
+              viewBox="0 0 512 512"
+            >
               <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
             </svg>
           </label>
         </td>
@@ -3445,10 +3783,12 @@
             name="ahosting"
             value=""
             class="hidden"
-            required />
+            required
+          />
           <label
             for="External-row-42"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
           </label>
         </td>
         <td>50%</td>
@@ -3467,10 +3807,10 @@
         <td>{{ columnSums[3] }}</td>
 
         <td rowspan="6">
-          <button v-if="showEnhanceExtOpen" @click="openEnhanceModal()">
+          <button v-if="showEnhanceExtOpen" @click="openEnhanceExtForm()">
             Start Enhance
           </button>
-          <button v-if="showEnhanceExtBTN" @click="closeEnhanceModal()">
+          <button v-if="showEnhanceExtBTN" @click="close()">
             End Enhance
           </button>
         </td>
@@ -3497,27 +3837,27 @@
         </td>
 
         <td></td>
-        <td>{{ percentageFrom24.toFixed(2) }}%</td>
-        <td>{{ percentageFrom19.toFixed(2) }}%</td>
-        <td>{{ percentageFrom10.toFixed(2) }}%</td>
-        <td>{{ percentageFrom27.toFixed(2) }}%</td>
+        <td>{{ percentageFrom24 }}%</td>
+        <td>{{ percentageFrom19 }}%</td>
+        <td>{{ percentageFrom10 }}%</td>
+        <td>{{ percentageFrom27 }}%</td>
       </tr>
       <tr id="Ext-row-45" class="bg-[#8eaadb]">
         <td class="bg-[#8eaadb]" rowspan="1" colspan="7">
           {{
             $t(
-              "Total Percentages of Realized Points for Resilient Design Criteria in layout  "
+              "Total Percentages of Realized Points for Resilient Design Criteria in layout "
             )
           }}
         </td>
 
         <td></td>
 
-        <td rowspan="1" colspan="4">{{ percentageFrom80.toFixed(2) }}%</td>
+        <td rowspan="1" colspan="4">{{ percentageFrom80 }}%</td>
       </tr>
       <tr id="Ext-row-46 " class="bg-[#b4c6e7]">
         <td class="bg-[#b4c6e7]" rowspan="1" colspan="7">
-          {{ $t("Required Points for Resilient Design Criteria in layout  ") }}
+          {{ $t("Required Points for Resilient Design Criteria in layout ") }}
         </td>
 
         <td></td>
@@ -3534,7 +3874,7 @@
         </td>
 
         <td></td>
-        <td rowspan="1" colspan="4">80</td>
+        <td rowspan="1" colspan="4">78</td>
       </tr>
     </table>
   </div>
@@ -3543,11 +3883,99 @@
       <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
     </div>
   </div>
-  <table
-    v-if="showEnhanceExt"
-    class="min-x-[1000px] max-lg:w-[900px] d-print-none overflow-x-auto">
+  <div class=" ">
+    <div class="relative overflow-x-auto"></div>
+
+    <div
+      v-if="showEnhanceExtForm"
+      class="grid grid-cols-1 place-content-center justify-center"
+    >
+      <div
+        class="fixed content-center backdrop-filter backdrop-blur-sm place-content-center flex z-30 items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
+      >
+        <div class="relative max-h-full">
+          <form
+            action="#"
+            class="relative bg-gray-100 rounded-lg shadow dark:bg-gray-700"
+          >
+            <!-- Modal header -->
+            <div
+              class="flex ltr justify-between p-4 border-b rounded-t dark:border-gray-600"
+            >
+              <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                All rows are not chocen
+              </h3>
+              <button
+                type="button"
+                @click="close()"
+                class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              >
+                <svg
+                  class="w-3 block h-3"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 14"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                  />
+                </svg>
+              </button>
+            </div>
+            <!-- Modal body -->
+            <div class="max-h-96 overflow-x-auto">
+              <table
+                class="w-full text-sm text-left rtl:text-right h-4/5 overflow-x-auto text-gray-500 dark:text-gray-400"
+              >
+                <thead
+                  class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+                >
+                  <tr>
+                    <th scope="col" class="text-start px-6 py-3">
+                      all not chosen (Design criteria for Stairs and Corridors:	 )
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    v-for="(row, index) in parsedTextArrayExt"
+                    :key="index"
+                    class="bg-white border-b text-start dark:bg-gray-800 dark:border-gray-700"
+                  >
+                    <th
+                      scope="row"
+                      class="px-6 py-4 text-start font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {{ row }}
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <button
+              type="submit"
+              class="relative m-4 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+            >
+              <span
+                class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+              >
+                تسجيل
+              </span>
+            </button>
+
+            <!-- Modal footer -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <table v-if="showEnhanceExt" class="min-x-[1000px] max-lg:w-[900px] d-print-none overflow-x-auto">
     <tbody v-html="tableContentEST"></tbody>
-  </table>
+  </table> -->
 </template>
 
 <script setup>
@@ -3618,6 +4046,8 @@ onMounted(() => {
   staticRows();
   updateColumnSums();
   saveRowsWithCheckboxesToLocalStorage();
+  parsedTextArrayExt.value = getParsedDataFromLocalStorageExt();
+
   // Assign checkboxes to refs
 });
 
@@ -3832,10 +4262,10 @@ const calculateColumnSum = (columnIndex) => {
 };
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 80) * 100;
+  return (totalSum.value / 78) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 24) * 100;
+  return (columnSums.value[0] / 22) * 100;
 });
 const percentageFrom19 = computed(() => {
   return (columnSums.value[1] / 19) * 100;
@@ -3905,22 +4335,10 @@ checkboxes.forEach((checkbox) => {
 watch(
   columnSums,
   (newColumnSums) => {
-    localStorage.setItem(
-      "Ext-columnSum-percentage-0",
-      percentageFrom24.value.toFixed(2)
-    );
-    localStorage.setItem(
-      "Ext-columnSum-percentage-1",
-      percentageFrom19.value.toFixed(2)
-    );
-    localStorage.setItem(
-      "Ext-columnSum-percentage-2",
-      percentageFrom10.value.toFixed(2)
-    );
-    localStorage.setItem(
-      "Ext-columnSum-percentage-3",
-      percentageFrom27.value.toFixed(2)
-    );
+    localStorage.setItem("Ext-columnSum-percentage-0", percentageFrom24.value);
+    localStorage.setItem("Ext-columnSum-percentage-1", percentageFrom19.value);
+    localStorage.setItem("Ext-columnSum-percentage-2", percentageFrom10.value);
+    localStorage.setItem("Ext-columnSum-percentage-3", percentageFrom27.value);
   },
   { deep: true }
 );
@@ -3949,6 +4367,49 @@ const getAllRowsFromLocalStorageExt = () => {
   return AllRowsArray.map((item) => item.value).join("");
 };
 
+let parsedTextArrayExt = ref([]);
+let showEnhanceExtForm = ref(false);
+const close = () => {
+  showEnhanceExtForm.value = false;
+};
+const openEnhanceExtForm = () => {
+  parsedTextArrayExt.value = getParsedDataFromLocalStorageExt();
+
+  showEnhanceExtForm.value = true;
+};
+const getParsedDataFromLocalStorageExt = () => {
+  const AllRowsArray = [];
+
+  for (let key in localStorage) {
+    if (key.startsWith("rowWithCheckbox-") && key.includes("Ext-")) {
+      AllRowsArray.push({
+        key: key,
+        value: localStorage.getItem(key),
+      });
+    }
+  }
+
+  AllRowsArray.sort((a, b) => {
+    const idA = parseInt(
+      a.key.split("-").pop().replace("allRows-Ext-row-", "")
+    );
+    const idB = parseInt(
+      b.key.split("-").pop().replace("allRows-Ext-row-", "")
+    );
+    return idA - idB;
+  });
+
+  const parsedTextArrayExt = AllRowsArray.map((item) => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(item.value, "text/html");
+    return doc.body.textContent.trim();
+  });
+
+  // Convert to JSON format
+  const jsonData = JSON.stringify(parsedTextArrayExt);
+
+  return parsedTextArrayExt;
+};
 // Get all the checkboxes
 </script>
 
@@ -3957,10 +4418,12 @@ const getAllRowsFromLocalStorageExt = () => {
   .d-print-none {
     display: none !important;
   }
+
   .d-print {
     display: block !important;
   }
 }
+
 svg {
   display: none;
   /* Hide SVG by default */
@@ -3976,8 +4439,6 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
-
-
 
 img {
   width: 30px;

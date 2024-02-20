@@ -11,7 +11,7 @@
           <div class="hidden">/</div>
         </td>
         <td rowspan="11" colspan="1">
-          {{ $t(":Finishes ") }}
+          {{ $t("Finishes ") }}
           <div class="hidden">/</div>
         </td>
         <td rowspan="2" colspan="3">
@@ -111,7 +111,7 @@
       </tr>
       <tr id="Oth-row-2">
         <div class="hidden">
-          {{ $t(":Finishes ") }}/ {{ $t("walls (choose one type) ") }}/
+          {{ $t("Finishes ") }}/ {{ $t("walls (choose one type) ") }}/
         </div>
         <td>
           {{ $t("Wall Paper (light colors) ") }}
@@ -205,7 +205,7 @@
       </tr>
       <tr id="Oth-row-3">
         <td rowspan="1" colspan="3">
-          <div class="hidden">{{ $t(":Finishes ") }}/</div>
+          <div class="hidden">{{ $t("Finishes ") }}/</div>
           {{ $t("Floor ") }}
         </td>
 
@@ -235,24 +235,14 @@
             type="checkbox"
             id="Other-row-3"
             name="ahosting"
-            value="1"
-            class="hidden peer"
+            value=""
+            class="hidden"
             required
           />
           <label
             for="Other-row-3"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="13"
-              width="13"
-              viewBox="0 0 512 512"
-            >
-              <path
-                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
-              />
-            </svg>
           </label>
         </td>
         <td class="bg-white">
@@ -297,14 +287,14 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>50%</td>
+        <td>25%</td>
       </tr>
       <tr id="Oth-row-4">
         <td rowspan="1" colspan="10" class="h-4 bg-[#bfbfbf]"></td>
       </tr>
       <tr id="Oth-row-5" class="bg-[#c8c8c8]">
         <td rowspan="7" colspan="1">
-          <div class="hidden">{{ $t(":Finishes ") }}/</div>
+          <div class="hidden">{{ $t("Finishes ") }}/</div>
 
           {{
             $t(
@@ -422,7 +412,7 @@
       </tr>
       <tr id="Oth-row-6" class="bg-[#c8c8c8]">
         <div class="hidden">
-          {{ $t(":Finishes ") }}/
+          {{ $t("Finishes ") }}/
 
           {{
             $t(
@@ -536,7 +526,7 @@
       </tr>
       <tr id="Oth-row-7" class="bg-[#c8c8c8]">
         <div class="hidden">
-          {{ $t(":Finishes ") }}/
+          {{ $t("Finishes ") }}/
 
           {{
             $t(
@@ -653,7 +643,7 @@
       </tr>
       <tr id="Oth-row-8" class="bg-[#c8c8c8]">
         <div class="hidden">
-          {{ $t(":Finishes ") }}/
+          {{ $t("Finishes ") }}/
 
           {{
             $t(
@@ -769,7 +759,7 @@
       </tr>
       <tr id="Oth-row-9" class="bg-[#c8c8c8]">
         <div class="hidden">
-          {{ $t(":Finishes ") }}/
+          {{ $t("Finishes ") }}/
 
           {{
             $t(
@@ -877,7 +867,7 @@
       </tr>
       <tr id="Oth-row-10" class="bg-[#c8c8c8]">
         <div class="hidden">
-          {{ $t(":Finishes ") }}/
+          {{ $t("Finishes ") }}/
 
           {{
             $t(
@@ -986,7 +976,7 @@
       </tr>
       <tr id="Oth-row-11" class="bg-[#c8c8c8]">
         <div class="hidden">
-          {{ $t(":Finishes ") }}/
+          {{ $t("Finishes ") }}/
 
           {{
             $t(
@@ -1035,16 +1025,27 @@
         <td class="bg-white">
           <input
             type="checkbox"
-            id="Other-row-11"
+            id="External-row-1"
             name="ahosting"
-            value=""
-            class="hidden"
+            value="1"
+            class="hidden peer"
             required
+            ref="checkboxRef"
           />
           <label
-            for="Other-row-11"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-0 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            for="External-row-1"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 show-svg"
           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="13"
+              width="13"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+              />
+            </svg>
           </label>
         </td>
         <td class="bg-white">
@@ -1089,7 +1090,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>50%</td>
+        <td>75%</td>
       </tr>
       <tr id="Oth-row-12">
         <td rowspan="2" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
@@ -1209,6 +1210,17 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-15">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+          /
+
+          <td rowspan="2" colspan="1">
+            {{ $t("lighting ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="1" colspan="3">
           {{ $t("Artificial ") }}
         </td>
@@ -1301,9 +1313,18 @@
         <td>50%</td>
       </tr>
       <tr id="Oth-row-16">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="2" colspan="1">
           {{ $t("Ventilation ") }}
         </td>
+        <div class="hidden">/</div>
+
         <td rowspan="1" colspan="3">
           {{ $t("Natural ") }}
         </td>
@@ -1406,6 +1427,18 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-17">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="2" colspan="1">
+            {{ $t("Ventilation ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
+
         <td rowspan="1" colspan="3">
           {{ $t("Artificial") }}
         </td>
@@ -1498,6 +1531,13 @@
         <td>50%</td>
       </tr>
       <tr id="Oth-row-18">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+        </div>
         <td>{{ $t("Opening Area ") }}</td>
         <td rowspan="1" colspan="3">
           <div class="hidden">/</div>
@@ -1605,6 +1645,13 @@
         <td rowspan="1" colspan="10" class="h-4 bg-[#bfbfbf]"></td>
       </tr>
       <tr id="Oth-row-20" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="9" colspan="1">
           {{
             $t(
@@ -1612,9 +1659,13 @@
             )
           }}
         </td>
+        <div class="hidden">/</div>
+
         <td rowspan="2" colspan="1">
           {{ $t("lighting ") }}
         </td>
+        <div class="hidden">/</div>
+
         <td rowspan="1" colspan="2">
           {{ $t("Natural ") }}
         </td>
@@ -1716,12 +1767,35 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-21" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="9" colspan="1">
+            {{
+              $t(
+                "Precautionary measures for (IAQ) of Residential Education Spaces "
+              )
+            }}
+          </td>
+          <div class="hidden">/</div>
+
+          <td rowspan="2" colspan="1">
+            {{ $t("lighting ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
+
         <td>{{ $t("Artificial ") }}</td>
+        <div class="hidden">/</div>
+
         <td>
           {{ $t("(Using ultraviolet (UV) light technology ") }}
         </td>
         <td class="bg-white">
-          <img src="../assets/Picture157.png" class="mx-auto w-10" alt="" />
+          <img src="../assets/Picture171.png" class="mx-auto w-10" alt="" />
         </td>
         <td class="bg-white">
           <input
@@ -1808,9 +1882,27 @@
         <td>50%</td>
       </tr>
       <tr id="Oth-row-22" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="9" colspan="1">
+            {{
+              $t(
+                "Precautionary measures for (IAQ) of Residential Education Spaces "
+              )
+            }}
+          </td>
+
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="2" colspan="1">
           {{ $t("Ventilation ") }}
         </td>
+        <div class="hidden">/</div>
+
         <td rowspan="1" colspan="2">
           {{ $t("Natural ") }}
         </td>
@@ -1912,7 +2004,30 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-23" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="9" colspan="1">
+            {{
+              $t(
+                "Precautionary measures for (IAQ) of Residential Education Spaces "
+              )
+            }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="2" colspan="1">
+            {{ $t("Ventilation ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
+
         <td>{{ $t("Artificial ") }}</td>
+        <div class="hidden">/</div>
+
         <td>
           {{ $t("Using air purifiers ") }}
         </td>
@@ -2004,7 +2119,25 @@
         <td>50%</td>
       </tr>
       <tr id="Oth-row-24" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="9" colspan="1">
+            {{
+              $t(
+                "Precautionary measures for (IAQ) of Residential Education Spaces "
+              )
+            }}
+          </td>
+
+          <div class="hidden">/</div>
+        </div>
         <td>{{ $t("Temperature ") }}</td>
+        <div class="hidden">/</div>
+
         <td rowspan="1" colspan="2">
           {{ $t("Range (17 to 27)Celsius degree ") }}
         </td>
@@ -2106,7 +2239,25 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-25" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="9" colspan="1">
+            {{
+              $t(
+                "Precautionary measures for (IAQ) of Residential Education Spaces "
+              )
+            }}
+          </td>
+
+          <div class="hidden">/</div>
+        </div>
         <td>{{ $t("Humidity ") }}</td>
+        <div class="hidden">/</div>
+
         <td rowspan="1" colspan="2">
           <div class="hidden">/</div>
           {{ $t("Range (40 to 60%) ") }}
@@ -2209,9 +2360,27 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-26" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="9" colspan="1">
+            {{
+              $t(
+                "Precautionary measures for (IAQ) of Residential Education Spaces "
+              )
+            }}
+          </td>
+
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="3" colspan="1">
           {{ $t("indoor plants ") }}
         </td>
+        <div class="hidden">/</div>
+
         <td rowspan="1" colspan="2">
           {{ $t("Snake plant ") }}
         </td>
@@ -2313,6 +2482,28 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-27" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="9" colspan="1">
+            {{
+              $t(
+                "Precautionary measures for (IAQ) of Residential Education Spaces "
+              )
+            }}
+          </td>
+
+          <div class="hidden">/</div>
+
+          <td rowspan="3" colspan="1">
+            {{ $t("indoor plants ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
+
         <td rowspan="1" colspan="2">
           {{ $t("Aloe vera ") }}
         </td>
@@ -2414,6 +2605,27 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-28" class="bg-[#c8c8c8]">
+        <div class="hidden">
+          <td rowspan="15" colspan="1">
+            {{ $t("Indoor Air Quality (IAQ) ") }}
+          </td>
+
+          <div class="hidden">/</div>
+          <td rowspan="9" colspan="1">
+            {{
+              $t(
+                "Precautionary measures for (IAQ) of Residential Education Spaces "
+              )
+            }}
+          </td>
+
+          <div class="hidden">/</div>
+
+          <td rowspan="3" colspan="1">
+            {{ $t("indoor plants ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="1" colspan="2">
           {{ $t("Cactus ") }}
         </td>
@@ -2521,6 +2733,8 @@
         <td rowspan="2" colspan="2">
           {{ $t("Infrastructure for Residential Education Spaces ") }}
         </td>
+        <div class="hidden">/</div>
+
         <td rowspan="1" colspan="3">
           {{ $t("Availability of internet services ") }}
         </td>
@@ -2623,6 +2837,12 @@
         <td>75%</td>
       </tr>
       <tr id="Oth-row-31">
+        <div class="hidden">
+          <td rowspan="2" colspan="2">
+            {{ $t("Infrastructure for Residential Education Spaces ") }}
+          </td>
+          /
+        </div>
         <td rowspan="1" colspan="3">
           {{ $t("Using Laptop or Tablet ") }}
         </td>
@@ -2728,6 +2948,8 @@
         <td rowspan="4" colspan="2">
           {{ $t("furniture ") }}
         </td>
+        <div class="hidden">/</div>
+
         <td rowspan="1" colspan="3">
           {{ $t(" Average height of students (1.30 m - 1.80) ") }}
         </td>
@@ -2810,6 +3032,12 @@
         <td>25%</td>
       </tr>
       <tr id="Oth-row-33">
+        <div class="hidden">
+          <td rowspan="4" colspan="2">
+            {{ $t("furniture ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="1" colspan="3">
           {{ $t("Height of student seats (28-42cm) ") }}
         </td>
@@ -2892,6 +3120,12 @@
         <td>25%</td>
       </tr>
       <tr id="Oth-row-34">
+        <div class="hidden">
+          <td rowspan="4" colspan="2">
+            {{ $t("furniture ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="1" colspan="3">
           {{ $t("Height of student table (50-70cm) ") }}
         </td>
@@ -2974,6 +3208,12 @@
         <td>25%</td>
       </tr>
       <tr id="Oth-row-35">
+        <div class="hidden">
+          <td rowspan="4" colspan="2">
+            {{ $t("furniture ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="1" colspan="3">
           {{ $t("width of student table (55-65 cm) ") }}
         </td>
@@ -3099,13 +3339,13 @@
 
         <td></td>
         <div class="hidden">/</div>
-        <td>{{ percentageFrom24.toFixed(2) }}%</td>
+        <td>{{ percentageFrom24.toFixed(0) }}%</td>
         <div class="hidden">/</div>
-        <td>{{ percentageFrom19.toFixed(2) }}%</td>
+        <td>{{ percentageFrom19.toFixed(0) }}%</td>
         <div class="hidden">/</div>
-        <td>{{ percentageFrom10.toFixed(2) }}%</td>
+        <td>{{ percentageFrom10.toFixed(0) }}%</td>
         <div class="hidden">/</div>
-        <td>{{ percentageFrom27.toFixed(2) }}%</td>
+        <td>{{ percentageFrom27.toFixed(0) }}%</td>
       </tr>
       <tr id="Oth-row-39" class="bg-[#8eaadb]">
         <td rowspan="1" colspan="7">
@@ -3118,7 +3358,7 @@
 
         <td></td>
         <div class="hidden">/</div>
-        <td rowspan="1" colspan="4">{{ percentageFrom80.toFixed(2) }}%</td>
+        <td rowspan="1" colspan="4">{{ percentageFrom80.toFixed(0) }}%</td>
       </tr>
       <tr id="Oth-row-40" class="bg-[#b4c6e7]">
         <td rowspan="1" colspan="7">
@@ -3130,10 +3370,10 @@
         </td>
 
         <td></td>
-        <td>21</td>
-        <td>18</td>
+        <td>20</td>
+        <td>17</td>
         <td>6</td>
-        <td>25</td>
+        <td>24</td>
       </tr>
       <tr id="Oth-row-41" class="bg-[#b4c6e7]">
         <td rowspan="1" colspan="7">
@@ -3145,7 +3385,7 @@
         </td>
 
         <td></td>
-        <td rowspan="1" colspan="4">70</td>
+        <td rowspan="1" colspan="4">67</td>
       </tr>
     </table>
   </div>
@@ -3158,11 +3398,14 @@
   <div class=" ">
     <div class="relative overflow-x-auto"></div>
 
-    <div v-if="showEnhanceOthForm" class="grid grid-cols-1 justify-center">
+    <div
+      v-if="showEnhanceOthForm"
+      class="grid grid-cols-1 place-content-center justify-center"
+    >
       <div
-        class="fixed top-0 left-0 right-0 flex z-30 items-center justify-center w-fit p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+        class="fixed content-center backdrop-filter backdrop-blur-sm place-content-center flex z-30 items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
       >
-        <div class="relative w-fit max-h-full">
+        <div class="relative max-h-full">
           <form
             action="#"
             class="relative bg-gray-100 rounded-lg shadow dark:bg-gray-700"
@@ -3171,53 +3414,62 @@
             <div
               class="flex ltr justify-between p-4 border-b rounded-t dark:border-gray-600"
             >
-              <h3
-                class="text-xl font-semibold text-gray-900 dark:text-white"
-              ></h3>
+              <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                All rows are not chocen
+              </h3>
               <button
-                :disabled="!shiftStarted"
                 type="button"
                 @click="close()"
                 class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <svg
+                  class="w-3 block h-3"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 14"
+                >
                   <path
-                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
                   />
                 </svg>
-
-                <span class="sr-only">Close modal</span>
               </button>
             </div>
             <!-- Modal body -->
-
-            <table
-              class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
-            >
-              <thead
-                class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+            <div class="max-h-96 overflow-x-auto">
+              <table
+                class="w-full text-sm text-left rtl:text-right h-4/5 overflow-x-auto text-gray-500 dark:text-gray-400"
               >
-                <tr>
-                  <th scope="col" class="text-start px-6 py-3">Product name</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr
-                  v-for="(row, index) in parsedTextArray"
-                  :key="index"
-                  class="bg-white border-b text-start dark:bg-gray-800 dark:border-gray-700"
+                <thead
+                  class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
                 >
-                  <th
-                    scope="row"
-                    class="px-6 py-4 text-start font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  <tr>
+                    <th scope="col" class="text-start px-6 py-3">
+                      all not chosen (Design criteria (for Residential Education
+                      Spaces) )
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    v-for="(row, index) in parsedTextArrayOth"
+                    :key="index"
+                    class="bg-white border-b text-start dark:bg-gray-800 dark:border-gray-700"
                   >
-                    {{ row }}
-                  </th>
-                </tr>
-              </tbody>
-            </table>
+                    <th
+                      scope="row"
+                      class="px-6 py-4 text-start font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {{ row }}
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <button
-              :disabled="!shiftStarted"
               type="submit"
               class="relative m-4 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
             >
@@ -3234,12 +3486,13 @@
       </div>
     </div>
   </div>
-  <table
+  <!-- <table
+    id="Enhancetable"
     v-if="showEnhanceOth"
     class="min-x-[1000px] max-lg:w-[900px] d-print-none overflow-x-auto"
   >
     <tbody v-html="tableContentOth"></tbody>
-  </table>
+  </table> -->
 </template>
 <script setup>
 import { ref, onMounted, computed, watch } from "vue";
@@ -3268,7 +3521,8 @@ const close = () => {
   showEnhanceOthForm.value = false;
 };
 const openEnhanceOthForm = () => {
-  tableContentOth.value = getParsedDataFromLocalStorageOth();
+  parsedTextArrayOth.value = getParsedDataFromLocalStorageOth();
+
   showEnhanceOthForm.value = true;
 };
 const openEnhanceModal = () => {
@@ -3310,7 +3564,8 @@ const staticRows = () => {
 onMounted(() => {
   rows.value = Array.from(document.querySelectorAll('tr[id^="Oth-"]')); // Select rows with IDs starting with "Oth-"
   console.log(tdes.value);
-  listContentOth.value = getParsedDataFromLocalStorageOth();
+  parsedTextArrayOth.value = getParsedDataFromLocalStorageOth();
+
   initializeCheckboxes();
   updateColumnSums();
   staticRows();
@@ -3353,15 +3608,43 @@ const initializeCheckboxes = () => {
 const handleCheckboxChange = (event, rowIndex) => {
   const clickedCheckbox = event.target;
   const row = clickedCheckbox.closest("tr");
-  const groupOth = ["Oth-row-1", "Oth-row-2"];
+  const groupOth1 = ["Oth-row-1", "Oth-row-2"];
+  const groupOth2 = ["Oth-row-7", "Oth-row-8"];
   if (!row || !row.id.startsWith("Oth-")) return;
   const checkboxesInRow = Array.from(
     row.querySelectorAll('input[type="checkbox"]')
   );
-  groupOth.forEach((groupId) => {
+  groupOth1.forEach((groupId) => {
     if (groupId !== row.id) {
       const otherRow = document.getElementById(groupId);
-      if (otherRow && groupOth.includes(row.id)) {
+      if (otherRow && groupOth1.includes(row.id)) {
+        const checkboxesInOtherRow = Array.from(
+          otherRow.querySelectorAll('input[type="checkbox"]')
+        );
+        checkboxesInOtherRow.forEach((otherCheckbox, checkboxIndex) => {
+          // Store the current state of the checkbox
+          const isCheckedBeforeChange = otherCheckbox.checked;
+          // Change the state of the checkbox
+          otherCheckbox.checked = false;
+          // Update local storage based on the original state of the checkbox
+          const localStorageKey = `Oth-row-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Oth-row-${groupId}-checkbox-${checkboxIndex}`;
+          if (isCheckedBeforeChange) {
+            localStorage.removeItem(localStorageKey);
+            localStorage.removeItem(localStorageKey2);
+            toggleSvgDisplay(otherCheckbox, rowIndex);
+          }
+          saveRowsWithCheckboxesToLocalStorage();
+
+          localStorage.setItem(`allRows-${groupId}`, row.outerHTML);
+        });
+      }
+    }
+  });
+  groupOth2.forEach((groupId) => {
+    if (groupId !== row.id) {
+      const otherRow = document.getElementById(groupId);
+      if (otherRow && groupOth2.includes(row.id)) {
         const checkboxesInOtherRow = Array.from(
           otherRow.querySelectorAll('input[type="checkbox"]')
         );
@@ -3410,7 +3693,7 @@ const handleCheckboxChange = (event, rowIndex) => {
   tableContentOth.value = getAllRowsFromLocalStorageOth();
   listContentOth.value = getParsedDataFromLocalStorageOth();
   console.log(listContentOth.value);
-  parsedTextArray.value = getParsedDataFromLocalStorageOth();
+  parsedTextArrayOth.value = getParsedDataFromLocalStorageOth();
 };
 
 const toggleSvgDisplay = (checkbox, rowIndex) => {
@@ -3440,19 +3723,19 @@ const updateRowRefsBasedOnCheckboxState = () => {
 };
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 70) * 100;
+  return (totalSum.value / 67) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 21) * 100;
+  return (columnSums.value[0] / 20) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 18) * 100;
+  return (columnSums.value[1] / 17) * 100;
 });
 const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 6) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 25) * 100;
+  return (columnSums.value[3] / 24) * 100;
 });
 const totalSum = computed(() => {
   return (
@@ -3515,22 +3798,10 @@ checkboxes.forEach((checkbox) => {
 watch(
   columnSums,
   (newColumnSums) => {
-    localStorage.setItem(
-      "Oth-columnSum-percentage-0",
-      percentageFrom24.value.toFixed(2)
-    );
-    localStorage.setItem(
-      "Oth-columnSum-percentage-1",
-      percentageFrom19.value.toFixed(2)
-    );
-    localStorage.setItem(
-      "Oth-columnSum-percentage-2",
-      percentageFrom10.value.toFixed(2)
-    );
-    localStorage.setItem(
-      "Oth-columnSum-percentage-3",
-      percentageFrom27.value.toFixed(2)
-    );
+    localStorage.setItem("Oth-columnSum-percentage-0", percentageFrom24.value);
+    localStorage.setItem("Oth-columnSum-percentage-1", percentageFrom19.value);
+    localStorage.setItem("Oth-columnSum-percentage-2", percentageFrom10.value);
+    localStorage.setItem("Oth-columnSum-percentage-3", percentageFrom27.value);
   },
   { deep: true }
 );
@@ -3559,7 +3830,7 @@ const getAllRowsFromLocalStorageOth = () => {
 
   return AllRowsArray.map((item) => item.value).join("");
 };
-let parsedTextArray = ref([]);
+let parsedTextArrayOth = ref([]);
 
 const AllRowsArray = ref([]);
 const getParsedDataFromLocalStorageOth = () => {
@@ -3584,16 +3855,16 @@ const getParsedDataFromLocalStorageOth = () => {
     return idA - idB;
   });
 
-  const parsedTextArray = AllRowsArray.map((item) => {
+  const parsedTextArrayOth = AllRowsArray.map((item) => {
     const parser = new DOMParser();
     const doc = parser.parseFromString(item.value, "text/html");
     return doc.body.textContent.trim();
   });
 
   // Convert to JSON format
-  const jsonData = JSON.stringify(parsedTextArray);
+  const jsonData = JSON.stringify(parsedTextArrayOth);
 
-  return parsedTextArray;
+  return parsedTextArrayOth;
 };
 </script>
 <style>
