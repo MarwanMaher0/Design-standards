@@ -1,17 +1,21 @@
 <template>
   <div class="">
 
-    <table class=" max-lg:min-w-[900px] overflow-x-auto">
+    <table class=" max-lg:min-w-[900px]  overflow-x-auto">
       <tr id="Ext-row-1 ">
-        <td class="bg-[#2f5496] text-gray-100" rowspan="48" colspan="1">
+        <td class="bg-[#2f5496] pt-[500px] text-gray-100" rowspan="48" colspan="1">
 
-            <p class=" text-6xl text-nowrap  rotate-90 ">
+            <p class=" text-6xl text-nowrap  -rotate-90 ">
               {{ $t(" External Spaces (Layout) ") }}
             </p>
           <div class="hidden">/</div>
         </td>
-        <td rowspan="42" colspan="2">
-          {{ $t(" Design Criteria for Layout ") }}
+        <td rowspan="42" class="pt-[500px]" colspan="2">
+          <p class=" text-5xl text-nowrap  -rotate-90 ">
+
+            {{ $t(" Design Criteria for Layout ") }}
+          </p>
+
         </td>
         <div class="hidden">/</div>
 
@@ -2213,7 +2217,7 @@
     <td class="bg-[#8eaadb]" rowspan="1" colspan="7">
       {{
         $t(
-          " Total Percentages of Realized Points for Resilient Design Criteria in layout "
+          " Total Percentages of Realized Points for Resilient Design Criteria in layout  "
         )
       }}
     </td>
@@ -2224,7 +2228,7 @@
   </tr>
   <tr id="Ext-row-46 " class="bg-[#b4c6e7]">
     <td class="bg-[#b4c6e7]" rowspan="1" colspan="7">
-      {{ $t(" Required Points for Resilient Design Criteria in layout ") }}
+      {{ $t(" Required Points for Resilient Design Criteria in layout  ") }}
     </td>
 
     <td>16</td>
@@ -2245,8 +2249,21 @@
   </div>
   <div class="block">
     <div class="flex justify-center items-center text-center">
+      <div class="text-xl py-4">
+      <p> 
+        {{ $t(" Evaluation of the Resilient Design Criteria in Layout ") }}
+        
+      </p>
       <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
+    </div>
+    <div class="text-xl py-4">
+      <p> 
+        {{ $t(" Total Evaluation of the Resilient Design Criteria in the Classroom ") }}
+        
+      </p>
       <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
+
+    </div>
     </div>
   </div>
  

@@ -2,8 +2,8 @@
   <div class="">
     <table class=" max-lg:min-w-[900px] overflow-x-auto">
       <tr id="Inte-row-1">
-        <td class="bg-[#2f5496] text-gray-100" rowspan="115" colspan="1">
-          <p class=" text-6xl text-nowrap  rotate-90 ">
+        <td class="bg-[#2f5496] pt-[65rem] text-gray-100" rowspan="115" colspan="1">
+          <p class=" text-6xl text-nowrap  -rotate-90 ">
 
             {{ $t(" Internal Educational Spaces (Classroom) ") }}
           </p>
@@ -11,8 +11,12 @@
         </td>
         <div class="hidden">/</div>
 
-        <td rowspan="109" colspan="2">
-          {{ $t(" Internal Educational Spaces (Classroom): ") }}
+        <td rowspan="109" colspan="2" class="pt-[65rem]">
+          <p class=" text-5xl text-nowrap  -rotate-90 ">
+
+            {{ $t(" Internal Educational Spaces (Classroom): ") }}
+          </p>
+
         </td>
         <div class="hidden">/</div>
 
@@ -5189,8 +5193,21 @@
   </div>
   <div class="block">
     <div class="flex justify-center items-center text-center">
+    <div class="text-xl py-4">
+      <p>
+        {{ $t(" Evaluation of the Resilient Design Criteria in the Classroom ") }}
+      </p>
+
       <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
+    </div>
+    <div class="text-xl py-4">
+      <p> 
+        {{ $t(" Total Evaluation of the Resilient Design Criteria in the Classroom ") }}
+        
+      </p>
+
       <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
+    </div>
 
     </div>
   </div>
@@ -5372,7 +5389,6 @@ const handleCheckboxChange = (event, rowIndex) => {
   const groupInte5 = ["Inte-row-11", "Inte-row-12"];
   const groupInte6 = ["Inte-row-13", "Inte-row-14"];
   const groupInte7 = ["Inte-row-15", "Inte-row-16"];
-  const groupInte8 = ["Inte-row-35", "Inte-row-117", "Inte-row-118", "Inte-row-119", "Inte-row-120"];
 
   groupInte1.forEach((groupId) => {
     if (groupId !== row.id) {
@@ -5542,30 +5558,30 @@ const handleCheckboxChange = (event, rowIndex) => {
       }
     }
   });
-  groupInte8.forEach((groupId) => {
-    if (groupId !== row.id) {
-      const otherRow = document.getElementById(groupId);
-      if (otherRow && groupInte8.includes(row.id)) {
-        const checkboxesInOtherRow = Array.from(
-          otherRow.querySelectorAll('input[type="checkbox"]')
-        );
-        checkboxesInOtherRow.forEach((otherCheckbox, checkboxIndex) => {
-          // Store the current state of the checkbox
-          const isCheckedBeforeChange = otherCheckbox.checked;
-          // Change the state of the checkbox
-          otherCheckbox.checked = false;
-          // Update local storage based on the original state of the checkbox
-          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
-          if (isCheckedBeforeChange) {
-            localStorage.removeItem(localStorageKey);
-            localStorage.removeItem(localStorageKey2);
-            toggleSvgDisplay(otherCheckbox, rowIndex);
-          }
-        });
-      }
-    }
-  });
+  // groupInte8.forEach((groupId) => {
+  //   if (groupId !== row.id) {
+  //     const otherRow = document.getElementById(groupId);
+  //     if (otherRow && groupInte8.includes(row.id)) {
+  //       const checkboxesInOtherRow = Array.from(
+  //         otherRow.querySelectorAll('input[type="checkbox"]')
+  //       );
+  //       checkboxesInOtherRow.forEach((otherCheckbox, checkboxIndex) => {
+  //         // Store the current state of the checkbox
+  //         const isCheckedBeforeChange = otherCheckbox.checked;
+  //         // Change the state of the checkbox
+  //         otherCheckbox.checked = false;
+  //         // Update local storage based on the original state of the checkbox
+  //         const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
+  //         const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+  //         if (isCheckedBeforeChange) {
+  //           localStorage.removeItem(localStorageKey);
+  //           localStorage.removeItem(localStorageKey2);
+  //           toggleSvgDisplay(otherCheckbox, rowIndex);
+  //         }
+  //       });
+  //     }
+  //   }
+  // });
 
   
   checkboxesInRow.forEach((checkbox, checkboxIndex) => {

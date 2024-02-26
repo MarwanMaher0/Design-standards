@@ -137,7 +137,8 @@ const props = defineProps({
 });
 const schooltital = ref("schoolName");
 const gitSchooltital = () => {
-  schooltital.value = localStorage.getItem('schoolName');
+
+    schooltital.value = localStorage.getItem('schoolName');
 };
 const unSelctAll = () => {
    rows.value.forEach((row, rowIndex) => {
@@ -215,6 +216,9 @@ setInterval(gitSchooltital, 3000);
 
   .d-print {
     display: block !important;
+  }
+  .pading{
+    padding-top: 100px;
   }
 }
 

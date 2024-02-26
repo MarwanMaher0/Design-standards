@@ -2,16 +2,20 @@
   <div class="">
     <table class="x-[1000px] max-lg:w-[900px] overflow-x-auto">
       <tr id="Oth-row-1">
-        <td class="bg-[#2f5496] text-gray-100" rowspan="41" colspan="1">
-            <p class=" text-6xl text-nowrap  rotate-90 ">
+        <td class="bg-[#2f5496] pt-[35rem] text-gray-100" rowspan="41" colspan="1">
+            <p class=" text-6xl text-nowrap  -rotate-90 ">
 
               {{ $t(" Other Education Spaces ") }}
             </p>
 
           <div class="hidden">/</div>
         </td>
-        <td rowspan="35" colspan="2">
-          {{ $t(" Design criteria (for Residential Education Spaces) ") }}
+        <td rowspan="35" colspan="2" class="pt-[20rem]">
+          <p class=" text-4xl text-nowrap  -rotate-90 ">
+
+            {{ $t(" Design criteria (for Residential Education Spaces) ") }}
+          </p>
+
           <div class="hidden">/</div>
         </td>
         <td rowspan="11" colspan="1">
@@ -1770,8 +1774,21 @@
   </div>
   <div class="block">
     <div class="flex justify-center items-center text-center">
-      <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
+
+       <div class="text-xl py-4">
+        <p> 
+          {{ $t(" Evaluation of the Resilient Design Criteria in Residential Education Spaces ") }}
+          
+        </p>
+        <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
+      </div>
+      <div class="text-xl py-4">
+      <p> 
+        {{ $t(" Total Evaluation of the Resilient Design Criteria in Residential Education Spaces ") }}
+        
+      </p>
       <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
+    </div>
 
     </div>
   </div>

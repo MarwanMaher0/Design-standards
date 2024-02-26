@@ -27,7 +27,7 @@ ChartJS.register(
 
 const chartData = ref({
   labels: [
-    "Epidemics",
+    "",
 
   ],
   datasets: [

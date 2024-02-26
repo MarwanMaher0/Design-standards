@@ -12,7 +12,6 @@
         </td>
 
         <td rowspan="6">
-          <button @click="unSelctAll()">Unselect All</button>
         </td>
         <td>{{ columnSums[0] }}</td>
 
@@ -71,10 +70,10 @@
           }}
         </td>
 
-        <td>116</td>
         <td>85</td>
-        <td>54</td>
-        <td>135</td>
+        <td>65</td>
+        <td>44</td>
+        <td>128</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
         <td class="bg-[#d9e2f3]" rowspan="1" colspan="19">
@@ -91,8 +90,20 @@
   </div>
   <div class="block">
     <div class="flex justify-center items-center text-center">
-      <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
+      <div class="text-xl py-4">
+        <p> 
+          {{ $t(" Total Evaluation of the Resilient Design Criteria in All Schools' Spaces ") }}
+          
+        </p>
+        <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
+      </div>
+      <div class="text-xl py-4">
+      <p> 
+        {{ $t(" Total Evaluation of the Resilient in the School ") }}
+        
+      </p>
       <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
+    </div>
 
     </div>
   </div>
@@ -156,7 +167,7 @@
                       <router-link
                         :to="{ name: 'ConExternalv' }"
                         class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-                        >                      {{ $t("Click to enhance") }}
+                        >                      {{ $t(" CLICK TO ENHANCE") }}
 </router-link
                       >
                     </th>
@@ -205,7 +216,7 @@
                       <router-link
                         :to="{ name: 'ConInternal' }"
                         class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-                        >{{ $t("Click to enhance") }}</router-link
+                        >{{ $t(" CLICK TO ENHANCE") }}</router-link
                       >
                     </th>
                   </tr>
@@ -254,7 +265,7 @@
                       <router-link
                         :to="{ name: 'ConStairs' }"
                         class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-                        >{{ $t("Click to enhance") }}</router-link
+                        >{{ $t(" CLICK TO ENHANCE") }}</router-link
                       >
                     </th>
                   </tr>
@@ -302,7 +313,7 @@
                       <router-link
                         :to="{ name: 'ConOther' }"
                         class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-                        >{{ $t("Click to enhance") }}</router-link
+                        >{{ $t(" CLICK TO ENHANCE") }}</router-link
                       >
                     </th>
 
@@ -337,7 +348,7 @@
                 </tbody>
               </table>
             </div>
-            <button
+            <!-- <button
               v-if="showEnhanceAllFormChosenBtn"
               @click="changeEnhanceAllForm()"
               class="relative m-4 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
@@ -358,7 +369,7 @@
               >
                 غير مختار
               </span>
-            </button>
+            </button> -->
 
             <!-- Modal footer -->
           </form>
@@ -384,19 +395,19 @@ let columnSums = ref({
 let showEnhanceAllOpen = ref(true);
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 390) * 100;
+  return (totalSum.value / 322) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 116) * 100;
+  return (columnSums.value[0] / 85) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 85) * 100;
+  return (columnSums.value[1] / 65) * 100;
 });
 const percentageFrom10 = computed(() => {
-  return (columnSums.value[2] / 54) * 100;
+  return (columnSums.value[2] / 44) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 135) * 100;
+  return (columnSums.value[3] / 128) * 100;
 });
 const totalSum = computed(() => {
   return (
@@ -546,28 +557,28 @@ OthpercentageFrom80.value = formattedOthValue;
 
 
 };
-const changeEnhanceAllForm = () => {
-  parsedUnCheckRowsTextArrayAll.value =
-    getParsedCheckRowsDataFromLocalStorageAll();
-  parsedUnCheckRowsTextArrayExt.value =
-    getParsedCheckRowsDataFromLocalStorageExt();
-  parsedUnCheckRowsTextArrayInte.value =
-    getParsedCheckRowsDataFromLocalStorageInte();
-  parsedUnCheckRowsTextArraysta.value =
-    getParsedCheckRowsDataFromLocalStoragesta();
-  parsedUnCheckRowsTextArrayOth.value =
-    getParsedCheckRowsDataFromLocalStorageOth();
-  showEnhanceAllFormChosenBtn.value = false;
-  showEnhanceAllFormUnChosenBtn.value = true;
-  showEnhanceAllForm.value = true;
-  tabletitelExt.value = "all Chosen Rows In (Design Criteria for Layout)";
-  tabletitelInte.value =
-    "all Chosen Rows In (Internal Educational Spaces (Classroom))";
-  tabletitelsta.value =
-    "all Chosen Rows In (Design criteria for Stairs and Corridors)";
-  tabletitelOth.value =
-    "all Chosen Rows In (Design criteria (for Residential Education Spaces))";
-};
+// const changeEnhanceAllForm = () => {
+//   parsedUnCheckRowsTextArrayAll.value =
+//     getParsedCheckRowsDataFromLocalStorageAll();
+//   parsedUnCheckRowsTextArrayExt.value =
+//     getParsedCheckRowsDataFromLocalStorageExt();
+//   parsedUnCheckRowsTextArrayInte.value =
+//     getParsedCheckRowsDataFromLocalStorageInte();
+//   parsedUnCheckRowsTextArraysta.value =
+//     getParsedCheckRowsDataFromLocalStoragesta();
+//   parsedUnCheckRowsTextArrayOth.value =
+//     getParsedCheckRowsDataFromLocalStorageOth();
+//   showEnhanceAllFormChosenBtn.value = false;
+//   showEnhanceAllFormUnChosenBtn.value = true;
+//   showEnhanceAllForm.value = true;
+//   tabletitelExt.value = "all Chosen Rows In (Design Criteria for Layout)";
+//   tabletitelInte.value =
+//     "all Chosen Rows In (Internal Educational Spaces (Classroom))";
+//   tabletitelsta.value =
+//     "all Chosen Rows In (Design criteria for Stairs and Corridors)";
+//   tabletitelOth.value =
+//     "all Chosen Rows In (Design criteria (for Residential Education Spaces))";
+// };
 
 const unSelctAll = () => {
   rows.value.forEach((row, rowIndex) => {

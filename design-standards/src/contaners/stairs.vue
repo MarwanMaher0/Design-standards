@@ -2,8 +2,8 @@
   <div class="">
     <table class=" max-lg:min-w-[900px] overflow-x-auto">
       <tr id="sta-row-1">
-        <td class="bg-[#2f5496] text-gray-100" rowspan="33" colspan="1">
-          <p class=" text-6xl text-nowrap  rotate-90 ">
+        <td class="bg-[#2f5496]    text-gray-100" rowspan="33" colspan="1">
+          <p class=" text-6xl   text-nowrap  -rotate-90 ">
 
             {{ $t(" stairs and Corridors: ") }}
           </p>
@@ -11,8 +11,12 @@
         </td>
         <div class="hidden">/</div>
 
-        <td rowspan="27" colspan="2">
-          {{ $t(" Design criteria for Stairs and Corridors:  ") }}
+        <td rowspan="27" colspan="2" class="pb-24 pading">
+          <p class=" text-4xl text-nowrap -rotate-90 ">
+
+            {{ $t(" Design criteria for Stairs and Corridors:  ") }}
+          </p>
+
         </td>
         <div class="hidden">/</div>
 
@@ -1371,8 +1375,20 @@
   </div>
   <div class="block">
     <div class="flex justify-center items-center text-center">
-      <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
+        <div class="text-xl py-4">
+        <p> 
+          {{ $t(" Evaluation of the Resilient Design Criteria for Stairs and Corridors ") }}
+          
+        </p>
+        <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
+      </div>
+      <div class="text-xl py-4">
+      <p> 
+        {{ $t(" Total Evaluation of the Resilient Design Criteria for Stairs and Corridors ") }}
+        
+      </p>
       <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
+    </div>
 
     </div>
   </div>
