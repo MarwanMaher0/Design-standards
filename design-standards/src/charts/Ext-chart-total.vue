@@ -36,7 +36,7 @@ const chartData = ref({
         localStorage.getItem("Ext-columnSum-total"),
       ],
 
-      backgroundColor: ["#c00000"],
+      backgroundColor: ["#FFA500	"],
     },
   ],
 });

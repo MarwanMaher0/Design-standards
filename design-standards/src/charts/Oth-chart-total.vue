@@ -37,7 +37,7 @@ const chartData = ref({
 
       ],
 
-      backgroundColor: ["#c00000"],
+      backgroundColor: ["#FFA500	"],
     },
   ],
 });
