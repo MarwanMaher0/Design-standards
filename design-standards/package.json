@@ -8,6 +8,7 @@
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
     "bootstrap-vue": "^2.23.1",
     "chart.js": "^4.4.1",

@@ -1,23 +1,23 @@
 <template>
   <div class="">
-    <table class="min-x-[1000px] max-lg:w-[900px] overflow-x-auto">
+    <table class=" max-lg:min-w-[900px] overflow-x-auto">
       <tr>
         <td class="bg-[#2f5496] text-xl text-gray-100" rowspan="3" colspan="8">
           {{
             $t(
-              "Design, Environmental Criteria, and Precautionary Measures for Different Educational Spaces "
+              " Design, Environmental Criteria, and Precautionary Measures for Different Educational Spaces  "
             )
           }}
         </td>
         <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="3" colspan="1">
-          <div class="-rotate-90">{{ $t("Icons ") }}</div>
+          <div class="-rotate-90">{{ $t(" Icons ") }}</div>
         </td>
         <td class="bg-[#2f5496] w-64 text-gray-100" rowspan="1" colspan="4">
-          {{ $t("Resilient Design Criteria and Requirements ") }}
+          {{ $t(" Resilient Design Criteria and Requirements ") }}
         </td>
         <td class="bg-[#2f5496] w-24 text-gray-100" rowspan="3" colspan="1">
           <div class="-rotate-90">
-            {{ $t("Weight of different Criteria ") }}
+            {{ $t(" Weight of different Criteria ") }}
           </div>
         </td>
       </tr>
@@ -28,22 +28,22 @@
           colspan="1"
         >
           <div class="-rotate-90">
-            {{ $t("Epidemics ") }}
+            {{ $t(" Epidemics ") }}
           </div>
         </td>
         <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
           <div class="-rotate-90">
-            {{ $t("Climate Change ") }}
+            {{ $t(" Climate Change ") }}
           </div>
         </td>
         <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
           <div class="-rotate-90">
-            {{ $t("Advanced Technology ") }}
+            {{ $t(" Advanced Technology ") }}
           </div>
         </td>
         <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
           <div class="-rotate-90">
-            {{ $t("Advanced Education ") }}
+            {{ $t(" Advanced Education ") }}
           </div>
         </td>
       </tr>

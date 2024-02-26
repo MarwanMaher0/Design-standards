@@ -1,22 +1,16 @@
-<template>
-  <div :dir="direction" class="overflow-x-auto">
-    <!-- Your main app content -->
-    <div class="absolute z-20 mx-20 m-2 mt-7">
-      <button
-        @click="toggleLanguage"
-        id="theme-toggle"
-        type="button"
-        class="text-gray-500 d-print-none rounded-lg text-sm p-2.5"
-      >
-        <span id="Ar" class="w-5 h-5 font-extrabold text-xl"> Ar </span>
-        <span id="En" class="hidden w-5 h-5 font-extrabold text-xl"> En </span>
-      </button>
-    </div>
-    <RouterView />
+<template class="overflow-x-auto ">
+  <div :dir="direction" >
+    <heder :toggleLanguage="toggleLanguage" class="w-full cover-gradient-2" />
+    <RouterView  class=" overflow-x-auto"/>
   </div>
 </template>
 <script>
+  import heder from "./contaners/heder.vue";
 export default {
+
+  components: {
+    heder,
+  },
   data() {
     return {
       direction: "rtl", // or 'ltr' based on the language
@@ -55,9 +49,8 @@ export default {
     toggleLanguage() {
       var themeToggleDarkIcon = document.getElementById("Ar");
       var themeToggleLightIcon = document.getElementById("En");
-      window.location.reload();
       localStorage.setItem("lang", "en");
-
+      window.location.reload(); 
       if (this.$i18n.locale === "ar") {
         themeToggleLightIcon.classList.remove("hidden");
         themeToggleDarkIcon.classList.add("hidden");
@@ -161,4 +154,13 @@ img {
   width: 30px;
   height: 30px;
 }
+
+.cover-gradient-2 {
+  background: linear-gradient(169.4deg,
+      rgba(57, 132, 244, 0.1) -6.01%,
+      rgba(12, 211, 255, 0.1) 36.87%,
+      rgba(47, 124, 240, 0.1) 78.04%,
+      rgba(14, 101, 232, 0.1) 103.77%);
+}
+
 </style>

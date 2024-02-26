@@ -1,9 +1,21 @@
 <template>
-  <div class="border-8 border-black  overflow-x-auto">
+  <div class="overflow-x-auto">
+    <div class="text-2xl  text-nowrap text-center">
+      <p>
+        {{ $t(" The Design Matrix of Resilient Design Criteria and Requirements in Different Educational Spaces:") }}
+      </p>
+    </div>
+
     <tabelHeder />
     <External />
+    <tabelHeder />
+
     <Internal />
+    <tabelHeder />
+
     <stairs />
+    <tabelHeder />
+
     <Other />
     <Fsooter />
   </div>

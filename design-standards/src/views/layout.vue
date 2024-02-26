@@ -1,6 +1,5 @@
 <template>
   <div class="">
-    <heder class="w-full" />
     <router-view />
   </div>
 </template>

@@ -50,6 +50,7 @@ const chartOptions = ref({
   scales: {
     y: {
       beginAtZero: true,
+      max: 100,
       ticks: {
         callback: function (value) {
           return value + "%";

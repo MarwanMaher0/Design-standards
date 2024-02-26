@@ -1,19 +1,19 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
+  {
+    path: "/",
+    name: "Home",
 
+    component: () => import("../views/Home.vue"),
+  },
   {
     path: "/layout",
     name: "layout",
 
     component: () => import("../views/layout.vue"),
     children: [
-      {
-        path: "/",
-        name: "Home",
-
-        component: () => import("../views/Home.vue"),
-      },
+     
       {
         path: "ConExternalv",
         name: "ConExternalv",

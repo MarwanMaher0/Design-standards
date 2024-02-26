@@ -1,5 +1,5 @@
 <template>
-  <div class="border-8 border-black  ">
+  <div class="border-8 border-black  overflow-x-auto">
     <tabelHeder />
     <Other />
   </div>
