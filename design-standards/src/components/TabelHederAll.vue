@@ -5,19 +5,18 @@
         <td class="bg-[#2f5496] text-2xl text-gray-100" rowspan="3" colspan="8">
           {{
             $t(
-              " Design, Environmental Criteria, and Precautionary Measures for Different Educational Spaces  "
+              "Total Evaluation of Resilient Design Criteria in All Spaces"
             )
           }}
         </td>
         <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="3" colspan="1">
-          <div class="-rotate-90">{{ $t(" Icons ") }}</div>
         </td>
         <td class="bg-[#2f5496] w-64 text-gray-100" rowspan="1" colspan="4">
           {{ $t(" Resilient Design Criteria and Requirements ") }}
         </td>
         <td class="bg-[#2f5496] w-24 text-gray-100" rowspan="3" colspan="1">
           <div class="-rotate-90">
-            {{ $t(" Weight of different Criteria ") }}
+           
           </div>
         </td>
       </tr>

@@ -1,89 +1,153 @@
 <template>
-  <div class="lg:max-w-768   lg:flex lg:flex-wrap">
+  <div class="lg:max-w-768 lg:flex lg:flex-wrap">
     <nav
-      class="cover-gradient-2 block w-full min-w-full overflow-x-hidden text-xxs lg:table border-gray-200 dark:bg-gray-900">
-      <div class=" block lg:flex flex-wrap items-baseline justify-between mx-auto pt-8 p-4">
-        <div class=" flex  items-baseline">
-          <div class=" flex  items-baseline">
-
-
-            <button data-collapse-toggle="navbar-default"
-              class="show-svg d-print-none inline-flex relative items-center lg:hidden w-10 h-10 justify-center text-sm text-gray-500 rounded-lg  focus:outline-none  dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              type="button">
+      class="cover-gradient-2 block w-full min-w-full overflow-x-hidden text-xxs lg:table border-gray-200 dark:bg-gray-900"
+    >
+      <div
+        class="block lg:flex flex-wrap items-baseline justify-between mx-auto pt-8 p-4"
+      >
+        <div class="flex items-baseline">
+          <div class="flex items-baseline">
+            <button
+              data-collapse-toggle="navbar-default"
+              class="show-svg d-print-none inline-flex relative items-center  w-10 h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              type="button"
+            >
               <span class="sr-only ml-20">Open main menu</span>
-              <svg class="w-5 h-5 text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M1 1h15M1 7h15M1 13h15" />
+              <svg
+                class="w-5 h-5 text-gray-600"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
               </svg>
             </button>
           </div>
           <span
-            class="flex items-baseline d-print p-5  border border-[#0c66ee]  rounded-lg  font-bold items-center bg-black capitalize from-sky-500 to-cyan-400 bg-clip-text text-xl  font-bold text-black ">
-             {{ schooltital }}</span>
+            class="flex items-baseline d-print p-5 border border-[#0c66ee] rounded-lg font-bold items-center bg-black capitalize from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-black"
+          >
+            {{ schooltital }}</span
+          >
         </div>
+        <div class=""></div>
 
-        <div  class="hidden w-ful d-print-none pr-10 mr-5 lg:block pt-1 pb-4" id="navbar-default">
+       
+          <div
+            class=" w-ful d-print-none  lg:block pt-1"
+            id=""
+          >
+            <ul
+              class="font-medium w-full items-baseline flex flex-col  mt-4 rounded-lg bg-gray-0 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <Button
+                  type="button"
+                  @click="thePrint"
+                  class="max-w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
+                >
+                  Print
+                </Button>
+              </li>
+
+              <li>
+                <button
+                  @click="toggleLanguage"
+                  id="theme-toggle"
+                  type="button"
+                  class="w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
+                >
+                  <span id="Ar" class="font-extrabold text-xl">Ar </span>
+                  <span id="En" class="hidden font-extrabold text-xl"> En </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  @click="unSelctAllOfThemConfelrm()"
+                  class="max-w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-red-400 via-red-500 to-red-600 border border-[red] text-white"
+                >
+                  Un Selct All
+                </button>
+              </li>
+            </ul>
+          </div>
+      </div>
+      <div
+          class="hidden text-xl d-print-none   pt-1"
+          id="navbar-default"
+        >
           <ul
-            class="font-medium w-full items-baseline flex flex-col p-4 lg:p-0 mt-4  rounded-lg bg-gray-0 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
+          :class="{ 'flex-row-reverse': direction === 'ltr', 'flex-row': direction === 'rtl' }"
+
+            class="font-medium w-full items-baseline block flex-col p-4  mt-4 rounded-lg bg-gray-0    lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700"
+          >
             <li>
-              <router-link active-class="active-link" :to="{ name: 'Home' }"
-                class="block py-2 px-3 hover:bg-gray-100 rounded lg:bg-transparent lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:text-blue-500">Home</router-link>
+              <router-link
+                active-class="active-link"
+                :to="{ name: 'Home' }"
+                class="block py-2 px-3 hover:bg-gray-100 rounded  lg:hover:text-blue-700  dark:text-white lg:dark:text-blue-500"
+                >{{ $t("Home") }}</router-link
+              >
+        
+              	
             </li>
             <li>
-              <router-link active-class="active-link" :to="{ name: 'ConExternalv' }"
-                class="block py-2 px-3 hover:bg-gray-100 rounded lg:bg-transparent lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:text-blue-500">External</router-link>
+              <router-link
+                active-class="active-link"
+                :to="{ name: 'ConExternalv' }"
+                class="block py-2 px-3 hover:bg-gray-100 rounded  lg:hover:text-blue-700  dark:text-white lg:dark:text-blue-500"
+                >{{ $t("External Educational Spaces (layout)") }}</router-link
+              >
             </li>
             <li>
-              <router-link active-class="active-link" :to="{ name: 'ConInternal' }"
-                class="block py-2 px-3 hover:bg-gray-100 rounded lg:bg-transparent lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:text-blue-500">Internal</router-link>
+              <router-link
+                active-class="active-link"
+                :to="{ name: 'ConInternal' }"
+                class="block py-2 px-3 hover:bg-gray-100 rounded  lg:hover:text-blue-700  dark:text-white lg:dark:text-blue-500"
+                >{{ $t("Internal Educational Spaces (Classroom)") }}</router-link
+              >
             </li>
 
             <li>
-              <router-link active-class="active-link" :to="{ name: 'ConStairs' }"
-                class="block py-2 px-3 hover:bg-gray-100 rounded lg:bg-transparent lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:text-blue-500">stairs</router-link>
+              <router-link
+                active-class="active-link"
+                :to="{ name: 'ConStairs' }"
+                class="block py-2 px-3 hover:bg-gray-100 rounded  lg:hover:text-blue-700  dark:text-white lg:dark:text-blue-500"
+                >{{ $t("Servant Spaces (Stairs and corridors)") }}</router-link
+              >
             </li>
             <li>
-              <router-link active-class="active-link" :to="{ name: 'ConOther' }"
-                class="block py-2 px-3 hover:bg-gray-100 rounded lg:bg-transparent lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:text-blue-500">Other</router-link>
+              <router-link
+                active-class="active-link"
+                :to="{ name: 'ConOther' }"
+                class="block py-2 px-3 hover:bg-gray-100 rounded  lg:hover:text-blue-700  dark:text-white lg:dark:text-blue-500"
+                >{{ $t("Residential Educational Spaces") }}</router-link
+              >
             </li>
             <li>
-              <router-link active-class="active-link" :to="{ name: 'ConAll' }"
-                class="block py-2 px-3 hover:bg-gray-100 rounded lg:bg-transparent lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:text-blue-500">AllOfThem</router-link>
-            </li>
-            <li>
-              <Button type="button" @click="thePrint"
-                class="max-w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white">
-                Print
-              </Button>
-
-            </li>
-           
-            <li>
-              <button @click="toggleLanguage" id="theme-toggle" type="button"
-                class="w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white">
-                <span id="Ar" class=" font-extrabold text-xl">Ar </span>
-                <span id="En" class="hidden  font-extrabold text-xl"> En </span>
-              </button>
-            </li>
-            <li>
-              <Button type="button" @click="unSelctAll"
-                class="max-w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-red-400 via-red-500 to-red-600 border border-[red] text-white">
-                Un Selct All
-              </Button>
-              
+              <router-link
+                active-class="active-link"
+                :to="{ name: 'ConAll' }"
+                class="block py-2 px-3 hover:bg-gray-100 rounded   lg:hover:text-blue-700  dark:text-white lg:dark:text-blue-500"
+                >{{ $t("All Spaces") }}</router-link
+              >
             </li>
           </ul>
         </div>
-      </div>
     </nav>
-
   </div>
 </template>
 
 <script setup>
 import { onMounted, ref, watch } from "vue";
-
+import Swal from 'sweetalert2'
 import {
   initAccordions,
   initCarousels,
@@ -112,14 +176,12 @@ onMounted(() => {
   initTabs();
   initTooltips();
   gitSchooltital(); // Initial call to set the value
-  rows.value = Array.from(document.querySelectorAll('tr')); // Filter rows by ID
-
+  rows.value = Array.from(document.querySelectorAll("tr")); // Filter rows by ID
 });
 let rows = ref([]);
 let SideBar = ref(false);
 const openSideBar = () => {
- 
-  SideBar.value = true
+  SideBar.value = true;
 };
 const thePrint = async () => {
   try {
@@ -131,53 +193,78 @@ const thePrint = async () => {
   }
 };
 const props = defineProps({
+  unSelctAllOfThem: {
+    type: Function,
+  },
   toggleLanguage: {
     type: Function,
-  }
+  },
 });
 const schooltital = ref("schoolName");
 const gitSchooltital = () => {
-
-    schooltital.value = localStorage.getItem('schoolName');
+  schooltital.value = localStorage.getItem("schoolName");
 };
-const unSelctAll = () => {
-   rows.value.forEach((row, rowIndex) => {
-    const checkboxesInRow = Array.from(
-      row.querySelectorAll('input[type="checkbox"]')
-    );
+const unSelctAllOfThemConfelrm =()=>{
+  const lang = localStorage.getItem('lang');
 
-    checkboxesInRow.forEach((checkbox, checkboxIndex) => {
-      const localStorageKey1 = `All-row-${row.id}-checkbox-${checkboxIndex}`;
-      const localStorageKey2 = `Ext-row-${row.id}-checkbox-${checkboxIndex}`;
-      const localStorageKey3 = `Inte-row-${row.id}-checkbox-${checkboxIndex}`;
-      const localStorageKey4 = `Oth-row-${row.id}-checkbox-${checkboxIndex}`;
-      const localStorageKey5 = `sta-row-${row.id}-checkbox-${checkboxIndex}`;
+ if (lang === 'en') {
+  
+   Swal.fire({
+     
+     title: "Are you sure?",
+     text: "You won't be able to revert this!",
+     icon: "warning",
+     showCancelButton: true,
+     confirmButtonColor: "#3085d6",
+     cancelButtonColor: "#d33",
+     cancelButtonText: "Cancel",
+     confirmButtonText: "Yes, delete it!"
+   }).then((result) => {
+     if (result.isConfirmed) {
+       Swal.fire({
+         title: "Deleted!",
+         text: "Your file has been deleted.",
+         icon: "success"
+       });
+       unSelctAllOfThem();
+     }
+   });
+ } 
+ else if (lang === 'ar') {
+  Swal.fire({
+  
+  title: "هل انت متاكد؟",
+  text: "!لن تتمكن من التراجع عن هذا",
+  icon: "warning",
+  showCancelButton: true,
+  confirmButtonColor: "#3085d6",
+  cancelButtonColor: "#d33",
+  cancelButtonText: "الغاء",
 
-      checkbox.checked =
-
-        localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
-        localStorage.removeItem(`CheckRows-${row.id}`);
-        
-        localStorage.removeItem(`All-row-${row.id}-checkbox-value-${checkboxIndex}`);
-        localStorage.removeItem(`Ext-row-${row.id}-checkbox-value-${checkboxIndex}`);
-        localStorage.removeItem(`Inte-row-${row.id}-checkbox-value-${checkboxIndex}`);
-        localStorage.removeItem(`Oth-row-${row.id}-checkbox-value-${checkboxIndex}`);
-        localStorage.removeItem(`sta-row-${row.id}-checkbox-value-${checkboxIndex}`);
-        
-        localStorage.removeItem(localStorageKey1);
-        localStorage.removeItem(localStorageKey2);
-        localStorage.removeItem(localStorageKey3);
-        localStorage.removeItem(localStorageKey4);
-        localStorage.removeItem(localStorageKey5);
-        for (let columnIndex = 0; columnIndex < 4; columnIndex++) {
-           localStorage.setItem(`Ext-columnSum-${columnIndex}`, 0);
-           localStorage.setItem(`Inte-columnSum-${columnIndex}`, 0);
-           localStorage.setItem(`Oth-columnSum-${columnIndex}`, 0);
-           localStorage.setItem(`sta-columnSum-${columnIndex}`, 0);
-  }
-        toggleSvgDisplay(checkbox, rowIndex);
+  confirmButtonText: "نعم، احذفه!"
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire({
+      title: "تم الحذف!",
+      text: "لقد تم حذف الاختيرات الخاص بك.",
+      icon: "success"
     });
-  });
+    unSelctAllOfThem();
+  }
+});
+ }
+}
+const unSelctAllOfThem = () => {
+  for (let key in localStorage) {
+  // Check if the key starts with the specified prefix
+  if (key.startsWith('Ext-row') || key.startsWith('Inte-row') || key.startsWith('Oth-row') || key.startsWith('sta-row')  ) {
+    // Remove the item from localStorage
+    localStorage.removeItem(key);
+  }
+  window.location.reload();
+  
+}
+
 
 };
 const toggleSvgDisplay = (input) => {
@@ -197,8 +284,14 @@ const toggleSvgDisplay = (input) => {
     }
   }
 };
-setInterval(gitSchooltital, 3000);
 
+
+const direction = ref(localStorage.getItem('lang') === 'ar' ? 'rtl' : 'ltr');
+watch(() => {
+  const storedLang = localStorage.getItem("lang");
+  direction.value = storedLang === "ar" ? "rtl" : "ltr";
+});
+setInterval(gitSchooltital, 3000);
 </script>
 
 <style>
@@ -206,9 +299,11 @@ setInterval(gitSchooltital, 3000);
   display: block;
   /* Display SVG when the checkbox is checked */
 }
+
 .text-gradient {
   color: linear-gradient(136.91deg, #468ef9 -12.5%, #0c66ee 107.5%);
 }
+
 @media print {
   .d-print-none {
     display: none !important;
@@ -217,7 +312,8 @@ setInterval(gitSchooltital, 3000);
   .d-print {
     display: block !important;
   }
-  .pading{
+
+  .pading {
     padding-top: 100px;
   }
 }
@@ -225,5 +321,9 @@ setInterval(gitSchooltital, 3000);
 .active-link {
   /* Add your active styles here */
   color: blue;
+  --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
   font-weight: bold;
-}</style>
+}
+  
+</style>

@@ -596,7 +596,7 @@
         </div>
         <td>{{ $t(" 30-36Student ") }}</td>
         <td class="bg-white">
-          <img src="../assets/Picture43.jpg" class="mx-auto" alt="" />
+          <img src="../assets/Picture43.jpg" class="mx-auto w-16" alt="" />
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Internal-row-12" name="ahosting" value="" class="hidden" required />
@@ -639,7 +639,7 @@
         <td rowspan="2" colspan="1">{{ $t(" Classroom Area (m2) ") }}</td>
         <div class="hidden">/</div>
 
-        <td rowspan="1" colspan="1">{{ $t(" MIN (As a precaution)") }}</td>
+        <td rowspan="1" colspan="1">{{ $t(" MIN ") }}</td>
         <div class="hidden">/</div>
 
         <td rowspan="2" colspan="1">{{ $t(" choose one ") }}</td>
@@ -689,7 +689,7 @@
           <td rowspan="2" colspan="1">{{ $t(" Classroom Area (m2) ") }}</td>
           <div class="hidden">/</div>
         </div>
-        <td rowspan="1" colspan="1">{{ $t(" MAX ") }}</td>
+        <td rowspan="1" colspan="1">{{ $t(" MAX (As a precaution)") }}</td>
         <div class="hidden">/</div>
 
         <div class="hidden">
@@ -747,7 +747,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td rowspan="1" colspan="1">{{ $t(" MIN (As a precaution)") }}</td>
+        <td rowspan="1" colspan="1">{{ $t(" MIN ") }}</td>
         <div class="hidden">/</div>
 
         <td rowspan="2" colspan="1">{{ $t(" choose one ") }}</td>
@@ -800,7 +800,7 @@
           </td>
           <div class="hidden">/</div>
         </div>
-        <td rowspan="1" colspan="1">{{ $t(" MAX ") }}</td>
+        <td rowspan="1" colspan="1">{{ $t(" MAX (As a precaution)") }}</td>
         <div class="hidden">/</div>
 
         <div class="hidden">
@@ -1616,9 +1616,9 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="External-row-26" name="ahosting" value="1" class="hidden peer group1-checkbox"
+          <input type="checkbox" id="External-row-107" name="ahosting" value="1" class="hidden peer group1-checkbox"
             required />
-          <label for="External-row-26"
+          <label for="External-row-107"
             class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
               <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -2402,12 +2402,15 @@
           </td>
           <div class="hidden">/</div>
         </div>
+        <td rowspan="6">
+          {{ $t(" Student Response Tools (personal) ") }}
+        </td>
         <td rowspan="5">
           {{ $t(" Active participation of students ") }}
         </td>
         <div class="hidden">/</div>
 
-        <td colspan="2">{{ $t(" By Using Laptop or Tablet ") }}</td>
+        <td >{{ $t(" By Using Laptop or Tablet ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture64.png" class="mx-auto" alt="" />
         </td>
@@ -2461,9 +2464,9 @@
         </div>
         
 
-        <td colspan="2">{{ $t(" By Using Tablet ") }}</td>
+        <td >{{ $t(" By Using Tablet ") }}</td>
         <td class="bg-white">
-          <img src="../assets/Picture64.png" class="mx-auto" alt="" />
+          <img src="../assets/Picture187.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Internal-row-120" name="ahosting" value="1" class="hidden peer" required />
@@ -2502,31 +2505,16 @@
 
         <td>75%</td>
       </tr>
-      <tr id="Inte-row-117">
-        <div class="hidden">
-          <td rowspan="26" colspan="1">
-            {{ $t(" Classroom Facilities and Infrastructure ") }}
-          </td>
-          <div class="hidden">/</div>
-          <td rowspan="17" colspan="1">
-            {{ $t(" Technological techniques and infrastructure development ") }}
-          </td>
-          <div class="hidden">/</div>
-          <td rowspan="4">
-            {{ $t(" Active participation of students ") }}
-          </td>
-          <div class="hidden">/</div>
-        </div>
-        <td rowspan="3">
-          {{ $t(" Student Response Tools (personal) ") }}
-        </td>
-        <div class="hidden">/</div>
+      <tr rowspan="2" colspan="1" id="Inte-row-117">
+        
+       
+       
 
-        <td>{{ $t(" Clipboard - slate ") }}</td>
-        <td class="bg-white">
+        <td rowspan="2">{{ $t(" Clipboard - slate ") }}</td>
+        <td rowspan="2" class="bg-white">
           <img src="../assets/Picture184.png" class="mx-auto" alt="" />
         </td>
-        <td class="bg-white">
+        <td rowspan="2" class="bg-white">
           <input type="checkbox" id="Internal-row-117" name="ahosting" value="1" class="hidden peer" required />
           <label for="Internal-row-117"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
@@ -2564,64 +2552,8 @@
         <td>75%</td>
       </tr>
       <tr id="Inte-row-118">
-        <div class="hidden">
-          <td rowspan="27" colspan="1">
-            {{ $t(" Classroom Facilities and Infrastructure ") }}
-          </td>
-          <div class="hidden">/</div>
-          <td rowspan="17" colspan="1">
-            {{ $t(" Technological techniques and infrastructure development ") }}
-          </td>
-          <div class="hidden">/</div>
-          <td rowspan="4">
-            {{ $t(" Active participation of students ") }}
-          </td>
-          <div class="hidden">/</div>
-          <td rowspan="3">
-            {{ $t(" Student Response Tools (personal) ") }}
-          </td>
-          <div class="hidden">/</div>
-        </div>
-        <td>{{ $t(" Pen- mouse ") }}</td>
-        <td class="bg-white">
-          <img src="../assets/Picture185.png" class="mx-auto" alt="" />
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Internal-row-118" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Internal-row-118"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Internal-row-118" name="ahosting" value="" class="hidden" required />
-          <label for="Internal-row-118"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-          </label>
-        </td>
-        <td class="bg-white">
-          <input disabled type="checkbox" id="Internal-row-118" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Internal-row-118"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Internal-row-118" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Internal-row-118"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <div class="hidden">/</div>
-
-        <td>75%</td>
+    
+     
       </tr>
       <tr id="Inte-row-119">
         <div class="hidden">
@@ -2923,7 +2855,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Inte-row-49">
         <div class="hidden">
@@ -3022,7 +2954,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Inte-row-51">
         <div class="hidden">
@@ -3285,7 +3217,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="Inte-row-56" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -3340,7 +3272,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>50%</td>
+        <td>25%</td>
       </tr>
       <tr id="Inte-row-57" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -3398,7 +3330,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td rowspan="2">50%</td>
+        <td rowspan="2">25%</td>
       </tr>
       <tr></tr>
       <tr id="Inte-row-59" class="bg-[#c8c8c8]">
@@ -3457,7 +3389,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="Inte-row-60" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -3515,7 +3447,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="Inte-row-61" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -3703,7 +3635,7 @@
         
         <div class="hidden">/</div>
 
-        <td>50%</td>
+        <td>75%</td>
       </tr>
       <tr id="Inte-row-64" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -3765,7 +3697,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>50%</td>
+        <td>75%</td>
       </tr>
       <tr id="Inte-row-65" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -3826,7 +3758,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>50%</td>
+        <td>75%</td>
       </tr>
       <tr id="Inte-row-66">
         <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
@@ -3875,7 +3807,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Inte-row-68">
         <div class="hidden">
@@ -3887,7 +3819,7 @@
         <td rowspan="4" colspan="1">{{ $t(" floor ") }}</td>
         <div class="hidden">/</div>
 
-        <td rowspan="4" colspan="3">{{ $t(" Ceramic (non-slip) ") }}</td>
+        <td rowspan="4" colspan="3">{{ $t(" Non-slip materials such as (wood - fabric - mosaic tiles - other materials) ") }}</td>
         <td rowspan="4" class="bg-white">
           <img src="../assets/Picture87.png" class="mx-auto" alt="" />
         </td>
@@ -3923,7 +3855,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td rowspan="4">50%</td>
+        <td rowspan="4">25%</td>
       </tr>
     <tr></tr>
     <tr></tr>
@@ -3976,7 +3908,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Inte-row-73">
         <div class="hidden">
@@ -4121,7 +4053,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="Inte-row-76">
         <div class="hidden">
@@ -4501,7 +4433,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td rowspan="4">50%</td>
+        <td rowspan="4">25%</td>
       </tr>
     <tr></tr>
     <tr></tr>
@@ -4522,12 +4454,12 @@
           <div class="hidden">/</div>
         </div>
         <td rowspan="11" colspan="1">
-          {{ $t(" surfaces and Survival period (hours-day) ") }}
+          {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
         </td>
         <div class="hidden">/</div>
         <td>{{ $t(" Copper ") }}</td>
         <div class="hidden">/</div>
-        <td>{{ $t(" H(4-8) ") }}</td>
+        <td>{{ $t(" (8-4)H ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture104.png" class="mx-auto" alt="" />
         </td>
@@ -4584,7 +4516,7 @@
         </div>
         <td>{{ $t(" Aluminum ") }}</td>
         <div class="hidden">/</div>
-        <td>{{ $t(" H(6-12) ") }}</td>
+        <td>{{ $t(" (6-12)H ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture104.png" class="mx-auto" alt="" />
         </td>
@@ -4642,7 +4574,7 @@
         <td>{{ $t(" Papers ") }}</td>
         <div class="hidden">/</div>
 
-        <td>{{ $t(" H(3) ") }}</td>
+        <td>{{ $t(" (3)H ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture105.jpg" class="mx-auto" alt="" />
         </td>
@@ -4703,7 +4635,7 @@
         <td>{{ $t(" Wood ") }}</td>
         <div class="hidden">/</div>
 
-        <td>{{ $t(" D(1-2) ") }}</td>
+        <td>{{ $t(" (1-2)D ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture106.png" class="mx-auto" alt="" />
         </td>
@@ -4741,7 +4673,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Inte-row-92" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -4764,7 +4696,7 @@
         </div>
         <td>{{ $t(" Fabric ") }}</td>
         <div class="hidden">/</div>
-        <td>{{ $t(" D(1-5) ") }}</td>
+        <td>{{ $t(" (1-5)D ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture107.png" class="mx-auto" alt="" />
         </td>
@@ -4828,7 +4760,7 @@
         <td>{{ $t(" Soil ") }}</td>
         <div class="hidden">/</div>
 
-        <td>{{ $t(" D(4-5) ") }}</td>
+        <td>{{ $t(" (4-5)D ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture108.jpg" class="mx-auto" alt="" />
         </td>
@@ -4888,7 +4820,7 @@
         </div>
         <td>{{ $t(" ceramic ") }}</td>
         <div class="hidden">/</div>
-        <td>{{ $t(" D(1-4) ") }}</td>
+        <td>{{ $t(" (1-4)D ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture109.png" class="mx-auto" alt="" />
         </td>
@@ -4923,7 +4855,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>50%</td>
+        <td>25%</td>
       </tr>
       <tr id="Inte-row-95" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -4946,7 +4878,7 @@
         </div>
         <td>{{ $t(" Plastic ") }}</td>
         <div class="hidden">/</div>
-        <td>{{ $t(" D(3-4) ") }}</td>
+        <td>{{ $t(" (3-4)D ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture110.jpg" class="mx-auto" alt="" />
         </td>
@@ -5007,7 +4939,7 @@
         <td rowspan="2">{{ $t(" Iron ") }}</td>
 
         <div class="hidden">/</div>
-        <td rowspan="3" colspan="1">{{ $t(" D(2-28) ") }}</td>
+        <td rowspan="3" colspan="1">{{ $t(" (2-28)D ") }}</td>
         <td rowspan="2" class="bg-white">
           <img src="../assets/Picture112.png" class="mx-auto" alt="" />
         </td>
@@ -5126,7 +5058,13 @@
         <td>{{ columnSums[2] }}</td>
         <td>{{ columnSums[3] }}</td>
         <td rowspan="6">
-        
+      <button @click="GoEnhance()">
+        <span>
+
+          Go Enhance
+        </span>
+      </button>
+     
         </td>
       </tr>
       <tr class="bg-[#8eaadb]" id="Inte-row-100">
@@ -5174,10 +5112,10 @@
             $t(" Required Points for Resilient Design Criteria in Classroom ")
           }}
         </td>
-        <td>43</td>
+        <td>44</td>
         <td>26</td>
-        <td>27</td>
-        <td>63</td>
+        <td>28</td>
+        <td>64</td>
       </tr>
       <tr class="bg-[#b4c6e7]" id="Inte-row-104">
         <td class="bg-[#b4c6e7]" rowspan="1" colspan="7">
@@ -5187,20 +5125,20 @@
             )
           }}
         </td>
-        <td rowspan="1" colspan="4">159</td>
+        <td rowspan="1" colspan="4">162</td>
       </tr>
     </table>
   </div>
   <div class="block">
-    <div class="flex justify-center items-center text-center">
-    <div class="text-xl py-4">
+    <div class="grid max-lg:grid-cols-1   grid-cols-2 justify-center overflow-x-auto items-center text-center">
+    <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
       <p>
         {{ $t(" Evaluation of the Resilient Design Criteria in the Classroom ") }}
       </p>
 
       <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
     </div>
-    <div class="text-xl py-4">
+    <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
       <p> 
         {{ $t(" Total Evaluation of the Resilient Design Criteria in the Classroom ") }}
         
@@ -5215,6 +5153,8 @@
 
 <script setup>
 import { ref, onMounted, computed, watch } from "vue";
+import { useRoute, useRouter } from "vue-router";
+
 import chart from "../charts/Inte-chart.vue";
 import chartTotal from "../charts/Inte-chart-total.vue";
 
@@ -5255,11 +5195,17 @@ let uncheckedRows = ref([]);
 let checkedCheckboxes = ref([]);
 let uncheckedCheckboxes = ref([]);
 let tabletitel = ref("");
-
+let router = useRouter();
 let tableContentInte = ref("");
 let showEnhanceInte = ref(false);
 let showEnhanceInteBTN = ref(false);
 let showEnhanceInteOpen = ref(true);
+
+
+const GoEnhance=()=>{
+  router.push({ name: 'ConAll', hash: '#enhanceForm' })
+
+}
 
 const initializeCheckboxes = () => {
   // Filter rows with IDs starting with "Inte-"
@@ -5617,19 +5563,19 @@ let columnSums = ref({
 });
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 159) * 100;
+  return (totalSum.value / 162) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 43) * 100;
+  return (columnSums.value[0] / 44) * 100;
 });
 const percentageFrom19 = computed(() => {
   return (columnSums.value[1] / 26) * 100;
 });
 const percentageFrom10 = computed(() => {
-  return (columnSums.value[2] / 27) * 100;
+  return (columnSums.value[2] / 28) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 63) * 100;
+  return (columnSums.value[3] / 64) * 100;
 });
 const totalSum = computed(() => {
   return (

@@ -2,8 +2,7 @@
   <div>
     <table class="max-lg:min-w-[900px] overflow-x-auto">
       <tr class="bg-[#d9e2f3]">
-        <td rowspan="6" colspan="1"></td>
-        <td class="bg-[#d9e2f3]" rowspan="1" colspan="19">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
           {{
             $t(
               " No. of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
@@ -11,22 +10,22 @@
           }}
         </td>
 
-        <td rowspan="6">
-        </td>
-        <td>{{ columnSums[0] }}</td>
+        <td class="w-16" rowspan="6" colspan="1"></td>
+        <td class="w-16">{{ columnSums[0] }}</td>
 
-        <td>{{ columnSums[1] }}</td>
-        <td>{{ columnSums[2] }}</td>
-        <td>{{ columnSums[3] }}</td>
-        <td rowspan="6">
-          <button v-if="showEnhanceAllOpen" @click="openEnhanceAllForm()">
+        <td class="w-16">{{ columnSums[1] }}</td>
+        <td class="w-16">{{ columnSums[2] }}</td>
+        <td class="w-16">{{ columnSums[3] }}</td>
+        <td class="w-24" rowspan="6">
+
+           <button v-if="showEnhanceAllOpen" @click="openEnhanceAllForm()">
             Start Enhance
           </button>
           <button v-if="showEnhanceAllBTN" @click="close()">End Enhance</button>
         </td>
       </tr>
       <tr class="bg-[#d9e2f3]">
-        <td class="bg-[#d9e2f3]" rowspan="1" colspan="19">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
           {{
             $t(
               " Total No. of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
@@ -34,10 +33,10 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">{{ totalSum }}</td>
+        <td class="w-64" rowspan="1" colspan="4">{{ totalSum }}</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
-        <td class="bg-[#d9e2f3]" rowspan="1" colspan="19">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
           {{
             $t(
               " Percentages of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
@@ -51,7 +50,7 @@
         <td>{{ percentageFrom27.toFixed(0) }}%</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
-        <td class="bg-[#d9e2f3]" rowspan="1" colspan="19">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
           {{
             $t(
               " Total Percentages of Realized Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
@@ -62,7 +61,7 @@
         <td rowspan="1" colspan="4">{{ percentageFrom80.toFixed(0) }}%</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
-        <td class="bg-[#d9e2f3]" rowspan="1" colspan="19">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
           {{
             $t(
               " Required Points for Resilient Design Criteria in (Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
@@ -70,13 +69,13 @@
           }}
         </td>
 
-        <td>85</td>
+        <td>86</td>
         <td>65</td>
-        <td>44</td>
-        <td>128</td>
+        <td>45</td>
+        <td>129</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
-        <td class="bg-[#d9e2f3]" rowspan="1" colspan="19">
+        <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
           {{
             $t(
               " Total Required Points for Resilient Design Criteria in(Layout - Classroom - Stairs and Corridors - Residential Education Spaces) "
@@ -84,42 +83,44 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">390</td>
+        <td rowspan="1" colspan="4">325</td>
       </tr>
     </table>
   </div>
   <div class="block">
     <div class="flex justify-center items-center text-center">
       <div class="text-xl py-4">
-        <p> 
-          {{ $t(" Total Evaluation of the Resilient Design Criteria in All Schools' Spaces ") }}
-          
+        <p>
+          {{
+            $t(
+              " Total Evaluation of the Resilient Design Criteria in All Schools' Spaces "
+            )
+          }}
         </p>
         <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
-      <div class="text-xl py-4">
-      <p> 
-        {{ $t(" Total Evaluation of the Resilient in the School ") }}
-        
-      </p>
-      <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
-    </div>
-
+      <div  class="text-xl py-4">
+        <p>
+          {{ $t(" Total Evaluation of the Resilient in the School ") }}
+        </p>
+        <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
+      </div>
     </div>
   </div>
-  <div class=" ">
-    <div class="relative overflow-x-auto"></div>
+  <div id="enhanceForm"  class=" ">
+    <div  class="relative overflow-x-auto"></div>
 
     <div
+    
       v-if="showEnhanceAllForm"
       class="grid grid-cols-1 place-content-center justify-center"
     >
       <div
-        class=" content-center backdrop-filter backdrop-blur-sm place-content-center flex z-30 items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
+        class="content-center backdrop-filter backdrop-blur-sm place-content-center flex z-30 items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
       >
-        <div class=" grid max-h-full">
+        <div class="grid max-h-full">
           <form
-            class=" bg-gray-100  justify-self-center rounded-lg shadow dark:bg-gray-700"
+            class="bg-gray-100 justify-self-center rounded-lg shadow dark:bg-gray-700"
           >
             <!-- Modal header -->
             <div
@@ -167,21 +168,30 @@
                       <router-link
                         :to="{ name: 'ConExternalv' }"
                         class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-                        >                      {{ $t(" CLICK TO ENHANCE") }}
-</router-link
                       >
+                        {{ $t(" CLICK TO ENHANCE") }}
+                      </router-link>
                     </th>
                   </tr>
                   <tr>
                     <th
                       scope="col"
-                      class="text-start  text-lg bold px-6 py-3 bg-blue-100"
+                      class="text-start text-lg bold px-6 py-3 bg-blue-100"
                     >
                       {{ $t(tablesubtitelExt) }}
-        <span >{{ ExtpercentageFrom80 }}%</span>
-
-
-                     
+                      <span>{{ ExtpercentageFrom80 }}%</span>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th
+                      scope="col"
+                      class="text-start text-red-500 text-lg bold px-6 py-3 bg-blue-100"
+                    >
+                      {{
+                        $t(
+                          "Alert: Remaining choices appear in recommendations for some criteria that have had one choice from multiple choices, such as (Exterior Spaces Form - Building Form)."
+                        )
+                      }}
                     </th>
                   </tr>
                 </thead>
@@ -221,16 +231,24 @@
                     </th>
                   </tr>
                   <tr>
-
                     <th
                       scope="col"
-                      class="text-start  text-lg bold px-6 py-3 bg-blue-100"
+                      class="text-start text-lg bold px-6 py-3 bg-blue-100"
                     >
                       {{ $t(tablesubtitelInte) }}
-        <span >{{ IntepercentageFrom80 }}%</span>
-
-
-                     
+                      <span>{{ IntepercentageFrom80 }}%</span>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th
+                      scope="col"
+                      class="text-start text-red-500 text-lg bold px-6 py-3 bg-blue-100"
+                    >
+                      {{
+                        $t(
+                          "Alert: Remaining choices appear in recommendations for some criteria that have had one choice from multiple choices, such as (Classroom Form – Proportion- Classroom Density- Classroom Area- Student’s Area Inside Classroom- Artificial Ventilation- Colors)."
+                        )
+                      }}
                     </th>
                   </tr>
                 </thead>
@@ -270,16 +288,24 @@
                     </th>
                   </tr>
                   <tr>
-
                     <th
                       scope="col"
-                      class="text-start  text-lg bold px-6 py-3 bg-blue-100"
+                      class="text-start text-lg bold px-6 py-3 bg-blue-100"
                     >
                       {{ $t(tablesubtitelsta) }}
-        <span >{{ stapercentageFrom80 }}%</span>
-  
-  
-                     
+                      <span>{{ stapercentageFrom80 }}%</span>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th
+                      scope="col"
+                      class="text-start text-red-500 text-lg bold px-6 py-3 bg-blue-100"
+                    >
+                      {{
+                        $t(
+                          "Alert: Remaining choices appear in recommendations for some criteria that have had one choice from multiple choices, such as (The width of the corridor)."
+                        )
+                      }}
                     </th>
                   </tr>
                 </thead>
@@ -316,19 +342,26 @@
                         >{{ $t(" CLICK TO ENHANCE") }}</router-link
                       >
                     </th>
-
                   </tr>
                   <tr>
-
                     <th
                       scope="col"
-                      class="text-start  text-lg bold px-6 py-3 bg-blue-100"
+                      class="text-start text-lg bold px-6 py-3 bg-blue-100"
                     >
                       {{ $t(tablesubtitelOth) }}
-        <span >{{ OthpercentageFrom80 }}%</span>
-  
-  
-                     
+                      <span>{{ OthpercentageFrom80 }}%</span>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th
+                      scope="col"
+                      class="text-start text-red-500 text-lg bold px-6 py-3 bg-blue-100"
+                    >
+                      {{
+                        $t(
+                          "Alert: Remaining choices appear in recommendations for some criteria that have had one choice from multiple choices, such as (Wall Finishes)."
+                        )
+                      }}
                     </th>
                   </tr>
                 </thead>
@@ -348,30 +381,6 @@
                 </tbody>
               </table>
             </div>
-            <!-- <button
-              v-if="showEnhanceAllFormChosenBtn"
-              @click="changeEnhanceAllForm()"
-              class="relative m-4 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
-            >
-              <span
-                class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
-              >
-                ما تم اختيارو
-              </span>
-            </button>
-            <button
-              v-if="showEnhanceAllFormUnChosenBtn"
-              @click="openEnhanceAllForm()"
-              class="relative m-4 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
-            >
-              <span
-                class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
-              >
-                غير مختار
-              </span>
-            </button> -->
-
-            <!-- Modal footer -->
           </form>
         </div>
       </div>
@@ -380,12 +389,27 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed, watch, onUpdated } from "vue";
+import { ref, onMounted, computed, watch , watchEffect } from "vue";
+import { useRoute, useRouter } from "vue-router";
+
+let router = useRouter();
 import chart from "../charts/All-chart.vue";
 import chartTotal from "../charts/All-chart-total.vue";
 onMounted(() => {
   rows.value = Array.from(document.querySelectorAll("tr")); // Filter rows by ID
+  watchEffect(() => {
+  const hash = window.location.hash;
+
+  if (hash.endsWith('#enhanceForm')) {
+    const targetElement = document.getElementById(targetElementId.value);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 });
+
+});
+const targetElementId = ref('enhanceForm');
 let columnSums = ref({
   0: 0,
   1: 0,
@@ -395,19 +419,19 @@ let columnSums = ref({
 let showEnhanceAllOpen = ref(true);
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 322) * 100;
+  return (totalSum.value / 325) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 85) * 100;
+  return (columnSums.value[0] / 86) * 100;
 });
 const percentageFrom19 = computed(() => {
   return (columnSums.value[1] / 65) * 100;
 });
 const percentageFrom10 = computed(() => {
-  return (columnSums.value[2] / 44) * 100;
+  return (columnSums.value[2] / 45) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 128) * 100;
+  return (columnSums.value[3] / 129) * 100;
 });
 const totalSum = computed(() => {
   return (
@@ -468,7 +492,10 @@ watch(
     localStorage.setItem("All-columnSum-percentage-1", percentageFrom19.value);
     localStorage.setItem("All-columnSum-percentage-2", percentageFrom10.value);
     localStorage.setItem("All-columnSum-percentage-3", percentageFrom27.value);
-    localStorage.setItem("All-columnSum-percentage-total", percentageFrom80.value);
+    localStorage.setItem(
+      "All-columnSum-percentage-total",
+      percentageFrom80.value
+    );
   },
   { deep: true }
 );
@@ -480,7 +507,6 @@ let parsedUnCheckRowsTextArrayExt = ref([]);
 let parsedUnCheckRowsTextArrayInte = ref([]);
 let parsedUnCheckRowsTextArraysta = ref([]);
 let parsedUnCheckRowsTextArrayOth = ref([]);
-
 let showEnhanceAllForm = ref(false);
 let showEnhanceAllFormChosenBtn = ref(false);
 let showEnhanceAllFormUnChosenBtn = ref(false);
@@ -492,19 +518,20 @@ let tablesubtitelExt = ref("");
 let tablesubtitelInte = ref("");
 let tablesubtitelsta = ref("");
 let tablesubtitelOth = ref("");
-let ExtpercentageFrom80 =ref("");
-let IntepercentageFrom80 =ref("");
-let stapercentageFrom80 =ref("");
-let OthpercentageFrom80 =ref("");
-
-
-
-
+let ExtpercentageFrom80 = ref("");
+let IntepercentageFrom80 = ref("");
+let stapercentageFrom80 = ref("");
+let OthpercentageFrom80 = ref("");
 
 const close = () => {
   showEnhanceAllForm.value = false;
 };
+
+
 const openEnhanceAllForm = () => {
+  showEnhanceAllFormChosenBtn.value = true;
+  showEnhanceAllFormUnChosenBtn.value = false;
+  showEnhanceAllForm.value = true;
   parsedUnCheckRowsTextArrayAll.value =
     getParsedUnCheckRowsDataFromLocalStorageAll();
   parsedUnCheckRowsTextArrayExt.value =
@@ -516,10 +543,9 @@ const openEnhanceAllForm = () => {
   parsedUnCheckRowsTextArrayOth.value =
     getParsedUnCheckRowsDataFromLocalStorageOth();
 
-  showEnhanceAllFormChosenBtn.value = true;
-  showEnhanceAllFormUnChosenBtn.value = false;
-  showEnhanceAllForm.value = true;
-  tabletitelExt.value = "First: Guidelines to Enhance Resilience in Layout. Choose the following:";
+  
+  tabletitelExt.value =
+    "First: Guidelines to Enhance Resilience in Layout. Choose the following:";
   tabletitelInte.value =
     "Second: Guidelines to Enhance Resilience in Classroom. Choose the following:";
   tabletitelsta.value =
@@ -527,58 +553,42 @@ const openEnhanceAllForm = () => {
   tabletitelOth.value =
     "Fourth: Guidelines to Enhance Resilience in Residential Education Spaces. Choose the following:";
 
-
-tablesubtitelExt.value = "Current Evaluation of Resilience in Layout";
-  tablesubtitelInte.value =
-    "Current Evaluation of Resilience in Classroom";
+  tablesubtitelExt.value = "Current Evaluation of Resilience in Layout";
+  tablesubtitelInte.value = "Current Evaluation of Resilience in Classroom";
   tablesubtitelsta.value =
     "Current Evaluation of Resilience in Stairs and Corridors";
   tablesubtitelOth.value =
     "Current Evaluation of Resilience in Residential Education Spaces.";
 
+  // Retrieve values from local storage
+  const extValue = localStorage.getItem("Ext-columnSum-percentage-total");
+  const inteValue = localStorage.getItem("Inte-columnSum-percentage-total");
+  const staValue = localStorage.getItem("sta-columnSum-percentage-total");
+  const othValue = localStorage.getItem("Oth-columnSum-percentage-total");
 
-// Retrieve values from local storage
-const extValue = localStorage.getItem("Ext-columnSum-percentage-total");
-const inteValue = localStorage.getItem("Inte-columnSum-percentage-total");
-const staValue = localStorage.getItem("sta-columnSum-percentage-total");
-const othValue = localStorage.getItem("Oth-columnSum-percentage-total");
+  // Format the values with zero decimal places
+  const formattedExtValue = (parseFloat(extValue) || 0).toFixed(0);
+  const formattedInteValue = (parseFloat(inteValue) || 0).toFixed(0);
+  const formattedStaValue = (parseFloat(staValue) || 0).toFixed(0);
+  const formattedOthValue = (parseFloat(othValue) || 0).toFixed(0);
 
-// Format the values with zero decimal places
-const formattedExtValue = (parseFloat(extValue) || 0).toFixed(0);
-const formattedInteValue = (parseFloat(inteValue) || 0).toFixed(0);
-const formattedStaValue = (parseFloat(staValue) || 0).toFixed(0);
-const formattedOthValue = (parseFloat(othValue) || 0).toFixed(0);
+  // Set the values to corresponding elements
+  ExtpercentageFrom80.value = formattedExtValue;
+  IntepercentageFrom80.value = formattedInteValue;
+  stapercentageFrom80.value = formattedStaValue;
+  OthpercentageFrom80.value = formattedOthValue;
 
-// Set the values to corresponding elements
-ExtpercentageFrom80.value = formattedExtValue;
-IntepercentageFrom80.value = formattedInteValue;
-stapercentageFrom80.value = formattedStaValue;
-OthpercentageFrom80.value = formattedOthValue;
-
+ setTimeout(() => {
+   router.push({ name: 'ConAll', hash: '#enhanceForm' })
+   const targetElement = document.getElementById('enhanceForm');
+   // Check if the element exists
+   if (targetElement) {
+     // Scroll to the target element
+     targetElement.scrollIntoView({ behavior: 'smooth' });
+   }
+ }, 0.50);
 
 };
-// const changeEnhanceAllForm = () => {
-//   parsedUnCheckRowsTextArrayAll.value =
-//     getParsedCheckRowsDataFromLocalStorageAll();
-//   parsedUnCheckRowsTextArrayExt.value =
-//     getParsedCheckRowsDataFromLocalStorageExt();
-//   parsedUnCheckRowsTextArrayInte.value =
-//     getParsedCheckRowsDataFromLocalStorageInte();
-//   parsedUnCheckRowsTextArraysta.value =
-//     getParsedCheckRowsDataFromLocalStoragesta();
-//   parsedUnCheckRowsTextArrayOth.value =
-//     getParsedCheckRowsDataFromLocalStorageOth();
-//   showEnhanceAllFormChosenBtn.value = false;
-//   showEnhanceAllFormUnChosenBtn.value = true;
-//   showEnhanceAllForm.value = true;
-//   tabletitelExt.value = "all Chosen Rows In (Design Criteria for Layout)";
-//   tabletitelInte.value =
-//     "all Chosen Rows In (Internal Educational Spaces (Classroom))";
-//   tabletitelsta.value =
-//     "all Chosen Rows In (Design criteria for Stairs and Corridors)";
-//   tabletitelOth.value =
-//     "all Chosen Rows In (Design criteria (for Residential Education Spaces))";
-// };
 
 const unSelctAll = () => {
   rows.value.forEach((row, rowIndex) => {

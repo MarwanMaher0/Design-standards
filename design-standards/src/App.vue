@@ -1,9 +1,111 @@
 <template class="overflow-x-auto ">
   <div :dir="direction" >
-    <heder :toggleLanguage="toggleLanguage" class="w-full cover-gradient-2" />
+    <heder :toggleLanguage="toggleLanguage" :unSelctAllOfThem="unSelctAllOfThem" class="w-full cover-gradient-2" />
     <RouterView  class=" overflow-x-auto"/>
   </div>
 </template>
+<script setup>
+  import heder from "./contaners/heder.vue";
+  import { ref, onMounted } from "vue";
+  import Swal from 'sweetalert2'
+
+let rows = ref([]);
+
+onMounted(() => {
+  rows.value = Array.from(document.querySelectorAll('tr[id^="Ext-"]')); // Filter rows by ID
+});
+const unSelctAllOfThemConfelrm =()=>{
+
+  Swal.fire({
+    title: "Are you sure?",
+    text: "You won't be able to revert this!",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Yes, delete it!"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire({
+        title: "Deleted!",
+        text: "Your file has been deleted.",
+        icon: "success"
+      });
+      unSelctAllOfThem();
+    }
+  });
+}
+const unSelctAllOfThem = () => {
+  rows.value.forEach((row, rowIndex) => {
+    const checkboxesInRow = Array.from(
+      row.querySelectorAll('input[type="checkbox"]')
+    );
+
+    checkboxesInRow.forEach((checkbox, checkboxIndex) => {
+      const localStorageKey1 = `All-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey2 = `Ext-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey3 = `Inte-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey4 = `Oth-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey5 = `sta-row-${row.id}-checkbox-${checkboxIndex}`;
+
+      checkbox.checked = localStorage.setItem(
+        `unCheckRows-${row.id}`,
+        row.outerHTML
+      );
+      
+
+      localStorage.removeItem(`CheckRows-${row.id}`);
+
+      localStorage.removeItem(
+        `All-row-${row.id}-checkbox-value-${checkboxIndex}`
+      );
+      localStorage.removeItem(
+        `Ext-row-${row.id}-checkbox-value-${checkboxIndex}`
+      );
+      localStorage.removeItem(
+        `Inte-row-${row.id}-checkbox-value-${checkboxIndex}`
+      );
+      localStorage.removeItem(
+        `Oth-row-${row.id}-checkbox-value-${checkboxIndex}`
+      );
+      localStorage.removeItem(
+        `sta-row-${row.id}-checkbox-value-${checkboxIndex}`
+      );
+
+      localStorage.removeItem(localStorageKey1);
+      localStorage.removeItem(localStorageKey2);
+      localStorage.removeItem(localStorageKey3);
+      localStorage.removeItem(localStorageKey4);
+      localStorage.removeItem(localStorageKey5);
+      for (let columnIndex = 0; columnIndex < 4; columnIndex++) {
+        localStorage.setItem(`Ext-columnSum-${columnIndex}`, 0);
+        localStorage.setItem(`Inte-columnSum-${columnIndex}`, 0);
+        localStorage.setItem(`Oth-columnSum-${columnIndex}`, 0);
+        localStorage.setItem(`sta-columnSum-${columnIndex}`, 0);
+      }
+      toggleSvgDisplay(checkbox, rowIndex);
+      window.location.reload();
+    });
+  });
+};
+const toggleSvgDisplay = (input) => {
+  const label = input.nextElementSibling;
+
+  if (input.type === "checkbox" || input.type === "checkbox") {
+    if (input.checked) {
+      if (label) {
+        // Check if label exists
+        label.classList.add("show-svg"); // Show the SVG if input is checked
+      }
+    } else {
+      if (label) {
+        // Check if label exists
+        label.classList.remove("show-svg"); // Hide the SVG if input is unchecked
+      }
+    }
+  }
+};
+</script>
 <script>
   import heder from "./contaners/heder.vue";
 export default {
@@ -71,6 +173,7 @@ export default {
 };
 </script>
 
+
 <style>
 @import "tailwindcss/base";
 @import "tailwindcss/components";
@@ -86,6 +189,7 @@ export default {
 }
 * {
   font-weight: 700;
+  scroll-behavior: smooth;
 }
 td {
   height: 100%;

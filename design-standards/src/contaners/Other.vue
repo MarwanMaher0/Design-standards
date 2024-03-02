@@ -440,7 +440,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>50%</td>
+        <td>25%</td>
       </tr>
       <tr id="Oth-row-10" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -501,7 +501,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>50%</td>
+        <td>75%</td>
       </tr>
       <tr id="Oth-row-11" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -536,9 +536,9 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="External-row-1" name="ahosting" value="1" class="hidden peer" required
+          <input type="checkbox" id="Othernal-row-1" name="ahosting" value="1" class="hidden peer" required
             ref="checkboxRef" />
-          <label for="External-row-1"
+          <label for="Othernal-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 show-svg">
             <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
               <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -618,7 +618,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Oth-row-15">
         <div class="hidden">
@@ -724,7 +724,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Oth-row-17">
         <div class="hidden">
@@ -893,7 +893,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="Oth-row-21" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -955,7 +955,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>50%</td>
+        <td>25%</td>
       </tr>
       <tr id="Oth-row-22" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -1015,7 +1015,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="Oth-row-23" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -1077,7 +1077,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>50%</td>
+        <td>25%</td>
       </tr>
       <tr id="Oth-row-24" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -1701,7 +1701,12 @@
         <td>{{ columnSums[2] }}</td>
         <td>{{ columnSums[3] }}</td>
         <td rowspan="6">
-         
+          <button @click="GoEnhance()">
+        <span>
+
+          Go Enhance
+        </span>
+      </button>
         </td>
       </tr>
       <tr class="bg-[#8eaadb]" id="Oth-row-37">
@@ -1773,16 +1778,18 @@
     </table>
   </div>
   <div class="block">
-    <div class="flex justify-center items-center text-center">
+    <div class="grid max-lg:grid-cols-1    grid-cols-2 justify-center overflow-x-auto items-center text-center">
 
-       <div class="text-xl py-4">
+
+       <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
         <p> 
           {{ $t(" Evaluation of the Resilient Design Criteria in Residential Education Spaces ") }}
           
         </p>
         <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
-      <div class="text-xl py-4">
+      <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
+
       <p> 
         {{ $t(" Total Evaluation of the Resilient Design Criteria in Residential Education Spaces ") }}
         
@@ -1797,14 +1804,16 @@
 </template>
 <script setup>
 import { ref, onMounted, computed, watch } from "vue";
+import { useRoute, useRouter } from "vue-router";
+
 import chart from "../charts/Oth-chart.vue";
 import chartTotal from "../charts/Oth-chart-total.vue";
 
+let router = useRouter();
 let rows = ref([]);
 let tdes = ref([]);
 let checkedRows = ref([]);
 let uncheckedRows = ref([]);
-
 let columnSums = ref({
   0: 0,
   1: 0,
@@ -1815,36 +1824,11 @@ let tableContentOth = ref("");
 let showEnhanceOthBTN = ref(false);
 let showEnhanceOthOpen = ref(true);
 
-const staticRows = () => {
-  localStorage.setItem(
-    `allRows-Oth-row-12`,
-    `<tr id="Oth-row-12">  <td rowspan="2" colspan="11" class="h-4 bg-[#bfbfbf]"></td></tr>`
-  );
-  localStorage.setItem(`allRows-Oth-row-13`, `<tr id="Oth-row-13"></tr>`);
-  localStorage.setItem(
-    `allRows-Oth-row-4`,
-    `<tr id="Oth-row-4">
-    <td rowspan="1" colspan="10" class="h-4 bg-[#bfbfbf]"></td>
-  </tr>`
-  );
-  localStorage.setItem(
-    `allRows-Oth-row-19`,
-    ` <tr id="Oth-row-19">
-        <td rowspan="1" colspan="10" class="h-4 bg-[#bfbfbf]"></td>
-      </tr>`
-  );
-  localStorage.setItem(
-    `allRows-Oth-row-29`,
-    `<tr id="Oth-row-29">
-        <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
-      </tr>`
-  );
-};
+
 onMounted(() => {
   rows.value = Array.from(document.querySelectorAll('tr[id^="Oth-"]')); // Select rows with IDs starting with "Oth-"
   initializeCheckboxes();
   updateColumnSums();
-  staticRows();
   saveRowsWithCheckboxesToLocalStorage();
 });
 const saveRowsWithCheckboxesToLocalStorage = () => {
@@ -1865,7 +1849,10 @@ const saveRowsWithCheckboxesToLocalStorage = () => {
     }
   });
 };
+const GoEnhance=()=>{
+  router.push({ name: 'ConAll', hash: '#enhanceForm' })
 
+}
 const initializeCheckboxes = () => {
   rows.value.forEach((row, rowIndex) => {
     const checkboxesInRow = Array.from(

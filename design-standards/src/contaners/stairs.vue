@@ -69,7 +69,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td class="w-24">75%</td>
+        <td class="w-24">25%</td>
       </tr>
       <tr id="sta-row-2">
         <div class="hidden">
@@ -122,7 +122,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>50%</td>
+        <td>25%</td>
       </tr>
       <tr id="sta-row-3">
         <div class="hidden">
@@ -136,7 +136,7 @@
         </td>
         <div class="hidden">/</div>
         <td rowspan="1" colspan="3">
-          {{ $t(" Walls are highly durable and easy-to-clean materials ") }}
+          {{ $t(" Walls are easy-to-clean materials ") }}
         </td>
 
         <td class="bg-white">
@@ -175,7 +175,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="sta-row-4">
         <div class="hidden">
@@ -282,7 +282,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="sta-row-6">
         <div class="hidden">
@@ -339,7 +339,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="sta-row-7">
         <div class="hidden">
@@ -395,7 +395,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>25%</td>
+        <td>50%</td>
       </tr>
       <tr id="sta-row-8">
         <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
@@ -451,7 +451,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="sta-row-10">
         <div class="hidden">
@@ -508,7 +508,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="sta-row-11"></tr>
       <tr id="sta-row-12">
@@ -534,7 +534,7 @@
           </center>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="stairs-row-12" name="ahosting" value="1" class="hidden " required />
+          <input type="checkbox" id="stairs-row-12" name="ahosting" value="" class="hidden " required />
           <label for="stairs-row-12"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg--300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg--500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             
@@ -566,7 +566,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="sta-row-13">
         <div class="hidden">
@@ -623,7 +623,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="sta-row-14">
         <div class="hidden">
@@ -680,7 +680,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>25%</td>
+        <td>50%</td>
       </tr>
       
      
@@ -745,7 +745,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td rowspan="3" >50%</td>
+        <td rowspan="3" >25%</td>
       </tr>
       <tr></tr>
       <tr></tr>
@@ -805,7 +805,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="sta-row-19">
         <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
@@ -869,7 +869,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>25%</td>
+        <td>75%</td>
       </tr>
       <tr id="sta-row-21" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -932,7 +932,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>25%</td>
+        <td>75%</td>
       </tr>
       <tr id="sta-row-22" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -1042,7 +1042,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="sta-row-24" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -1098,7 +1098,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="sta-row-25" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -1305,7 +1305,12 @@
         <td>{{ columnSums[3] }}</td>
 
         <td rowspan="6">
-         
+          <button @click="GoEnhance()">
+        <span>
+
+          Go Enhance
+        </span>
+      </button>
         </td>
       </tr>
       <tr id="sta-row-29" class="bg-[#8eaadb]">
@@ -1374,15 +1379,15 @@
     </table>
   </div>
   <div class="block">
-    <div class="flex justify-center items-center text-center">
-        <div class="text-xl py-4">
+    <div class="grid max-lg:grid-cols-1 grid-cols-2 justify-center overflow-x-auto items-center text-center">
+        <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
         <p> 
           {{ $t(" Evaluation of the Resilient Design Criteria for Stairs and Corridors ") }}
           
         </p>
         <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
-      <div class="text-xl py-4">
+      <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
       <p> 
         {{ $t(" Total Evaluation of the Resilient Design Criteria for Stairs and Corridors ") }}
         
@@ -1397,6 +1402,8 @@
 
 <script setup>
 import { ref, onMounted, computed, watch } from "vue";
+import { useRoute, useRouter } from "vue-router";
+
 import chart from "../charts/Sta-chart.vue";
 import chartTotal from "../charts/Sta-chart-total.vue";
 
@@ -1439,7 +1446,11 @@ const tableContentsta = ref("");
 let showEnhancestaBTN = ref(false);
 let showEnhancestaOpen = ref(true);
 const tabletitel = ref("");
+let router = useRouter();
+const GoEnhance=()=>{
+  router.push({ name: 'ConAll', hash: '#enhanceForm' })
 
+}
 const initializeCheckboxes = () => {
   rows.value.forEach((row, rowIndex) => {
     const checkboxesInRow = Array.from(
@@ -1711,6 +1722,7 @@ const getAllRowsFromLocalStoragesta = () => {
 setInterval(updateColumnSums, 3000);
 
 </script>
+
 
 <style>
 svg {

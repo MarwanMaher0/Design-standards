@@ -639,7 +639,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>50%</td>
+    <td>25%</td>
   </tr>
   <tr id="Ext-row-12">
     <div class="hidden">
@@ -704,7 +704,7 @@
       <div class="hidden">/</div>
     </div>
     <td>
-      {{ $t(" The Entrance is Perpendicular to The External Roads ") }}
+      {{ $t(" Perpendicular to The External Roads ") }}
     </td>
     <td class="bg-white">
       <img src="../assets/Picture10.png" class="mx-auto" alt="" />
@@ -966,7 +966,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>75%</td>
+    <td>50%</td>
   </tr>
   <tr id="Ext-row-19">
     <div class="hidden">
@@ -1012,8 +1012,8 @@
       </label>
     </td>
     <td class="bg-white">
-      <input type="checkbox" id="External-row-18" name="ahosting" value="1" class="hidden peer" required />
-      <label for="External-row-18"
+      <input type="checkbox" id="External-row-19" name="ahosting" value="1" class="hidden peer" required />
+      <label for="External-row-19"
         class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
         <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
           <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -1079,7 +1079,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>75%</td>
+    <td>50%</td>
   </tr>
   <tr id="Ext-row-21">
     <div class="hidden">
@@ -1300,7 +1300,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>100%</td>
+    <td>25%</td>
   </tr>
   <tr id="Ext-row-25">
     <div class="hidden">
@@ -1378,7 +1378,7 @@
       {{ $t(" Select one Form ") }}
     </td>
     <td class="bg-white">
-      <img src="../assets/Picture22.jpg" class="mx-auto" alt="" />
+      <img src="../assets/Picture22.jpg" class="mx-auto w-12" alt="" />
     </td>
     <td class="bg-red-300">
       <input type="checkbox" id="External-row-26" name="ahosting" value="1" class="hidden peer group1-checkbox"
@@ -1538,7 +1538,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>100%</td>
+    <td>25%</td>
   </tr>
   <tr id="Ext-row-29">
     <div class="hidden">
@@ -1591,7 +1591,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>75%</td>
+    <td>25%</td>
   </tr>
   <tr id="Ext-row-30">
     <div class="hidden">
@@ -1643,7 +1643,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>75%</td>
+    <td>25%</td>
   </tr>
   <tr id="Ext-row-31">
     <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
@@ -1894,7 +1894,7 @@
 
     </div>
     <td rowspan="2" colspan="1">
-      {{ $t(" Exter Types ") }}
+      {{ $t(" Other Types ") }}
     </td>
     <div class="hidden">/</div>
 
@@ -1902,8 +1902,8 @@
       {{ $t(" L-Type ") }}
     </td>
 
-    <td class="bg-white">
-      <img src="../assets/Picture31.png" class="mx-auto" alt="" />
+    <td  class="bg-white">
+      <img  src="../assets/Picture31.png" class="mx-auto"  alt="" />
     </td>
     <td class="bg-red-300">
       <input type="checkbox" id="External-row-36" name="fav" value="1" class="hidden peer group7-checkbox" required />
@@ -2113,7 +2113,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>50%</td>
+    <td>75%</td>
   </tr>
   <tr id="Ext-row-42" class="bg-[#c8c8c8]">
     <div class="hidden">
@@ -2159,7 +2159,7 @@
       </label>
       <div class="hidden">/</div>
     </td>
-    <td>50%</td>
+    <td>25%</td>
   </tr>
   <tr id="Ext-row-43" class="bg-[#8eaadb]">
     <td class="bg-[#8eaadb]" rowspan="1" colspan="7">
@@ -2181,6 +2181,12 @@
     <td>{{ columnSums[3] }}</td>
 
     <td rowspan="6">
+      <button @click="GoEnhance()">
+        <span>
+
+          Go Enhance
+        </span>
+      </button>
      
     </td>
   </tr>
@@ -2248,15 +2254,15 @@
   </table>
   </div>
   <div class="block">
-    <div class="flex justify-center items-center text-center">
-      <div class="text-xl py-4">
+    <div class="grid max-lg:grid-cols-1    grid-cols-2 justify-center overflow-x-auto items-center text-center">
+      <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
       <p> 
         {{ $t(" Evaluation of the Resilient Design Criteria in Layout ") }}
         
       </p>
       <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
     </div>
-    <div class="text-xl py-4">
+    <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
       <p> 
         {{ $t(" Total Evaluation of the Resilient Design Criteria in the Classroom ") }}
         
@@ -2271,8 +2277,10 @@
 
 <script setup>
 import { ref, onMounted, computed, watch } from "vue";
+import { useRoute, useRouter } from "vue-router";
 import chart from "../charts/Ext-chart.vue";
 import chartTotal from "../charts/Ext-chart-total.vue";
+let router = useRouter();
 
 let rows = ref([]);
 let checkedrows = ref([]);
@@ -2292,6 +2300,9 @@ onMounted(() => {
   updateColumnSums();
   saveRowsWithCheckboxesToLocalStorage();
 });
+ 
+
+
 
 const saveRowsWithCheckboxesToLocalStorage = () => {
   // Filter the rows to get rows with checkboxes
@@ -2317,6 +2328,9 @@ const saveRowsWithCheckboxesToLocalStorage = () => {
   });
 };
 
+
+
+
 const initializeCheckboxes = () => {
   // Filter rows with IDs starting with "Ext-"
   const extRows = rows.value.filter((row) => row.id.startsWith("Ext-"));
@@ -2328,7 +2342,7 @@ const initializeCheckboxes = () => {
 
     checkboxesInRow.forEach((checkbox, checkboxIndex) => {
       // Generate the localStorage keys for the current checkbox
-      const localStorageKey1 = `unCheckRows-Ext-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey1 = `unCheckRows${row.id}-checkbox-${checkboxIndex}`;
       const localStorageKey2 = `Ext-row-${row.id}-checkbox-${checkboxIndex}`;
 
       // Retrieve the values from localStorage for the current checkbox using both keys
@@ -2374,8 +2388,30 @@ const handleCheckboxChange = (event, rowIndex) => {
 
   if (!row || !row.id.startsWith("Ext-")) return;
   const checkboxesInRow = Array.from(
-    row.querySelectorAll('input[type="checkbox"] ,input[type="checkbox"]')
+    row.querySelectorAll('input[type="checkbox"]')
   );
+ 
+  checkboxesInRow.forEach((checkbox, checkboxIndex) => {
+    checkbox.checked = clickedCheckbox.checked;
+    const localStorageKey = `Ext-row-${row.id}-checkbox-value-${checkboxIndex}`;
+
+    if (checkbox.checked) {
+      localStorage.setItem(localStorageKey, checkbox.value);
+      localStorage.removeItem(`unCheckRows-${row.id}`);
+    }
+    else {
+      localStorage.removeItem(localStorageKey);
+      localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
+      localStorage.removeItem(`CheckRows-${row.id}`);
+    }
+    localStorage.setItem(
+      `Ext-row-${row.id}-checkbox-${checkboxIndex}`,
+      checkbox.checked
+    );
+
+
+    toggleSvgDisplay(checkbox, rowIndex);
+  });
   groupExt1.forEach((groupId) => {
     if (groupId !== row.id) {
       const otherRow = document.getElementById(groupId);
@@ -2394,11 +2430,12 @@ const handleCheckboxChange = (event, rowIndex) => {
           if (isCheckedBeforeChange) {
             localStorage.removeItem(localStorageKey);
             localStorage.removeItem(localStorageKey2);
-            localStorage.removeItem(`unCheckRows-${groupId}`);
-            localStorage.removeItem(`CheckRows-${groupId}`);
-            tableContentEST.value = getAllRowsFromLocalStorageExt();
+             localStorage.removeItem(`unCheckRows-${groupId}`);
 
+            tableContentEST.value = getAllRowsFromLocalStorageExt();
             toggleSvgDisplay(otherCheckbox, rowIndex);
+            saveRowsWithCheckboxesToLocalStorage();
+
           }
         });
       }
@@ -2422,45 +2459,22 @@ const handleCheckboxChange = (event, rowIndex) => {
           if (isCheckedBeforeChange) {
             localStorage.removeItem(localStorageKey);
             localStorage.removeItem(localStorageKey2);
+            localStorage.removeItem(`unCheckRows-${groupId}`);
+            
             toggleSvgDisplay(otherCheckbox, rowIndex);
             tableContentEST.value = getAllRowsFromLocalStorageExt();
+            saveRowsWithCheckboxesToLocalStorage();
+
           }
-          localStorage.setItem(`allRows-${groupId}`, row.outerHTML);
+          
         });
       }
     }
   });
-  checkboxesInRow.forEach((checkbox, checkboxIndex) => {
-    checkbox.checked = clickedCheckbox.checked;
-    const localStorageKey = `Ext-row-${row.id}-checkbox-value-${checkboxIndex}`;
-
-    if (checkbox.checked) {
-      localStorage.setItem(localStorageKey, checkbox.value);
-      localStorage.removeItem(`unCheckRows-${row.id}`);
-      localStorage.setItem(`CheckRows-${row.id}`, row.outerHTML);
-
-    }
-    else {
-      localStorage.removeItem(localStorageKey);
-      localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
-      localStorage.removeItem(`CheckRows-${row.id}`);
-
-
-    }
-    localStorage.setItem(
-      `Ext-row-${row.id}-checkbox-${checkboxIndex}`,
-      checkbox.checked
-    );
-
-
-    toggleSvgDisplay(checkbox, rowIndex);
-  });
-
   updateRowRefsBasedOnCheckboxState();
   updateColumnSums();
   saveRowsWithCheckboxesToLocalStorage();
 
-  tableContentEST.value = getAllRowsFromLocalStorageExt();
 };
 
 const toggleSvgDisplay = (input) => {
@@ -2624,7 +2638,10 @@ const getAllRowsFromLocalStorageExt = () => {
 };
 
 
+const GoEnhance=()=>{
+  router.push({ name: 'ConAll', hash: '#enhanceForm' })
 
+}
 
 
 const unSelctAll = () => {
@@ -2637,7 +2654,7 @@ const unSelctAll = () => {
       const localStorageKey = `Ext-row-${row.id}-checkbox-value-${checkboxIndex}`;
       checkbox.checked =
 
-        localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
+      localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
       localStorage.removeItem(`Ext-row-${row.id}-checkbox-${checkboxIndex}`);
       localStorage.removeItem(localStorageKey);
       localStorage.removeItem(`CheckRows-${row.id}`);
