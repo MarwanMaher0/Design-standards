@@ -5,7 +5,7 @@
         <td class="bg-[#2f5496]    text-gray-100" rowspan="33" colspan="1">
           <p class=" text-6xl   text-nowrap  -rotate-90 ">
 
-            {{ $t(" stairs and Corridors: ") }}
+            {{ $t(" Servant Spaces ") }}
           </p>
 
         </td>
@@ -411,11 +411,15 @@
         </td>
         <div class="hidden">/</div>
 
-        <td rowspan="1" colspan="3">
+        <td rowspan="3" colspan="1">
           {{
-            $t(" The width of the corridor (one side) from 1.80 m to 2.4 m. ")
+            $t(" The width of the corridor ")
           }}
         </td>
+        <td rowspan="3">{{ $t(" choose one  ") }}</td>
+
+        <td>{{ $t(" (one side) from 1.80 m to 2.4 m. ") }}</td>
+
 
         <td class="bg-white">
           <center>
@@ -465,11 +469,8 @@
           </td>
           <div class="hidden">/</div>
         </div>
-        <td rowspan="2" colspan="3">
-          {{
-            $t(" The width of the corridor (Two sides) from 2.40 m to 3.00 m. ")
-          }}
-        </td>
+        <td>{{ $t(" (Two sides) from 2.40 m to 3.00 m. ") }}</td>
+
 
         <td class="bg-white">
           <center>
@@ -1308,7 +1309,7 @@
           <button @click="GoEnhance()">
         <span>
 
-          Go Enhance
+          {{ $t("Go Enhance") }}
         </span>
       </button>
         </td>
@@ -1382,14 +1383,14 @@
     <div class="grid max-lg:grid-cols-1 grid-cols-2 justify-center overflow-x-auto items-center text-center">
         <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
         <p> 
-          {{ $t(" Evaluation of the Resilient Design Criteria for Stairs and Corridors ") }}
+          {{ $t(" Evaluation of the Resilient Design Criteria for Servant Spaces (Stairs and Corridors)") }}
           
         </p>
         <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
       <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
       <p> 
-        {{ $t(" Total Evaluation of the Resilient Design Criteria for Stairs and Corridors ") }}
+        {{ $t(" Total Evaluation of Resilient Design Criteria  in Servant Spaces (Stairs and Corridors)") }}
         
       </p>
       <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
@@ -1449,7 +1450,13 @@ const tabletitel = ref("");
 let router = useRouter();
 const GoEnhance=()=>{
   router.push({ name: 'ConAll', hash: '#enhanceForm' })
-
+  const targetElement = document.getElementById('enhanceForm');
+   // Check if the element exists
+   if (targetElement) {
+     // Scroll to the target element
+     targetElement.scrollIntoView({ behavior: 'smooth' });
+   }
+ 
 }
 const initializeCheckboxes = () => {
   rows.value.forEach((row, rowIndex) => {

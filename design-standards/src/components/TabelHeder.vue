@@ -5,7 +5,7 @@
         <td class="bg-[#2f5496] text-2xl text-gray-100" rowspan="3" colspan="8">
           {{
             $t(
-              " Design, Environmental Criteria, and Precautionary Measures for Different Educational Spaces  "
+              " Design, Environmental Criteria, and Precautionary Measures for Different Educational and Servant Spaces  "
             )
           }}
         </td>

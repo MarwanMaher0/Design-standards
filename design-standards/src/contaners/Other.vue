@@ -28,7 +28,7 @@
         </td>
 
         <td>
-          {{ $t(" Paints (light colors)And resistant to viruses ") }}
+          {{ $t(" Paints (light colors) ") }}
         </td>
         <td class="bg-white w-16">
           <img src="../assets/Picture141.jpg" class="mx-auto w-10" alt="" />
@@ -71,7 +71,7 @@
           {{ $t(" Finishes ") }}/ {{ $t(" walls (choose one type) ") }}/
         </div>
         <td>
-          {{ $t(" Wall Paper (light colors)And resistant to viruses ") }}
+          {{ $t(" Wall Paper (light colors) ") }}
         </td>
         <td class="bg-white">
           <img src="../assets/Picture142.jpg" class="mx-auto w-10" alt="" />
@@ -283,12 +283,12 @@
           <div class="hidden">/</div>
         </div>
         <td rowspan="2" colspan="2">
-          {{ $t(" Walls ") }}
+          {{ $t(" walls (choose one type) ") }}
         </td>
         <div class="hidden">/</div>
 
         <td>
-          {{ $t(" Paints (light colors) ") }}
+          {{ $t(" Paints (light colors)And resistant to viruses ") }}
         </td>
         <td class="bg-white">
           <img src="../assets/Picture146.jpg" class="mx-auto w-10" alt="" />
@@ -303,12 +303,10 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-7" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-7" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-7"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg--200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg--400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+          
           </label>
         </td>
         <td class="bg-white">
@@ -318,16 +316,14 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-7" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-7" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-7"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg--300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg--500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+          
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="Oth-row-8" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -346,7 +342,7 @@
           <div class="hidden">/</div>
         </div>
         <td>
-          {{ $t(" Wall Paper (light colors) ") }}
+          {{ $t(" Wall Paper (light colors)And resistant to viruses ") }}
         </td>
         <td class="bg-white">
           <img src="../assets/Picture147.jpg" class="mx-auto w-10" alt="" />
@@ -361,12 +357,10 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-8" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-8" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-8"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg--200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg--400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            
           </label>
         </td>
         <td class="bg-white">
@@ -376,16 +370,14 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-8" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-8" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-8"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg--300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg--500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>25%</td>
       </tr>
       <tr id="Oth-row-9" class="bg-[#c8c8c8]">
         <div class="hidden">
@@ -400,7 +392,7 @@
           <div class="hidden">/</div>
         </div>
         <td rowspan="3" colspan="1">
-          {{ $t(" Materails ") }}
+          {{ $t(" other surfaces") }}
           <div class="hidden">/</div>
         </td>
         <td rowspan="2" colspan="1">
@@ -740,7 +732,7 @@
         </div>
 
         <td rowspan="1" colspan="3">
-          {{ $t(" Artificial") }}
+          {{ $t(" Artificial ") }}
         </td>
 
         <td class="bg-white">
@@ -1406,7 +1398,7 @@
         </td>
         <div class="hidden">/</div>
         <td rowspan="2" colspan="1">
-          {{ $t(" Infrastructure for Residential Education Spaces ") }}
+          {{ $t(" Technology services ") }}
         </td>
         <div class="hidden">/</div>
 
@@ -1415,7 +1407,7 @@
         </td>
 
         <td class="bg-white">
-          <img src="../assets/Picture165.png" class="mx-auto w-10" alt="" />
+          <img src="../assets/Picture165.png" class="mx-auto w-28" alt="" />
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-30" name="ahosting" value="1" class="hidden peer" required />
@@ -1456,7 +1448,7 @@
       <tr id="Oth-row-31">
         <div class="hidden">
           <td rowspan="2" colspan="2">
-            {{ $t(" Infrastructure for Residential Education Spaces ") }}
+            {{ $t(" Technology services ") }}
           </td>
           /
         </div>
@@ -1704,7 +1696,7 @@
           <button @click="GoEnhance()">
         <span>
 
-          Go Enhance
+          {{ $t("Go Enhance") }}
         </span>
       </button>
         </td>
@@ -1760,9 +1752,9 @@
         </td>
 
         <td>17</td>
-        <td>16</td>
+        <td>15</td>
         <td>4</td>
-        <td>22</td>
+        <td>21</td>
       </tr>
       <tr id="Oth-row-41" class="bg-[#b4c6e7]">
         <td rowspan="1" colspan="7">
@@ -1773,7 +1765,7 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">59</td>
+        <td rowspan="1" colspan="4">57</td>
       </tr>
     </table>
   </div>
@@ -1851,7 +1843,13 @@ const saveRowsWithCheckboxesToLocalStorage = () => {
 };
 const GoEnhance=()=>{
   router.push({ name: 'ConAll', hash: '#enhanceForm' })
-
+  const targetElement = document.getElementById('enhanceForm');
+   // Check if the element exists
+   if (targetElement) {
+     // Scroll to the target element
+     targetElement.scrollIntoView({ behavior: 'smooth' });
+   }
+ 
 }
 const initializeCheckboxes = () => {
   rows.value.forEach((row, rowIndex) => {
@@ -2008,19 +2006,19 @@ const updateRowRefsBasedOnCheckboxState = () => {
 };
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 59) * 100;
+  return (totalSum.value / 57) * 100;
 });
 const percentageFrom24 = computed(() => {
   return (columnSums.value[0] / 17) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 16) * 100;
+  return (columnSums.value[1] / 15) * 100;
 });
 const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 4) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 22) * 100;
+  return (columnSums.value[3] / 21) * 100;
 });
 const totalSum = computed(() => {
   return (

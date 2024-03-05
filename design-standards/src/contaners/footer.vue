@@ -18,10 +18,7 @@
         <td class="w-16">{{ columnSums[3] }}</td>
         <td class="w-24" rowspan="6">
 
-           <button v-if="showEnhanceAllOpen" @click="openEnhanceAllForm()">
-            Start Enhance
-          </button>
-          <button v-if="showEnhanceAllBTN" @click="close()">End Enhance</button>
+          
         </td>
       </tr>
       <tr class="bg-[#d9e2f3]">
@@ -70,9 +67,9 @@
         </td>
 
         <td>86</td>
-        <td>65</td>
+        <td>64</td>
         <td>45</td>
-        <td>129</td>
+        <td>128</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
         <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
@@ -83,13 +80,15 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">325</td>
+        <td rowspan="1" colspan="4">323</td>
       </tr>
     </table>
   </div>
   <div class="block">
-    <div class="flex justify-center items-center text-center">
+    <div class="flex gap-5 justify-center items-center text-center">
+      
       <div class="text-xl py-4">
+        
         <p>
           {{
             $t(
@@ -100,11 +99,20 @@
         <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
       <div  class="text-xl py-4">
+        
         <p>
           {{ $t(" Total Evaluation of the Resilient in the School ") }}
         </p>
         <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
+      <div class=""></div>
+      <button @click="openEnhanceAllForm()" class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-lg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+
+Start Enhance
+</span>
+</button>
+         
     </div>
   </div>
   <div id="enhanceForm"  class=" ">
@@ -185,7 +193,7 @@
                   <tr>
                     <th
                       scope="col"
-                      class="text-start text-red-500 text-lg bold px-6 py-3 bg-blue-100"
+                      class="text-start text-blue-500 text-lg bold px-6 py-3 bg-blue-100"
                     >
                       {{
                         $t(
@@ -242,7 +250,7 @@
                   <tr>
                     <th
                       scope="col"
-                      class="text-start text-red-500 text-lg bold px-6 py-3 bg-blue-100"
+                      class="text-start text-blue-500 text-lg bold px-6 py-3 bg-blue-100"
                     >
                       {{
                         $t(
@@ -299,7 +307,7 @@
                   <tr>
                     <th
                       scope="col"
-                      class="text-start text-red-500 text-lg bold px-6 py-3 bg-blue-100"
+                      class="text-start text-blue-500 text-lg bold px-6 py-3 bg-blue-100"
                     >
                       {{
                         $t(
@@ -355,7 +363,7 @@
                   <tr>
                     <th
                       scope="col"
-                      class="text-start text-red-500 text-lg bold px-6 py-3 bg-blue-100"
+                      class="text-start text-blue-500 text-lg bold px-6 py-3 bg-blue-100"
                     >
                       {{
                         $t(
@@ -419,19 +427,19 @@ let columnSums = ref({
 let showEnhanceAllOpen = ref(true);
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 325) * 100;
+  return (totalSum.value / 323) * 100;
 });
 const percentageFrom24 = computed(() => {
   return (columnSums.value[0] / 86) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 65) * 100;
+  return (columnSums.value[1] / 64) * 100;
 });
 const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 45) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 129) * 100;
+  return (columnSums.value[3] / 128) * 100;
 });
 const totalSum = computed(() => {
   return (
@@ -549,14 +557,14 @@ const openEnhanceAllForm = () => {
   tabletitelInte.value =
     "Second: Guidelines to Enhance Resilience in Classroom. Choose the following:";
   tabletitelsta.value =
-    "Third: Guidelines to Enhance Resilience in Stairs and Corridors. Choose the following:";
+    "Third: Guidelines to Enhance Resilience in Servant Spaces (Stairs and Corridors). Choose the following:";
   tabletitelOth.value =
     "Fourth: Guidelines to Enhance Resilience in Residential Education Spaces. Choose the following:";
 
   tablesubtitelExt.value = "Current Evaluation of Resilience in Layout";
   tablesubtitelInte.value = "Current Evaluation of Resilience in Classroom";
   tablesubtitelsta.value =
-    "Current Evaluation of Resilience in Stairs and Corridors";
+    "Current Evaluation of Resilience in Servant Spaces (Stairs and Corridors)";
   tablesubtitelOth.value =
     "Current Evaluation of Resilience in Residential Education Spaces.";
 

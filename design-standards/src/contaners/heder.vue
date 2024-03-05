@@ -13,7 +13,7 @@
               class="show-svg d-print-none inline-flex relative items-center  w-10 h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               type="button"
             >
-              <span class="sr-only ml-20">Open main menu</span>
+              <span class="sr-only ">Open main menu</span>
               <svg
                 class="w-5 h-5 text-gray-600"
                 aria-hidden="true"
@@ -80,13 +80,13 @@
           </div>
       </div>
       <div
-          class="hidden text-xl d-print-none   pt-1"
+          class="hidden text-xl d-print-none pt-1"
           id="navbar-default"
         >
           <ul
           :class="{ 'flex-row-reverse': direction === 'ltr', 'flex-row': direction === 'rtl' }"
 
-            class="font-medium w-full items-baseline block flex-col p-4  mt-4 rounded-lg bg-gray-0    lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700"
+            class="font-medium w-full items-baseline block flex-col p-4   rounded-lg bg-gray-0     lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700"
           >
             <li>
               <router-link

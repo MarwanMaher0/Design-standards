@@ -1318,7 +1318,7 @@
     </td>
 
     <td class="bg-white">
-      <img src="../assets/Picture21.png" class="mx-auto" alt="" />
+      <img src="../assets/Picture21.png" class="mx-auto w-24" alt="" />
     </td>
     <td class="bg-red-300">
       <input type="checkbox" id="External-row-25" name="ahosting" value="1" class="hidden peer" required />
@@ -1903,7 +1903,7 @@
     </td>
 
     <td  class="bg-white">
-      <img  src="../assets/Picture31.png" class="mx-auto"  alt="" />
+      <img   src="../assets/Picture31.png" class="mx-auto transform -scale-x-100"  alt="" />
     </td>
     <td class="bg-red-300">
       <input type="checkbox" id="External-row-36" name="fav" value="1" class="hidden peer group7-checkbox" required />
@@ -2183,8 +2183,8 @@
     <td rowspan="6">
       <button @click="GoEnhance()">
         <span>
-
-          Go Enhance
+          {{ $t("Go Enhance") }}
+          
         </span>
       </button>
      
@@ -2264,7 +2264,7 @@
     </div>
     <div class="text-xl grid grid-row-2 justify-center text-warp py-4">
       <p> 
-        {{ $t(" Total Evaluation of the Resilient Design Criteria in the Classroom ") }}
+        {{ $t(" Total Evaluation of the Resilient Design Criteria in Layout ") }}
         
       </p>
       <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
@@ -2640,7 +2640,16 @@ const getAllRowsFromLocalStorageExt = () => {
 
 const GoEnhance=()=>{
   router.push({ name: 'ConAll', hash: '#enhanceForm' })
+  const targetElement = document.getElementById('enhanceForm');
+   // Check if the element exists
 
+   if (targetElement) {
+    
+     // Scroll to the target element
+     targetElement.scrollIntoView({ behavior: 'smooth' });
+   }
+
+ 
 }
 
 

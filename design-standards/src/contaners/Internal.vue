@@ -534,7 +534,7 @@
         <div class="hidden">/</div>
         <td rowspan="1" colspan="1">{{ $t(" MIN (As a precaution)") }}</td>
         <div class="hidden">/</div>
-        <td rowspan="2" colspan="1">{{ $t(" choose one ") }}</td>
+        <td rowspan="2" colspan="1">{{ $t(" choose one   ") }}</td>
         <div class="hidden">/</div>
         <td>{{ $t(" 24Student ") }}</td>
         <td class="bg-white">
@@ -592,7 +592,7 @@
         <div class="hidden">/</div>
 
         <div class="hidden">
-          <td rowspan="2" colspan="1">{{ $t(" choose one ") }}</td>/
+          <td rowspan="2" colspan="1">{{ $t(" choose one   ") }}</td>/
         </div>
         <td>{{ $t(" 30-36Student ") }}</td>
         <td class="bg-white">
@@ -642,7 +642,7 @@
         <td rowspan="1" colspan="1">{{ $t(" MIN ") }}</td>
         <div class="hidden">/</div>
 
-        <td rowspan="2" colspan="1">{{ $t(" choose one ") }}</td>
+        <td rowspan="2" colspan="1">{{ $t(" choose one   ") }}</td>
         <div class="hidden">/</div>
 
         <td>{{ $t(" 48m2 ") }}</td>
@@ -693,7 +693,7 @@
         <div class="hidden">/</div>
 
         <div class="hidden">
-          <td rowspan="2" colspan="1">{{ $t(" choose one ") }}</td>/
+          <td rowspan="2" colspan="1">{{ $t(" choose one   ") }}</td>/
         </div>
 
         <td>{{ $t(" 65m2 ") }}</td>
@@ -750,7 +750,7 @@
         <td rowspan="1" colspan="1">{{ $t(" MIN ") }}</td>
         <div class="hidden">/</div>
 
-        <td rowspan="2" colspan="1">{{ $t(" choose one ") }}</td>
+        <td rowspan="2" colspan="1">{{ $t(" choose one   ") }}</td>
         <div class="hidden">/</div>
         <td>{{ $t(" 1.60m2 ") }}</td>
 
@@ -1993,9 +1993,9 @@
           <img src="../assets/Picture179.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="External-row-26" name="ahosting" value="1" class="hidden peer group1-checkbox"
+          <input type="checkbox" id="External-row-111" name="ahosting" value="1" class="hidden peer group1-checkbox"
             required />
-          <label for="External-row-26"
+          <label for="External-row-111"
             class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
               <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -2056,9 +2056,9 @@
           <img src="../assets/Picture180.png" class="mx-auto" alt="" />
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="External-row-26" name="ahosting" value="1" class="hidden peer group1-checkbox"
+          <input type="checkbox" id="External-row-112" name="ahosting" value="1" class="hidden peer group1-checkbox"
             required />
-          <label for="External-row-26"
+          <label for="External-row-112"
             class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
               <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -2403,10 +2403,12 @@
           <div class="hidden">/</div>
         </div>
         <td rowspan="6">
-          {{ $t(" Student Response Tools (personal) ") }}
+          {{ $t(" Active participation of students ") }}
+
         </td>
         <td rowspan="5">
-          {{ $t(" Active participation of students ") }}
+          {{ $t(" Precautionary measures for Student Response Tools ") }}
+
         </td>
         <div class="hidden">/</div>
 
@@ -2917,7 +2919,7 @@
         <td rowspan="3" colspan="1">{{ $t(" Ventilation ") }}</td>
         <div class="hidden">/</div>
 
-        <td rowspan="1" colspan="3">{{ $t(" Natural ") }}</td>
+        <td rowspan="1" colspan="3">{{ $t(" Natural from (one - two sides) ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture73.png" class="mx-auto" alt="" />
         </td>
@@ -3240,7 +3242,7 @@
 
         <td rowspan="1" colspan="2">{{ $t(" By using UVIG technology ") }}</td>
         <td class="bg-white">
-          <img src="../assets/Picture77.png" class="mx-auto" alt="" />
+          <img src="../assets/2cea0785-dd50-4639-be9f-8e0944cf97fd.jpeg" class="mx-auto w-10" alt="" />
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Internal-row-56" name="ahosting" value="1" class="hidden peer" required />
@@ -3296,7 +3298,7 @@
         <div class="hidden">/</div>
         <td rowspan="2">{{ $t(" From (Two Sides) ") }}</td>
         <td rowspan="2" class="bg-white">
-          <img src="../assets/Picture78.png" class="mx-auto" alt="" />
+          <img src="../assets/image.png" class="mx-auto w-12" alt="" />
         </td>
        
         <td rowspan="2" class="bg-white">
@@ -5060,8 +5062,8 @@
         <td rowspan="6">
       <button @click="GoEnhance()">
         <span>
-
-          Go Enhance
+          {{ $t("Go Enhance") }}
+          
         </span>
       </button>
      
@@ -5204,7 +5206,13 @@ let showEnhanceInteOpen = ref(true);
 
 const GoEnhance=()=>{
   router.push({ name: 'ConAll', hash: '#enhanceForm' })
-
+  const targetElement = document.getElementById('enhanceForm');
+   // Check if the element exists
+   if (targetElement) {
+     // Scroll to the target element
+     targetElement.scrollIntoView({ behavior: 'smooth' });
+   }
+ 
 }
 
 const initializeCheckboxes = () => {
