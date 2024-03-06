@@ -16,10 +16,7 @@
         <td class="w-16">{{ columnSums[1] }}</td>
         <td class="w-16">{{ columnSums[2] }}</td>
         <td class="w-16">{{ columnSums[3] }}</td>
-        <td class="w-24" rowspan="6">
-
-          
-        </td>
+        <td class="w-24" rowspan="6"></td>
       </tr>
       <tr class="bg-[#d9e2f3]">
         <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
@@ -86,9 +83,7 @@
   </div>
   <div class="block">
     <div class="flex gap-5 justify-center items-center text-center">
-      
       <div class="text-xl py-4">
-        
         <p>
           {{
             $t(
@@ -98,30 +93,30 @@
         </p>
         <chart class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
-      <div  class="text-xl py-4">
-        
+      <div class="text-xl py-4">
         <p>
           {{ $t(" Total Evaluation of the Resilient in the School ") }}
         </p>
         <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
-      <div class="w-32"></div>
+      <div class="w-44"></div>
       <div class=""></div>
-      <button @click="openEnhanceAllForm()" class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-lg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
-<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+     
+    <button
+    @click="openEnhanceAllForm()"
 
-  {{ $t("Recommendation") }}
+      type="button"
+      class="max-w-full rounded-xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
+    >
+    {{ $t("Recommendation") }}
+    </button>
 
-</span>
-</button>
-         
     </div>
   </div>
-  <div id="enhanceForm"  class=" ">
-    <div  class="relative overflow-x-auto"></div>
+  <div id="enhanceForm" class=" ">
+    <div class="relative overflow-x-auto"></div>
 
     <div
-    
       v-if="showEnhanceAllForm"
       class="grid grid-cols-1 place-content-center justify-center"
     >
@@ -399,7 +394,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed, watch , watchEffect } from "vue";
+import { ref, onMounted, computed, watch, watchEffect } from "vue";
 import { useRoute, useRouter } from "vue-router";
 
 let router = useRouter();
@@ -408,18 +403,17 @@ import chartTotal from "../charts/All-chart-total.vue";
 onMounted(() => {
   rows.value = Array.from(document.querySelectorAll("tr")); // Filter rows by ID
   watchEffect(() => {
-  const hash = window.location.hash;
+    const hash = window.location.hash;
 
-  if (hash.endsWith('#enhanceForm')) {
-    const targetElement = document.getElementById(targetElementId.value);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' });
+    if (hash.endsWith("#enhanceForm")) {
+      const targetElement = document.getElementById(targetElementId.value);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
     }
-  }
+  });
 });
-
-});
-const targetElementId = ref('enhanceForm');
+const targetElementId = ref("enhanceForm");
 let columnSums = ref({
   0: 0,
   1: 0,
@@ -537,7 +531,6 @@ const close = () => {
   showEnhanceAllForm.value = false;
 };
 
-
 const openEnhanceAllForm = () => {
   showEnhanceAllFormChosenBtn.value = true;
   showEnhanceAllFormUnChosenBtn.value = false;
@@ -553,7 +546,6 @@ const openEnhanceAllForm = () => {
   parsedUnCheckRowsTextArrayOth.value =
     getParsedUnCheckRowsDataFromLocalStorageOth();
 
-  
   tabletitelExt.value =
     "First: Guidelines to Enhance Resilience in Layout. Choose the following:";
   tabletitelInte.value =
@@ -588,16 +580,15 @@ const openEnhanceAllForm = () => {
   stapercentageFrom80.value = formattedStaValue;
   OthpercentageFrom80.value = formattedOthValue;
 
- setTimeout(() => {
-   router.push({ name: 'ConAll', hash: '#enhanceForm' })
-   const targetElement = document.getElementById('enhanceForm');
-   // Check if the element exists
-   if (targetElement) {
-     // Scroll to the target element
-     targetElement.scrollIntoView({ behavior: 'smooth' });
-   }
- }, 0.50);
-
+  setTimeout(() => {
+    router.push({ name: "ConAll", hash: "#enhanceForm" });
+    const targetElement = document.getElementById("enhanceForm");
+    // Check if the element exists
+    if (targetElement) {
+      // Scroll to the target element
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  }, 0.5);
 };
 
 const unSelctAll = () => {
