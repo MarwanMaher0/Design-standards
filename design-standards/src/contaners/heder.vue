@@ -8,28 +8,7 @@
       >
         <div class="flex items-baseline">
           <div class="flex items-baseline">
-            <button
-              data-collapse-toggle="navbar-default"
-              class="show-svg d-print-none inline-flex relative items-center  w-10 h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              type="button"
-            >
-              <span class="sr-only ">Open main menu</span>
-              <svg
-                class="w-5 h-5 text-gray-600"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 17 14"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 1h15M1 7h15M1 13h15"
-                />
-              </svg>
-            </button>
+           
           </div>
           <span
             class="flex items-baseline d-print p-5 border border-[#0c66ee] rounded-lg font-bold items-center bg-black capitalize from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-black"
@@ -53,7 +32,8 @@
                   @click="thePrint"
                   class="max-w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
                 >
-                  Print
+                {{ $t("Print") }}
+                  
                 </Button>
               </li>
 
@@ -64,24 +44,24 @@
                   type="button"
                   class="w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
                 >
-                  <span id="Ar" class="font-extrabold text-xl">Ar </span>
-                  <span id="En" class="hidden font-extrabold text-xl"> En </span>
+                  <span id="Ar" class="font-extrabold text-xl">En </span>
+                  <span id="En" class="hidden font-extrabold text-xl">  ع</span>
                 </button>
               </li>
               <li>
-                <button
+                <!-- <button
                   @click="unSelctAllOfThemConfelrm()"
                   class="max-w-full my-2 lg:m-0 rounded-3xl px-8 py-4 bg-gradient-to-r from-red-400 via-red-500 to-red-600 border border-[red] text-white"
                 >
-                  Un Selct All
-                </button>
+                {{ $t("UNSELECT ALL") }}
+                  
+                </button> -->
               </li>
             </ul>
           </div>
       </div>
       <div
-          class="hidden text-xl d-print-none pt-1"
-          id="navbar-default"
+          class=" text-xl d-print-none pt-1"
         >
           <ul
           :class="{ 'flex-row-reverse': direction === 'ltr', 'flex-row': direction === 'rtl' }"

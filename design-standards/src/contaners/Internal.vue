@@ -37,7 +37,7 @@
         <td rowspan="4" colspan="1" class=" ">
           {{ $t(" Choose one form ") }}
         </td>
-        <td class="w-16 bg-white">
+        <td class="w-20 bg-white">
           <img src="../assets/Picture36.png" class="mx-auto w-10" alt="" />
         </td>
         <td class="w-16 bg-white">
@@ -78,7 +78,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td class="w-24">100%</td>
+        <td class="w-36">100%</td>
       </tr>
       <tr id="Inte-row-2" class=" ">
         <div class="hidden">
@@ -373,7 +373,7 @@
           {{ $t(" Choose one ") }}
         </td>
         <td class="bg-white">
-          <img src="../assets/Picture41.png" class="mx-auto" alt="" />
+          <img src="../assets/d96c4f8d-6ac9-4c2f-b177-e875764d5f54.jpeg" class="mx-auto w-14 h-10" alt="" />
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Internal-row-7" name="ahosting" value="1" class="hidden peer" required />
@@ -426,7 +426,7 @@
         </div>
         <td>{{ $t(" 1:1 ") }}</td>
         <td class="bg-white">
-          <img src="../assets/Picture41.png" class="mx-auto" alt="" />
+          <img src="../assets/6d.png" class="mx-auto w-10" alt="" />
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Internal-row-8" name="ahosting" value="1" class="hidden peer" required />
@@ -479,7 +479,7 @@
         </div>
         <td>{{ $t("  1.33:1 ") }}</td>
         <td class="bg-white">
-          <img src="../assets/Picture41.png" class="mx-auto" alt="" />
+          <img src="../assets/6d.png" class="mx-auto w-10" alt="" />
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Internal-row-9" name="ahosting" value="1" class="hidden peer" required />
@@ -2412,7 +2412,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td >{{ $t(" By Using Laptop or Tablet ") }}</td>
+        <td >{{ $t(" By Using Laptop  ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture64.png" class="mx-auto" alt="" />
         </td>
@@ -3947,8 +3947,8 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="External-row-25" name="ahosting" value="1" class="hidden peer" required />
-          <label for="External-row-25"
+          <input type="checkbox" id="External-row-73" name="ahosting" value="1" class="hidden peer" required />
+          <label for="External-row-73"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
               <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -5046,12 +5046,13 @@
             )
           }}
         </td>
-        <td rowspan="6">
+        <td class="bg-[#2f5496] text-white" rowspan="6">
          
          <button 
          @click="unSelctAll()"
          >
-         Unselect All 
+                         {{ $t("UNSELECT ALL") }}
+ 
 
          </button>
        </td>         <td>{{ columnSums[0] }}</td>
@@ -5059,10 +5060,10 @@
         <td>{{ columnSums[1] }}</td>
         <td>{{ columnSums[2] }}</td>
         <td>{{ columnSums[3] }}</td>
-        <td rowspan="6">
-      <button @click="GoEnhance()">
-        <span>
-          {{ $t("Go Enhance") }}
+        <td class="bg-[#2f5496] text-white"  calss="w-16" rowspan="6">
+      <button  @click="GoEnhance()">
+        <span >
+          {{ $t("Recommendation") }}
           
         </span>
       </button>

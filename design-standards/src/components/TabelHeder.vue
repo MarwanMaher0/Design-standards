@@ -9,13 +9,13 @@
             )
           }}
         </td>
-        <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="3" colspan="1">
+        <td class="bg-[#2f5496] w-20 text-gray-100" rowspan="3" colspan="1">
           <div class="-rotate-90">{{ $t(" Icons ") }}</div>
         </td>
         <td class="bg-[#2f5496] w-64 text-gray-100" rowspan="1" colspan="4">
           {{ $t(" Resilient Design Criteria and Requirements ") }}
         </td>
-        <td class="bg-[#2f5496] w-24 text-gray-100" rowspan="3" colspan="1">
+        <td class="bg-[#2f5496] w-36 text-gray-100" rowspan="3" colspan="1">
           <div class="-rotate-90">
             {{ $t(" Weight of different Criteria ") }}
           </div>

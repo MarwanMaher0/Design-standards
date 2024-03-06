@@ -132,7 +132,7 @@
   " Audio- Visual Tutorial Aids: ": "التقنيات السمعية والبصرية Audio- Visual Tutorial Aids: ",
   " By Using Video Tapes ": "استخدام شرائط الفيديو - الأفلام التعليمية السنيمائية  ",
   " Active participation of students ": "التقنيات المعتمدة على تفاعل الطلاب ومشاركته الإيجابية: ",
-  " By Using Laptop or Tablet ": "استخدام أجهزة الحاسب الآلي ",
+  " By Using Laptop  ": "استخدام أجهزة الحاسب الآلي ",
   " By Using Tablet ":"استخدام أجهزة الحاسوب اللوحي (التابلت)",
   " Precautionary measures to develop the infrastructure of classroom ": "الإجراءات الاحترازية لتطويرالبنية التحتية للفراغات التعليمية  ",
   " Virtual reality technologies ": "تقنيات الواقع الافتراضي  ",
@@ -269,7 +269,7 @@
   " (Using ultraviolet (UV) light technology  ": "باستخدام الاشعة فوق البنفسيجية (تقنية UVGI)",
   " Using air purifiers ": "مع استخدام منقيات الهواء وتنظيفها باستمرار ",
   " Availability of internet services ": "توفر خدمات الانترنت ",
-  " Using Laptop or Tablet ": "توفير أجهزة حاسب آلي ",
+  " Using Laptop  ": "توفير أجهزة حاسب آلي ",
   "  Average height of students (1.30 m - 1.80) ": "متوسط ارتفاعات الطلاب الدائمة حسب الفئة (من 1.30م إلى 1.80م)",
   " Temperature ": "درجة الحرارة ",
   " Opening Area ": "مساحة الفتحات ",
@@ -329,7 +329,7 @@
   "Current Evaluation of Resilience in Residential Education Spaces.":"التقييم الحالي للمرونة في الفراغات التعليمة السكنية",
 
 
-  " Evaluation of the Resilient Design Criteria in the Classroom ": "تقييم معايير التصميم المرن في الفصل الدراسي  ",
+  " Evaluation of the Resilient Design Criteria in the Classroom ": "تقييم معايير التصميم المرن المحققة في الفصل الدراسي  ",
   " Total Evaluation of the Resilient Design Criteria in the Classroom ": "التقييم الشامل لمعايير التصميم المرن في الفصل الدراسي",
   " Evaluation of the Resilient Design Criteria in Layout ": "تقييم معايير التصميم المرن المحققة في الموقع العام  ",
   " Total Evaluation of the Resilient Design Criteria in Layout ": "التقييم الشامل لمعايير التصميم المرن  بالموقع العام  ",
@@ -343,13 +343,13 @@
   " MAX ": "الحد الأقصى  ",
   " MIN ": "الحد الأدنى    ",
   " MAX (As a precaution)": " الحد الأقصى (كإجراء احترازي)   ",
-  " This application provides a design matrix to measure the resilience of schools and their different educational spaces during crises. methodology of this application is based on analyzing the resilient design criteria, which include: ":"يقدم هذا البرنامج مصفوفة تصميم لقياس المرونة في المدارس وفراغتها التعليمية المختلفة خلال الأزمات. تعتمد منهجية هذا البرنامج على تحليل معايير التصميم المرن وهم (مواجهة الأوبئة - التغير المناخي - التقدم التكنولوجي - التعليم المتطور) طبقاً للمعايير التصميمية والبيئية والاجراءات الاحترازية المتبعة بالفراغات التعليمية المختلفة التي حددتها الأبحاث السابقة والتي تم نشرها وفهرستها في مجلات PubMed وSCI وScopus. وقد تم تقسيم الفراغات التعليمية إلى",       
+  " This application provides a design matrix to measure the resilience of schools and their different educational spaces during crises. methodology of this application is based on analyzing the resilient design criteria, which include: ":"يقدم هذا التطبيق مصفوفة تصميم لقياس المرونة في المدارس وفراغتها التعليمية المختلفة خلال الأزمات. تعتمد منهجية هذا التطبيق على تحليل معايير التصميم المرن وهم (مواجهة الأوبئة - التغير المناخي - التقدم التكنولوجي - التعليم المتطور) طبقاً للمعايير التصميمية والبيئية والاجراءات الاحترازية المتبعة بالفراغات التعليمية المختلفة التي حددتها الأبحاث السابقة والتي تم نشرها وفهرستها في مجلات PubMed وSCI وScopus. وقد تم تقسيم الفراغات التعليمية إلى",       
   "1- Epidemic Prevention;":"1- فراغات تعليمية خارجية (الموقع العام)،",
   "2- Climate Change Adaptation;":" 2- فراغات تعليمية داخلية (الفصول الدراسية)،",
   "3- Integration of Technological Advancements;":"3- فراغات تعليمية سكنية والتي تلبي متطلبات (التعليم الهجين - التعليم عن بعد) خلال الأزمات لضمان استمرار العملية التعليمية وعدم توقفها،",
   "4- Supporting Advanced Education, according to the design,environmental criteria, and precautionary measures followed indifferent educational spaces identified by previous research that was published and indexed in the journals PubMed, SCI, and Scopus.":"4- الفراغات الخدمية للتنقل بين تلك الفراغات مثل عناصر الحركة الرأسية (السلالم) والأفقية (ممرات الحركة).",
   " The educational spaces have been divided into":"",
-  "1) external educational spaces (layout);":"في النهاية يقدم البرنامج تقييم شامل للمرونة وتوصيات وقواعد استرشادية للمستخدم لتحسين وزيادة نسبة المرونة بالمدرسة لتكون أكثر تكيفياً وقدرة على الصمود أثناء الأزمات لتجنب الإغلاق.",
+  "1) external educational spaces (layout);":"في النهاية يقدم التطبيق تقييم شامل للمرونة وتوصيات وقواعد استرشادية للمستخدم لتحسين وزيادة نسبة المرونة بالمدرسة لتكون أكثر تكيفياً وقدرة على الصمود أثناء الأزمات لتجنب الإغلاق.",
   "2) internal educational spaces (classroom);":"",
   "3) residential educational spaces that meet the requirements of hybrid learning (distance learning) during crises and avoid school closure; ":"",
   "4) Servant spaces for passing between these spaces, such as stairs and corridors. ":"",
@@ -373,8 +373,12 @@
 
 " other surfaces":"أسطح اخرى",
   " Technology services ":"خدمات تكنولوجية",
-  "This application provides a design matrix to measure the resilience of schools and their different educational spaces during crises. The methodology of this application is based on analyzing the resilient design criteria, which include: 1- Epidemic Prevention; 2- Climate Change Adaptation; 3- Integration of Technological Advancements; and 4- Supporting Advanced Education, according to the design, environmental criteria, and precautionary measures followed in different educational spaces identified by previous research that was published and indexed in the journals PubMed, SCI, and Scopus. The educational spaces have been divided into 1) external educational spaces (layout); 2) internal educational spaces (classroom); 3) residential educational spaces that meet the requirements of hybrid and distance learning during crises and avoid school closure; and 4) Servant spaces for passing between these spaces, such as stairs and corridors. Finally, the application provides a comprehensive evaluation of resilience, recommendations, and guidelines for users to enhance and increase resilience in the school to be more adaptive and resilient during crises to avoid closure.":"يقدم هذا البرنامج مصفوفة تصميم لقياس المرونة في المدارس وفراغتها التعليمية المختلفة خلال الأزمات. تعتمد منهجية هذا البرنامج على تحليل معايير التصميم المرن وهم (مواجهة الأوبئة - التغير المناخي - التقدم التكنولوجي - التعليم المتطور) طبقاً للمعايير التصميمية والبيئية والاجراءات الاحترازية المتبعة بالفراغات التعليمية المختلفة التي حددتها الأبحاث السابقة والتي تم نشرها وفهرستها في مجلات PubMed وSCI وScopus. وقد تم تقسيم الفراغات التعليمية إلى 1- فراغات تعليمية خارجية (الموقع العام)، 2- فراغات تعليمية داخلية (الفصول الدراسية)، 3- فراغات تعليمية سكنية والتي تلبي متطلبات (التعليم الهجين - التعليم عن بعد) خلال الأزمات لضمان استمرار العملية التعليمية وعدم توقفها، 4- الفراغات الخدمية للتنقل بين تلك الفراغات مثل عناصر الحركة الرأسية (السلالم) والأفقية (ممرات الحركة). في النهاية يقدم البرنامج تقييم شامل للمرونة وتوصيات وقواعد استرشادية للمستخدم لتحسين وزيادة نسبة المرونة بالمدرسة لتكون أكثر تكيفياً وقدرة على الصمود أثناء الأزمات لتجنب الإغلاق.",
-  "Go Enhance":"اذهب للتوصيات",
+  "This application provides a design matrix to measure the resilience of schools and their different educational spaces during crises. The methodology of this application is based on analyzing the resilient design criteria, which include: 1- Epidemic Prevention; 2- Climate Change Adaptation; 3- Integration of Technological Advancements; and 4- Supporting Advanced Education, according to the design, environmental criteria, and precautionary measures followed in different educational spaces identified by previous research that was published and indexed in the journals PubMed, SCI, and Scopus. The educational spaces have been divided into 1) external educational spaces (layout); 2) internal educational spaces (classroom); 3) residential educational spaces that meet the requirements of hybrid and distance learning during crises and avoid school closure; and 4) Servant spaces for passing between these spaces, such as stairs and corridors. Finally, the application provides a comprehensive evaluation of resilience, recommendations, and guidelines for users to enhance and increase resilience in the school to be more adaptive and resilient during crises to avoid closure.":"يقدم هذا التطبيق مصفوفة تصميم لقياس المرونة في المدارس وفراغتها التعليمية المختلفة خلال الأزمات. تعتمد منهجية هذا التطبيق على تحليل معايير التصميم المرن وهم (مواجهة الأوبئة - التغير المناخي - التقدم التكنولوجي - التعليم المتطور) طبقاً للمعايير التصميمية والبيئية والاجراءات الاحترازية المتبعة بالفراغات التعليمية المختلفة التي حددتها الأبحاث السابقة والتي تم نشرها وفهرستها في مجلات PubMed وSCI وScopus. وقد تم تقسيم الفراغات التعليمية إلى 1- فراغات تعليمية خارجية (الموقع العام)، 2- فراغات تعليمية داخلية (الفصول الدراسية)، 3- فراغات تعليمية سكنية والتي تلبي متطلبات (التعليم الهجين - التعليم عن بعد) خلال الأزمات لضمان استمرار العملية التعليمية وعدم توقفها، 4- الفراغات الخدمية للتنقل بين تلك الفراغات مثل عناصر الحركة الرأسية (السلالم) والأفقية (ممرات الحركة). في النهاية يقدم التطبيق تقييم شامل للمرونة وتوصيات وقواعد استرشادية للمستخدم لتحسين وزيادة نسبة المرونة بالمدرسة لتكون أكثر تكيفياً وقدرة على الصمود أثناء الأزمات لتجنب الإغلاق.",
+  "Recommendation":"اذهب للتوصيات",
+  "UNSELECT ALL":"إلغاء تحديد الكل",
+  "Print":"طباعة",
+  "Get Started":"ابدأ الآن",
+
   " Window shades for different teaching methods.": " ستائر للنوافذ للتحكم في اضاءة الفصل لتناسب الأساليب التعليمية المختلفة "
 
 } 

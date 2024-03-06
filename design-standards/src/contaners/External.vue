@@ -38,7 +38,7 @@
         <div class="hidden">)</div>
 
 
-        <td class="w-16">
+        <td class="w-20">
           <img src="../assets/2 (1).png" class="mx-auto" alt="" />
         </td>
         <td class="w-16 bg-red-300">
@@ -76,7 +76,7 @@
           </label>
           <div class="hidden">/</div>
         </td>
-        <td class="w-24">75%</td>
+        <td class="w-36">75%</td>
       </tr>
       <tr id="Ext-row-2">
         <div class="hidden">
@@ -2167,11 +2167,12 @@
         $t(" No. of Realized Points for Resilient Design Criteria in layout")
       }}
     </td>
-    <td rowspan="6">
+    <td  class="bg-[#2f5496] text-white" rowspan="6">
       <button @click="unSelctAll()">
         <span>
 
-          Unselect All
+                          {{ $t("UNSELECT ALL") }}
+
         </span>
       </button>
     </td>
@@ -2180,10 +2181,10 @@
     <td>{{ columnSums[2] }}</td>
     <td>{{ columnSums[3] }}</td>
 
-    <td rowspan="6">
+    <td class="bg-[#2f5496] text-white" rowspan="6">
       <button @click="GoEnhance()">
         <span>
-          {{ $t("Go Enhance") }}
+          {{ $t("Recommendation") }}
           
         </span>
       </button>

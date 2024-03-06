@@ -30,7 +30,7 @@
         <td>
           {{ $t(" Paints (light colors) ") }}
         </td>
-        <td class="bg-white w-16">
+        <td class="bg-white w-20">
           <img src="../assets/Picture141.jpg" class="mx-auto w-10" alt="" />
         </td>
         <td class="bg-white w-16">
@@ -64,7 +64,7 @@
           </label>
         </td>
         <div class="hidden">/</div>
-        <td class="w-24">50%</td>
+        <td class="w-36">50%</td>
       </tr>
       <tr id="Oth-row-2">
         <div class="hidden">
@@ -1679,12 +1679,13 @@
           }}
         </td>
 
-        <td rowspan="6">
+        <td class="bg-[#2f5496] text-white" rowspan="6">
          
          <button 
          @click="unSelctAll()"
          >
-         Unselect All 
+                         {{ $t("UNSELECT ALL") }}
+ 
 
          </button>
        </td>         <td>{{ columnSums[0] }}</td>
@@ -1692,11 +1693,11 @@
         <td>{{ columnSums[1] }}</td>
         <td>{{ columnSums[2] }}</td>
         <td>{{ columnSums[3] }}</td>
-        <td rowspan="6">
+        <td class="bg-[#2f5496] text-white" rowspan="6">
           <button @click="GoEnhance()">
         <span>
 
-          {{ $t("Go Enhance") }}
+          {{ $t("Recommendation") }}
         </span>
       </button>
         </td>

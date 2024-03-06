@@ -34,7 +34,7 @@
           {{ $t(" The width not less than 1.10 m ") }}
         </td>
 
-        <td class="bg-white w-16">
+        <td class="bg-white w-20">
           <center>
             <img src="../assets/Picture114.png" alt="" />
           </center>
@@ -69,7 +69,7 @@
         </td>
         <div class="hidden">/</div>
 
-        <td class="w-24">25%</td>
+        <td class="w-36">25%</td>
       </tr>
       <tr id="sta-row-2">
         <div class="hidden">
@@ -1291,12 +1291,13 @@
           }}
         </td>
 
-        <td rowspan="6">
+        <td  class="bg-[#2f5496] text-white"rowspan="6">
          
          <button 
          @click="unSelctAll()"
          >
-         Unselect All 
+                         {{ $t("UNSELECT ALL") }}
+ 
 
          </button>
        </td>
@@ -1305,11 +1306,11 @@
         <td>{{ columnSums[2] }}</td>
         <td>{{ columnSums[3] }}</td>
 
-        <td rowspan="6">
+        <td class="bg-[#2f5496] text-white" rowspan="6">
           <button @click="GoEnhance()">
         <span>
 
-          {{ $t("Go Enhance") }}
+          {{ $t("Recommendation") }}
         </span>
       </button>
         </td>

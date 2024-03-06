@@ -41,18 +41,20 @@
           <div
             class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-2"
           >
+          <input
+            v-model="schoolName"
+            placeholder="your school name"
+            class="max-w-full rounded-xl px-4 py-4 bg-inherit text-gradient border border-[#0c66ee] flex items-center justify-center"
+          />
+          <ChevronDownIcon :size="20" class="mt-1 text-[#0c66ee]" />
+
             <button
               class="max-w-full rounded-3xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
               @click="saveText"
-            >
-              Get Started
+              >
+              {{ $t("Get Started") }}
+              
             </button>
-            <ChevronDownIcon :size="20" class="mt-1 text-[#0c66ee]" />
-            <input
-              v-model="schoolName"
-              placeholder="your school name"
-              class="max-w-full rounded-xl px-4 py-4 bg-inherit text-gradient border border-[#0c66ee] flex items-center justify-center"
-            />
           </div>
         </div>
         <div class="w-full col-span-2 hidden sm:block">
