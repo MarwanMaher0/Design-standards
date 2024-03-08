@@ -2,7 +2,29 @@
   <div :dir="direction" >
     <heder :toggleLanguage="toggleLanguage" :unSelctAllOfThem="unSelctAllOfThem" class="w-full cover-gradient-2" />
     <RouterView  class=" overflow-x-auto"/>
+
+    
   </div>
+
+  <footer class="bg-white fixed bottom-0 left-0 w-full p-2 shadow  dark:bg-gray-800">
+      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Smart Solutions Ltd. All Rights Reserved.
+      </span>
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+              <p  class="hover:underline me-4 md:me-6">ENG/ Omar Mohamed Atef</p>
+          </li>
+        <li>
+              <a  class="hover:underline me-4 md:me-6">Prof/ Khaled Mohamed Dewidar</a>
+          </li>
+          <li>
+              <p  class="hover:underline me-4 md:me-6">Prof/ Gehan Ahmed Nagy</p>
+          </li>
+          
+          
+      </ul>
+      </div>
+  </footer>
 </template>
 <script setup>
   import heder from "./contaners/heder.vue";

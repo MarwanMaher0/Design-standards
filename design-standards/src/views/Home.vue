@@ -25,18 +25,14 @@
           >
             {{ $t(
               "This application provides a design matrix to measure the resilience of schools and their different educational spaces during crises. The methodology of this application is based on analyzing the resilient design criteria, which include: 1- Epidemic Prevention; 2- Climate Change Adaptation; 3- Integration of Technological Advancements; and 4- Supporting Advanced Education, according to the design, environmental criteria, and precautionary measures followed in different educational spaces identified by previous research that was published and indexed in the journals PubMed, SCI, and Scopus. The educational spaces have been divided into 1) external educational spaces (layout); 2) internal educational spaces (classroom); 3) residential educational spaces that meet the requirements of hybrid and distance learning during crises and avoid school closure; and 4) Servant spaces for passing between these spaces, such as stairs and corridors. Finally, the application provides a comprehensive evaluation of resilience, recommendations, and guidelines for users to enhance and increase resilience in the school to be more adaptive and resilient during crises to avoid closure."
-              ) }}<br />       
-            <!-- {{ $t("1- Epidemic Prevention;") }}<br />
-            {{ $t("2- Climate Change Adaptation;") }}<br />
-            {{ $t("3- Integration of Technological Advancements;") }}<br />
-            {{ $t("4- Supporting Advanced Education, according to the design,environmental criteria, and precautionary measures followed indifferent educational spaces identified by previous research that was published and indexed in the journals PubMed, SCI, and Scopus.") }}<br />
-            {{ $t(" The educational spaces have been divided into") }}<br />
-            {{ $t("1) external educational spaces (layout);") }}<br />
-            {{ $t("2) internal educational spaces (classroom);") }}<br />
-            {{ $t("3) residential educational spaces that meet the requirements of hybrid learning (distance learning) during crises and avoid school closure; ") }} <br />
-            {{ $t("4) Servant spaces for passing between these spaces, such as stairs and corridors. ") }}<br />
-            {{ $t(" Finally, the application provides a comprehensive evaluation of resilience, recommendations, and guidelines for users to improve and increase resilience in the school to be more adaptive and resilient during crises to avoid closure") }}<br />
-          </p> -->
+              ) }}<br />   
+              <br />      
+     
+          {{ $t("Provided by") }}<br />
+          {{ $t("Teacher Assistant, Omar Mohamed Atef, Architectural Engineering Department, El Minya High Institute for Engineering and Technology, Egypt") }}<br />
+          {{ $t("Professor, Khaled Mohamed Dewidar, Architectural Engineering Department, Faculty of Engineering, Ain Shams University, Egypt") }}<br />
+          {{ $t("Professor, Gehan Ahmed Nagy, Architectural Engineering Department, Faculty of Engineering, the British University in Egypt") }}<br />
+
           </p>
           <div
             class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-2"

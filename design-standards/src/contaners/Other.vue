@@ -1495,18 +1495,18 @@
         <div class="hidden">/</div>
         <td>75%</td>
       </tr>
-      <tr id="Oth-row-32">
+      <tr rowspan="2" id="Oth-row-32">
         <td rowspan="4" colspan="1">
           {{ $t(" furniture ") }}
         </td>
         <div class="hidden">/</div>
 
         <td rowspan="1" colspan="3">
-          {{ $t(" Average height of students (1.30 m - 1.80) ") }}
+          {{ $t(" Height of student seats (28-42cm) ") }}
         </td>
 
         <td class="bg-white">
-          <img src="../assets/Picture167.jpg" class="mx-auto w-10" alt="" />
+          <img src="../assets/Picture168.jpg" class="mx-auto w-10" alt="" />
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-32" name="ahosting" value="" class="hidden" required />
@@ -1539,48 +1539,8 @@
         <td>25%</td>
       </tr>
       <tr id="Oth-row-33">
-        <div class="hidden">
-          <td rowspan="4" colspan="2">
-            {{ $t(" furniture ") }}
-          </td>
-          <div class="hidden">/</div>
-        </div>
-        <td rowspan="1" colspan="3">
-          {{ $t(" Height of student seats (28-42cm) ") }}
-        </td>
-
-        <td class="bg-white">
-          <img src="../assets/Picture168.jpg" class="mx-auto w-10" alt="" />
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Other-row-33" name="ahosting" value="" class="hidden" required />
-          <label for="Other-row-33"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Other-row-33" name="ahosting" value="" class="hidden" required />
-          <label for="Other-row-33"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-          </label>
-        </td>
-        <td class="bg-white">
-          <input disabled type="checkbox" id="Other-row-33" name="ahosting" value="" class="hidden" required />
-          <label for="Other-row-33"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Other-row-33" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Other-row-33"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <div class="hidden">/</div>
-        <td>25%</td>
+       
+  
       </tr>
       <tr id="Oth-row-34">
         <div class="hidden">
@@ -1755,7 +1715,7 @@
         <td>17</td>
         <td>15</td>
         <td>4</td>
-        <td>21</td>
+        <td>20</td>
       </tr>
       <tr id="Oth-row-41" class="bg-[#b4c6e7]">
         <td rowspan="1" colspan="7">
@@ -1766,7 +1726,7 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">57</td>
+        <td rowspan="1" colspan="4">56</td>
       </tr>
     </table>
   </div>
@@ -2007,7 +1967,7 @@ const updateRowRefsBasedOnCheckboxState = () => {
 };
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 57) * 100;
+  return (totalSum.value / 56) * 100;
 });
 const percentageFrom24 = computed(() => {
   return (columnSums.value[0] / 17) * 100;
@@ -2019,7 +1979,7 @@ const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 4) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 21) * 100;
+  return (columnSums.value[3] / 20) * 100;
 });
 const totalSum = computed(() => {
   return (

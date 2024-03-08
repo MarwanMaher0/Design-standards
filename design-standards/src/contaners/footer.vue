@@ -66,7 +66,7 @@
         <td>86</td>
         <td>64</td>
         <td>45</td>
-        <td>128</td>
+        <td>127</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
         <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
@@ -77,7 +77,7 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">323</td>
+        <td rowspan="1" colspan="4">322</td>
       </tr>
     </table>
   </div>
@@ -423,7 +423,7 @@ let columnSums = ref({
 let showEnhanceAllOpen = ref(true);
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 323) * 100;
+  return (totalSum.value / 322) * 100;
 });
 const percentageFrom24 = computed(() => {
   return (columnSums.value[0] / 86) * 100;
@@ -435,7 +435,7 @@ const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 45) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 128) * 100;
+  return (columnSums.value[3] / 122) * 100;
 });
 const totalSum = computed(() => {
   return (
