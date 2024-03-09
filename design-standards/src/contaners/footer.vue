@@ -121,7 +121,7 @@
       class="grid grid-cols-1 place-content-center justify-center"
     >
       <div
-        class="content-center backdrop-filter backdrop-blur-sm place-content-center flex z-30 items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
+        class="content-center backdrop-filter backdrop-blur-sm place-content-center flex  items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
       >
         <div class="grid max-h-full">
           <form
@@ -172,7 +172,7 @@
 
                       <router-link
                         :to="{ name: 'ConExternalv' }"
-                        class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                        class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus: focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                       >
                         {{ $t(" CLICK TO ENHANCE") }}
                       </router-link>
@@ -230,7 +230,7 @@
 
                       <router-link
                         :to="{ name: 'ConInternal' }"
-                        class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                        class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus: focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                         >{{ $t(" CLICK TO ENHANCE") }}</router-link
                       >
                     </th>
@@ -287,7 +287,7 @@
 
                       <router-link
                         :to="{ name: 'ConStairs' }"
-                        class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                        class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus: focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                         >{{ $t(" CLICK TO ENHANCE") }}</router-link
                       >
                     </th>
@@ -343,7 +343,7 @@
                       {{ $t(tabletitelOth) }}
                       <router-link
                         :to="{ name: 'ConOther' }"
-                        class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                        class="py-2.5 px-5 me-2 mb-2 text-lg font-blod text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus: focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                         >{{ $t(" CLICK TO ENHANCE") }}</router-link
                       >
                     </th>
