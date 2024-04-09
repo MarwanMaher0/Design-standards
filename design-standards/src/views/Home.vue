@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full cover-gradient-2 h-dvh">
+  <div class="w-full cover-gradient-2 h-full">
     <section id="hero" class="w-full">
       <div class="grid grid-cols-7 items-center">
         <div class=""></div>
@@ -61,7 +61,20 @@
           />
         </div>
       </div>
-      <div class=""></div>
+      <div class=" grid grid-cols-2 pb-[10rem] pt-[4rem]">
+        <div class=""></div>
+        <div class=" text-center gap-5 grid grid-rows justify-center content-center">
+          <div class="text-xl">
+          {{ $t("Scan Qr Code") }}
+            
+            </div>
+          <div class="flex justify-center " ><img
+            :class="{ 'w-full': direction === 'ltr', 'w-8/12': direction === 'rtl' }"
+            
+            class="  h-[10rem] " src="../assets/frame.png" alt="Qr Code "></div>
+        </div>
+
+      </div>
     </section>
   </div>
 </template>
