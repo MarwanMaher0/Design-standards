@@ -63,8 +63,8 @@
           }}
         </td>
 
-        <td>86</td>
-        <td>64</td>
+        <td>85</td>
+        <td>63</td>
         <td>45</td>
         <td>127</td>
       </tr>
@@ -77,7 +77,7 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">322</td>
+        <td rowspan="1" colspan="4">320</td>
       </tr>
     </table>
   </div>
@@ -118,7 +118,7 @@
 
     <div
       v-if="showEnhanceAllForm"
-      class="grid grid-cols-1 place-content-center justify-center"
+      class="grid grid-cols-1 pb-[55px] place-content-center justify-center"
     >
       <div
         class="content-center backdrop-filter backdrop-blur-sm place-content-center flex  items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
@@ -423,19 +423,19 @@ let columnSums = ref({
 let showEnhanceAllOpen = ref(true);
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 322) * 100;
+  return (totalSum.value / 320) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 86) * 100;
+  return (columnSums.value[0] / 85) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 64) * 100;
+  return (columnSums.value[1] / 63) * 100;
 });
 const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 45) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 122) * 100;
+  return (columnSums.value[3] / 127) * 100;
 });
 const totalSum = computed(() => {
   return (
@@ -608,7 +608,6 @@ const unSelctAll = () => {
         `unCheckRows-${row.id}`,
         row.outerHTML
       );
-      localStorage.removeItem(`CheckRows-${row.id}`);
 
       localStorage.removeItem(
         `All-row-${row.id}-checkbox-value-${checkboxIndex}`

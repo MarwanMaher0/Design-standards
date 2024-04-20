@@ -1764,7 +1764,6 @@ import chartTotal from "../charts/Oth-chart-total.vue";
 
 let router = useRouter();
 let rows = ref([]);
-let tdes = ref([]);
 let checkedRows = ref([]);
 let uncheckedRows = ref([]);
 let columnSums = ref({
@@ -1773,10 +1772,8 @@ let columnSums = ref({
   2: 0,
   3: 0,
 });
-let tableContentOth = ref("");
-let showEnhanceOthBTN = ref(false);
-let showEnhanceOthOpen = ref(true);
-
+const groupOth1 = ["Oth-row-1", "Oth-row-2"];
+const groupOth2 = ["Oth-row-7", "Oth-row-8"];
 
 onMounted(() => {
   rows.value = Array.from(document.querySelectorAll('tr[id^="Oth-"]')); // Select rows with IDs starting with "Oth-"
@@ -1784,22 +1781,28 @@ onMounted(() => {
   updateColumnSums();
   saveRowsWithCheckboxesToLocalStorage();
 });
-const saveRowsWithCheckboxesToLocalStorage = () => {
+
+const saveRowsWithCheckboxesToLocalStorage =  ()  => {
+
+
   const rowsWithCheckboxes = rows.value.filter((row) => {
     return row.querySelector('input[type="checkbox"]') !== null;
   });
 
+ 
+
+
   rowsWithCheckboxes.forEach((row) => {
+  
     const checkbox = row.querySelector('input[type="checkbox"]');
     // Check if the checkbox is not checked
+   
     if (checkbox && !checkbox.checked) {
       // Save the row's outerHTML to local storage with a unique key
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
     }
-    else if (checkbox && checkbox.checked) {
-      // Save the row's outerHTML to local storage with a unique key
-      localStorage.setItem(`CheckRows-${row.id}`, row.outerHTML);
-    }
+   
+   
   });
 };
 const GoEnhance=()=>{
@@ -1833,8 +1836,7 @@ const initializeCheckboxes = () => {
 const handleCheckboxChange = (event, rowIndex) => {
   const clickedCheckbox = event.target;
   const row = clickedCheckbox.closest("tr");
-  const groupOth1 = ["Oth-row-1", "Oth-row-2"];
-  const groupOth2 = ["Oth-row-7", "Oth-row-8"];
+ 
   if (!row || !row.id.startsWith("Oth-")) return;
   const checkboxesInRow = Array.from(
     row.querySelectorAll('input[type="checkbox"]')
@@ -1860,6 +1862,8 @@ const handleCheckboxChange = (event, rowIndex) => {
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
           saveRowsWithCheckboxesToLocalStorage();
+          localStorage.removeItem(`unCheckRows-${groupId}`);
+
 
           localStorage.setItem(`allRows-${groupId}`, row.outerHTML);
         });
@@ -1887,7 +1891,7 @@ const handleCheckboxChange = (event, rowIndex) => {
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
           saveRowsWithCheckboxesToLocalStorage();
-
+          localStorage.removeItem(`unCheckRows-${groupId}`);
           localStorage.setItem(`allRows-${groupId}`, row.outerHTML);
         });
       }
@@ -1901,12 +1905,10 @@ const handleCheckboxChange = (event, rowIndex) => {
     if (checkbox.checked) {
       localStorage.setItem(localStorageKey, checkbox.value);
       localStorage.removeItem(`unCheckRows-${row.id}`);
-      localStorage.setItem(`CheckRows-${row.id}`, row.outerHTML);
 
     } else {
       localStorage.removeItem(localStorageKey);
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
-      localStorage.removeItem(`CheckRows-${row.id}`);
     }
     localStorage.setItem(
       `Oth-row-${row.id}-checkbox-${checkboxIndex}`,
@@ -1932,7 +1934,6 @@ const unSelctAll = () => {
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
         localStorage.removeItem(`Oth-row-${row.id}-checkbox-${checkboxIndex}`);
          localStorage.removeItem(localStorageKey);
-          localStorage.removeItem(`CheckRows-${row.id}`);
          toggleSvgDisplay(checkbox, rowIndex);
          updateColumnSums();
     });

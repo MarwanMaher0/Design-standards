@@ -71,7 +71,7 @@
           <div class="flex justify-center " ><img
             :class="{ 'w-full': direction === 'ltr', 'w-10/12': direction === 'rtl' }"
             
-            class="  h-[10rem] " src="../assets/Untitled.png" alt="Qr Code "></div>
+            class="h-[10rem] max-w-[160px] " src="../assets/Untitled.png" alt="Qr Code "></div>
         </div>
 
       </div>

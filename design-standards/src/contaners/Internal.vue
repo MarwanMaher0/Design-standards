@@ -3751,7 +3751,7 @@
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Internal-row-65" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Internal-row-66"
+          <label for="Internal-row-65"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
               <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
@@ -4740,67 +4740,8 @@
 
         <td>75%</td>
       </tr>
-      <tr id="Inte-row-93" class="bg-[#c8c8c8]">
-        <div class="hidden">
-          <td rowspan="32" colspan="1">
-            {{ $t(" Finishing and Surface Materials ") }}
-          </td>
-          <div class="hidden">/</div>
-          <td rowspan="15" colspan="1">
-            {{
-              $t(
-                " :precautionary measures for indirect contact in classroom :Materials and various surfaces that protect against viruses "
-              )
-            }}
-          </td>
-          <div class="hidden">/</div>
-          <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
-          </td>
-          <div class="hidden">/</div>
-        </div>
-        <td>{{ $t(" Soil ") }}</td>
-        <div class="hidden">/</div>
-
-        <td>{{ $t(" (4-5)D ") }}</td>
-        <td class="bg-white">
-          <img src="../assets/Picture108.jpg" class="mx-auto" alt="" />
-        </td>
-
-        <td class="bg-white">
-          <input type="checkbox" id="Internal-row-93" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Internal-row-93"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Internal-row-93" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Internal-row-93"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <td class="bg-white">
-          <input disabled type="checkbox" id="Internal-row-93" name="ahosting" value="" class="hidden" required />
-          <label for="Internal-row-93"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Internal-row-93" name="ahosting" value="" class="hidden" required />
-          <label for="Internal-row-93"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-          </label>
-        </td>
-        <div class="hidden">/</div>
-
-        <td>50%</td>
-      </tr>
+      <tr></tr>
+      
       <tr id="Inte-row-94" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="32" colspan="1">
@@ -5115,8 +5056,8 @@
             $t(" Required Points for Resilient Design Criteria in Classroom ")
           }}
         </td>
-        <td>44</td>
-        <td>26</td>
+        <td>43</td>
+        <td>25</td>
         <td>28</td>
         <td>64</td>
       </tr>
@@ -5128,7 +5069,7 @@
             )
           }}
         </td>
-        <td rowspan="1" colspan="4">162</td>
+        <td rowspan="1" colspan="4">160</td>
       </tr>
     </table>
   </div>
@@ -5185,10 +5126,7 @@ function saveRowsWithCheckboxesToLocalStorage() {
       // Save the row's outerHTML to local storage with a unique key
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
     }
-    else if (checkbox && checkbox.checked) {
-      // Save the row's outerHTML to local storage with a unique key
-      localStorage.setItem(`CheckRows-${row.id}`, row.outerHTML);
-    }
+   
   });
 }
 
@@ -5311,7 +5249,6 @@ const unSelctAll = () => {
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
         localStorage.removeItem(`Inte-row-${row.id}-checkbox-${checkboxIndex}`);
          localStorage.removeItem(localStorageKey);
-          localStorage.removeItem(`CheckRows-${row.id}`);
          toggleSvgDisplay(checkbox, rowIndex);
          updateColumnSums();
     });
@@ -5546,12 +5483,10 @@ const handleCheckboxChange = (event, rowIndex) => {
     if (checkbox.checked) {
       localStorage.setItem(localStorageKey, checkbox.value);
       localStorage.removeItem(`unCheckRows-${row.id}`);
-      localStorage.setItem(`CheckRows-${row.id}`, row.outerHTML);
 
     } else {
       localStorage.removeItem(localStorageKey);
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
-      localStorage.removeItem(`CheckRows-${row.id}`);
     }
     localStorage.setItem(
       `Inte-row-${row.id}-checkbox-${checkboxIndex}`,
@@ -5572,13 +5507,13 @@ let columnSums = ref({
 });
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 162) * 100;
+  return (totalSum.value / 160) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 44) * 100;
+  return (columnSums.value[0] / 43) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 26) * 100;
+  return (columnSums.value[1] / 25) * 100;
 });
 const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 28) * 100;

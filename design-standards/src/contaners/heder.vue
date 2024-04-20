@@ -20,7 +20,7 @@
 
        
           <div
-            class=" w-ful d-print-none  lg:block pt-1"
+            class=" w-ful d-print-none  lg:block"
             id=""
           >
             <ul
@@ -61,7 +61,7 @@
           </div>
       </div>
       <div
-          class=" text-xl d-print-none pt-1"
+          class=" text-xl d-print-none "
         >
           <ul
           :class="{ 'flex-row-reverse': direction === 'ltr', 'flex-row': direction === 'rtl' }"

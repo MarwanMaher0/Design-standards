@@ -76,7 +76,6 @@ const unSelctAllOfThem = () => {
       );
       
 
-      localStorage.removeItem(`CheckRows-${row.id}`);
 
       localStorage.removeItem(
         `All-row-${row.id}-checkbox-value-${checkboxIndex}`
@@ -215,7 +214,6 @@ export default {
 }
 td {
   height: 100%;
-  padding: 0;
 }
 
 svg {
@@ -235,7 +233,7 @@ table {
 td,
 th {
   border: 1px solid #ccc;
-  /* padding: 8px; */
+  padding: 0px;
   text-align: center;
   align-content: center;
   height: 100%;

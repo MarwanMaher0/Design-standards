@@ -1434,10 +1434,7 @@ function saveRowsWithCheckboxesToLocalStorage() {
       // Save the row's outerHTML to local storage with a unique key
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
     }
-    else if (checkbox && checkbox.checked) {
-      // Save the row's outerHTML to local storage with a unique key
-      localStorage.setItem(`CheckRows-${row.id}`, row.outerHTML);
-    }
+   
   });
 }
 
@@ -1550,12 +1547,10 @@ const handleCheckboxChange = (event, rowIndex) => {
     if (checkbox.checked) {
       localStorage.setItem(localStorageKey, checkbox.value);
       localStorage.removeItem(`unCheckRows-${row.id}`);
-      localStorage.setItem(`CheckRows-${row.id}`, row.outerHTML);
 
     } else {
       localStorage.removeItem(localStorageKey);
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
-      localStorage.removeItem(`CheckRows-${row.id}`);
 
     }
     localStorage.setItem(
@@ -1585,7 +1580,6 @@ const unSelctAll = () => {
       localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
         localStorage.removeItem(`sta-row-${row.id}-checkbox-${checkboxIndex}`);
         localStorage.removeItem(localStorageKey);
-        localStorage.removeItem(`CheckRows-${row.id}`);
         toggleSvgDisplay(checkbox, rowIndex);
         updateColumnSums();
     });
