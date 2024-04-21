@@ -11,11 +11,11 @@
         </td>
 
         <td class="w-16" rowspan="6" colspan="1"></td>
-        <td class="w-16">{{ columnSums[0] }}</td>
+        <td class="w-24">{{ columnSums[0] }}</td>
 
-        <td class="w-16">{{ columnSums[1] }}</td>
-        <td class="w-16">{{ columnSums[2] }}</td>
-        <td class="w-16">{{ columnSums[3] }}</td>
+        <td class="w-24">{{ columnSums[1] }}</td>
+        <td class="w-24">{{ columnSums[2] }}</td>
+        <td class="w-24">{{ columnSums[3] }}</td>
         <td class="w-24" rowspan="6"></td>
       </tr>
       <tr class="bg-[#d9e2f3]">
@@ -27,7 +27,7 @@
           }}
         </td>
 
-        <td class="w-64" rowspan="1" colspan="4">{{ totalSum }}</td>
+        <td class="w-64" rowspan="1" colspan="4">{{ totalSum }}  {{ $t("Points") }}</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
         <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
@@ -63,10 +63,10 @@
           }}
         </td>
 
-        <td>85</td>
-        <td>63</td>
-        <td>45</td>
-        <td>127</td>
+        <td>86</td>
+        <td>57</td>
+        <td>40</td>
+        <td>117</td>
       </tr>
       <tr class="bg-[#d9e2f3]">
         <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
@@ -77,7 +77,7 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">320</td>
+        <td rowspan="1" colspan="4">300  {{ $t("Points") }}</td>
       </tr>
     </table>
   </div>
@@ -118,7 +118,7 @@
 
     <div
       v-if="showEnhanceAllForm"
-      class="grid grid-cols-1 pb-[55px] place-content-center justify-center"
+      class="grid grid-cols-1  place-content-center justify-center"
     >
       <div
         class="content-center backdrop-filter backdrop-blur-sm place-content-center flex  items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
@@ -423,19 +423,19 @@ let columnSums = ref({
 let showEnhanceAllOpen = ref(true);
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 320) * 100;
+  return (totalSum.value / 300) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 85) * 100;
+  return (columnSums.value[0] / 86) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 63) * 100;
+  return (columnSums.value[1] / 57) * 100;
 });
 const percentageFrom10 = computed(() => {
-  return (columnSums.value[2] / 45) * 100;
+  return (columnSums.value[2] / 40) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 127) * 100;
+  return (columnSums.value[3] / 117) * 100;
 });
 const totalSum = computed(() => {
   return (

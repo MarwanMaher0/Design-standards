@@ -1,7 +1,7 @@
 <template class="overflow-x-auto ">
   <div :dir="direction" >
     <heder :toggleLanguage="toggleLanguage" :unSelctAllOfThem="unSelctAllOfThem" class="w-full cover-gradient-2" />
-    <RouterView  class=" overflow-x-auto"/>
+    <RouterView  class="mb-[70x`px] overflow-x-auto"/>
 
     
   </div>

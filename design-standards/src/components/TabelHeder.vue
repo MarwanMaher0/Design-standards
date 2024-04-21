@@ -12,7 +12,7 @@
         <td class="bg-[#2f5496] w-20 text-gray-100" rowspan="3" colspan="1">
           <div class="-rotate-90">{{ $t(" Icons ") }}</div>
         </td>
-        <td class="bg-[#2f5496] w-64 text-gray-100" rowspan="1" colspan="4">
+        <td class="bg-[#2f5496] w-96 text-gray-100" rowspan="1" colspan="4">
           {{ $t(" Resilient Design Criteria and Requirements ") }}
         </td>
         <td class="bg-[#2f5496] w-36 text-gray-100" rowspan="3" colspan="1">
@@ -23,27 +23,27 @@
       </tr>
       <tr>
         <td
-          class="bg-[#2f5496] w-16 h-32 text-gray-100"
+          class="bg-[#2f5496] w-24   h-32 text-gray-100"
           rowspan="2"
           colspan="1"
         >
           <div class="-rotate-90">
-            {{ $t(" Epidemics ") }}
+            {{ $t(" Epidemics Confronting ") }}
           </div>
         </td>
-        <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
+        <td class="bg-[#2f5496] w-24   text-gray-100" rowspan="2" colspan="1">
           <div class="-rotate-90">
-            {{ $t(" Climate Change ") }}
+            {{ $t(" Adapting to climate conditions ") }}
           </div>
         </td>
-        <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
+        <td class="bg-[#2f5496] w-24   text-gray-100" rowspan="2" colspan="1">
           <div class="-rotate-90">
-            {{ $t(" Advanced Technology ") }}
+            {{ $t(" Technological development  ") }}
           </div>
         </td>
-        <td class="bg-[#2f5496] w-16 text-gray-100" rowspan="2" colspan="1">
+        <td class="bg-[#2f5496] w-24   text-gray-100" rowspan="2" colspan="1">
           <div class="-rotate-90">
-            {{ $t(" Advanced Education ") }}
+            {{ $t(" Enhance Educational facilities ") }}
           </div>
         </td>
       </tr>

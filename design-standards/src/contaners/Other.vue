@@ -33,34 +33,30 @@
         <td class="bg-white w-20">
           <img src="../assets/Picture141.jpg" class="mx-auto w-10" alt="" />
         </td>
-        <td class="bg-white w-16">
+        <td class="bg-white w-24">
           <input type="checkbox" id="Other-row-1" name="ahosting" value="" class="hidden" required />
           <label for="Other-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
           </label>
         </td>
-        <td class="bg-white w-16">
+        <td class="bg-white w-24">
           <input type="checkbox" id="Other-row-1" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
-        <td class="bg-white w-16">
+        <td class="bg-white w-24">
           <input disabled type="checkbox" id="Other-row-1" name="ahosting" value="" class="hidden" required />
           <label for="Other-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
           </label>
         </td>
-        <td class="bg-white w-16">
+        <td class="bg-white w-24">
           <input type="checkbox" id="Other-row-1" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -71,7 +67,7 @@
           {{ $t(" Finishes ") }}/ {{ $t(" walls (choose one type) ") }}/
         </div>
         <td>
-          {{ $t(" Wall Paper (light colors) ") }}
+          {{ $t(" WallPaper (light colors) ") }}
         </td>
         <td class="bg-white">
           <img src="../assets/Picture142.jpg" class="mx-auto w-10" alt="" />
@@ -86,9 +82,7 @@
           <input type="checkbox" id="Other-row-2" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-2"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -101,9 +95,7 @@
           <input type="checkbox" id="Other-row-2" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-2"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -143,9 +135,7 @@
           <input type="checkbox" id="Other-row-3" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-3"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -182,18 +172,14 @@
           <input type="checkbox" id="Other-row-5" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-5"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-5" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-5"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -206,9 +192,7 @@
           <input type="checkbox" id="Other-row-5" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-5"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -238,18 +222,14 @@
           <input type="checkbox" id="Other-row-6" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-6"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-6" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-6"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -262,9 +242,7 @@
           <input type="checkbox" id="Other-row-6" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-6"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -297,9 +275,7 @@
           <input type="checkbox" id="Other-row-7" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-7"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -342,7 +318,7 @@
           <div class="hidden">/</div>
         </div>
         <td>
-          {{ $t(" Wall Paper (light colors)And resistant to viruses ") }}
+          {{ $t(" WallPaper (light colors)And resistant to viruses ") }}
         </td>
         <td class="bg-white">
           <img src="../assets/Picture147.jpg" class="mx-auto w-10" alt="" />
@@ -351,9 +327,7 @@
           <input type="checkbox" id="Other-row-8" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-8"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -379,7 +353,7 @@
         <div class="hidden">/</div>
         <td>25%</td>
       </tr>
-      <tr id="Oth-row-9" class="bg-[#c8c8c8]">
+      <tr rowspan="3" id="Oth-row-9" class="bg-[#c8c8c8]">
         <div class="hidden">
           {{ $t(" Finishes ") }}/
 
@@ -399,21 +373,22 @@
           {{ $t(" furniture ") }}
           <div class="hidden">/</div>
         </td>
-        <td>{{ $t(" Cotton ") }}</td>
+        <td>{{ $t(" Cotton, fabric, or wood ") }}</td>
         <td class="bg-white">
           <img src="../assets/Picture148.png" class="mx-auto w-10" alt="" />
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-9" name="ahosting" value="" class="hidden " required />
+          <input type="checkbox" id="Other-row-9" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-9"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg--300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg--500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-           
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-9" name="ahosting" value="" class="hidden" required />
+          <input type="checkbox" id="Other-row-9" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-9"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -426,135 +401,15 @@
           <input type="checkbox" id="Other-row-9" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-9"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <div class="hidden">/</div>
-        <td>25%</td>
-      </tr>
-      <tr id="Oth-row-10" class="bg-[#c8c8c8]">
-        <div class="hidden">
-          {{ $t(" Finishes ") }}/
-
-          {{
-            $t(
-              " Precautionary measures for finishing Residential Education Spaces"
-            )
-          }}
-
-          <div class="hidden">/</div>
-          <td rowspan="3" colspan="1">
-            {{ $t(" Materails ") }}
-            <div class="hidden">/</div>
-          </td>
-          <td rowspan="2" colspan="1">
-            {{ $t(" furniture ") }}
-            <div class="hidden">/</div>
-          </td>
-        </div>
-
-        <td>{{ $t(" Fabric ") }}</td>
-        <td class="bg-white">
-          <img src="../assets/Picture149.png" class="mx-auto w-10" alt="" />
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Other-row-10" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Other-row-10"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Other-row-10" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Other-row-10"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <td class="bg-white">
-          <input disabled type="checkbox" id="Other-row-10" name="ahosting" value="" class="hidden" required />
-          <label for="Other-row-10"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Other-row-10" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Other-row-10"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
         <td>75%</td>
       </tr>
-      <tr id="Oth-row-11" class="bg-[#c8c8c8]">
-        <div class="hidden">
-          {{ $t(" Finishes ") }}/
-
-          {{
-            $t(
-              " Precautionary measures for finishing Residential Education Spaces"
-            )
-          }}
-
-          <div class="hidden">/</div>
-          <td rowspan="3" colspan="1">
-            {{ $t(" Materails ") }}
-            <div class="hidden">/</div>
-          </td>
-        </div>
-        <td>{{ $t(" desk ") }}</td>
-        <div class="hidden">/</div>
-
-        <td>{{ $t(" Wood ") }}</td>
-        <td class="bg-white">
-          <img src="../assets/Picture150.png" class="mx-auto w-10" alt="" />
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Other-row-11" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Other-row-11"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Othernal-row-1" name="ahosting" value="1" class="hidden peer" required
-            ref="checkboxRef" />
-          <label for="Othernal-row-1"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 show-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <td class="bg-white">
-          <input disabled type="checkbox" id="Other-row-11" name="ahosting" value="" class="hidden" required />
-          <label for="Other-row-11"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-          </label>
-        </td>
-        <td class="bg-white">
-          <input type="checkbox" id="Other-row-11" name="ahosting" value="1" class="hidden peer" required />
-          <label for="Other-row-11"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
-          </label>
-        </td>
-        <div class="hidden">/</div>
-        <td>75%</td>
-      </tr>
+      <tr></tr>
+      <tr></tr>
+    
       <tr id="Oth-row-12">
         <td rowspan="2" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
       </tr>
@@ -562,7 +417,7 @@
 
       <tr id="Oth-row-14">
         <td rowspan="15" colspan="1">
-          {{ $t(" Indoor Air Quality (IAQ) ") }}
+          {{ $t(" Environmental Criteria ") }}
         </td>
         <div class="hidden">/</div>
 
@@ -589,9 +444,7 @@
           <input type="checkbox" id="Other-row-14" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-14"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -604,9 +457,7 @@
           <input type="checkbox" id="Other-row-14" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-14"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -615,7 +466,7 @@
       <tr id="Oth-row-15">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
           /
 
@@ -638,27 +489,24 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-15" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-15" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-15"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg--200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg--400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           
           </label>
         </td>
         <td class="bg-white">
           <input disabled type="checkbox" id="Other-row-15" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-15"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-15" name="ahosting" value="" class="hidden" required />
+          <input type="checkbox" id="Other-row-15" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-15"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -667,7 +515,7 @@
       <tr id="Oth-row-16">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
@@ -695,9 +543,7 @@
           <input type="checkbox" id="Other-row-16" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-16"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -710,9 +556,7 @@
           <input type="checkbox" id="Other-row-16" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-16"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -721,7 +565,7 @@
       <tr id="Oth-row-17">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
@@ -748,33 +592,30 @@
           <input type="checkbox" id="Other-row-17" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-17"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input disabled type="checkbox" id="Other-row-17" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-17"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-17" name="ahosting" value="" class="hidden" required />
+          <input type="checkbox" id="Other-row-17" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-17"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>50%</td>
+        <td>75%</td>
       </tr>
       <tr id="Oth-row-18">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
@@ -792,18 +633,14 @@
           <input type="checkbox" id="Other-row-18" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-18"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-18" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-18"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -816,9 +653,7 @@
           <input type="checkbox" id="Other-row-18" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-18"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -830,7 +665,7 @@
       <tr id="Oth-row-20" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
@@ -838,7 +673,7 @@
         <td rowspan="9" colspan="1">
           {{
             $t(
-              " Precautionary measures for (IAQ) of Residential Education Spaces "
+              " Precautionary measures for the environmental criteria of residential education spaces "
             )
           }}
         </td>
@@ -859,9 +694,7 @@
           <input type="checkbox" id="Other-row-20" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-20"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -890,14 +723,14 @@
       <tr id="Oth-row-21" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
           <td rowspan="9" colspan="1">
             {{
               $t(
-                " Precautionary measures for (IAQ) of Residential Education Spaces "
+                " Precautionary measures for the environmental criteria of residential education spaces "
               )
             }}
           </td>
@@ -913,7 +746,7 @@
         <div class="hidden">/</div>
 
         <td>
-          {{ $t(" (Using ultraviolet (UV) light technology  ") }}
+          {{ $t(" By using ultraviolet (UV) light technology   ") }}
         </td>
         <td class="bg-white">
           <img src="../assets/Picture171.png" class="mx-auto w-10" alt="" />
@@ -922,9 +755,7 @@
           <input type="checkbox" id="Other-row-21" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-21"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -952,14 +783,14 @@
       <tr id="Oth-row-22" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
           <td rowspan="9" colspan="1">
             {{
               $t(
-                " Precautionary measures for (IAQ) of Residential Education Spaces "
+                " Precautionary measures for the environmental criteria of residential education spaces "
               )
             }}
           </td>
@@ -981,9 +812,7 @@
           <input type="checkbox" id="Other-row-22" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-22"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1012,14 +841,14 @@
       <tr id="Oth-row-23" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
           <td rowspan="9" colspan="1">
             {{
               $t(
-                " Precautionary measures for (IAQ) of Residential Education Spaces "
+                " Precautionary measures for the environmental criteria of residential education spaces "
               )
             }}
           </td>
@@ -1035,7 +864,7 @@
         <div class="hidden">/</div>
 
         <td>
-          {{ $t(" Using air purifiers ") }}
+          {{ $t(" By using air purifiers ") }}
         </td>
         <td class="bg-white">
           <img src="../assets/Picture159.png" class="mx-auto w-10" alt="" />
@@ -1044,9 +873,7 @@
           <input type="checkbox" id="Other-row-23" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-23"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1074,14 +901,14 @@
       <tr id="Oth-row-24" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
           <td rowspan="9" colspan="1">
             {{
               $t(
-                " Precautionary measures for (IAQ) of Residential Education Spaces "
+                " Precautionary measures for the environmental criteria of residential education spaces "
               )
             }}
           </td>
@@ -1101,18 +928,14 @@
           <input type="checkbox" id="Other-row-24" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-24"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-24" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-24"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1122,28 +945,26 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-24" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-24" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-24"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Oth-row-25" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
           <td rowspan="9" colspan="1">
             {{
               $t(
-                " Precautionary measures for (IAQ) of Residential Education Spaces "
+                " Precautionary measures for the environmental criteria of residential education spaces "
               )
             }}
           </td>
@@ -1164,18 +985,14 @@
           <input type="checkbox" id="Other-row-25" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-25"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-25" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-25"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1185,28 +1002,26 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-25" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-25" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-25"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Oth-row-26" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
           <td rowspan="9" colspan="1">
             {{
               $t(
-                " Precautionary measures for (IAQ) of Residential Education Spaces "
+                " Precautionary measures for the environmental criteria of residential education spaces "
               )
             }}
           </td>
@@ -1228,18 +1043,14 @@
           <input type="checkbox" id="Other-row-26" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-26"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-26" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-26"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1249,28 +1060,26 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-26" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-26" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-26"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Oth-row-27" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
           <td rowspan="9" colspan="1">
             {{
               $t(
-                " Precautionary measures for (IAQ) of Residential Education Spaces "
+                " Precautionary measures for the environmental criteria of residential education spaces "
               )
             }}
           </td>
@@ -1293,18 +1102,14 @@
           <input type="checkbox" id="Other-row-27" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-27"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-27" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-27"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1314,28 +1119,26 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-27" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-27" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-27"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+           
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Oth-row-28" class="bg-[#c8c8c8]">
         <div class="hidden">
           <td rowspan="15" colspan="1">
-            {{ $t(" Indoor Air Quality (IAQ) ") }}
+            {{ $t(" Environmental Criteria ") }}
           </td>
 
           <div class="hidden">/</div>
           <td rowspan="9" colspan="1">
             {{
               $t(
-                " Precautionary measures for (IAQ) of Residential Education Spaces "
+                " Precautionary measures for the environmental criteria of residential education spaces "
               )
             }}
           </td>
@@ -1357,18 +1160,14 @@
           <input type="checkbox" id="Other-row-28" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-28"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-28" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-28"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1378,16 +1177,14 @@
           </label>
         </td>
         <td class="bg-white">
-          <input type="checkbox" id="Other-row-28" name="ahosting" value="1" class="hidden peer" required />
+          <input type="checkbox" id="Other-row-28" name="ahosting" value="" class="hidden " required />
           <label for="Other-row-28"
-            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+            class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+            
           </label>
         </td>
         <div class="hidden">/</div>
-        <td>75%</td>
+        <td>50%</td>
       </tr>
       <tr id="Oth-row-29">
         <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
@@ -1413,9 +1210,7 @@
           <input type="checkbox" id="Other-row-30" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-30"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1428,18 +1223,14 @@
           <input disabled type="checkbox" id="Other-row-30" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-30"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-30" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-30"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1453,7 +1244,7 @@
           /
         </div>
         <td rowspan="1" colspan="3">
-          {{ $t(" Using Laptop or Tablet ") }}
+          {{ $t(" By using a Laptop or Tablet ") }}
         </td>
 
         <td class="bg-white">
@@ -1463,9 +1254,7 @@
           <input type="checkbox" id="Other-row-31" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-31"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
@@ -1478,18 +1267,14 @@
           <input disabled type="checkbox" id="Other-row-31" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-31"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <td class="bg-white">
           <input type="checkbox" id="Other-row-31" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-31"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1530,9 +1315,7 @@
           <input type="checkbox" id="Other-row-32" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-32"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1578,9 +1361,7 @@
           <input type="checkbox" id="Other-row-34" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-34"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1622,9 +1403,7 @@
           <input type="checkbox" id="Other-row-35" name="ahosting" value="1" class="hidden peer" required />
           <label for="Other-row-35"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512">
-              <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
-            </svg>
+           <svgGlobal/>
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1671,7 +1450,7 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">{{ totalSum }}</td>
+        <td rowspan="1" colspan="4">{{ totalSum }} {{ $t("Points") }}</td>
       </tr>
       <tr id="Oth-row-38 " class="bg-[#8eaadb]">
         <td rowspan="1" colspan="7">
@@ -1712,10 +1491,10 @@
           }}
         </td>
 
-        <td>17</td>
-        <td>15</td>
+        <td>16</td>
+        <td>13</td>
         <td>4</td>
-        <td>20</td>
+        <td>15</td>
       </tr>
       <tr id="Oth-row-41" class="bg-[#b4c6e7]">
         <td rowspan="1" colspan="7">
@@ -1726,7 +1505,7 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">56</td>
+        <td rowspan="1" colspan="4">56 {{ $t("Points") }}</td>
       </tr>
     </table>
   </div>
@@ -1758,6 +1537,7 @@
 <script setup>
 import { ref, onMounted, computed, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
+import svgGlobal from "../components/svg.vue"
 
 import chart from "../charts/Oth-chart.vue";
 import chartTotal from "../charts/Oth-chart-total.vue";
@@ -1968,19 +1748,19 @@ const updateRowRefsBasedOnCheckboxState = () => {
 };
 
 const percentageFrom80 = computed(() => {
-  return (totalSum.value / 56) * 100;
+  return (totalSum.value / 48) * 100;
 });
 const percentageFrom24 = computed(() => {
-  return (columnSums.value[0] / 17) * 100;
+  return (columnSums.value[0] / 16) * 100;
 });
 const percentageFrom19 = computed(() => {
-  return (columnSums.value[1] / 15) * 100;
+  return (columnSums.value[1] / 13) * 100;
 });
 const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 4) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 20) * 100;
+  return (columnSums.value[3] / 15) * 100;
 });
 const totalSum = computed(() => {
   return (
