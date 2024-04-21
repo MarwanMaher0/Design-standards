@@ -39,7 +39,7 @@
         <td class="w-20 bg-white">
           <img src="../assets/Picture36.png" class="mx-auto w-10" alt="" />
         </td>
-        <td class="w-24 bg-white">
+        <td class="w-16 bg-white">
           <input
             type="checkbox"
             id="Internal-row-1"
@@ -55,7 +55,7 @@
             <svgGlobal/>
           </label>
         </td>
-        <td class="bg-white w-24">
+        <td class="bg-white w-16">
           <input
             type="checkbox"
             id="Internal-row-1"
@@ -72,7 +72,7 @@
           
           </label>
         </td>
-        <td class="bg-white w-24">
+        <td class="bg-white w-[80px]">
           <input
             disabled
             type="checkbox"
@@ -89,7 +89,7 @@
             <svgGlobal/>
           </label>
         </td>
-        <td class="bg-white w-24">
+        <td class="bg-white w-16">
           <input
             type="checkbox"
             id="Internal-row-1"
@@ -7977,7 +7977,7 @@
             )
           }}
         </td>
-        <td rowspan="1" colspan="4">{{ totalSum }}  {{ $t("Points") }}</td>
+        <td rowspan="1" colspan="4">{{ totalSum }} {{ $t("Points") }}</td>
       </tr>
       <tr class="bg-[#8eaadb]" id="Inte-row-101">
         <td class="bg-[#8eaadb]" rowspan="1" colspan="7">
@@ -8024,7 +8024,7 @@
             )
           }}
         </td>
-        <td rowspan="1" colspan="4">149 {{ $t("Points") }}</td>
+        <td rowspan="1" colspan="4">149{{ $t("Points") }}</td>
       </tr>
     </table>
   </div>

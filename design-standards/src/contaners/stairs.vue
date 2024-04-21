@@ -39,26 +39,26 @@
             <img src="../assets/Picture114.png" alt="" />
           </center>
         </td>
-        <td class="bg-white w-24">
+        <td class="bg-white w-16">
           <input type="checkbox" id="stairs-row-1" name="ahosting" value="1" class="hidden peer" required />
           <label for="stairs-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-red-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
            <svgGlobal/>
           </label>
         </td>
-        <td class="bg-white w-24">
+        <td class="bg-white w-16">
           <input type="checkbox" id="stairs-row-1" name="ahosting" value="" class="hidden" required />
           <label for="stairs-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-yellow- border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
           </label>
         </td>
-        <td class="bg-white w-24">
+        <td class="bg-white w-16">
           <input disabled type="checkbox" id="stairs-row-1" name="ahosting" value="" class="hidden" required />
           <label for="stairs-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-green- border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green- dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
           </label>
         </td>
-        <td class="bg-white w-24">
+        <td class="bg-white w-[80px]">
           <input type="checkbox" id="stairs-row-1" name="ahosting" value="1" class="hidden peer" required />
           <label for="stairs-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full p-5 text-gray-500 bg-blue-300 border border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">

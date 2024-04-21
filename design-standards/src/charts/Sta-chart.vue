@@ -27,10 +27,10 @@ ChartJS.register(
 
 const chartData = ref({
   labels: [
-    "Epidemics",
-    "Climate Change",
-    "Advanced Technology",
-    "Advanced Education",
+    "Epidemics Confronting",
+    "Adapting to climate conditions",
+    "Technological development",
+    "Educational facilities development",
   ],
   datasets: [
     {
