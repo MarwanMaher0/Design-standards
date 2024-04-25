@@ -20,7 +20,7 @@
         <div class="hidden">/</div>
 
         <td rowspan="13" colspan="1">
-          {{ $t(" Site Slection (Safety and Security Requirements)") }}
+          {{ $t(" Site Selection (Safety and Security Requirements)") }}
         </td>
         <div class="hidden">/</div>
 
@@ -36,19 +36,20 @@
         <div class="hidden">(</div>
         <td>{{ $t(" Gas Stations ") }}</td>
         <div class="hidden">)</div>
+        
 
 
         <td class="w-20">
           <img src="../assets/2 (1).png" class="mx-auto" alt="" />
         </td>
-        <td class="w-16 bg-red-300">
+        <td class="w-[72px] bg-red-300">
           <input type="checkbox" id="External-row-1" name="ahosting" value="1" class="hidden peer" required />
           <label for="External-row-1"
             class="inline-flex text-center w-full items-center justify-center h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
            <svgGlobal/>
           </label>
         </td>
-        <td class="w-16 bg-yellow-200">
+        <td class="w-[72px] bg-yellow-200">
           <input type="checkbox" id="External-row-1" name="ahosting" value="1" class="hidden peer" required
             ref="checkboxRef" />
           <label for="External-row-1"
@@ -56,13 +57,13 @@
            <svgGlobal/>
           </label>
         </td>
-        <td class="w-[80px] bg-white">
+        <td class="w-[72px] bg-white">
           <input disabled type="checkbox" id="External-row-1" name="ahosting" value="" class="hidden" required />
           <label for="External-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
           </label>
         </td>
-        <td class="w-16 bg-white">
+        <td class="w-[72px] bg-white">
           <input type="checkbox" id="External-row-1" name="ahosting" value="1" class="hidden peer" required />
           <label for="External-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
@@ -76,7 +77,7 @@
         <div class="hidden">
 
           <td rowspan="13" colspan="1">
-            {{ $t(" Site Slection (Safety and Security Requirements)") }}
+            {{ $t(" Site Selection (Safety and Security Requirements)") }}
           </td>
           /
 
@@ -86,7 +87,7 @@
           <div class="hidden">/</div>
 
           <td rowspan="3" colspan="2">
-            {{ $t(" :Keep away Fire Resources, such as ") }}
+            {{ $t(" Keep away from fire resources that result in harmful emissions to the environment and health, such as ") }}
           </td>
         </div>
         <div class="hidden">/</div>
@@ -127,7 +128,7 @@
       <tr id="Ext-row-3">
         <div class="hidden">
           <td rowspan="13" colspan="1">
-            {{ $t(" Site Slection (Safety and Security Requirements)") }}
+            {{ $t(" Site Selection (Safety and Security Requirements)") }}
           </td>
           /
 
@@ -137,7 +138,7 @@
           <div class="hidden">/</div>
 
           <td rowspan="3" colspan="2">
-            {{ $t(" :Keep away Fire Resources, such as ") }}
+            {{ $t(" Keep away from fire resources that result in harmful emissions to the environment and health, such as ") }}
           </td>
           <div class="hidden">/</div>
 
@@ -179,7 +180,7 @@
       <tr id="Ext-row-4">
         <div class="hidden">
           <td rowspan="13" colspan="1">
-            {{ $t(" Site Slection (Safety and Security Requirements)") }}
+            {{ $t(" Site Selection (Safety and Security Requirements)") }}
           </td>
 
 
@@ -189,7 +190,7 @@
 
         </div>
         <td rowspan="4" colspan="1">
-          {{ $t(" Protection from environmental pollution (noise and visual) that results in harmful emissions to the environment and health, such as ") }}
+          {{ $t("Protection from environmental pollution (noise and visual) that results in harmful emissions to the environment and health, such as") }}
         </td>
         <div class="hidden">/</div>
 
@@ -233,7 +234,7 @@
         <div class="hidden">
 
           <td rowspan="13" colspan="1">
-            {{ $t(" Site Slection (Safety and Security Requirements)") }}
+            {{ $t(" Site Selection (Safety and Security Requirements)") }}
           </td>
 
 
@@ -241,7 +242,7 @@
 
 
           <td rowspan="4" colspan="1">
-            {{ $t(" Protection from Environmental Pollution (Sound-Visual) ") }}
+            {{ $t("Protection from environmental pollution (noise and visual) that results in harmful emissions to the environment and health, such as") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -285,7 +286,7 @@
       <tr id="Ext-row-6">
         <div class="hidden">
           <td rowspan="13" colspan="1">
-            {{ $t(" Site Slection (Safety and Security Requirements)") }}
+            {{ $t(" Site Selection (Safety and Security Requirements)") }}
           </td>
 
 
@@ -294,7 +295,7 @@
 
 
           <td rowspan="4" colspan="1">
-            {{ $t(" Protection from Environmental Pollution (Sound-Visual) ") }}
+            {{ $t("Protection from environmental pollution (noise and visual) that results in harmful emissions to the environment and health, such as") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -338,7 +339,7 @@
       <tr id="Ext-row-7">
         <div class="hidden">
           <td rowspan="13" colspan="1">
-            {{ $t(" Site Slection (Safety and Security Requirements)") }}
+            {{ $t(" Site Selection (Safety and Security Requirements)") }}
           </td>
 
 
@@ -347,7 +348,7 @@
 
 
           <td rowspan="4" colspan="1">
-            {{ $t(" Protection from Environmental Pollution (Sound-Visual) ") }}
+            {{ $t("Protection from environmental pollution (noise and visual) that results in harmful emissions to the environment and health, such as") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -392,7 +393,7 @@
         <td rowspan="6" colspan="1">
           <div class="hidden">
         <td rowspan="13" colspan="1">
-          {{ $t(" Site Slection (Safety and Security Requirements)") }}
+          {{ $t(" Site Selection (Safety and Security Requirements)") }}
         </td>
 
 
@@ -449,7 +450,7 @@
   <tr id="Ext-row-9">
     <div class="hidden">
       <td rowspan="13" colspan="1">
-        {{ $t(" Site Slection (Safety and Security Requirements)") }}
+        {{ $t(" Site Selection (Safety and Security Requirements)") }}
       </td>
       <div class="hidden">/</div>
       {{ $t(" Access to the site ") }}
@@ -498,7 +499,7 @@
   <tr id="Ext-row-10">
     <div class="hidden">
       <td rowspan="13" colspan="1">
-        {{ $t(" Site Slection (Safety and Security Requirements)") }}
+        {{ $t(" Site Selection (Safety and Security Requirements)") }}
       </td>
       <div class="hidden">/</div>
       {{ $t(" Access to the site ") }}
@@ -545,7 +546,7 @@
   <tr id="Ext-row-11">
     <div class="hidden">
       <td rowspan="13" colspan="1">
-        {{ $t(" Site selection (safety and security requirements)") }}
+        {{ $t(" Site Selection (Safety and Security Requirements)") }}
       </td>
       <div class="hidden">/</div>
       {{ $t(" Access to the site ") }}
@@ -594,7 +595,7 @@
   <tr id="Ext-row-12">
     <div class="hidden">
       <td rowspan="13" colspan="1">
-        {{ $t(" Site Slection (Safety and Security Requirements)") }}
+        {{ $t(" Site Selection (Safety and Security Requirements)") }}
       </td>
       <div class="hidden">/</div>
       {{ $t(" Access to the site ") }}
@@ -641,7 +642,7 @@
   <tr id="Ext-row-13">
     <div class="hidden">
       <td rowspan="13" colspan="1">
-        {{ $t(" Site Slection (Safety and Security Requirements)") }}
+        {{ $t(" Site Selection (Safety and Security Requirements)") }}
       </td>
       <div class="hidden">/</div>
       {{ $t(" Access to the site ") }}

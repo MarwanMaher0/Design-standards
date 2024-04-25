@@ -39,7 +39,7 @@
         <td class="w-20 bg-white">
           <img src="../assets/Picture36.png" class="mx-auto w-10" alt="" />
         </td>
-        <td class="w-16 bg-white">
+        <td class="w-[72px] bg-white">
           <input
             type="checkbox"
             id="Internal-row-1"
@@ -52,10 +52,10 @@
             for="Internal-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
-        <td class="bg-white w-16">
+        <td class="bg-white w-[72px]">
           <input
             type="checkbox"
             id="Internal-row-1"
@@ -68,11 +68,10 @@
             for="Internal-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-          <svgGlobal/>
-          
+            <svgGlobal />
           </label>
         </td>
-        <td class="bg-white w-[80px]">
+        <td class="bg-white w-[72px]">
           <input
             disabled
             type="checkbox"
@@ -86,10 +85,10 @@
             for="Internal-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
-        <td class="bg-white w-16">
+        <td class="bg-white w-[72px]">
           <input
             type="checkbox"
             id="Internal-row-1"
@@ -102,7 +101,7 @@
             for="Internal-row-1"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -138,7 +137,7 @@
             for="Internal-row-2"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -154,7 +153,7 @@
             for="Internal-row-2"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -171,7 +170,7 @@
             for="Internal-row-2"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -187,7 +186,7 @@
             for="Internal-row-2"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -223,7 +222,7 @@
             for="Internal-row-3"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -239,7 +238,7 @@
             for="Internal-row-3"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -256,7 +255,7 @@
             for="Internal-row-3"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -272,7 +271,7 @@
             for="Internal-row-3"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -308,7 +307,7 @@
             for="Internal-row-4"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -324,7 +323,7 @@
             for="Internal-row-4"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -341,7 +340,7 @@
             for="Internal-row-4"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -357,7 +356,7 @@
             for="Internal-row-4"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -388,7 +387,7 @@
             for="Internal-row-5"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -404,7 +403,7 @@
             for="Internal-row-5"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -421,7 +420,7 @@
             for="Internal-row-5"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -437,7 +436,7 @@
             for="Internal-row-5"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -471,7 +470,7 @@
             for="Internal-row-6"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -487,7 +486,7 @@
             for="Internal-row-6"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -504,7 +503,7 @@
             for="Internal-row-6"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -520,7 +519,7 @@
             for="Internal-row-6"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -563,7 +562,7 @@
             for="Internal-row-7"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -579,7 +578,7 @@
             for="Internal-row-7"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -596,7 +595,7 @@
             for="Internal-row-7"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -612,7 +611,7 @@
             for="Internal-row-7"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -645,7 +644,7 @@
             for="Internal-row-8"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -661,7 +660,7 @@
             for="Internal-row-8"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -678,7 +677,7 @@
             for="Internal-row-8"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -694,7 +693,7 @@
             for="Internal-row-8"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -727,7 +726,7 @@
             for="Internal-row-9"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -743,7 +742,7 @@
             for="Internal-row-9"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -760,7 +759,7 @@
             for="Internal-row-9"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -776,7 +775,7 @@
             for="Internal-row-9"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -815,7 +814,7 @@
             for="Internal-row-11"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -862,7 +861,7 @@
             for="Internal-row-11"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -950,7 +949,7 @@
             for="Internal-row-12"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1036,7 +1035,7 @@
             for="Internal-row-13"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1077,7 +1076,7 @@
             for="Internal-row-14"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1124,7 +1123,7 @@
             for="Internal-row-14"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1212,7 +1211,7 @@
             for="Internal-row-15"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1256,7 +1255,7 @@
             for="Internal-row-16"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1303,7 +1302,7 @@
             for="Internal-row-16"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1347,7 +1346,7 @@
             for="Internal-row-17"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1394,7 +1393,7 @@
             for="Internal-row-17"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1436,7 +1435,7 @@
             for="Internal-row-18"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1483,7 +1482,7 @@
             for="Internal-row-18"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1527,7 +1526,7 @@
             for="Internal-row-19"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1552,14 +1551,13 @@
             id="Internal-row-19"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
             for="Internal-row-19"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg--300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg--400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-           
           </label>
         </td>
         <td class="bg-white">
@@ -1575,7 +1573,7 @@
             for="Internal-row-19"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1617,7 +1615,7 @@
             for="Internal-row-20"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1626,7 +1624,7 @@
             id="Internal-row-20"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
@@ -1664,7 +1662,7 @@
             for="Internal-row-20"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1706,7 +1704,7 @@
             for="Internal-row-21"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1731,7 +1729,7 @@
             id="Internal-row-21"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
@@ -1753,7 +1751,7 @@
             for="Internal-row-21"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1795,7 +1793,7 @@
             for="Internal-row-22"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1842,7 +1840,7 @@
             for="Internal-row-22"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -1884,7 +1882,7 @@
             for="Internal-row-23"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -1931,7 +1929,7 @@
             for="Internal-row-23"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2016,7 +2014,7 @@
             for="Internal-row-25"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2052,7 +2050,7 @@
             for="Internal-row-26"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -2084,7 +2082,7 @@
             for="Internal-row-26"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -2100,7 +2098,7 @@
             for="Internal-row-26"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2181,7 +2179,7 @@
             for="Internal-row-27"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2262,7 +2260,7 @@
             for="Internal-row-28"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2343,7 +2341,7 @@
             for="Internal-row-29"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2424,7 +2422,7 @@
             for="Internal-row-30"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2481,7 +2479,7 @@
           </label>
         </td>
         <td class="bg-white">
-            <input
+          <input
             disabled
             type="checkbox"
             id="Internal-row-106"
@@ -2494,7 +2492,7 @@
             for="Internal-row-106"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -2510,7 +2508,7 @@
             for="Internal-row-106"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2560,7 +2558,7 @@
             for="External-row-107"
             class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -2592,7 +2590,7 @@
             for="Internal-row-107"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2629,7 +2627,7 @@
           />
           <label
             for="Internal-row-31"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-30 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-30 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -2662,7 +2660,7 @@
             for="Internal-row-31"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -2678,7 +2676,7 @@
             for="Internal-row-31"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2721,7 +2719,7 @@
           />
           <label
             for="Internal-row-108"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-00 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-00 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -2754,7 +2752,7 @@
             for="Internal-row-108"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -2770,7 +2768,7 @@
             for="Internal-row-108"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2812,7 +2810,7 @@
           />
           <label
             for="Internal-row-109"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-00 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-00 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -2845,7 +2843,7 @@
             for="Internal-row-109"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -2861,7 +2859,7 @@
             for="Internal-row-109"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2900,7 +2898,7 @@
           />
           <label
             for="Internal-row-32"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-00 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-00 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -2933,7 +2931,7 @@
             for="Internal-row-32"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -2949,7 +2947,7 @@
             for="Internal-row-32"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -2986,7 +2984,7 @@
           />
           <label
             for="Internal-row-110"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-00 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-00 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -3019,7 +3017,7 @@
             for="Internal-row-110"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3035,7 +3033,7 @@
             for="Internal-row-110"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3106,7 +3104,7 @@
             for="Internal-row-33"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3122,7 +3120,7 @@
             for="Internal-row-33"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3170,7 +3168,7 @@
             for="External-row-111"
             class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3202,7 +3200,7 @@
             for="Internal-row-111"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3218,7 +3216,7 @@
             for="Internal-row-111"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3265,7 +3263,7 @@
             for="External-row-112"
             class="inline-flex text-center items-center justify-center w-full group1-checkbox h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3297,7 +3295,7 @@
             for="Internal-row-112"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3313,7 +3311,7 @@
             for="Internal-row-112"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3386,7 +3384,7 @@
             for="Internal-row-34"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3402,7 +3400,7 @@
             for="Internal-row-34"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3480,7 +3478,7 @@
             for="Internal-row-113"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3496,7 +3494,7 @@
             for="Internal-row-113"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3575,7 +3573,7 @@
             for="Internal-row-114"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3591,7 +3589,7 @@
             for="Internal-row-114"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3666,7 +3664,7 @@
             for="Internal-row-115"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3682,7 +3680,7 @@
             for="Internal-row-115"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3762,7 +3760,7 @@
             for="Internal-row-116"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3778,7 +3776,7 @@
             for="Internal-row-116"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3823,7 +3821,7 @@
             for="Internal-row-35"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3855,7 +3853,7 @@
             for="Internal-row-35"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3871,7 +3869,7 @@
             for="Internal-row-35"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3909,7 +3907,7 @@
             for="Internal-row-120"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3941,7 +3939,7 @@
             for="Internal-row-120"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -3957,7 +3955,7 @@
             for="Internal-row-120"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -3982,7 +3980,7 @@
             for="Internal-row-117"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4014,7 +4012,7 @@
             for="Internal-row-117"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4030,7 +4028,7 @@
             for="Internal-row-117"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4055,7 +4053,7 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="3">
-            {{ $t(" Student Response Tools (personal) ") }}
+            {{ $t(" Precautionary measures for Student Response Tools ") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -4076,7 +4074,7 @@
             for="Internal-row-119"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4108,7 +4106,7 @@
             for="Internal-row-119"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4124,7 +4122,7 @@
             for="Internal-row-119"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4206,7 +4204,7 @@
             for="Internal-row-43"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4235,7 +4233,7 @@
             for="Internal-row-44"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4267,7 +4265,7 @@
             for="Internal-row-44"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4283,7 +4281,7 @@
             for="Internal-row-44"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4312,7 +4310,7 @@
             for="Internal-row-45"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4344,7 +4342,7 @@
             for="Internal-row-45"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4360,7 +4358,7 @@
             for="Internal-row-45"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4396,7 +4394,7 @@
             for="Internal-row-47"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4412,7 +4410,7 @@
             for="Internal-row-47"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4444,7 +4442,7 @@
             for="Internal-row-47"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4493,7 +4491,7 @@
             for="Internal-row-48"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4525,7 +4523,7 @@
             for="Internal-row-48"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4567,7 +4565,7 @@
             id="Internal-row-49"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
@@ -4590,7 +4588,7 @@
             for="Internal-row-49"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4606,7 +4604,7 @@
             for="Internal-row-49"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4657,7 +4655,7 @@
             for="Internal-row-50"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4689,7 +4687,7 @@
             for="Internal-row-50"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4741,7 +4739,7 @@
             for="Internal-row-51"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4823,7 +4821,7 @@
             for="Internal-row-105"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4840,7 +4838,7 @@
             for="Internal-row-105"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-green-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#548135] peer-checked:border-[#548135] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-green-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4856,7 +4854,7 @@
             for="External-row-105"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -4894,7 +4892,7 @@
             for="Internal-row-52"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4910,7 +4908,7 @@
             for="Internal-row-52"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4977,7 +4975,7 @@
             for="Internal-row-53"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -4993,7 +4991,7 @@
             for="Internal-row-53"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5070,7 +5068,7 @@
             for="Internal-row-55"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5163,7 +5161,7 @@
             for="Internal-row-56"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5254,7 +5252,7 @@
             for="Internal-row-57"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td rowspan="2" class="bg-white">
@@ -5344,7 +5342,7 @@
             for="Internal-row-59"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5434,7 +5432,7 @@
             for="Internal-row-60"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5525,7 +5523,7 @@
             for="Internal-row-61"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5541,7 +5539,7 @@
             for="Internal-row-61"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5566,12 +5564,12 @@
             id="Internal-row-61"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
             for="Internal-row-61"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -5616,7 +5614,7 @@
             for="Internal-row-62"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5632,7 +5630,7 @@
             for="Internal-row-62"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5657,12 +5655,12 @@
             id="Internal-row-62"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
             for="Internal-row-62"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -5706,7 +5704,7 @@
             for="Internal-row-63"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5722,7 +5720,7 @@
             for="Internal-row-63"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5747,12 +5745,12 @@
             id="Internal-row-63"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
             for="Internal-row-63"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -5798,7 +5796,7 @@
             for="Internal-row-64"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5814,7 +5812,7 @@
             for="Internal-row-64"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5839,12 +5837,12 @@
             id="Internal-row-64"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
             for="Internal-row-64"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -5889,7 +5887,7 @@
             for="Internal-row-65"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5905,7 +5903,7 @@
             for="Internal-row-65"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -5930,12 +5928,12 @@
             id="Internal-row-65"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
             for="Internal-row-65"
-            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600  dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg- cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
           </label>
         </td>
@@ -5985,7 +5983,7 @@
             for="Internal-row-67"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -6017,7 +6015,7 @@
             for="Internal-row-67"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6037,7 +6035,7 @@
         <td rowspan="4" colspan="3">
           {{
             $t(
-              " Non-slip materials such as (wood - fabric - mosaic tiles - other materials) "
+              " Non-slip materials such as wood, fabric, mosaic tiles, and other materials "
             )
           }}
         </td>
@@ -6103,7 +6101,7 @@
             for="Internal-row-68"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6155,7 +6153,7 @@
             for="Internal-row-72"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -6187,7 +6185,7 @@
             for="Internal-row-72"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6269,7 +6267,7 @@
             for="External-row-73"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6351,7 +6349,7 @@
             for="Internal-row-74"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6433,7 +6431,7 @@
             for="Internal-row-75"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6475,7 +6473,7 @@
             id="Internal-row-76"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
@@ -6513,7 +6511,7 @@
             for="Internal-row-76"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6596,7 +6594,7 @@
             for="Internal-row-77"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6676,7 +6674,7 @@
             for="Internal-row-78"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6756,7 +6754,7 @@
             for="Internal-row-79"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6836,7 +6834,7 @@
             for="Internal-row-80"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6916,7 +6914,7 @@
             for="Internal-row-81"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -6996,7 +6994,7 @@
             for="Internal-row-82"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -7042,7 +7040,7 @@
             for="Internal-row-87"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td rowspan="4" class="bg-white">
@@ -7141,7 +7139,7 @@
             for="Internal-row-88"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7209,7 +7207,7 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
+            {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -7233,7 +7231,7 @@
             for="Internal-row-89"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7301,7 +7299,7 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
+            {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -7326,7 +7324,7 @@
             for="Internal-row-90"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7366,7 +7364,7 @@
             id="Internal-row-90"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
@@ -7394,7 +7392,7 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
+            {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -7419,7 +7417,7 @@
             for="Internal-row-91"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7435,7 +7433,7 @@
             for="Internal-row-91"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7488,7 +7486,7 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
+            {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -7512,7 +7510,7 @@
             for="Internal-row-92"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7528,7 +7526,7 @@
             for="Internal-row-92"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-yellow-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#ffc000] peer-checked:border-[#ffc000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-yellow-400 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7560,7 +7558,7 @@
             for="Internal-row-92"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -7584,7 +7582,7 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
+            {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -7608,7 +7606,7 @@
             for="Internal-row-94"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7676,7 +7674,7 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
+            {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -7700,7 +7698,7 @@
             for="Internal-row-95"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-red-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#c00000] peer-checked:border-[#c00000] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-red-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <td class="bg-white">
@@ -7740,7 +7738,7 @@
             id="Internal-row-95"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
@@ -7768,7 +7766,7 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
+            {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
           </td>
           <div class="hidden">/</div>
         </div>
@@ -7839,7 +7837,7 @@
             for="Internal-row-96"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -7862,15 +7860,15 @@
           </td>
           <div class="hidden">/</div>
           <td rowspan="11" colspan="1">
-            {{ $t(" surfaces and Survival period (hours-day) ") }}
+            {{ $t(" Various surfaces (floors - furniture - other surfaces) and Survival period (hours-day) ") }}
           </td>
           <div class="hidden">/</div>
         </div>
         <td>{{ $t(" vinyl ") }}</td>
         <div class="hidden">
-          /
+          
           <td rowspan="3" colspan="1">{{ $t(" D(2-28) ") }}</td>
-          /
+          
         </div>
 
         <td class="bg-white">
@@ -7898,7 +7896,7 @@
             id="Internal-row-98"
             name="ahosting"
             value=""
-            class="hidden "
+            class="hidden"
             required
           />
           <label
@@ -7936,7 +7934,7 @@
             for="Internal-row-98"
             class="inline-flex text-center items-center justify-center w-full h-full py-5 text-gray-500 bg-blue-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:bg-[#0070c0] peer-checked:border-[#0070c0] peer-checked:text-blue-600 hover:text-gray-600 hover:bg-blue-500 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <svgGlobal/>
+            <svgGlobal />
           </label>
         </td>
         <div class="hidden">/</div>
@@ -8059,7 +8057,7 @@
 <script setup>
 import { ref, onMounted, computed, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
-import svgGlobal from "../components/svg.vue"
+import svgGlobal from "../components/svg.vue";
 
 import chart from "../charts/Inte-chart.vue";
 import chartTotal from "../charts/Inte-chart-total.vue";
@@ -8078,13 +8076,13 @@ function saveRowsWithCheckboxesToLocalStorage() {
   });
 
   // Map to get the outerHTML of each unchecked row with checkboxes
-  rowsWithCheckboxes.forEach((row) => {
+  rowsWithCheckboxes.forEach((row, rowIndex) => {
     const checkbox = row.querySelector('input[type="checkbox"]');
 
     // Check if the checkbox is not checked
     if (checkbox && !checkbox.checked) {
       // Save the row's outerHTML to local storage with a unique key
-      localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
+      localStorage.setItem(`unCheckRows-${rowIndex}-${row.id}`, row.outerHTML);
     }
   });
 }
@@ -8094,12 +8092,9 @@ let checkedRows = ref([]);
 let uncheckedRows = ref([]);
 let checkedCheckboxes = ref([]);
 let uncheckedCheckboxes = ref([]);
-let tabletitel = ref("");
+
 let router = useRouter();
 let tableContentInte = ref("");
-let showEnhanceInte = ref(false);
-let showEnhanceInteBTN = ref(false);
-let showEnhanceInteOpen = ref(true);
 
 const GoEnhance = () => {
   router.push({ name: "ConAll", hash: "#enhanceForm" });
@@ -8122,8 +8117,8 @@ const initializeCheckboxes = () => {
 
     checkboxesInRow.forEach((checkbox, checkboxIndex) => {
       // Generate the localStorage keys for the current checkbox
-      const localStorageKey1 = `unCheckRows-Inte-row-${row.id}-checkbox-${checkboxIndex}`;
-      const localStorageKey2 = `Inte-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey1 = `unCheckRows-Inte-row-${rowIndex}-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey2 = `Inte-row-${rowIndex}-${row.id}-checkbox-${checkboxIndex}`;
 
       // Retrieve the values from localStorage for the current checkbox using both keys
       const localStorageValue1 = localStorage.getItem(localStorageKey1);
@@ -8200,12 +8195,14 @@ const unSelctAll = () => {
     );
 
     checkboxesInRow.forEach((checkbox, checkboxIndex) => {
-      const localStorageKey = `Inte-row-${row.id}-checkbox-value-${checkboxIndex}`;
+      const localStorageKey = `Inte-row-${rowIndex}-${row.id}-checkbox-value-${checkboxIndex}`;
       checkbox.checked = localStorage.setItem(
         `unCheckRows-${row.id}`,
         row.outerHTML
       );
-      localStorage.removeItem(`Inte-row-${row.id}-checkbox-${checkboxIndex}`);
+      localStorage.removeItem(
+        `Inte-row-${rowIndex}-${row.id}-checkbox-${checkboxIndex}`
+      );
       localStorage.removeItem(localStorageKey);
       toggleSvgDisplay(checkbox, rowIndex);
       updateColumnSums();
@@ -8251,11 +8248,21 @@ const handleCheckboxChange = (event, rowIndex) => {
           // Change the state of the checkbox
           otherCheckbox.checked = false;
           // Update local storage based on the original state of the checkbox
-          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          const localStorageKey = `Inte-row-${rowIndex}-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${rowIndex}-${groupId}-checkbox-${checkboxIndex}`;
+
           if (isCheckedBeforeChange) {
-            localStorage.removeItem(localStorageKey);
-            localStorage.removeItem(localStorageKey2);
+            for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-value-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
+            for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
+
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
         });
@@ -8275,11 +8282,20 @@ const handleCheckboxChange = (event, rowIndex) => {
           // Change the state of the checkbox
           otherCheckbox.checked = false;
           // Update local storage based on the original state of the checkbox
-          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          const localStorageKey = `Inte-row-${rowIndex}-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${rowIndex}-${groupId}-checkbox-${checkboxIndex}`;
+
           if (isCheckedBeforeChange) {
-            localStorage.removeItem(localStorageKey);
-            localStorage.removeItem(localStorageKey2);
+             for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-value-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
+            for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
         });
@@ -8299,11 +8315,21 @@ const handleCheckboxChange = (event, rowIndex) => {
           // Change the state of the checkbox
           otherCheckbox.checked = false;
           // Update local storage based on the original state of the checkbox
-          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          const localStorageKey = `Inte-row-${rowIndex}-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${rowIndex}-${groupId}-checkbox-${checkboxIndex}`;
           if (isCheckedBeforeChange) {
-            localStorage.removeItem(localStorageKey);
-            localStorage.removeItem(localStorageKey2);
+            console.log(localStorageKey2);
+
+             for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-value-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
+            for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
         });
@@ -8323,11 +8349,19 @@ const handleCheckboxChange = (event, rowIndex) => {
           // Change the state of the checkbox
           otherCheckbox.checked = false;
           // Update local storage based on the original state of the checkbox
-          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          const localStorageKey = `Inte-row-${rowIndex}-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${rowIndex}-${groupId}-checkbox-${checkboxIndex}`;
           if (isCheckedBeforeChange) {
-            localStorage.removeItem(localStorageKey);
-            localStorage.removeItem(localStorageKey2);
+             for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-value-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
+            for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
         });
@@ -8347,11 +8381,19 @@ const handleCheckboxChange = (event, rowIndex) => {
           // Change the state of the checkbox
           otherCheckbox.checked = false;
           // Update local storage based on the original state of the checkbox
-          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          const localStorageKey = `Inte-row-${rowIndex}-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${rowIndex}-${groupId}-checkbox-${checkboxIndex}`;
           if (isCheckedBeforeChange) {
-            localStorage.removeItem(localStorageKey);
-            localStorage.removeItem(localStorageKey2);
+             for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-value-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
+            for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
         });
@@ -8371,11 +8413,19 @@ const handleCheckboxChange = (event, rowIndex) => {
           // Change the state of the checkbox
           otherCheckbox.checked = false;
           // Update local storage based on the original state of the checkbox
-          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          const localStorageKey = `Inte-row-${rowIndex}-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${rowIndex}-${groupId}-checkbox-${checkboxIndex}`;
           if (isCheckedBeforeChange) {
-            localStorage.removeItem(localStorageKey);
-            localStorage.removeItem(localStorageKey2);
+             for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-value-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
+            for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
         });
@@ -8395,11 +8445,19 @@ const handleCheckboxChange = (event, rowIndex) => {
           // Change the state of the checkbox
           otherCheckbox.checked = false;
           // Update local storage based on the original state of the checkbox
-          const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-          const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+          const localStorageKey = `Inte-row-${rowIndex}-${groupId}-checkbox-value-${checkboxIndex}`;
+          const localStorageKey2 = `Inte-row-${rowIndex}-${groupId}-checkbox-${checkboxIndex}`;
           if (isCheckedBeforeChange) {
-            localStorage.removeItem(localStorageKey);
-            localStorage.removeItem(localStorageKey2);
+             for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-value-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
+            for (let key in localStorage) {
+              if (key.endsWith(`-${groupId}-checkbox-${checkboxIndex}`)) {
+                localStorage.removeItem(key);
+              }
+            }
             toggleSvgDisplay(otherCheckbox, rowIndex);
           }
         });
@@ -8419,8 +8477,8 @@ const handleCheckboxChange = (event, rowIndex) => {
   //         // Change the state of the checkbox
   //         otherCheckbox.checked = false;
   //         // Update local storage based on the original state of the checkbox
-  //         const localStorageKey = `Inte-row-${groupId}-checkbox-value-${checkboxIndex}`;
-  //         const localStorageKey2 = `Inte-row-${groupId}-checkbox-${checkboxIndex}`;
+  //         const localStorageKey = `Inte-row-${rowIndex}-${groupId}-checkbox-value-${checkboxIndex}`;
+  //         const localStorageKey2 = `Inte-row-${rowIndex}-${groupId}-checkbox-${checkboxIndex}`;
   //         if (isCheckedBeforeChange) {
   //           localStorage.removeItem(localStorageKey);
   //           localStorage.removeItem(localStorageKey2);
@@ -8433,17 +8491,17 @@ const handleCheckboxChange = (event, rowIndex) => {
 
   checkboxesInRow.forEach((checkbox, checkboxIndex) => {
     checkbox.checked = clickedCheckbox.checked;
-    const localStorageKey = `Inte-row-${row.id}-checkbox-value-${checkboxIndex}`;
+    const localStorageKey = `Inte-row-${rowIndex}-${row.id}-checkbox-value-${checkboxIndex}`;
 
     if (checkbox.checked) {
       localStorage.setItem(localStorageKey, checkbox.value);
-      localStorage.removeItem(`unCheckRows-${row.id}`);
+      localStorage.removeItem(`unCheckRows-${rowIndex}-${row.id}`);
     } else {
       localStorage.removeItem(localStorageKey);
-      localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
+      localStorage.setItem(`unCheckRows-${rowIndex}-${row.id}`, row.outerHTML);
     }
     localStorage.setItem(
-      `Inte-row-${row.id}-checkbox-${checkboxIndex}`,
+      `Inte-row-${rowIndex}-${row.id}-checkbox-${checkboxIndex}`,
       checkbox.checked
     );
     toggleSvgDisplay(checkbox, rowIndex);
@@ -8473,7 +8531,7 @@ const percentageFrom10 = computed(() => {
   return (columnSums.value[2] / 27) * 100;
 });
 const percentageFrom27 = computed(() => {
-  return (columnSums.value[3] / 58 ) * 100;
+  return (columnSums.value[3] / 58) * 100;
 });
 const totalSum = computed(() => {
   return (

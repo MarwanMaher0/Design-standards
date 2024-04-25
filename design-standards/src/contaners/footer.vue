@@ -402,6 +402,8 @@ import chart from "../charts/All-chart.vue";
 import chartTotal from "../charts/All-chart-total.vue";
 onMounted(() => {
   rows.value = Array.from(document.querySelectorAll("tr")); // Filter rows by ID
+  const rowss = document.querySelectorAll('tr');
+
   watchEffect(() => {
     const hash = window.location.hash;
 
@@ -695,42 +697,7 @@ const getParsedUnCheckRowsDataFromLocalStorageAll = () => {
 
   return parsedUnCheckRowsTextArrayAll;
 };
-const getParsedCheckRowsDataFromLocalStorageAll = () => {
-  const AllRowsArray = [];
 
-  for (let key in localStorage) {
-    if (key.startsWith("CheckRows-")) {
-      AllRowsArray.push({
-        key: key,
-        value: localStorage.getItem(key),
-      });
-    }
-  }
-
-  AllRowsArray.sort((a, b) => {
-    const idA = parseInt(a.key.split("-").pop().replace("CheckRows", ""));
-    const idB = parseInt(b.key.split("-").pop().replace("CheckRows", ""));
-    return idA - idB;
-  });
-
-  const parsedUnCheckRowsTextArrayAll = AllRowsArray.map((item) => {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(item.value, "text/html");
-    const textParts = doc.body.textContent.trim().split("/");
-
-    // Apply different styling to the last two parts
-    const modifiedTextContent =
-      textParts.slice(0, -2).join("/") +
-      '<span style="color: red;">/' +
-      textParts.slice(-2).join("/") +
-      "</span>";
-
-    // Return the modified text content
-    return modifiedTextContent;
-  });
-
-  return parsedUnCheckRowsTextArrayAll;
-};
 const getParsedUnCheckRowsDataFromLocalStorageExt = () => {
   const AllRowsArray = [];
 
@@ -769,42 +736,7 @@ const getParsedUnCheckRowsDataFromLocalStorageExt = () => {
 
   return parsedUnCheckRowsTextArrayExt;
 };
-const getParsedCheckRowsDataFromLocalStorageExt = () => {
-  const AllRowsArray = [];
 
-  for (let key in localStorage) {
-    if (key.startsWith("CheckRows-") && key.includes("Ext-")) {
-      AllRowsArray.push({
-        key: key,
-        value: localStorage.getItem(key),
-      });
-    }
-  }
-
-  AllRowsArray.sort((a, b) => {
-    const idA = parseInt(a.key.split("-").pop().replace("CheckRows", ""));
-    const idB = parseInt(b.key.split("-").pop().replace("CheckRows", ""));
-    return idA - idB;
-  });
-
-  const parsedUnCheckRowsTextArrayExt = AllRowsArray.map((item) => {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(item.value, "text/html");
-    const textParts = doc.body.textContent.trim().split("/");
-
-    // Apply different styling to the last two parts
-    const modifiedTextContent =
-      textParts.slice(0, -2).join("/") +
-      '<span style="color: red;">/' +
-      textParts.slice(-2).join("/") +
-      "</span>";
-
-    // Return the modified text content
-    return modifiedTextContent;
-  });
-
-  return parsedUnCheckRowsTextArrayExt;
-};
 const getParsedUnCheckRowsDataFromLocalStorageInte = () => {
   const AllRowsArray = [];
 
@@ -818,10 +750,10 @@ const getParsedUnCheckRowsDataFromLocalStorageInte = () => {
   }
 
   AllRowsArray.sort((a, b) => {
-    const idA = parseInt(a.key.split("-").pop().replace("unCheckRows", ""));
-    const idB = parseInt(b.key.split("-").pop().replace("unCheckRows", ""));
-    return idA - idB;
-  });
+  const idA = parseInt(a.key.split("-")[1]);
+  const idB = parseInt(b.key.split("-")[1]);
+  return idA - idB;
+});
 
   const parsedUnCheckRowsTextArrayInte = AllRowsArray.map((item) => {
     const parser = new DOMParser();
@@ -844,42 +776,7 @@ const getParsedUnCheckRowsDataFromLocalStorageInte = () => {
 
   return parsedUnCheckRowsTextArrayInte;
 };
-const getParsedCheckRowsDataFromLocalStorageInte = () => {
-  const AllRowsArray = [];
 
-  for (let key in localStorage) {
-    if (key.startsWith("CheckRows-") && key.includes("Inte-")) {
-      AllRowsArray.push({
-        key: key,
-        value: localStorage.getItem(key),
-      });
-    }
-  }
-
-  AllRowsArray.sort((a, b) => {
-    const idA = parseInt(a.key.split("-").pop().replace("CheckRows", ""));
-    const idB = parseInt(b.key.split("-").pop().replace("CheckRows", ""));
-    return idA - idB;
-  });
-
-  const parsedUnCheckRowsTextArrayInte = AllRowsArray.map((item) => {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(item.value, "text/html");
-    const textParts = doc.body.textContent.trim().split("/");
-
-    // Apply different styling to the last two parts
-    const modifiedTextContent =
-      textParts.slice(0, -2).join("/") +
-      '<span style="color: red;">/' +
-      textParts.slice(-2).join("/") +
-      "</span>";
-
-    // Return the modified text content
-    return modifiedTextContent;
-  });
-
-  return parsedUnCheckRowsTextArrayInte;
-};
 const getParsedUnCheckRowsDataFromLocalStoragesta = () => {
   const AllRowsArray = [];
 
@@ -919,42 +816,7 @@ const getParsedUnCheckRowsDataFromLocalStoragesta = () => {
 
   return parsedUnCheckRowsTextArraysta;
 };
-const getParsedCheckRowsDataFromLocalStoragesta = () => {
-  const AllRowsArray = [];
 
-  for (let key in localStorage) {
-    if (key.startsWith("CheckRows-") && key.includes("sta-")) {
-      AllRowsArray.push({
-        key: key,
-        value: localStorage.getItem(key),
-      });
-    }
-  }
-
-  AllRowsArray.sort((a, b) => {
-    const idA = parseInt(a.key.split("-").pop().replace("CheckRows", ""));
-    const idB = parseInt(b.key.split("-").pop().replace("CheckRows", ""));
-    return idA - idB;
-  });
-
-  const parsedUnCheckRowsTextArraysta = AllRowsArray.map((item) => {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(item.value, "text/html");
-    const textParts = doc.body.textContent.trim().split("/");
-
-    // Apply different styling to the last two parts
-    const modifiedTextContent =
-      textParts.slice(0, -2).join("/") +
-      '<span style="color: red;">/' +
-      textParts.slice(-2).join("/") +
-      "</span>";
-
-    // Return the modified text content
-    return modifiedTextContent;
-  });
-
-  return parsedUnCheckRowsTextArraysta;
-};
 const getParsedUnCheckRowsDataFromLocalStorageOth = () => {
   const AllRowsArray = [];
 
@@ -994,40 +856,5 @@ const getParsedUnCheckRowsDataFromLocalStorageOth = () => {
 
   return parsedUnCheckRowsTextArrayOth;
 };
-const getParsedCheckRowsDataFromLocalStorageOth = () => {
-  const AllRowsArray = [];
 
-  for (let key in localStorage) {
-    if (key.startsWith("CheckRows-") && key.includes("Oth-")) {
-      AllRowsArray.push({
-        key: key,
-        value: localStorage.getItem(key),
-      });
-    }
-  }
-
-  AllRowsArray.sort((a, b) => {
-    const idA = parseInt(a.key.split("-").pop().replace("CheckRows", ""));
-    const idB = parseInt(b.key.split("-").pop().replace("CheckRows", ""));
-    return idA - idB;
-  });
-
-  const parsedUnCheckRowsTextArrayOth = AllRowsArray.map((item) => {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(item.value, "text/html");
-    const textParts = doc.body.textContent.trim().split("/");
-
-    // Apply different styling to the last two parts
-    const modifiedTextContent =
-      textParts.slice(0, -2).join("/") +
-      '<span style="color: red;">/' +
-      textParts.slice(-2).join("/") +
-      "</span>";
-
-    // Return the modified text content
-    return modifiedTextContent;
-  });
-
-  return parsedUnCheckRowsTextArrayOth;
-};
 </script>
