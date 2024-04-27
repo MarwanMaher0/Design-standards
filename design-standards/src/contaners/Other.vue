@@ -1189,6 +1189,7 @@
       <tr id="Oth-row-29">
         <td rowspan="1" colspan="11" class="h-4 bg-[#bfbfbf]"></td>
       </tr>
+      
       <tr id="Oth-row-30">
         <td rowspan="7" colspan="1">
           {{ $t(" Infrastructure for Residential Education Spaces ") }}
@@ -1238,6 +1239,13 @@
       </tr>
       <tr id="Oth-row-31">
         <div class="hidden">
+
+<td rowspan="7" colspan="1">
+    {{ $t(" Infrastructure for Residential Education Spaces ") }}
+  </td>
+  <div class="hidden">/</div>
+</div>
+        <div class="hidden">
           <td rowspan="2" colspan="2">
             {{ $t(" Technology services ") }}
           </td>
@@ -1281,6 +1289,13 @@
         <td>75%</td>
       </tr>
       <tr rowspan="2" id="Oth-row-32">
+        <div class="hidden">
+
+<td rowspan="7" colspan="1">
+    {{ $t(" Infrastructure for Residential Education Spaces ") }}
+  </td>
+  <div class="hidden">/</div>
+</div>
         <td rowspan="4" colspan="1">
           {{ $t(" furniture ") }}
         </td>
@@ -1327,6 +1342,13 @@
       </tr>
       <tr id="Oth-row-34">
         <div class="hidden">
+
+<td rowspan="7" colspan="1">
+    {{ $t(" Infrastructure for Residential Education Spaces ") }}
+  </td>
+  <div class="hidden">/</div>
+</div>
+        <div class="hidden">
           <td rowspan="4" colspan="2">
             {{ $t(" furniture ") }}
           </td>
@@ -1368,6 +1390,13 @@
         <td>25%</td>
       </tr>
       <tr id="Oth-row-35">
+        <div class="hidden">
+
+<td rowspan="7" colspan="1">
+    {{ $t(" Infrastructure for Residential Education Spaces ") }}
+  </td>
+  <div class="hidden">/</div>
+</div>
         <div class="hidden">
           <td rowspan="4" colspan="2">
             {{ $t(" furniture ") }}

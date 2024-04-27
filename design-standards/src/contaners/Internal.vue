@@ -624,7 +624,7 @@
             {{ $t(" Design Criteria for Classroom ") }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="3" colspan="1">{{ $t(" Proportion ") }}</td>
+          <td rowspan="3" colspan="1">{{ $t(" Proportion  ") }}</td>
           <div class="hidden">/</div>
         </div>
         <td>{{ $t(" 1:1 ") }}</td>
@@ -706,7 +706,7 @@
             {{ $t(" Design Criteria for Classroom ") }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="3" colspan="1">{{ $t(" Proportion ") }}</td>
+          <td rowspan="3" colspan="1">{{ $t(" Proportion  ") }}</td>
           <div class="hidden">/</div>
         </div>
         <td>{{ $t("  1.33:1 ") }}</td>
@@ -3799,6 +3799,8 @@
         <td rowspan="6">
           {{ $t(" Active participation of students ") }}
         </td>
+        <div class="hidden">/</div>
+
         <td rowspan="5">
           {{ $t(" Precautionary measures for Student Response Tools ") }}
         </td>
@@ -3888,6 +3890,14 @@
             }}
           </td>
           <div class="hidden">/</div>
+          <td rowspan="4">
+            {{ $t(" Active participation of students ") }}
+          </td>
+          <div class="hidden">/</div>
+          <td rowspan="3">
+            {{ $t(" Precautionary measures for Student Response Tools ") }}
+          </td>
+          <div class="hidden">/</div>
         </div>
 
         <td>{{ $t(" By Using Tablet ") }}</td>
@@ -3963,6 +3973,26 @@
         <td>75%</td>
       </tr>
       <tr rowspan="2" colspan="1" id="Inte-row-117">
+        <div class="hidden">
+          <td rowspan="26" colspan="1">
+            {{ $t(" Classroom Facilities and Infrastructure ") }}
+          </td>
+          <div class="hidden">/</div>
+          <td rowspan="17" colspan="1">
+            {{
+              $t(" Technological techniques and infrastructure development ")
+            }}
+          </td>
+          <div class="hidden">/</div>
+          <td rowspan="4">
+            {{ $t(" Active participation of students ") }}
+          </td>
+          <div class="hidden">/</div>
+          <td rowspan="3">
+            {{ $t(" Precautionary measures for Student Response Tools ") }}
+          </td>
+          <div class="hidden">/</div>
+        </div>
         <td rowspan="2">{{ $t(" Clipboard - slate ") }}</td>
         <td rowspan="2" class="bg-white">
           <img src="../assets/Picture184.png" class="mx-auto" alt="" />
@@ -5499,8 +5529,7 @@
             }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="4" colspan="1">{{ $t(" Ventilation ") }}</td>
-          <div class="hidden">/</div>
+          
         </div>
         <td>{{ $t(" temperature ") }}</td>
         <div class="hidden">/</div>
@@ -5591,8 +5620,7 @@
             }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="4" colspan="1">{{ $t(" Ventilation ") }}</td>
-          <div class="hidden">/</div>
+          
         </div>
         <td>{{ $t(" Humidity ") }}</td>
         <div class="hidden">/</div>
@@ -5682,8 +5710,7 @@
             }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="4" colspan="1">{{ $t(" Ventilation ") }}</td>
-          <div class="hidden">/</div>
+          
         </div>
         <td rowspan="3" colspan="1">{{ $t(" indoor plants ") }}</td>
         <div class="hidden">/</div>
@@ -5773,8 +5800,7 @@
             }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="4" colspan="1">{{ $t(" Ventilation ") }}</td>
-          <div class="hidden">/</div>
+          
 
           <td rowspan="3" colspan="1">{{ $t(" indoor plants ") }}</td>
           <div class="hidden">/</div>
@@ -5864,8 +5890,7 @@
             }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="4" colspan="1">{{ $t(" Ventilation ") }}</td>
-          <div class="hidden">/</div>
+          
 
           <td rowspan="3" colspan="1">{{ $t(" indoor plants ") }}</td>
           <div class="hidden">/</div>
