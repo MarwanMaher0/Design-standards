@@ -27,7 +27,9 @@
           }}
         </td>
 
-        <td class="w-64" rowspan="1" colspan="4">{{ totalSum }}  {{ $t("Points") }}</td>
+        <td class="w-64" rowspan="1" colspan="4">
+          {{ totalSum }} {{ $t("Points") }}
+        </td>
       </tr>
       <tr class="bg-[#d9e2f3]">
         <td class="bg-[#d9e2f3]" rowspan="1" colspan="8">
@@ -77,7 +79,7 @@
           }}
         </td>
 
-        <td rowspan="1" colspan="4">300  {{ $t("Points") }}</td>
+        <td rowspan="1" colspan="4">300 {{ $t("Points") }}</td>
       </tr>
     </table>
   </div>
@@ -101,16 +103,14 @@
       </div>
       <div class="w-44"></div>
       <div class=""></div>
-     
-    <button
-    @click="openEnhanceAllForm()"
 
-      type="button"
-      class="max-w-full rounded-xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
-    >
-    {{ $t("Recommendation") }}
-    </button>
-
+      <button
+        @click="openEnhanceAllForm()"
+        type="button"
+        class="max-w-full rounded-xl px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
+      >
+        {{ $t("Recommendation") }}
+      </button>
     </div>
   </div>
   <div id="enhanceForm" class=" ">
@@ -118,10 +118,10 @@
 
     <div
       v-if="showEnhanceAllForm"
-      class="grid grid-cols-1  place-content-center justify-center"
+      class="grid grid-cols-1 place-content-center justify-center"
     >
       <div
-        class="content-center backdrop-filter backdrop-blur-sm place-content-center flex  items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
+        class="content-center backdrop-filter backdrop-blur-sm place-content-center flex items-center justify-center w-fit p-4 overflow-x-auto overflow-y-auto sm:inset-0 max-h-full"
       >
         <div class="grid max-h-full">
           <form
@@ -402,7 +402,7 @@ import chart from "../charts/All-chart.vue";
 import chartTotal from "../charts/All-chart-total.vue";
 onMounted(() => {
   rows.value = Array.from(document.querySelectorAll("tr")); // Filter rows by ID
-  const rowss = document.querySelectorAll('tr');
+  const rowss = document.querySelectorAll("tr");
 
   watchEffect(() => {
     const hash = window.location.hash;
@@ -750,10 +750,10 @@ const getParsedUnCheckRowsDataFromLocalStorageInte = () => {
   }
 
   AllRowsArray.sort((a, b) => {
-  const idA = parseInt(a.key.split("-")[1]);
-  const idB = parseInt(b.key.split("-")[1]);
-  return idA - idB;
-});
+    const idA = parseInt(a.key.split("-")[1]);
+    const idB = parseInt(b.key.split("-")[1]);
+    return idA - idB;
+  });
 
   const parsedUnCheckRowsTextArrayInte = AllRowsArray.map((item) => {
     const parser = new DOMParser();
@@ -856,5 +856,4 @@ const getParsedUnCheckRowsDataFromLocalStorageOth = () => {
 
   return parsedUnCheckRowsTextArrayOth;
 };
-
 </script>

@@ -1,17 +1,17 @@
 <template class="overflow-x-auto ">
-  <div :dir="direction" >
+  <div :dir="direction">
     <heder :toggleLanguage="toggleLanguage" :unSelctAllOfThem="unSelctAllOfThem" class="w-full cover-gradient-2" />
-    <RouterView  class="pb-[160px] overflow-x-auto"/>
+    <RouterView class="pb-[160px] overflow-x-auto" />
 
-    
+
   </div>
 
   <footer class=" fixed bottom-0 left-0 w-full p-2 shadow  bg-gray-800">
-      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm  sm:text-center text-gray-400">© 2024 Smart Solutions Ltd. All Rights Reserved.
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm  sm:text-center text-gray-400">© 2024 Smart Solutions Ltd. All Rights Reserved.
       </span>
       <ul class="flex flex-wrap items-center mt-3 text-sm font-medium  text-gray-400 sm:mt-0">
-        <li>
+        <!-- <li>
               <p  class="hover:underline me-4 md:me-6">ENG/ Omar Mohamed Atef</p>
           </li>
         <li>
@@ -19,24 +19,29 @@
           </li>
           <li>
               <p  class="hover:underline me-4 md:me-6">Prof/ Gehan Ahmed Nagy</p>
-          </li>
-          
-          
+          </li>  -->
+
+        <li>
+          <p class="hover:underline me-4 md:me-6">Provided by: O.M.A., K.M.D., and G.A.N</p>
+        </li>
+
+
+
       </ul>
-      </div>
+    </div>
   </footer>
 </template>
 <script setup>
-  import heder from "./contaners/heder.vue";
-  import { ref, onMounted } from "vue";
-  import Swal from 'sweetalert2'
+import heder from "./contaners/heder.vue";
+import { ref, onMounted } from "vue";
+import Swal from 'sweetalert2'
 
 let rows = ref([]);
 
 onMounted(() => {
   rows.value = Array.from(document.querySelectorAll('tr[id^="Ext-"]')); // Filter rows by ID
 });
-const unSelctAllOfThemConfelrm =()=>{
+const unSelctAllOfThemConfelrm = () => {
 
   Swal.fire({
     title: "Are you sure?",
@@ -74,7 +79,7 @@ const unSelctAllOfThem = () => {
         `unCheckRows-${row.id}`,
         row.outerHTML
       );
-      
+
 
 
       localStorage.removeItem(
@@ -128,7 +133,7 @@ const toggleSvgDisplay = (input) => {
 };
 </script>
 <script>
-  import heder from "./contaners/heder.vue";
+import heder from "./contaners/heder.vue";
 export default {
 
   components: {
@@ -173,7 +178,7 @@ export default {
       var themeToggleDarkIcon = document.getElementById("Ar");
       var themeToggleLightIcon = document.getElementById("En");
       localStorage.setItem("lang", "en");
-      window.location.reload(); 
+      window.location.reload();
       if (this.$i18n.locale === "ar") {
         themeToggleLightIcon.classList.remove("hidden");
         themeToggleDarkIcon.classList.add("hidden");
@@ -204,14 +209,17 @@ export default {
   .d-print-none {
     display: none !important;
   }
+
   .d-print {
     display: block !important;
   }
 }
+
 * {
   font-weight: 700;
   scroll-behavior: smooth;
 }
+
 td {
   height: 100%;
 }
@@ -220,8 +228,10 @@ svg {
   display: none;
   /* Hide SVG by default */
 }
+
 .show-svg svg {
-  display: block; /* Display SVG when the checkbox is checked */
+  display: block;
+  /* Display SVG when the checkbox is checked */
 }
 
 /* Basic responsive table styling */
@@ -249,6 +259,7 @@ th {
     /* border-collapse: collapse; */
   }
 }
+
 @media (max-width: 1100px) {
   table {
     /* display: block; */
@@ -258,22 +269,27 @@ th {
     /* border-collapse: collapse; */
   }
 }
+
 @media (max-width: 500px) {
   table {
     font-size: 11px;
   }
 }
+
 @media print {
   .d-print-none {
     display: none !important;
   }
+
   .d-print {
     display: block !important;
   }
 }
+
 ul.a {
   list-style-type: circle;
 }
+
 img {
   width: 30px;
   height: 30px;
@@ -286,5 +302,4 @@ img {
       rgba(47, 124, 240, 0.1) 78.04%,
       rgba(14, 101, 232, 0.1) 103.77%);
 }
-
 </style>

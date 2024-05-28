@@ -28,10 +28,14 @@
               ) }}<br />   
               <br />      
      
+<!-- 
+
           {{ $t("Provided by") }}<br />
           {{ $t("Teacher Assistant, Omar Mohamed Atef, Architectural Engineering Department, El Minya High Institute for Engineering and Technology, Egypt") }}<br />
           {{ $t("Professor, Khaled Mohamed Dewidar, Architectural Engineering Department, Faculty of Engineering, Ain Shams University, Egypt") }}<br />
           {{ $t("Professor, Gehan Ahmed Nagy, Architectural Engineering Department, Faculty of Engineering, the British University in Egypt") }}<br />
+ -->
+
 
           </p>
           <div
