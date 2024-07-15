@@ -7902,7 +7902,7 @@
           <td rowspan="15" colspan="1">
             {{
               $t(
-                " Precautionary measures for indirect contact in the classroom: Materials and various surfaces  that protect  against viruses "
+                " Precautionary measures for indirect contact in the classroom: Materials and various surfaces that protect against viruses "
               )
             }}
           </td>

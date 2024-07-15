@@ -397,47 +397,16 @@
 import { ref, onMounted, computed, watch, watchEffect } from "vue";
 import { useRoute, useRouter } from "vue-router";
 
-const router = useRouter();
+let router = useRouter();
 import chart from "../charts/All-chart.vue";
 import chartTotal from "../charts/All-chart-total.vue";
-
-const targetElementId = ref("enhanceForm");
-const columnSums = ref([0, 0, 0, 0]);
-const showEnhanceAllOpen = ref(true);
-let parsedUnCheckRowsTextArrayAll = ref([]);
-let parsedUnCheckRowsTextArrayExt = ref([]);
-let parsedUnCheckRowsTextArrayInte = ref([]);
-let parsedUnCheckRowsTextArraysta = ref([]);
-let parsedUnCheckRowsTextArrayOth = ref([]);
-const percentageFrom80 = computed(() => (totalSum.value / 300) * 100);
-const percentageFrom24 = computed(() => (columnSums.value[0] / 86) * 100);
-const percentageFrom19 = computed(() => (columnSums.value[1] / 57) * 100);
-const percentageFrom10 = computed(() => (columnSums.value[2] / 40) * 100);
-const percentageFrom27 = computed(() => (columnSums.value[3] / 117) * 100);
-
-const totalSum = computed(() => columnSums.value.reduce((a, b) => a + b, 0));
-
-const updateColumnSums = () => {
-  columnSums.value = columnSums.value.map((_, columnIndex) => {
-    let sum = 0;
-    for (const key in localStorage) {
-      if (key.endsWith(`columnSum-${columnIndex}`)) {
-        const storedValue = localStorage.getItem(key);
-        if (storedValue) sum += parseFloat(storedValue);
-      }
-    }
-    localStorage.setItem(`All-${columnIndex}`, sum.toString());
-    return sum;
-  });
-};
-
-const checkedCheckbox = ref(null);
-let rows = ref([]);
-
 onMounted(() => {
-  rows.value = Array.from(document.querySelectorAll("tr"));
+  rows.value = Array.from(document.querySelectorAll("tr")); // Filter rows by ID
+  const rowss = document.querySelectorAll("tr");
+
   watchEffect(() => {
     const hash = window.location.hash;
+
     if (hash.endsWith("#enhanceForm")) {
       const targetElement = document.getElementById(targetElementId.value);
       if (targetElement) {
@@ -445,31 +414,86 @@ onMounted(() => {
       }
     }
   });
-  const checkboxes = document.querySelectorAll(
-    'tr[id^="All-"] input[type="checkbox"][name="ahosting"]'
+});
+const targetElementId = ref("enhanceForm");
+let columnSums = ref({
+  0: 0,
+  1: 0,
+  2: 0,
+  3: 0,
+});
+let showEnhanceAllOpen = ref(true);
+
+const percentageFrom80 = computed(() => {
+  return (totalSum.value / 300) * 100;
+});
+const percentageFrom24 = computed(() => {
+  return (columnSums.value[0] / 86) * 100;
+});
+const percentageFrom19 = computed(() => {
+  return (columnSums.value[1] / 57) * 100;
+});
+const percentageFrom10 = computed(() => {
+  return (columnSums.value[2] / 40) * 100;
+});
+const percentageFrom27 = computed(() => {
+  return (columnSums.value[3] / 117) * 100;
+});
+const totalSum = computed(() => {
+  return (
+    columnSums.value[0] +
+    columnSums.value[1] +
+    columnSums.value[2] +
+    columnSums.value[3]
   );
-  watch(checkedCheckbox, (newValue) => {
-    checkboxes.forEach((checkbox) => {
-      checkbox.disabled = checkbox !== newValue && newValue !== null;
-    });
-  });
-  checkboxes.forEach((checkbox) => {
-    checkbox.addEventListener("change", function () {
-      if (this.checked) {
-        checkedCheckbox.value = this;
-      } else if (checkedCheckbox.value === this) {
-        checkedCheckbox.value = null;
-        checkboxes.forEach((otherCheckbox) => {
-          otherCheckbox.disabled = false;
-        });
+});
+const updateColumnSums = () => {
+  for (let columnIndex = 0; columnIndex < 4; columnIndex++) {
+    let sum = 0;
+
+    for (let key in localStorage) {
+      // Check for keys that match the specified pattern
+      if (key.endsWith(`columnSum-${columnIndex}`)) {
+        const storedValue = localStorage.getItem(key);
+        if (storedValue) {
+          sum += parseFloat(storedValue);
+        }
       }
-    });
+    }
+    columnSums.value[columnIndex] = sum;
+    localStorage.setItem(`All-${columnIndex}`, sum.toString());
+  }
+};
+const checkedCheckbox = ref(null);
+
+// Get all the checkboxes
+const checkboxes = document.querySelectorAll(
+  'tr[id^="All-"] input[type="checkbox"][name="ahosting"]'
+);
+
+// Watch the checkedCheckbox ref for changes
+watch(checkedCheckbox, (newValue) => {
+  checkboxes.forEach((checkbox) => {
+    checkbox.disabled = checkbox !== newValue && newValue !== null;
   });
 });
 
+// Add event listeners to each checkbox
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", function () {
+    if (this.checked) {
+      checkedCheckbox.value = this;
+    } else if (checkedCheckbox.value === this) {
+      checkedCheckbox.value = null;
+      checkboxes.forEach((otherCheckbox) => {
+        otherCheckbox.disabled = false;
+      });
+    }
+  });
+});
 watch(
   columnSums,
-  () => {
+  (newColumnSums) => {
     localStorage.setItem("All-columnSum-percentage-0", percentageFrom24.value);
     localStorage.setItem("All-columnSum-percentage-1", percentageFrom19.value);
     localStorage.setItem("All-columnSum-percentage-2", percentageFrom10.value);
@@ -481,24 +505,29 @@ watch(
   },
   { deep: true }
 );
-
 setInterval(updateColumnSums, 3000);
+let rows = ref([]);
 
-const showEnhanceAllForm = ref(false);
-const showEnhanceAllFormChosenBtn = ref(false);
-const showEnhanceAllFormUnChosenBtn = ref(false);
-const tabletitelExt = ref("");
-const tabletitelInte = ref("");
-const tabletitelsta = ref("");
-const tabletitelOth = ref("");
-const tablesubtitelExt = ref("");
-const tablesubtitelInte = ref("");
-const tablesubtitelsta = ref("");
-const tablesubtitelOth = ref("");
-const ExtpercentageFrom80 = ref("");
-const IntepercentageFrom80 = ref("");
-const stapercentageFrom80 = ref("");
-const OthpercentageFrom80 = ref("");
+let parsedUnCheckRowsTextArrayAll = ref([]);
+let parsedUnCheckRowsTextArrayExt = ref([]);
+let parsedUnCheckRowsTextArrayInte = ref([]);
+let parsedUnCheckRowsTextArraysta = ref([]);
+let parsedUnCheckRowsTextArrayOth = ref([]);
+let showEnhanceAllForm = ref(false);
+let showEnhanceAllFormChosenBtn = ref(false);
+let showEnhanceAllFormUnChosenBtn = ref(false);
+let tabletitelExt = ref("");
+let tabletitelInte = ref("");
+let tabletitelsta = ref("");
+let tabletitelOth = ref("");
+let tablesubtitelExt = ref("");
+let tablesubtitelInte = ref("");
+let tablesubtitelsta = ref("");
+let tablesubtitelOth = ref("");
+let ExtpercentageFrom80 = ref("");
+let IntepercentageFrom80 = ref("");
+let stapercentageFrom80 = ref("");
+let OthpercentageFrom80 = ref("");
 
 const close = () => {
   showEnhanceAllForm.value = false;
@@ -508,17 +537,16 @@ const openEnhanceAllForm = () => {
   showEnhanceAllFormChosenBtn.value = true;
   showEnhanceAllFormUnChosenBtn.value = false;
   showEnhanceAllForm.value = true;
-
   parsedUnCheckRowsTextArrayAll.value =
-    getParsedUnCheckRowsDataFromLocalStorage("All");
+    getParsedUnCheckRowsDataFromLocalStorageAll();
   parsedUnCheckRowsTextArrayExt.value =
-    getParsedUnCheckRowsDataFromLocalStorage("Ext");
+    getParsedUnCheckRowsDataFromLocalStorageExt();
   parsedUnCheckRowsTextArrayInte.value =
-    getParsedUnCheckRowsDataFromLocalStorage("Inte");
+    getParsedUnCheckRowsDataFromLocalStorageInte();
   parsedUnCheckRowsTextArraysta.value =
-    getParsedUnCheckRowsDataFromLocalStorage("sta");
+    getParsedUnCheckRowsDataFromLocalStoragesta();
   parsedUnCheckRowsTextArrayOth.value =
-    getParsedUnCheckRowsDataFromLocalStorage("Oth");
+    getParsedUnCheckRowsDataFromLocalStorageOth();
 
   tabletitelExt.value =
     "First: Guidelines to Enhance Resilience in Layout. Choose the following:";
@@ -536,26 +564,33 @@ const openEnhanceAllForm = () => {
   tablesubtitelOth.value =
     "Current Evaluation of Resilience in Residential Education Spaces.";
 
-  ExtpercentageFrom80.value = parseFloat(
-    localStorage.getItem("Ext-columnSum-percentage-total") || 0
-  ).toFixed(0);
-  IntepercentageFrom80.value = parseFloat(
-    localStorage.getItem("Inte-columnSum-percentage-total") || 0
-  ).toFixed(0);
-  stapercentageFrom80.value = parseFloat(
-    localStorage.getItem("sta-columnSum-percentage-total") || 0
-  ).toFixed(0);
-  OthpercentageFrom80.value = parseFloat(
-    localStorage.getItem("Oth-columnSum-percentage-total") || 0
-  ).toFixed(0);
+  // Retrieve values from local storage
+  const extValue = localStorage.getItem("Ext-columnSum-percentage-total");
+  const inteValue = localStorage.getItem("Inte-columnSum-percentage-total");
+  const staValue = localStorage.getItem("sta-columnSum-percentage-total");
+  const othValue = localStorage.getItem("Oth-columnSum-percentage-total");
+
+  // Format the values with zero decimal places
+  const formattedExtValue = (parseFloat(extValue) || 0).toFixed(0);
+  const formattedInteValue = (parseFloat(inteValue) || 0).toFixed(0);
+  const formattedStaValue = (parseFloat(staValue) || 0).toFixed(0);
+  const formattedOthValue = (parseFloat(othValue) || 0).toFixed(0);
+
+  // Set the values to corresponding elements
+  ExtpercentageFrom80.value = formattedExtValue;
+  IntepercentageFrom80.value = formattedInteValue;
+  stapercentageFrom80.value = formattedStaValue;
+  OthpercentageFrom80.value = formattedOthValue;
 
   setTimeout(() => {
     router.push({ name: "ConAll", hash: "#enhanceForm" });
     const targetElement = document.getElementById("enhanceForm");
+    // Check if the element exists
     if (targetElement) {
+      // Scroll to the target element
       targetElement.scrollIntoView({ behavior: "smooth" });
     }
-  }, 500);
+  }, 0.5);
 };
 
 const unSelctAll = () => {
@@ -563,7 +598,19 @@ const unSelctAll = () => {
     const checkboxesInRow = Array.from(
       row.querySelectorAll('input[type="checkbox"]')
     );
+
     checkboxesInRow.forEach((checkbox, checkboxIndex) => {
+      const localStorageKey1 = `All-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey2 = `Ext-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey3 = `Inte-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey4 = `Oth-row-${row.id}-checkbox-${checkboxIndex}`;
+      const localStorageKey5 = `sta-row-${row.id}-checkbox-${checkboxIndex}`;
+
+      checkbox.checked = localStorage.setItem(
+        `unCheckRows-${row.id}`,
+        row.outerHTML
+      );
+
       localStorage.removeItem(
         `All-row-${row.id}-checkbox-value-${checkboxIndex}`
       );
@@ -579,50 +626,234 @@ const unSelctAll = () => {
       localStorage.removeItem(
         `sta-row-${row.id}-checkbox-value-${checkboxIndex}`
       );
-      localStorage.removeItem(`unCheckRows-${row.id}`);
+
+      localStorage.removeItem(localStorageKey1);
+      localStorage.removeItem(localStorageKey2);
+      localStorage.removeItem(localStorageKey3);
+      localStorage.removeItem(localStorageKey4);
+      localStorage.removeItem(localStorageKey5);
       for (let columnIndex = 0; columnIndex < 4; columnIndex++) {
         localStorage.setItem(`Ext-columnSum-${columnIndex}`, 0);
         localStorage.setItem(`Inte-columnSum-${columnIndex}`, 0);
         localStorage.setItem(`Oth-columnSum-${columnIndex}`, 0);
         localStorage.setItem(`sta-columnSum-${columnIndex}`, 0);
       }
-      toggleSvgDisplay(checkbox);
+      toggleSvgDisplay(checkbox, rowIndex);
     });
   });
 };
-
 const toggleSvgDisplay = (input) => {
   const label = input.nextElementSibling;
-  if (label) {
-    label.classList.toggle("show-svg", input.checked);
+
+  if (input.type === "checkbox" || input.type === "checkbox") {
+    if (input.checked) {
+      if (label) {
+        // Check if label exists
+        label.classList.add("show-svg"); // Show the SVG if input is checked
+      }
+    } else {
+      if (label) {
+        // Check if label exists
+        label.classList.remove("show-svg"); // Hide the SVG if input is unchecked
+      }
+    }
   }
 };
+const getParsedUnCheckRowsDataFromLocalStorageAll = () => {
+  const AllRowsArray = [];
 
-const getParsedUnCheckRowsDataFromLocalStorage = (prefix) => {
-  const allRowsArray = [];
-  for (const key in localStorage) {
-    if (key.startsWith("unCheckRows-") && key.includes(prefix)) {
-      allRowsArray.push({
+  for (let key in localStorage) {
+    if (key.startsWith("unCheckRows-")) {
+      AllRowsArray.push({
         key: key,
         value: localStorage.getItem(key),
       });
     }
   }
-  allRowsArray.sort(
-    (a, b) =>
-      parseInt(a.key.split("-").pop()) - parseInt(b.key.split("-").pop())
-  );
 
-  return allRowsArray.map((item) => {
+  AllRowsArray.sort((a, b) => {
+    const idA = parseInt(a.key.split("-").pop().replace("unCheckRows", ""));
+    const idB = parseInt(b.key.split("-").pop().replace("unCheckRows", ""));
+    return idA - idB;
+  });
+
+  const parsedUnCheckRowsTextArrayAll = AllRowsArray.map((item) => {
     const parser = new DOMParser();
     const doc = parser.parseFromString(item.value, "text/html");
     const textParts = doc.body.textContent.trim().split("/");
-    return (
+
+    // Apply different styling to the last two parts
+    const modifiedTextContent =
       textParts.slice(0, -2).join("/") +
       '<span style="color: red;">/' +
       textParts.slice(-2).join("/") +
-      "</span>"
-    );
+      "</span>";
+
+    // Return the modified text content
+    return modifiedTextContent;
   });
+
+  // Convert to JSON format
+
+  return parsedUnCheckRowsTextArrayAll;
+};
+
+const getParsedUnCheckRowsDataFromLocalStorageExt = () => {
+  const AllRowsArray = [];
+
+  for (let key in localStorage) {
+    if (key.startsWith("unCheckRows-") && key.includes("Ext-")) {
+      AllRowsArray.push({
+        key: key,
+        value: localStorage.getItem(key),
+      });
+    }
+  }
+
+  AllRowsArray.sort((a, b) => {
+    const idA = parseInt(a.key.split("-").pop().replace("unCheckRows", ""));
+    const idB = parseInt(b.key.split("-").pop().replace("unCheckRows", ""));
+    return idA - idB;
+  });
+
+  const parsedUnCheckRowsTextArrayExt = AllRowsArray.map((item) => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(item.value, "text/html");
+    const textParts = doc.body.textContent.trim().split("/");
+
+    // Apply different styling to the last two parts
+    const modifiedTextContent =
+      textParts.slice(0, -2).join("/") +
+      '<span style="color: red;">/' +
+      textParts.slice(-2).join("/") +
+      "</span>";
+
+    // Return the modified text content
+    return modifiedTextContent;
+  });
+
+  // Convert to JSON format
+
+  return parsedUnCheckRowsTextArrayExt;
+};
+
+const getParsedUnCheckRowsDataFromLocalStorageInte = () => {
+  const AllRowsArray = [];
+
+  for (let key in localStorage) {
+    if (key.startsWith("unCheckRows-") && key.includes("Inte-")) {
+      AllRowsArray.push({
+        key: key,
+        value: localStorage.getItem(key),
+      });
+    }
+  }
+
+  AllRowsArray.sort((a, b) => {
+    const idA = parseInt(a.key.split("-")[1]);
+    const idB = parseInt(b.key.split("-")[1]);
+    return idA - idB;
+  });
+
+  const parsedUnCheckRowsTextArrayInte = AllRowsArray.map((item) => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(item.value, "text/html");
+    const textParts = doc.body.textContent.trim().split("/");
+
+    // Apply different styling to the last two parts
+    const modifiedTextContent =
+      textParts.slice(0, -2).join("/") +
+      '<span style="color: red;">/' +
+      textParts.slice(-2).join("/") +
+      "</span>";
+
+    // Return the modified text content
+    return modifiedTextContent;
+  });
+
+  // Convert to JSON format
+  const jsonData = JSON.stringify(parsedUnCheckRowsTextArrayInte);
+
+  return parsedUnCheckRowsTextArrayInte;
+};
+
+const getParsedUnCheckRowsDataFromLocalStoragesta = () => {
+  const AllRowsArray = [];
+
+  for (let key in localStorage) {
+    if (key.startsWith("unCheckRows-") && key.includes("sta-")) {
+      AllRowsArray.push({
+        key: key,
+        value: localStorage.getItem(key),
+      });
+    }
+  }
+
+  AllRowsArray.sort((a, b) => {
+    const idA = parseInt(a.key.split("-").pop().replace("unCheckRows", ""));
+    const idB = parseInt(b.key.split("-").pop().replace("unCheckRows", ""));
+    return idA - idB;
+  });
+
+  const parsedUnCheckRowsTextArraysta = AllRowsArray.map((item) => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(item.value, "text/html");
+    const textParts = doc.body.textContent.trim().split("/");
+
+    // Apply different styling to the last two parts
+    const modifiedTextContent =
+      textParts.slice(0, -2).join("/") +
+      '<span style="color: red;">/' +
+      textParts.slice(-2).join("/") +
+      "</span>";
+
+    // Return the modified text content
+    return modifiedTextContent;
+  });
+
+  // Convert to JSON format
+  const jsonData = JSON.stringify(parsedUnCheckRowsTextArraysta);
+
+  return parsedUnCheckRowsTextArraysta;
+};
+
+const getParsedUnCheckRowsDataFromLocalStorageOth = () => {
+  const AllRowsArray = [];
+
+  for (let key in localStorage) {
+    if (key.startsWith("unCheckRows-") && key.includes("Oth-")) {
+      AllRowsArray.push({
+        key: key,
+        value: localStorage.getItem(key),
+      });
+    }
+  }
+
+  AllRowsArray.sort((a, b) => {
+    const idA = parseInt(a.key.split("-").pop().replace("unCheckRows", ""));
+    const idB = parseInt(b.key.split("-").pop().replace("unCheckRows", ""));
+    return idA - idB;
+  });
+
+  const parsedUnCheckRowsTextArrayOth = AllRowsArray.map((item) => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(item.value, "text/html");
+    const textParts = doc.body.textContent.trim().split("/");
+
+    // Apply different styling to the last two parts
+    const modifiedTextContent =
+      textParts.slice(0, -2).join("/") +
+      '<span style="color: red;">/' +
+      textParts.slice(-2).join("/") +
+      "</span>";
+
+    // Return the modified text content
+    return modifiedTextContent;
+  });
+
+  // Convert to JSON format
+  const jsonData = JSON.stringify(parsedUnCheckRowsTextArrayOth);
+
+  return parsedUnCheckRowsTextArrayOth;
 };
 </script>

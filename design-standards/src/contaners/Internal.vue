@@ -184,7 +184,7 @@ const saveRowsWithCheckboxesToLocalStorage = () => {
     const checkbox = row.querySelector('input[type="checkbox"]');
 
     if (checkbox && !checkbox.checked) {
-      localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
+      localStorage.setItem(`unCheckRows-${rowIndex}-${row.id}`, row.outerHTML);
     }
   });
 };
@@ -244,7 +244,7 @@ const handleCheckboxChange = (event, rowIndex) => {
                 }
                 if (
                   key.startsWith("unCheckRows-") &&
-                  key.endsWith(`-${groupId}`)
+                  key.includes(`-${groupId}`)
                 ) {
                   console.log(key);
                   localStorage.removeItem(key);
@@ -278,13 +278,13 @@ const handleCheckboxChange = (event, rowIndex) => {
 
       // Remove all unCheckRows related to this row from localStorage
       for (let key in localStorage) {
-        if (key.startsWith(`unCheckRows-${row.id}`)) {
+        if (key.startsWith(`unCheckRows-`) && key.endsWith(`-${row.id}`)) {
           localStorage.removeItem(key);
         }
       }
     } else {
       localStorage.removeItem(localStorageKey);
-      localStorage.setItem(`unCheckRows-${row.id}`, row.outerHTML);
+      localStorage.setItem(`unCheckRows-${rowIndex}-${row.id}`, row.outerHTML);
     }
     localStorage.setItem(
       `Inte-row-${rowIndex}-${row.id}-checkbox-${checkboxIndex}`,
