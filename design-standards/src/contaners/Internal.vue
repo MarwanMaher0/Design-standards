@@ -189,6 +189,7 @@ const saveRowsWithCheckboxesToLocalStorage = () => {
   });
 };
 // Function to handle checkbox state changes
+
 const handleCheckboxChange = (event, rowIndex) => {
   const clickedCheckbox = event.target;
   const row = clickedCheckbox.closest("tr");
@@ -263,32 +264,7 @@ const handleCheckboxChange = (event, rowIndex) => {
       }
     });
   };
-  watch(
-    columnSums,
-    (newColumnSums) => {
-      localStorage.setItem(
-        "Inte-columnSum-percentage-0",
-        percentageFrom24.value
-      );
-      localStorage.setItem(
-        "Inte-columnSum-percentage-1",
-        percentageFrom19.value
-      );
-      localStorage.setItem(
-        "Inte-columnSum-percentage-2",
-        percentageFrom10.value
-      );
-      localStorage.setItem(
-        "Inte-columnSum-percentage-3",
-        percentageFrom27.value
-      );
-      localStorage.setItem(
-        "Inte-columnSum-percentage-total",
-        percentageFrom80.value
-      );
-    },
-    { deep: true }
-  );
+
   // Loop through each group and handle checkbox state changes
   groups.forEach(handleGroupCheckboxChange);
 
@@ -318,13 +294,13 @@ const handleCheckboxChange = (event, rowIndex) => {
   });
 
   // Save rows with checkboxes to localStorage
+  updateColumnSums();
   saveRowsWithCheckboxesToLocalStorage();
   // Update the table content
   tableContentInte.value = getAllRowsFromLocalStorageInte();
   // Update row references based on checkbox state
   updateRowRefsBasedOnCheckboxState();
   // Update column sums based on checkbox state
-  updateColumnSums();
 };
 
 let columnSums = ref({
@@ -357,10 +333,38 @@ const totalSum = computed(() => {
     columnSums.value[3]
   );
 });
-
+watch(
+  columnSums,
+  (newColumnSums) => {
+    localStorage.setItem("Inte-columnSum-percentage-0", percentageFrom24.value);
+    localStorage.setItem("Inte-columnSum-percentage-1", percentageFrom19.value);
+    localStorage.setItem("Inte-columnSum-percentage-2", percentageFrom10.value);
+    localStorage.setItem("Inte-columnSum-percentage-3", percentageFrom27.value);
+    localStorage.setItem(
+      "Inte-columnSum-percentage-total",
+      percentageFrom80.value
+    );
+  },
+  { deep: true }
+);
 const updateColumnSums = () => {
-  for (let i = 0; i <= 3; i++) {
-    columnSums.value[i] = calculateColumnSum(i);
+  for (let columnIndex = 0; columnIndex < 4; columnIndex++) {
+    let sum = 0;
+
+    for (let key in localStorage) {
+      if (
+        key.startsWith(`Inte-row-`) &&
+        key.endsWith(`-checkbox-value-${columnIndex}`)
+      ) {
+        const storedValue = localStorage.getItem(key);
+        if (storedValue) {
+          sum += parseFloat(storedValue);
+        }
+      }
+    }
+    columnSums.value[columnIndex] = sum;
+    // Save the value to local storage
+    localStorage.setItem(`Inte-columnSum-${columnIndex}`, sum.toString());
   }
 };
 
