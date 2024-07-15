@@ -263,7 +263,32 @@ const handleCheckboxChange = (event, rowIndex) => {
       }
     });
   };
-
+  watch(
+    columnSums,
+    (newColumnSums) => {
+      localStorage.setItem(
+        "Inte-columnSum-percentage-0",
+        percentageFrom24.value
+      );
+      localStorage.setItem(
+        "Inte-columnSum-percentage-1",
+        percentageFrom19.value
+      );
+      localStorage.setItem(
+        "Inte-columnSum-percentage-2",
+        percentageFrom10.value
+      );
+      localStorage.setItem(
+        "Inte-columnSum-percentage-3",
+        percentageFrom27.value
+      );
+      localStorage.setItem(
+        "Inte-columnSum-percentage-total",
+        percentageFrom80.value
+      );
+    },
+    { deep: true }
+  );
   // Loop through each group and handle checkbox state changes
   groups.forEach(handleGroupCheckboxChange);
 
