@@ -1,16 +1,25 @@
-<template class="overflow-x-auto ">
+<template class="overflow-x-auto">
   <div :dir="direction">
-    <heder :toggleLanguage="toggleLanguage" :unSelctAllOfThem="unSelctAllOfThem" class="w-full cover-gradient-2" />
-    <RouterView class="pb-[160px] overflow-x-auto" />
-
-
+    <heder
+      :toggleLanguage="toggleLanguage"
+      :unSelctAllOfThem="unSelctAllOfThem"
+      class="w-full cover-gradient-2"
+    />
+    <div class="mb-[160px]">
+      <RouterView class="overflow-x-auto" />
+    </div>
   </div>
 
-  <footer class=" fixed bottom-0 left-0 w-full p-2 shadow  bg-gray-800">
-    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      <span class="text-sm  sm:text-center text-gray-400">© 2024 Smart Solutions Ltd. All Rights Reserved.
+  <footer class="fixed bottom-0 left-0 w-full p-2 shadow bg-gray-800">
+    <div
+      class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+    >
+      <span class="text-sm sm:text-center text-gray-400"
+        >© 2024 Smart Solutions Ltd. All Rights Reserved.
       </span>
-      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium  text-gray-400 sm:mt-0">
+      <ul
+        class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-400 sm:mt-0"
+      >
         <!-- <li>
               <p  class="hover:underline me-4 md:me-6">ENG/ Omar Mohamed Atef</p>
           </li>
@@ -22,11 +31,10 @@
           </li>  -->
 
         <li>
-          <p class="hover:underline me-4 md:me-6">Provided by: O.M.A., K.M.D., and G.A.N</p>
+          <p class="hover:underline me-4 md:me-6">
+            Provided by: O.M.A., K.M.D., and G.A.N
+          </p>
         </li>
-
-
-
       </ul>
     </div>
   </footer>
@@ -34,7 +42,7 @@
 <script setup>
 import heder from "./contaners/heder.vue";
 import { ref, onMounted } from "vue";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
 let rows = ref([]);
 
@@ -42,7 +50,6 @@ onMounted(() => {
   rows.value = Array.from(document.querySelectorAll('tr[id^="Ext-"]')); // Filter rows by ID
 });
 const unSelctAllOfThemConfelrm = () => {
-
   Swal.fire({
     title: "Are you sure?",
     text: "You won't be able to revert this!",
@@ -50,18 +57,18 @@ const unSelctAllOfThemConfelrm = () => {
     showCancelButton: true,
     confirmButtonColor: "#3085d6",
     cancelButtonColor: "#d33",
-    confirmButtonText: "Yes, delete it!"
+    confirmButtonText: "Yes, delete it!",
   }).then((result) => {
     if (result.isConfirmed) {
       Swal.fire({
         title: "Deleted!",
         text: "Your file has been deleted.",
-        icon: "success"
+        icon: "success",
       });
       unSelctAllOfThem();
     }
   });
-}
+};
 const unSelctAllOfThem = () => {
   rows.value.forEach((row, rowIndex) => {
     const checkboxesInRow = Array.from(
@@ -79,8 +86,6 @@ const unSelctAllOfThem = () => {
         `unCheckRows-${row.id}`,
         row.outerHTML
       );
-
-
 
       localStorage.removeItem(
         `All-row-${row.id}-checkbox-value-${checkboxIndex}`
@@ -135,7 +140,6 @@ const toggleSvgDisplay = (input) => {
 <script>
 import heder from "./contaners/heder.vue";
 export default {
-
   components: {
     heder,
   },
@@ -198,7 +202,6 @@ export default {
   },
 };
 </script>
-
 
 <style>
 @import "tailwindcss/base";
@@ -296,10 +299,12 @@ img {
 }
 
 .cover-gradient-2 {
-  background: linear-gradient(169.4deg,
-      rgba(57, 132, 244, 0.1) -6.01%,
-      rgba(12, 211, 255, 0.1) 36.87%,
-      rgba(47, 124, 240, 0.1) 78.04%,
-      rgba(14, 101, 232, 0.1) 103.77%);
+  background: linear-gradient(
+    169.4deg,
+    rgba(57, 132, 244, 0.1) -6.01%,
+    rgba(12, 211, 255, 0.1) 36.87%,
+    rgba(47, 124, 240, 0.1) 78.04%,
+    rgba(14, 101, 232, 0.1) 103.77%
+  );
 }
 </style>

@@ -101,7 +101,7 @@
         </p>
         <chartTotal class="w-[600px] max-md:w-[350px] my-10 text-center" />
       </div>
-      <div class="w-44"></div>
+
       <div class=""></div>
 
       <button
@@ -113,7 +113,7 @@
       </button>
     </div>
   </div>
-  <div id="enhanceForm" class=" ">
+  <div id="enhanceForm">
     <div class="relative overflow-x-auto"></div>
 
     <div
@@ -156,7 +156,7 @@
               </button>
             </div>
             <!-- Modal body -->
-            <div class="overflow-x-auto">
+            <div class="pa overflow-x-auto">
               <table
                 class="w-full text-sm text-left rtl:text-right h-4/5 overflow-x-auto text-gray-500 dark:text-gray-400"
               >
@@ -857,3 +857,17 @@ const getParsedUnCheckRowsDataFromLocalStorageOth = () => {
   return parsedUnCheckRowsTextArrayOth;
 };
 </script>
+<style>
+@media print {
+  .d-print-none {
+    display: none !important;
+  }
+
+  .d-print {
+    display: block !important;
+  }
+  .pa {
+    padding-bottom: 24rem;
+  }
+}
+</style>
