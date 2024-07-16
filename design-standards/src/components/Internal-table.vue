@@ -533,7 +533,7 @@
           </td>
           <div class="hidden">/</div>
         </div>
-        <td rowspan="3" colspan="1">{{ $t(" Proportion ") }}</td>
+        <td rowspan="3" colspan="1">{{ $t(" Proportion  ") }}</td>
         <div class="hidden">/</div>
 
         <td>{{ $t(" Golden Ratio 1:1.618 ") }}</td>
@@ -624,7 +624,7 @@
             {{ $t(" Design Criteria for Classroom ") }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="3" colspan="1">{{ $t(" Proportion ") }}</td>
+          <td rowspan="3" colspan="1">{{ $t(" Proportion  ") }}</td>
           <div class="hidden">/</div>
         </div>
         <td>{{ $t(" 1:1 ") }}</td>
@@ -706,7 +706,7 @@
             {{ $t(" Design Criteria for Classroom ") }}
           </td>
           <div class="hidden">/</div>
-          <td rowspan="3" colspan="1">{{ $t(" Proportion ") }}</td>
+          <td rowspan="3" colspan="1">{{ $t(" Proportion  ") }}</td>
           <div class="hidden">/</div>
         </div>
         <td>{{ $t(" 1.33:1 ") }}</td>
