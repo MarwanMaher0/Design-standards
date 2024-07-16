@@ -867,7 +867,10 @@ const getParsedUnCheckRowsDataFromLocalStorageOth = () => {
     display: block !important;
   }
   .pa {
-    padding-bottom: 24rem;
+    margin-bottom: 100vh;
   }
+}
+pa {
+  padding-bottom: 0rem;
 }
 </style>

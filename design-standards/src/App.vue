@@ -209,6 +209,9 @@ export default {
 @import "tailwindcss/utilities";
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Merriweather+Sans:ital,wght@0,300;0,600;1,300;1,800&family=Merriweather:wght@300&display=swap");
 @media print {
+  .pa {
+    margin-bottom: 100vh;
+  }
   .d-print-none {
     display: none !important;
   }
@@ -280,6 +283,9 @@ th {
 }
 
 @media print {
+  .pa {
+    margin-bottom: 100vh;
+  }
   .d-print-none {
     display: none !important;
   }
